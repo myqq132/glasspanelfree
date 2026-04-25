@@ -1,119 +1,64 @@
 proxies:
-- name: 🇰🇷KR_1|1.2MB/s
-  network: ws
-  port: 13579
-  server: 211.198.165.21
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|1.1MB/s
+  name: 🇰🇷KR_1|1.8MB/s
   network: ws
-  port: '38241'
-  server: 112.170.127.240
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
+  password: '!!str 1234567890'
+  port: '18081'
+  server: 220.124.181.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /danfeng
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 🇰🇷KR_2|1.0MB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: '10911'
+  server: 220.77.136.79
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 🇰🇷KR_3|1.1MB/s
   network: ws
+  password: '!!str 1234567890'
   port: '25448'
-  server: 221.164.228.56
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /danfeng
-  xudp: true
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇰🇷KR_4|2.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_5|1.2MB/s
-  network: ws
-  port: 10909
-  server: 119.194.230.206
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  server: 118.41.26.148
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 🇰🇷KR_6|1.3MB/s
+  name: 🇰🇷KR_4|1.4MB/s
   network: ws
-  port: 587
-  server: 138.2.115.214
-  servername: ynwta9.api-edge.fgfw.qzz.io
+  password: '!!str 1234567890'
+  port: '24289'
+  server: 220.95.85.46
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇰🇷KR_7|1.3MB/s
-  network: ws
-  port: '37173'
-  server: 14.35.236.28
-  servername: 8a005khup3.mesa.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 8a005khup3.mesa.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: KR_speednode_0107
   port: 1090
   server: 121.169.46.116

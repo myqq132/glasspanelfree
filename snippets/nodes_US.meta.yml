@@ -1,299 +1,264 @@
 proxies:
-- client-fingerprint: random
-  name: 'A - 🇺🇸 US 01 TG: @nodpai'
-  network: ws
-  port: 2222
-  server: 64.186.244.54
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 'A - 🇺🇸 US 02 TG: @nodpai'
-  network: ws
-  port: 8443
-  server: 64.186.242.91
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  name: 'A - 🇺🇸 US 01 TG: @nodpai'
   password: a1102edc-f382-4720-99f5-ecc0a74507af
-  port: 41535
-  server: 144.225.93.21
+  port: 39004
+  server: 185.34.144.18
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: www.python.org
   type: tuic
   udp: true
   udp-relay-mode: native
   uuid: a1102edc-f382-4720-99f5-ecc0a74507af
-- client-fingerprint: random
-  name: 'B - 🇺🇸 US 04 TG: @nodpai'
-  network: ws
-  port: 12276
-  server: 222.97.207.98
-  servername: 001.trevely.de5.net
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 'B - 🇺🇸 US 02 TG: @nodpai'
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: true
-  tfo: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 05 TG: @nodpai'
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  security: reality
+  server: 72.56.246.128
+  servername: cdn.trahodrom.fun
   tls: true
   type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇺🇸US_3|1.5MB/s
+  uuid: e9f91f73-ffe8-4f18-9f35-635f2c9736ac
+- multiplexing: MULTIPLEXING_LOW
+  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  password: dongtaiwang.com
+  port: 33990
+  server: 157.254.223.48
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_1|1.2MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
   sni: vpn-us-006.fastervpn.world
   type: hysteria2
-  udp: true
-- client-fingerprint: random
-  name: 'B - 🇺🇸 US 06 TG: @nodpai'
-  network: ws
-  port: 23023
-  server: 121.150.130.214
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
-  password: 53de9ed1-c955-4136-9137-4280400fe0fb
-  port: 45000
-  server: 107.150.1.135
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 53de9ed1-c955-4136-9137-4280400fe0fb
-- client-fingerprint: random
-  name: 'B - 🇺🇸 US 08 TG: @nodpai'
-  network: ws
-  port: 37810
-  server: 59.21.252.156
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 'B - 🇺🇸 US 10 TG: @nodpai'
-  network: ws
-  port: 20000
-  server: 112.163.51.148
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  network: ws
-  port: 20024
-  server: 124.61.52.107
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 'B - 🇺🇸 US 12 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 207.65.189.9
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- name: 'B - 🇺🇸 US 13 TG: @nodpai'
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.218.10
-  sni: kfm-bn0.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 14 TG: @nodpai'
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: tcp
   port: 443
-  security: tls
-  server: 2.26.21.32
-  servername: gateway.icloud.com
+  reality-opts:
+    public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+  security: reality
+  server: 72.56.245.33
+  servername: cdn.trahodrom.fun
   tls: true
   type: vless
-  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-- name: 'C - 🇺🇸 US 15 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 443
-  server: u9node.cdn.mssstatic.com
-  tls: true
-  type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+  uuid: e9f91f73-ffe8-4f18-9f35-635f2c9736ac
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 'C - 🇺🇸 US 16 TG: @nodpai'
-  password: 53de9ed1-c955-4136-9137-4280400fe0fb
-  port: 46981
-  server: 151.245.32.32
+  name: 'B - 🇺🇸 US 13 TG: @nodpai'
+  password: a1102edc-f382-4720-99f5-ecc0a74507af
+  port: 60053
+  server: 192.3.130.119
   skip-cert-verify: true
-  sni: www.python.org
+  sni: apple.com
   type: tuic
   udp: true
   udp-relay-mode: native
-  uuid: 53de9ed1-c955-4136-9137-4280400fe0fb
-- encryption: none
-  name: 'C - 🇺🇸 US 17 TG: @nodpai'
-  network: ws
-  port: 8080
-  server: i.harvestlane.shop
-  type: vless
-  uuid: 38cba0b3-0844-4673-bd4e-0d9aa7d71b82
-  ws-opts:
-    headers:
-      Host: pro.getlian.shop
-    path: /image
-- client-fingerprint: random
-  name: 'C - 🇺🇸 US 19 TG: @nodpai'
-  network: ws
-  port: 443
-  server: blog.88lin.eu.org
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- name: 'C - 🇺🇸 US 20 TG: @nodpai'
+  uuid: a1102edc-f382-4720-99f5-ecc0a74507af
+- name: 'B - 🇺🇸 US 14 TG: @nodpai'
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 8443
   server: a61fa433-te5ts0-twuk0i-1hzyr.isp.cdnkuaishou.com
   tls: true
   type: http
   username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-- name: 'C - 🇺🇸 US 21 TG: @nodpai'
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 8443
-  server: 03514ce6-te5ts0-tip01z-1gevg.isp.cdnkuaishou.com
-  tls: true
-  type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 22 TG: @nodpai'
+- name: 'C - 🇺🇸 US 16 TG: @nodpai'
   network: ws
-  port: 16648
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 705f9dfc-07a7-44b8-bd43-15d32abfa61d
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.59.239.116
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: 943b57a4316253b5c6ef402731b11d57.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: random
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇺🇸 US 17 TG: @nodpai'
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: pwYSE4yrV-1vOozLqHTzjH9mSGdSxr7BnyckKMXLI3E
+  security: reality
+  server: fr2.frostmotiveseed.net
+  servername: fr2.frostmotiveseed.net
+  tls: true
+  type: vless
+  uuid: 2cbd01de-4c6b-4b7a-89b2-2da483c9d314
+- name: 'C - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 92.246.137.150
+  sni: kfm-bn0.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 'C - 🇺🇸 US 19 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 65.21.179.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  country: 🏁 ZZ
+  delay: 887
+  http-opts: {}
+  name: 'C - 🇺🇸 US 20 TG: @nodpai'
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- name: 'C - 🇺🇸 US 21 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.95.26
+  servername: hha.albertabobbi.ndjp.net
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: hha.albertabobbi.ndjp.net
+    path: /?ed=2560fp=chrome
+- name: 'C - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  port: 8080
+  server: 104.21.80.124
+  type: vless
+  uuid: 38cba0b3-0844-4673-bd4e-0d9aa7d71b82
+  ws-opts:
+    headers:
+      Host: pro.getlian.shop
+    path: /image
+- alterId: 2
+  cipher: auto
+  country: 🇺🇸 US
+  delay: 1125
+  http-opts: {}
+  name: 'C - 🇺🇸 US 23 TG: @nodpai'
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 'C - 🇺🇸 US 23 TG: @nodpai'
+  name: 'C - 🇺🇸 US 24 TG: @nodpai'
+  network: tcp
+  port: 10403
+  reality-opts:
+    public-key: GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk
+    short-id: '!!str 9153'
+  security: reality
+  server: 107.149.145.12
+  servername: img14.360buyimg.com
+  tls: true
+  type: vless
+  uuid: 0844ceed-af3c-46cd-9d29-2295309a1701
+- alterId: 0
+  cipher: auto
+  name: 'D - 🇺🇸 US 25 TG: @nodpai'
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: 7927975e-9616-412b-b508-983ab960377d
+  ws-opts:
+    headers:
+      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'D - 🇺🇸 US 26 TG: @nodpai'
   network: tcp
   port: 443
   reality-opts:
-    public-key: d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI
-    short-id: '!!str e57a98b23c47a621'
+    public-key: -n5iY1LH6WNzxc6_sQg_phf04553mzBExCqQzRvoA3U
+    short-id: '!!str 41427aa565e28984'
   security: reality
-  server: 185.177.238.131
-  servername: al.plus-hit.ru
+  server: 95.164.85.33
+  servername: www.rakuten.co.jp
   tls: true
   type: vless
-  uuid: ab27403b-7de0-4fe3-8b57-7ab3cb583c32
-- client-fingerprint: random
-  name: 'C - 🇺🇸 US 25 TG: @nodpai'
-  network: ws
-  port: 443
-  server: 69.63.210.22
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 'D - 🇺🇸 US 26 TG: @nodpai'
-  network: ws
-  port: 2053
-  server: 125.227.233.197
-  servername: 001.trevely.de5.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 2bec5cd4-b4c5-47d7-b2ce-ce3589764f89
-  ws-opts:
-    headers:
-      Host: 001.trevely.de5.net
-    path: /?ed=2560
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
 - name: 美国|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
@@ -318,60 +283,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.1MB/s
-  password: dongtaiwang.com
-  port: 33990
-  server: 157.254.223.48
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_2|1.0MB/s
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|1017KB/s
-  network: ws
-  port: '587'
-  server: 216.36.85.88
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /danfeng?ed=2560fp=chrome
-  xudp: true
 - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: 🇺🇸US_5|1.0MB/s
+  name: 🇺🇸US_2|1001KB/s
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: vpn-us-017.fastervpn.world
+  server: vpn-us-005.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-017.fastervpn.world
+  sni: vpn-us-005.fastervpn.world
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US_6|1.2MB/s
-  network: raw
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
+- name: 🇺🇸US_3|1.4MB/s
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-us-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-001.fastervpn.world
+  type: hysteria2
 - name: US_speednode_0137
   network: ws
   password: '!!str 1234567890'
