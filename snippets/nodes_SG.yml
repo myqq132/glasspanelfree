@@ -1,38 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 17 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 302457f5-6848-4e2b-be16-193131ab6374
-  ws-opts:
-    headers:
-      Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 18 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 7927975e-9616-412b-b508-983ab960377d
-  ws-headers:
-    Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 19 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
   type: vmess
   udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
@@ -45,7 +17,95 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 23 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-headers:
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: 302457f5-6848-4e2b-be16-193131ab6374
+  ws-opts:
+    headers:
+      Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
+  ws-headers:
+    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 7927975e-9616-412b-b508-983ab960377d
+  ws-opts:
+    headers:
+      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-headers:
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 20 TG: @nodpai'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -59,29 +119,6 @@ proxies:
       Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
     path: /
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_2|2.2MB/s
-  network: ws
-  port: 16618
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇸🇬 SG 26 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
@@ -120,3 +157,19 @@ proxies:
   server: cf.cloudflare.182682.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_2|2.2MB/s
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-headers:
+    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+  ws-path: /

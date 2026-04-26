@@ -19,15 +19,8 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- name: 'B - 🇹🇼 TW 03 TG: @nodpai'
+- name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
@@ -46,16 +39,29 @@ proxies:
     headers:
       Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
     path: /
-- name: 'B - 🇹🇼 TW 09 TG: @nodpai'
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
-  port: 22443
-  server: t4cache.71edgeiqiyi.com
+- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
   type: http
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-opts:
+    headers:
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -65,22 +71,12 @@ proxies:
     headers:
       Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
     path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇹🇼 TW 11 TG: @nodpai'
-  port: 443
-  security: tls
-  server: kbgs.hinet.tw1.yydjc.top
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  uuid: bba65652-b714-4832-ba62-cbf861ea2dbe
 - alterId: 0
   cipher: auto
   name: 'B - 🇹🇼 TW 12 TG: @nodpai'
   network: ws
   port: 16616
-  server: t.cnmjcn.cyou
+  server: m.cnmjin.net
   type: vmess
   udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
@@ -169,22 +165,6 @@ proxies:
   name: 'C - 🇹🇼 TW 18 TG: @nodpai'
   network: ws
   port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇹🇼 TW 19 TG: @nodpai'
-  network: ws
-  port: 16616
   server: planb.mojcn.com
   type: vmess
   udp: true
@@ -244,46 +224,21 @@ proxies:
     headers:
       Host: baidu.com
     path: /xxxxhttp
-- encryption: none
-  name: 'C - 🇹🇼 TW 23 TG: @nodpai'
-  network: ws
-  port: 6235
-  server: 125.227.219.98
-  servername: baidu.com
-  type: vless
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d147
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /xxxxhttpsecurity=tls
-- alpn:
-  - http/1.1
-  encryption: none
-  name: 'C - 🇹🇼 TW 24 TG: @nodpai'
-  network: ws
-  port: 6235
-  server: 125.227.219.98
-  servername: baidu.com
-  type: vless
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d149
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /xxxxhttpsecurity=tls
-- encryption: none
-  name: 'C - 🇹🇼 TW 26 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 'C - 🇹🇼 TW 25 TG: @nodpai'
   network: ws
   port: 443
-  security: tls
   server: 8.6.112.0
   servername: 2026.hhhhh.eu.org
   skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
+    path: /
 - name: 台湾|@ripaojiedian
   network: tcp
   password: f792d9b5-c254-4756-a740-c314fa62f964
