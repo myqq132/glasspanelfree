@@ -1,107 +1,138 @@
 proxies:
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-010.fastervpn.world
-  skip-cert-verify: true
-  type: hysteria2
-- client-fingerprint: chrome
-  metadata:
-    cleanName: 韩国2
-    flag: 🇰🇷
-    multiplier: 1
-    originalName: 韩国2
-    region: 韩国
-    tags: []
-  name: 'B - 🇯🇵 JP 03 TG: @nodpai'
-  network: ws
-  port: 28318
-  server: 218.152.147.61
-  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-  sni: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
-    path: /@Marisa_kristi
 - alterId: 0
   cipher: auto
   name: 'B - 🇯🇵 JP 04 TG: @nodpai'
   network: ws
-  port: 16617
-  server: planb.mojcn.com
+  port: 22013
+  server: 76c3.earthdraft.onezz.top
   type: vmess
-  uuid: 7927975e-9616-412b-b508-983ab960377d
+  uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
   ws-opts:
     headers:
-      Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+      Host: ithome.com
+    path: /chat
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  port: 30032
+  security: tls
+  server: 59.24.2.248
+  servername: eiti60o44la.bsld.de5.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
+      Host: eiti60o44la.bsld.de5.net
+    path: /@Marisa_kristifp=chrome
 - name: 'B - 🇯🇵 JP 07 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-001.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
-  type: hysteria2
-- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-018.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-018.fastervpn.world
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
-  port: 16617
-  server: t.cnmjcn.cyou
-  type: vmess
-  udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
-  ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+  port: 30029
+  security: tls
+  server: 121.182.50.110
+  servername: 8a005khup3.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      Host: 8a005khup3.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- encryption: none
+  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.shopify.com
+  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+    path: /@Marisa_kristifp=chrome
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇯🇵 JP 16 TG: @nodpai'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  name: 'B - 🇯🇵 JP 18 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: staticdelivery.nexusmods.com
+  servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  udp: true
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
+  ws-headers:
+    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
     path: /
   ws-path: /
+- name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+  port: 7443
+  server: jc7U654714155239.asia.steamliveonline.com
+  tls: true
+  type: http
+  username: f8eca8df-a1a5-4918-a194-d34112a3673f
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  port: 16617
+  server: t.cnmjcn.cyou
+  type: vmess
+  udp: true
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
+  ws-headers:
+    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
+  network: h2
+  port: 53224
+  server: 103.127.243.49
+  tls: true
+  type: vmess
+  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
 - client-fingerprint: chrome
   metadata:
-    cleanName: ☸️官方优选
-    flag: 🌍
+    cleanName: 泰国
+    flag: 🇹🇭
     multiplier: 1
-    originalName: ☸️官方优选
-    region: 其他
+    originalName: 泰国
+    region: 泰国
     tags: []
-  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
   network: ws
   port: 443
-  server: store.ubi.com
+  server: mfa.gov.ua
   servername: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
   sni: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
   tfo: false
@@ -113,15 +144,20 @@ proxies:
     headers:
       Host: pw2ty822oipl53mogkzvzbv5ee97.saghv.filegear-sg.me
     path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇯🇵 JP 26 TG: @nodpai'
-  network: h2
-  port: 56738
-  server: 103.127.243.59
+- encryption: none
+  name: 'C - 🇯🇵 JP 28 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: cdn.wmsj.eu.org
+  servername: cdn.wmsj.eu.org
   tls: true
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+  type: vless
+  uuid: dc5625c7-a2e0-452d-ab14-d4f2f34b6921
+  ws-opts:
+    headers:
+      Host: cdn.wmsj.eu.org
+    path: /jjp
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
