@@ -1,49 +1,57 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.1MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: '443'
-  server: 159.195.44.151
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.7MB/s
-  network: ws
-  port: '443'
-  server: 172.67.198.163
-  servername: pUbliC.tEchNoisHop.coM.
-  tls: true
-  type: vless
-  udp: true
-  uuid: d774c562-ac77-4976-befd-063969fae990
-  ws-opts:
-    headers:
-      Host: pUbliC.tEchNoisHop.coM.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /?ed=2048
-  xudp: true
 - alterId: 0
   cipher: auto
   http-opts:
     headers: {}
     path:
     - /
-  name: 🇩🇪DE_3|1.6MB/s
+  name: 🇩🇪DE_1|1.1MB/s
   network: http
   port: 80
   server: 77.90.11.178
   tls: false
   type: vmess
   uuid: b3cdfe2d-5eac-4b0d-a8eb-d3f6a647e13f
+- name: 🇩🇪DE_2|1.8MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|1.1MB/s
+  network: tcp
+  port: 52006
+  server: 178.72.181.87
+  servername: cluster-de-2.firstvideocdn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75807638-6f19-01f4-ae08-38492ee85c88
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|1.1MB/s
+  network: xhttp
+  port: 22443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str 31'
+  server: 45.15.147.22
+  servername: s3.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c603d9a2-a89a-4b62-ac96-346d3b52620c
+  xhttp-opts:
+    mode: stream-one
+    path: /assets/v2/pkg
+  xudp: true
 - name: DE_speednode_0058
   network: ws
   port: 8443

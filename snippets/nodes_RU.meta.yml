@@ -1,4 +1,37 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|1.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0
+  server: srv80.towersflowerss.com
+  servername: srv80.towersflowerss.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU_2|1.7MB/s
+  network: tcp
+  port: '52006'
+  server: 82.202.249.248
+  servername: cluster-russia-3.firstvideocdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  xudp: true
 - name: RU_speednode_0118
   network: ws
   password: '!!str 1234567890'

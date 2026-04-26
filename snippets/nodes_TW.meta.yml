@@ -6,19 +6,16 @@ proxies:
   tls: true
   type: http
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- down: ''
-  fingerprint: ''
-  name: 🇹🇼TW_1|1.0MB/s
+- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: '443'
+  port: 443
   server: vpn-tw-001.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-001.fastervpn.world
   type: hysteria2
   udp: true
-  up: ''
 - name: 'B - 🇹🇼 TW 04 TG: @nodpai'
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -48,17 +45,20 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 🇹🇼TW_1|1.9MB/s
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 'B - 🇹🇼 TW 11 TG: @nodpai'

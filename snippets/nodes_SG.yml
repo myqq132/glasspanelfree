@@ -1,23 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 02 TG: @nodpai'
   network: ws
   port: 16618
-  server: t.cnmjcn.cyou
+  server: m.cnmjin.net
   type: vmess
   udp: true
-  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
   ws-headers:
-    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
   ws-opts:
     headers:
-      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
     path: /
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 06 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 05 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -33,35 +33,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 07 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 302457f5-6848-4e2b-be16-193131ab6374
-  ws-opts:
-    headers:
-      Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
-  network: ws
-  port: 16618
-  server: planb.mojcn.com
-  type: vmess
-  udp: true
-  uuid: 79a6fb0f-e9c2-43c4-b637-d2b5379f1e20
-  ws-headers:
-    Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-  ws-opts:
-    headers:
-      Host: b38c9b87b830706798bb6e3580c2207a.mobgslb.tbcache.com
-    path: /
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇸🇬 SG 11 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 08 TG: @nodpai'
   network: ws
   port: 16618
   server: planb.mojcn.com
@@ -73,7 +45,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇸🇬 SG 13 TG: @nodpai'
+  name: 'B - 🇸🇬 SG 09 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  type: vmess
+  udp: true
+  uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+  ws-opts:
+    headers:
+      Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+    path: /
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇸🇬 SG 10 TG: @nodpai'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -89,7 +77,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 13 TG: @nodpai'
   network: ws
   port: 16618
   server: t.cnmjcn.cyou
@@ -105,7 +93,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 'C - 🇸🇬 SG 20 TG: @nodpai'
+  name: 'C - 🇸🇬 SG 16 TG: @nodpai'
   network: ws
   port: 16618
   server: m.cnmjin.net
@@ -119,6 +107,38 @@ proxies:
       Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
     path: /
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 18 TG: @nodpai'
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+  ws-opts:
+    headers:
+      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇸🇬 SG 22 TG: @nodpai'
+  port: 51556
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 'D - 🇸🇬 SG 24 TG: @nodpai'
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 152.42.237.17
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cchh2.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 1774240c00db2b77d5a99f6540c47b69
@@ -144,7 +164,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇸🇬SG_1|1.5MB/s
+  name: 🇸🇬SG_1|1.3MB/s
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -157,19 +177,14 @@ proxies:
   server: cf.cloudflare.182682.xyz
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG_2|2.2MB/s
+- name: 🇸🇬SG_3|1.0MB/s
   network: ws
-  port: 16618
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-  ws-headers:
-    Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.152.23
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-    path: /
-  ws-path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr

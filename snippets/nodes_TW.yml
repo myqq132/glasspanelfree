@@ -14,17 +14,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'B - 🇹🇼 TW 10 TG: @nodpai'
+  name: 🇹🇼TW_1|1.9MB/s
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
   type: vmess
   udp: true
   uuid: 881da2de-238e-425e-a7e7-389f4842e545
+  ws-headers:
+    Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
   ws-opts:
     headers:
       Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
     path: /
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 'B - 🇹🇼 TW 11 TG: @nodpai'

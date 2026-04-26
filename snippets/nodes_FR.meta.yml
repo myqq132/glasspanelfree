@@ -1,5 +1,5 @@
 proxies:
-- name: 🇫🇷FR_1|1.8MB/s
+- name: 🇫🇷FR_1|1.6MB/s
   password: dongtaiwang.com
   port: 40022
   server: 163.172.113.118
@@ -7,3 +7,13 @@ proxies:
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
+- auth: dongtaiwang.com
+  name: 🇫🇷FR_2|1.1MB/s
+  password: dongtaiwang.com
+  port: 41283
+  ports: 40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
