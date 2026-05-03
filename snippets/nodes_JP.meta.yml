@@ -1,18 +1,5 @@
 proxies:
 - name: 'A - 🇯🇵 JP 01 TG: @nodpai'
-  network: ws
-  port: 11144
-  security: tls
-  server: 59.6.239.208
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-    path: /@Marisa_kristifp=chrome
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
   password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   port: 443
   server: c90bef91-tegxs0-tqgocx-1plv4.jp.oshuawei.com
@@ -20,15 +7,15 @@ proxies:
   tls: true
   type: http
   username: 28213b50-7ed5-11ee-add6-f23c91369f2d
-- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
-  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
   port: 443
-  server: f571282e-tegxs0-thmjbt-1rk9y.jp.oshuawei.com
-  sni: f571282e-tegxs0-thmjbt-1rk9y.jp.oshuawei.com
+  server: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
+  sni: 8e2d06c5-teisg0-ts3rye-mrtr.jp.oshuawei.com
   tls: true
   type: http
-  username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-- name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+- name: 'A - 🇯🇵 JP 03 TG: @nodpai'
   password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
   port: 443
   server: 935b16de-tegxs0-tkp3tl-1s09x.jp.oshuawei.com
@@ -37,40 +24,34 @@ proxies:
   type: http
   username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
 - name: 'B - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  port: 39085
-  security: tls
-  server: 142.248.151.249
-  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  port: 443
+  server: 188f491e-tegxs0-tgurfh-n09f.jp.oshuawei.com
   tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
-    path: /@Marisa_kristifp=chrome
-- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
+  type: http
+  username: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+- name: 'B - 🇯🇵 JP 06 TG: @nodpai'
   password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 443
   server: 94e9f26a-tegxs0-twnp5a-ahsb.jp.oshuawei.com
   tls: true
   type: http
   username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 07 TG: @nodpai'
   password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
   port: 443
   server: 8a8bebd2-tegxs0-tn57fp-5ifr.jp.oshuawei.com
   tls: true
   type: http
   username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai'
   password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 443
   server: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
   tls: true
   type: http
   username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-- name: 'B - 🇯🇵 JP 10 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
   password: de629d50-1711-11ed-bd7c-f23c913c8d2b
   port: 443
   server: 483e462a-tegxs0-tlpfci-1jdha.jp.oshuawei.com
@@ -79,7 +60,7 @@ proxies:
   username: de629d50-1711-11ed-bd7c-f23c913c8d2b
 - alterId: 2
   cipher: auto
-  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   port: 30806
   server: v6.hdacd.com
   type: vmess
@@ -89,7 +70,7 @@ proxies:
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 12 TG: @nodpai'
   network: ws
   port: 443
   server: 109.61.109.205
@@ -103,16 +84,9 @@ proxies:
     headers:
       Host: gsgsdgreyrehjsrteargsfhtrhsrwrhtruiekghmg.pages.dev
     path: /fp=chrome
-- name: 'B - 🇯🇵 JP 14 TG: @nodpai'
-  password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 13f4082b-tegxs0-thpx3l-141tv.jp.oshuawei.com
-  tls: true
-  type: http
-  username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 15 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 13 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
@@ -121,21 +95,26 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-  port: 443
-  server: 81f12ddd-tegxs0-ttx5yr-1j0y6.jp.oshuawei.com
+- flow: xtls-rprx-vision
+  host: cl-oth-1.edgeflux.ru
+  name: 'B - 🇯🇵 JP 14 TG: @nodpai'
+  network: tcp
+  port: 52006
+  security: tls
+  server: 178.72.182.9
+  servername: cl-oth-1.edgeflux.ru
+  skip-cert-verify: true
   tls: true
-  type: http
-  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
-- name: 'B - 🇯🇵 JP 17 TG: @nodpai'
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai'
   password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   port: 443
   server: 5ecaa46c-tegxs0-tw2fdz-1s824.jp.oshuawei.com
   tls: true
   type: http
   username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-- name: 'B - 🇯🇵 JP 19 TG: @nodpai'
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   password: f8eca8df-a1a5-4918-a194-d34112a3673f
   port: 443
   server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
@@ -145,7 +124,7 @@ proxies:
   username: f8eca8df-a1a5-4918-a194-d34112a3673f
 - encryption: none
   flow: xtls-rprx-vision
-  name: 'B - 🇯🇵 JP 20 TG: @nodpai'
+  name: 'B - 🇯🇵 JP 17 TG: @nodpai'
   port: 52006
   security: tls
   server: cl-oth-1.edgeflux.ru
@@ -154,7 +133,20 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 18 TG: @nodpai'
+  network: ws
+  port: 40092
+  security: tls
+  server: 192.204.110.193
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristifp=chrome
+- name: 'C - 🇯🇵 JP 19 TG: @nodpai'
   network: ws
   password: bpb-trojan
   port: 443
@@ -169,7 +161,7 @@ proxies:
     path: /tr
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 20 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
@@ -178,10 +170,21 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'C - 🇯🇵 JP 21 TG: @nodpai'
+  network: tcp
+  port: 52006
+  security: tls
+  server: 178.72.182.4
+  servername: cl-oth-1.edgeflux.ru
+  tls: true
+  type: vless
+  uuid: 75807638-6f19-0190-ae08-38492ee85c88
 - encryption: none
   flow: xtls-rprx-vision
   host: cl-oth-1.edgeflux.ru
-  name: 'C - 🇯🇵 JP 23 TG: @nodpai'
+  name: 'C - 🇯🇵 JP 22 TG: @nodpai'
   network: tcp
   port: 52006
   security: tls
@@ -190,13 +193,26 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+- name: 'C - 🇯🇵 JP 23 TG: @nodpai'
   password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
   port: 443
   server: 0e457337-tegxs0-tes6jx-1o8ak.jp.oshuawei.com
   tls: true
   type: http
   username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- name: 'C - 🇯🇵 JP 24 TG: @nodpai'
+  network: ws
+  port: 12306
+  security: tls
+  server: 178.62.81.144
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+    path: /@Marisa_kristifp=chrome
 - name: 'C - 🇯🇵 JP 25 TG: @nodpai'
   password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
@@ -216,18 +232,21 @@ proxies:
   tls: true
   type: vless
   uuid: 75807638-6f19-0190-ae08-38492ee85c88
-- flow: xtls-rprx-vision
-  host: cl-oth-1.edgeflux.ru
-  name: 'C - 🇯🇵 JP 27 TG: @nodpai'
-  network: tcp
-  port: 52006
+- client-fingerprint: chrome
+  encryption: none
+  name: 'D - 🇯🇵 JP 27 TG: @nodpai'
+  network: ws
+  port: 443
   security: tls
-  server: 87.228.92.134
-  servername: cl-oth-1.edgeflux.ru
-  skip-cert-verify: true
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
   tls: true
   type: vless
-  uuid: 75807638-6f19-0190-ae08-38492ee85c88
+  uuid: 57d24033-f998-45c1-b973-16747ea76ce9
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
