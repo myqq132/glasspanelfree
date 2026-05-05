@@ -1,12 +1,43 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇭🇰 HK 01 TG: @nodpai'
-  port: 27107
-  server: 1096.rabbitpro-in-5.com
-  type: vmess
-  uuid: b9027e08-cb6f-3391-8bd0-0a4f31e6c140
-- name: 'A - 🇭🇰 HK 02 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 8.218.117.76
+  servername: prod.adobeccstatic.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: 🇭🇰 香港 02
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.57.181.17
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇭🇰 香港 03
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 83.229.121.78
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇭🇰 香港 04
   network: ws
   port: 16339
   security: tls
@@ -19,85 +50,19 @@ proxies:
     headers:
       Host: py7k82mu.api-node-02.gfw.hidns.co
     path: /danfeng?ed=2560fp=firefox
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  grpc-opts:
-    grpc-service-name: movie
-  name: 'B - 🇭🇰 HK 03 TG: @nodpai'
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  grpc-opts:
-    grpc-service-name: update
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
-- encryption: none
-  name: 'B - 🇭🇰 HK 05 TG: @nodpai'
-  network: ws
-  port: 8443
-  security: tls
-  server: 208.87.207.137
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng
 - client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 06 TG: @nodpai'
+  name: 🇭🇰 香港 05
   network: tcp
   port: 443
   reality-opts:
     public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
   security: reality
-  server: 8.218.59.128
-  servername: assets.adobedtm.com
+  server: 8.218.214.223
+  servername: www.starwars.com
   tls: true
   type: vless
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-- name: 'B - 🇭🇰 HK 07 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 43.161.238.135
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 08 TG: @nodpai'
+- name: 🇭🇰 香港 06
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8388
@@ -110,8 +75,27 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇭🇰 香港 07
+  network: ws
+  port: 25544
+  security: tls
+  server: 154.83.86.36
+  servername: pl4oj.mirror.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: pl4oj.mirror.fgfw.indevs.in
+    path: /danfeng?ed=2560
 - down: 50
-  name: 'B - 🇭🇰 HK 09 TG: @nodpai'
+  name: 🇭🇰 香港 08
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
   port: 88
   server: hkaws.ccwink.photos
@@ -119,18 +103,39 @@ proxies:
   sni: hkak.ccwink.cc
   type: hysteria2
   up: 10
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
-  password: f7d95364-607b-11ee-93af-f23c91369f2d
+- name: 🇭🇰 香港 09
+  network: ws
+  port: 8443
+  security: tls
+  server: 83.229.121.78
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+    path: /?ed=2560fp=chrome
+- name: 🇭🇰 香港 10
+  password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
   port: 5228
-  server: b8395f91-tegxs0-tv7zgh-1ijh5.cm4.oshuawei.com
+  server: 9dc488c9-tetwg0-tj7qhp-4lg6.cm4.oshuawei.com
   tls: true
   type: http
-  username: f7d95364-607b-11ee-93af-f23c91369f2d
-- name: 'B - 🇭🇰 HK 11 TG: @nodpai'
+  username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+- name: 🇭🇰 香港 11
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 5228
+  server: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
+  sni: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: 🇭🇰 香港 12
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 26546
-  server: 38.207.173.72
+  port: 16396
+  server: 38.207.160.213
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -139,11 +144,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 12 TG: @nodpai'
+- name: 🇭🇰 香港 13
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 213.176.92.138
+  port: 2053
+  server: 217.60.248.94
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -152,7 +157,13 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 13 TG: @nodpai'
+- name: 🇭🇰 香港 14
+  password: 1aa84841-8701-4700-ad46-2923dc2900d0
+  port: 8080
+  server: hkmax01.376897.xyz
+  sni: hkmax01.376897.xyz
+  type: hysteria2
+- name: 🇭🇰 香港 15
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -164,11 +175,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 16 TG: @nodpai'
+- name: 🇭🇰 香港 16
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 163.53.18.14
+  sni: 🔒
+  tls: true
+  type: trojan
+- name: 🇭🇰 香港 17
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 46.8.226.15
+  server: 46.8.226.108
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -177,7 +195,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 17 TG: @nodpai'
+- encryption: none
+  name: 🇭🇰 香港 18
+  network: ws
+  port: 2053
+  security: tls
+  server: 217.60.248.94
+  servername: babayaga-6i7.pages.dev
+  tls: true
+  type: vless
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  ws-opts:
+    headers:
+      Host: babayaga-6i7.pages.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 🇭🇰 香港 19
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 46639
@@ -190,41 +222,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 18 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 217.60.38.182
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇭🇰HK_2|1005KB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 5228
-  server: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
-  sni: ceac52dd-t9zts0-tnkuks-wujn.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 'B - 🇭🇰 HK 20 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.16.183.190
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇭🇰 HK 21 TG: @nodpai'
+- name: 🇭🇰 香港 20
   network: ws
   password: '!!str 162534'
   port: 8443
@@ -237,27 +235,7 @@ proxies:
     headers:
       Host: cchh2.pages.dev
     path: /?ed=2560
-- name: 'B - 🇭🇰 HK 22 TG: @nodpai'
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  port: 5228
-  server: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-  sni: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-- client-fingerprint: chrome
-  name: 'B - 🇭🇰 HK 23 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 38060
-  server: 38.207.161.214
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'C - 🇭🇰 HK 24 TG: @nodpai'
+- name: 🇭🇰 香港 21
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -270,11 +248,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳
-- name: 'C - 🇭🇰 HK 26 TG: @nodpai'
+- name: 🇭🇰 香港 22
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 219.76.13.180
+  server: 219.76.13.166
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -283,23 +261,23 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 64
-  cipher: auto
-  name: 'C - 🇭🇰 HK 27 TG: @nodpai'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇭🇰 香港 23
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 2.56.91.49
+  sni: 🔒
+  tls: true
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
+  name: 🇭🇰 香港 24
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 🇭🇰 香港 25
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 53018
@@ -307,7 +285,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 🇭🇰 香港 26
   network: tcp
   password: BxceQaOe
   port: 63131
@@ -317,7 +295,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 香港|@ripaojiedian
+  name: 🇭🇰 香港 27
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -327,7 +305,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   encryption: none
-  name: 🇭🇰HK_1|1.0MB/s
+  name: 🇭🇰 香港 28
   network: ws
   port: 12466
   server: 83.229.121.223
@@ -344,7 +322,7 @@ proxies:
     path: /socks5=gogo:gogo@185.184.70.120:50088
   xudp: true
 - client-fingerprint: edge
-  name: HK_speednode_0011
+  name: 🇭🇰 香港 29
   network: ws
   port: 443
   server: rhciuib.synccut.de
@@ -358,3 +336,18 @@ proxies:
     headers:
       Host: rhciuib.synccut.de
     path: /video_clip
+- client-fingerprint: firefox
+  name: 🇭🇰 香港 30
+  network: ws
+  port: 10100
+  server: 103.224.172.99
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
