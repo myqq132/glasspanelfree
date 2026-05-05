@@ -1,11 +1,35 @@
 proxies:
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 104.18.189.112
+  type: vless
+  uuid: f929cc78-e2a1-4ce3-8051-3e9538405144
+  ws-opts:
+    headers:
+      Host: us.xydcqd.workers.dev
+    path: /@WireXnet?ed=2048fp=chrome
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 20201
+  server: 59.20.168.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇺🇸 US 05 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.40.148.253
+  server: 141.193.27.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
@@ -14,8 +38,19 @@ proxies:
 - name: 'B - 🇺🇸 US 06 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
+  port: 2087
+  server: 157.230.140.153
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.181.247.243
+  server: 178.128.190.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -25,11 +60,11 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 07 TG: @nodpai'
+  name: 'B - 🇺🇸 US 08 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 147.185.161.253
+  server: 198.71.233.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -38,40 +73,61 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 08 TG: @nodpai'
+- name: 'B - 🇺🇸 US 09 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 155.46.167.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 10 TG: @nodpai'
-  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-  port: 443
-  server: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  sni: c160028b-tegxs0-tnfe2z-1s4hc.sj.hyhuawei.com
-  tls: true
-  type: http
-  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
-- name: 'B - 🇺🇸 US 11 TG: @nodpai'
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
   port: 8443
-  server: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
-  sni: e04313a6-tegxs0-tm3dx0-1r9dt.isp.cdnkuaishou.com
+  server: 148.135.95.114
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 142.171.50.6
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.40.154.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: http
-  username: de003c72-0157-11ef-86da-f23c91cfbbc9
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 12 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.129.166.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇺🇸 US 13 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 104.167.196.92
+  port: 2053
+  server: 45.156.24.133
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -82,70 +138,59 @@ proxies:
 - name: 'B - 🇺🇸 US 14 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 23.168.72.17
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 15 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 69.164.245.25
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 16 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 142.171.118.101
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 17 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.241.105.10
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 209.38.46.202
+  port: 8443
+  server: 165.227.60.231
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 15 TG: @nodpai'
+  password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  port: 8443
+  server: ef4a439e-tekn40-tg4a89-ach1.isp.cdnkuaishou.com
+  sni: ef4a439e-tekn40-tg4a89-ach1.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+- name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 85.209.195.61
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+  port: 8443
+  server: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  sni: 34f047db-tegxs0-tqruo0-1pqhp.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: b02327ac-a49a-11ef-a673-f23c913c8d2b
+- name: 'B - 🇺🇸 US 18 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 128.14.196.39
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 'B - 🇺🇸 US 19 TG: @nodpai'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 23.95.34.158
+  server: 172.245.93.26
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -153,98 +198,126 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
 - name: 'B - 🇺🇸 US 20 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 144.31.104.154
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 21 TG: @nodpai'
-  network: ws
-  port: 443
-  security: tls
-  server: 142.171.158.56
-  servername: akrip7.beta-edge.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: akrip7.beta-edge.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: 'B - 🇺🇸 US 22 TG: @nodpai'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 143.110.133.216
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 'B - 🇺🇸 US 23 TG: @nodpai'
-  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 535884ca-teisg0-ts40sw-14g76.se.oshuawei.com
-  sni: 535884ca-teisg0-ts40sw-14g76.se.oshuawei.com
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: 8443
+  server: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
+  sni: 049efad1-teisg0-tw2fdz-1s824.isp.cdnkuaishou.com
   tls: true
   type: http
-  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- name: 'B - 🇺🇸 US 21 TG: @nodpai'
   network: ws
-  port: 2083
-  security: tls
-  server: 173.245.58.112
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 25 TG: @nodpai'
-  network: ws
-  port: 2087
-  security: tls
-  server: 104.19.43.244
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 'C - 🇺🇸 US 26 TG: @nodpai'
-  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  security: tls
-  server: 104.19.55.31
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  server: 45.156.24.228
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: kalami-eew.pages.dev
-    path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- encryption: none
+  name: 'B - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: 172.67.160.192
+  servername: nuclear.us.kg
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  ws-opts:
+    headers:
+      Host: nuclear.us.kg
+    path: /free/103.101.153.32:443
+- name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.241.123.99
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 15.204.173.154
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 144.31.66.40
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 26 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.73.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 27 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.67.202.101
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 28 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 205.196.81.159
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 'B - 🇺🇸 US 29 TG: @nodpai'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.56.202
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 美国|@ripaojiedian
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -258,6 +331,7 @@ proxies:
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 4019
   server: 16.163.148.1
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
@@ -268,6 +342,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国4|@ripaojiedian
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国5|@ripaojiedian
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国4|@ripaojiedian
@@ -379,371 +471,12 @@ proxies:
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
   xudp: true
-- client-fingerprint: randomized
-  name: US_speednode_0014
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0015
-  network: ws
-  port: 2095
-  server: openai.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0016
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0017
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0018
-  network: ws
-  port: 2095
-  server: www.temu.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0019
-  network: ws
-  port: 2095
-  server: www.wto.org
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0020
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0021
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0022
-  network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
+- client-fingerprint: firefox
   name: US_speednode_0023
   network: ws
-  port: 2095
-  server: ns.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0024
-  network: ws
-  port: 2095
-  server: www.temu.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0025
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0026
   port: 443
-  reality-opts:
-    public-key: NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ
-    short-id: '!!str aa69f619e4414362'
-  server: 150.241.103.74
-  servername: st-2.globalcache.onnstreaming.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-- client-fingerprint: randomized
-  name: US_speednode_0027
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0028
-  network: ws
-  port: 2095
-  server: support.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0029
-  network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0030
-  network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0031
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0032
-  network: ws
-  port: 2095
-  server: support.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0033
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0034
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  servername: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-o.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0035
-  network: ws
-  port: 2095
-  server: blog.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0036
-  network: ws
-  port: 2095
-  server: docs.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: US_speednode_0037
-  port: 443
-  reality-opts:
-    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-    short-id: '!!str 11e2'
-  server: 216.57.105.74
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: US_speednode_0038
-  network: ws
-  port: 443
-  server: 43.213.148.173
-  servername: snippet.gfw.qzz.io
+  server: 70.39.206.3
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
@@ -751,246 +484,124 @@ proxies:
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
-- client-fingerprint: randomized
-  name: US_speednode_0039
-  network: ws
-  port: 2095
-  server: cdnjs.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0040
-  network: ws
-  port: 2095
-  server: www.wto.org
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0041
-  network: ws
-  port: 2095
-  server: openai.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: random
-  name: US_speednode_0042
-  network: ws
-  port: 2053
-  server: 167.71.118.179
-  servername: subsources.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
-  ws-opts:
-    headers:
-      Host: subsources.pages.dev
-    path: /?ed=2560
-- client-fingerprint: randomized
-  name: US_speednode_0043
-  network: ws
-  port: 2095
-  server: developers.cloudflare.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0044
-  network: ws
-  port: 2095
-  server: www.udemy.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: US_speednode_0045
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- name: US_speednode_0046
-  password: f8eca8df-a1a5-4918-a194-d34112a3673f
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: US_speednode_0024
+  password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
   port: 443
-  server: cj04.71edgeiqiyi.com
+  server: 8046e0c8-tegxs0-tk5ls1-z7a1.jp.oshuawei.com
   tls: true
   type: http
   udp: true
-  username: f8eca8df-a1a5-4918-a194-d34112a3673f
-- name: US_speednode_0047
+  username: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
+- client-fingerprint: firefox
+  name: US_speednode_0025
   network: ws
   port: 443
-  server: 50.228.203.26
-  servername: babayaga-6i7.pages.dev
+  server: 38.55.194.187
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- client-fingerprint: randomized
-  name: US_speednode_0048
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: US_speednode_0026
   network: ws
-  port: 2095
-  server: www.epicgames.com
-  servername: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
-    path: /
-- name: US_speednode_0049
-  network: ws
-  port: 2053
-  server: 199.119.137.77
-  servername: babayaga-6i7.pages.dev
+  port: 443
+  server: 69.63.212.105
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0050
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: US_speednode_0027
   network: ws
-  port: 2053
-  server: 199.119.137.109
-  servername: babayaga-6i7.pages.dev
+  port: 443
+  server: 146.190.174.67
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0051
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: US_speednode_0028
   network: ws
   port: 8443
-  server: 69.143.174.201
-  servername: babayaga-6i7.pages.dev
+  server: 45.202.113.123
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0052
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: US_speednode_0029
   network: ws
   port: 443
-  server: 193.32.177.101
-  servername: babayaga-6i7.pages.dev
+  server: 198.52.244.111
+  servername: py7k82mu.api-node-02.gfw.hidns.co
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  name: US_speednode_0053
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  name: US_speednode_0030
   network: ws
+  port: 1112
+  server: 155.248.200.6
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560
+- name: US_speednode_0031
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   port: 443
-  server: 142.91.108.54
-  servername: subsources.pages.dev
-  skip-cert-verify: true
+  server: 4a30e541-temhs0-tw2fdz-1s824.se.oshuawei.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
-  ws-opts:
-    headers:
-      Host: subsources.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0054
-  network: ws
-  port: 2053
-  server: 199.119.137.78
-  servername: babayaga-6i7.pages.dev
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+- client-fingerprint: chrome
+  name: US_speednode_0032
+  port: 30779
+  reality-opts:
+    public-key: HGlfPrJjZ2gttVLLp8-ZVofYK994S-6wUBRRl1m_lFA
+    short-id: '!!str 7a'
+  server: 83.147.243.194
+  servername: www.oracle.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  ws-opts:
-    headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
-- name: US_speednode_0055
-  network: ws
-  port: 2053
-  server: 199.119.137.41
-  servername: babayaga-6i7.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  ws-opts:
-    headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560
+  uuid: 0cd15d1b-b117-4f34-9aa1-c14fc5bcdd83
