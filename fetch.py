@@ -1296,11 +1296,6 @@ def main():
         for ctg in categories:
             ctg_nodes[ctg] = []
             ctg_nodes_meta[ctg] = []
-        # 初始化一个用于记录每个地区序号的字典
-        ctg_counters = {ctg: 1 for ctg in categories}
-        # 获取 categories_disp 用于重命名
-        ctg_disp = snip_conf.get('categories_disp', {})
-
         for node in merged.values():
             if node.supports_meta():
                 ctgs: List[str] = []
@@ -1312,25 +1307,10 @@ def main():
                     if ctgs and keys[-1] == 'OVERALL':
                         break
                 if len(ctgs) == 1:
-                    ctg_key = ctgs[0]
                     try:
-                        # --- 核心修改：强制重命名节点 ---
-                        # 获取展示名称，如果没有则使用大写的分类键名
-                        base_name = ctg_disp.get(ctg_key, ctg_key.upper()) 
-                        # 格式化新名字，例如：🇺🇸 美国 01
-                        new_name = f"{base_name} {ctg_counters[ctg_key]:02d}"
-                        
-                        # 把原始节点对象里的名字改掉
-                        node.data['name'] = new_name
-                        node.names = {new_name}
-                        
-                        # 计数器加 1
-                        ctg_counters[ctg_key] += 1
-                        # --------------------------------
-                        
                         if node.supports_clash():
-                            ctg_nodes[ctg_key].append(node.clash_data)
-                        ctg_nodes_meta[ctg_key].append(node.clash_data)
+                            ctg_nodes[ctgs[0]].append(node.clash_data)
+                        ctg_nodes_meta[ctgs[0]].append(node.clash_data)
                     except Exception:
                         traceback.print_exc()
         for ctg, proxies in ctg_nodes.items():
