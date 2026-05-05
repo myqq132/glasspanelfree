@@ -1,138 +1,45 @@
 proxies:
 - name: '[B] 🇸🇬 新加坡 01'
-  obfs: ''
-  obfs-password: ''
   password: 1aa84841-8701-4700-ad46-2923dc2900d0
   port: 8080
-  server: sg10.352343.cc
-  skip-cert-verify: false
-  sni: sg10.352343.cc
+  server: hkt04.476579.xyz
+  sni: hkt04.476579.xyz
   type: hysteria2
-  udp: true
+- name: '[B] 🇸🇬 新加坡 02'
+  password: 1aa84841-8701-4700-ad46-2923dc2900d0
+  port: 8080
+  server: sg04.352343.cc
+  sni: sg04.352343.cc
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 03'
+  password: 1aa84841-8701-4700-ad46-2923dc2900d0
+  port: 8080
+  server: sg03.344233.cc
+  sni: sg03.344233.cc
+  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[B] 🇸🇬 新加坡 04'
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  security: reality
+  server: 52.221.252.111
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: EF3507AC-123A-4A39-9B4C-7D9BD69F8913
 - client-fingerprint: firefox
-  name: '[B] 🇸🇬 新加坡 02'
-  network: ws
-  port: 25979
-  security: tls
-  server: 121.151.83.94
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng
-- client-fingerprint: firefox
-  name: '[B] 🇸🇬 新加坡 03'
-  network: ws
-  port: 18246
-  security: tls
-  server: 59.20.251.99
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 04'
-  network: ws
-  port: 13722
-  security: tls
-  server: 175.201.34.127
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560fp=chrome
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
   name: '[B] 🇸🇬 新加坡 05'
   network: ws
-  port: 8443
-  security: tls
-  server: 109.71.241.236
-  servername: akrip7.beta-edge.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: akrip7.beta-edge.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: '[B] 🇸🇬 新加坡 06'
-  network: ws
-  port: 8443
-  server: 208.87.207.137
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfengsecurity=tls
-- name: '[B] 🇸🇬 新加坡 07'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.43.191.121
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 08'
-  network: ws
   port: 443
   security: tls
-  server: 54.254.116.18
-  servername: n63n17.mail.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: n63n17.mail.sh21.eu.org
-    path: /danfeng?ed=2560fp=chrome
-- name: '[B] 🇸🇬 新加坡 09'
-  network: ws
-  port: 16339
-  server: 85.137.247.119
-  servername: py7k82mu.api-node-02.gfw.hidns.co
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: py7k82mu.api-node-02.gfw.hidns.co
-    path: /danfeng?ed=2560fp=firefoxsecurity=tls
-- name: '[B] 🇸🇬 新加坡 10'
-  network: ws
-  port: 443
-  server: 198.41.223.84
-  servername: kalami-eew.pages.dev
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fpsecurity=tls
-- name: '[B] 🇸🇬 新加坡 11'
-  network: ws
-  port: 443
-  security: tls
-  server: 216.238.53.94
+  server: 64.186.245.144
+  servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
@@ -140,22 +47,12 @@ proxies:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng
-- name: '[B] 🇸🇬 新加坡 12'
-  network: ws
-  port: 8443
-  server: 31.56.229.21
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfengsecurity=tls
-- name: '[B] 🇸🇬 新加坡 13'
+- client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 188.239.9.91
+  server: 27.50.48.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -164,22 +61,52 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 14'
+- name: '[B] 🇸🇬 新加坡 07'
   network: ws
-  port: 443
-  server: 103.90.72.71
+  port: 13720
+  security: tls
+  server: 210.183.12.194
   servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed=2560fp=firefoxsecurity=tls
-- name: '[B] 🇸🇬 新加坡 15'
+    path: /danfengfp=chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 08'
+  network: ws
+  port: 8443
+  security: tls
+  server: 95.181.173.131
+  servername: fn2bkp6.data-relay.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: fn2bkp6.data-relay.chinat.indevs.in
+    path: /danfeng?ed=2560
+- encryption: none
+  name: '[B] 🇸🇬 新加坡 09'
+  network: ws
+  port: 80
+  server: 141.193.213.21
+  type: vless
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.ggff.net
+    path: /@Tech_Sonic
+- name: '[B] 🇸🇬 新加坡 10'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.134.174.114
+  server: 165.232.165.200
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -190,11 +117,11 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
-  name: '[B] 🇸🇬 新加坡 16'
+  name: '[B] 🇸🇬 新加坡 11'
   network: ws
   port: 2053
   security: tls
-  server: 198.41.223.188
+  server: 8.39.125.223
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -203,12 +130,44 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- client-fingerprint: firefox
-  name: '[B] 🇸🇬 新加坡 17'
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 12'
+  network: ws
+  port: 13720
+  security: tls
+  server: 59.31.107.42
+  servername: akrip7.beta-edge.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: akrip7.beta-edge.fgfw.indevs.in
+    path: /danfeng?ed=2560
+- name: '[B] 🇸🇬 新加坡 13'
   network: ws
   port: 443
   security: tls
-  server: 174.138.24.13
+  server: 194.247.187.191
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+    path: /danfengfp=chrome
+- client-fingerprint: firefox
+  name: '[B] 🇸🇬 新加坡 14'
+  network: ws
+  port: 2053
+  security: tls
+  server: 64.227.40.56
   servername: xfxl35a.node-edge.gfw.hidns.co
   tls: true
   type: vless
@@ -217,123 +176,33 @@ proxies:
     headers:
       Host: xfxl35a.node-edge.gfw.hidns.co
     path: /danfeng
-- name: '[B] 🇸🇬 新加坡 18'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 129.212.233.197
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 19'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.87.10.241
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 20'
-  network: ws
-  port: 443
-  security: tls
-  server: 5.35.45.9
-  servername: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 21'
-  network: ws
-  port: 8081
-  server: 160.16.72.181
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 22'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.205.195
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: '[B] 🇸🇬 新加坡 23'
-  network: ws
-  port: 2053
-  security: tls
-  server: 151.242.43.34
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    path: /danfeng
 - alpn:
   - 'http/1.1
 
     '
-  client-fingerprint: firefox
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 24'
+  client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 15'
   network: ws
-  port: 8443
+  port: 33338
   security: tls
-  server: 212.192.20.65
-  servername: n63n17.mail.sh21.eu.org
+  server: 218.152.201.153
+  servername: iuh1.auth-proxy.chinat.indevs.in
   tls: true
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: n63n17.mail.sh21.eu.org
-    path: /danfeng?ed=2560
+      Host: iuh1.auth-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[B] 🇸🇬 新加坡 25'
+  name: '[B] 🇸🇬 新加坡 16'
   network: ws
-  port: 443
+  port: 8443
   security: tls
-  server: 46.17.100.128
+  server: 89.150.59.115
   servername: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
   tls: true
   type: vless
@@ -342,20 +211,157 @@ proxies:
     headers:
       Host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
     path: /danfeng?ed=2560
-- encryption: none
-  name: '[B] 🇸🇬 新加坡 26'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 17'
+  network: ws
+  port: 2053
+  security: tls
+  server: 104.18.34.60
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 18'
   network: ws
   port: 443
   security: tls
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
+  server: 188.239.19.177
+  servername: xjv.node-proxy.chinam.indevs.in
   tls: true
   type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
+      Host: xjv.node-proxy.chinam.indevs.in
+    path: /danfeng?ed=2560
+- name: '[B] 🇸🇬 新加坡 19'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 140.245.62.90
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 20'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 5.34.176.240
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 21'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 209.97.171.87
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 22'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.230.196
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 23'
+  network: ws
+  port: 8443
+  security: tls
+  server: 45.202.113.123
+  servername: py7k82mu.api-node-02.gfw.hidns.co
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: py7k82mu.api-node-02.gfw.hidns.co
+    path: /danfeng?ed=2560fp=firefox
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 24'
+  network: ws
+  port: 443
+  security: tls
+  server: 211.22.180.127
+  servername: iuh1.auth-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: iuh1.auth-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 25'
+  network: ws
+  port: 443
+  server: 142.91.108.144
+  servername: xfxl35a.node-edge.gfw.hidns.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xfxl35a.node-edge.gfw.hidns.co
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 26'
+  network: ws
+  port: 2096
+  security: tls
+  server: webmail.eclass.lk
+  servername: free-server.techsonic.ggff.net
+  tls: true
+  type: vless
+  uuid: b8ae3c37-37d6-4d4d-93fc-1ce0bc329ba0
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.ggff.net
+    path: /@Tech_Sonic
 - name: '[E] 🇸🇬 新加坡 27'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
