@@ -1247,9 +1247,8 @@ def main():
                 src = ','.join([str(_) for _ in sorted(list(used[hashp]))])
                 p.data['name'] = src+'|'+p.data['name']
 
-    # ================= 强 制 洗 脑 过 滤 器 =================
+    # ================= 强 制 洗 脑 过 滤 器 (带源标记) =================
     try:
-        # 为了提前洗脑，我们需要先从 config.yml 借用分类数据
         with open("config.yml", encoding="utf-8") as f:
             temp_conf = yaml.full_load(f)
             temp_snip = temp_conf.get('NoMoreWalls', {})
@@ -1259,7 +1258,16 @@ def main():
         ctg_counters = {ctg: 1 for ctg in temp_ctgs}
         ctg_counters['UNKNOWN'] = 1
 
+        # 字母转换小工具：0->A, 1->B, 2->C ... 26->AA
+        def to_letter(n):
+            s = ""
+            while n >= 0:
+                s = chr(65 + (n % 26)) + s
+                n = n // 26 - 1
+            return s
+
         for hashp, node in merged.items():
+            # 1. 寻找匹配的国家分类
             ctgs = []
             for ctg, keys in temp_ctgs.items():
                 for key in keys:
@@ -1269,21 +1277,35 @@ def main():
                 if ctgs and keys[-1] == 'OVERALL':
                     break
             
+            # 生成干净的名字
             if len(ctgs) >= 1:
                 ctg_key = ctgs[0]
                 base_name = temp_disp.get(ctg_key, ctg_key.upper())
-                new_name = f"{base_name} {ctg_counters[ctg_key]:02d}"
+                clean_name = f"{base_name} {ctg_counters[ctg_key]:02d}"
                 ctg_counters[ctg_key] += 1
             else:
                 ctg_key = "UNKNOWN"
-                new_name = f"🌍 其它地区 {ctg_counters['UNKNOWN']:02d}"
+                clean_name = f"🌍 其它地区 {ctg_counters['UNKNOWN']:02d}"
                 ctg_counters['UNKNOWN'] += 1
+
+            # 2. 获取这个节点所属的源序号 (sourceId)
+            # used 字典里记录了哪个源抓到了这个节点，我们取排在第一的源
+            src_ids = sorted(list(used.get(hashp, {0: ''}).keys()))
+            primary_src_id = src_ids[0] if src_ids else 0
+            
+            # 把序号变成字母标记
+            src_marker = to_letter(primary_src_id)
+
+            # 3. 终极组合：[源字母标记] 干净节点名
+            # 例如：[A] 🇺🇸 美国 01， [C] 🇯🇵 日本 05
+            new_name = f"[{src_marker}] {clean_name}"
 
             # 全局修改 Node 对象中的名字
             node.data['name'] = new_name
             node.names = {new_name}
     except Exception as e:
         print("全局重命名失败！", e)
+        traceback.print_exc()
     # ========================================================
 
     print("\n正在写出 V2Ray 订阅...")
