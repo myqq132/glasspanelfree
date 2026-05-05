@@ -1247,6 +1247,48 @@ def main():
                 src = ','.join([str(_) for _ in sorted(list(used[hashp]))])
                 p.data['name'] = src+'|'+p.data['name']
 
+    # ================= 强 制 洗 脑 过 滤 器 =================
+    try:
+        # 为了提前洗脑，我们需要先从 config.yml 借用分类数据
+        with open("config.yml", encoding="utf-8") as f:
+            temp_conf = yaml.full_load(f)
+            temp_snip = temp_conf.get('NoMoreWalls', {})
+            temp_ctgs = temp_snip.get('categories', {})
+            temp_disp = temp_snip.get('categories_disp', {})
+        
+        ctg_counters = {ctg: 1 for ctg in temp_ctgs}
+        ctg_counters['UNKNOWN'] = 1
+
+        for hashp, node in merged.items():
+            ctgs = []
+            for ctg, keys in temp_ctgs.items():
+                for key in keys:
+                    if key.lower() in node.name.lower():
+                        ctgs.append(ctg)
+                        break
+                if ctgs and keys[-1] == 'OVERALL':
+                    break
+            
+            if len(ctgs) >= 1:
+                ctg_key = ctgs[0]
+                base_name = temp_disp.get(ctg_key, ctg_key.upper())
+                new_name = f"{base_name} {ctg_counters[ctg_key]:02d}"
+                ctg_counters[ctg_key] += 1
+            else:
+                ctg_key = "UNKNOWN"
+                new_name = f"🌍 其它地区 {ctg_counters['UNKNOWN']:02d}"
+                ctg_counters['UNKNOWN'] += 1
+
+            # 全局修改 Node 对象中的名字
+            node.data['name'] = new_name
+            node.names = {new_name}
+    except Exception as e:
+        print("全局重命名失败！", e)
+    # ========================================================
+
+    print("\n正在写出 V2Ray 订阅...")
+    txt = ""
+    
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
     unsupports = 0
