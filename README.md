@@ -18,18 +18,7 @@
 
 如果您访问部分网站时遇到问题，可以将 `🚨 病毒网站` 分类切换为 `DIRECT`，但是您需要**自行承担一切安全风险，包括但不限于广告骚扰，账号被盗，设备中毒**等，请三思而后行！！！
 
-为防止失联，我们建立了镜像：<https://peasoft.github.io/NWalls.html>
 
-另有**理论上永不被墙的** jsDelivr 镜像，**强烈建议**收藏：<https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls>
-
-我们新增了 [`snippets` 目录](./snippets/) 来存放从 `list.meta.yml` 中拆分出的配置片段，用于将本项目提供的一些配置整合到你自己的配置中。此目录中还有本项目的独立规则集覆写文件。
-
-### 为什么 *不要* 使用付费节点？
-
-1. 付费节点存在付完费厂商立即跑路的**诈骗风险**，且一旦被骗钱款**无法追回**！
-2. 付费节点需要注册账号并付费，厂商可以借此收集你的**个人信息**然后倒卖！付费节点管理程序可能**存在漏洞**，由 ZF 支持的黑客也可能把你的个人信息提交给 ZF。
-
-推荐阅读 [DiningFactory/panda-vpn-pro](https://github.com/DiningFactory/panda-vpn-pro)。
 
 ## 使用方法
 
