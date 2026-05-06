@@ -1,14 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  network: tcp
   port: 52006
-  server: 178.72.182.28
-  servername: cl-ru-2.edgeflux.ru
-  skip-cert-verify: true
+  server: cluster-russia-1.firstvideocdn.ru
+  servername: cluster-russia-1.firstvideocdn.ru
   tls: true
   type: vless
   udp: true
   uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  xudp: true
