@@ -1,23 +1,24 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 06'
+  name: '[B] 🇸🇬 新加坡 09'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 27.50.48.253
+  port: 14706
+  server: 8.222.195.24
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇸🇬 新加坡 10'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 165.232.165.200
+  server: 138.2.87.237
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -26,11 +27,51 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 19'
+- name: '[B] 🇸🇬 新加坡 11'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 140.245.62.90
+  port: 8443
+  server: 188.239.21.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 14'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.33
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 17'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.236.154.50
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 18'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.223.93.80
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -42,8 +83,8 @@ proxies:
 - name: '[B] 🇸🇬 新加坡 20'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 5.34.176.240
+  port: 8443
+  server: 172.104.186.18
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -56,7 +97,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 209.97.171.87
+  server: 47.82.160.100
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -68,8 +109,8 @@ proxies:
 - name: '[B] 🇸🇬 新加坡 22'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.166.230.196
+  port: 27015
+  server: 43.153.206.239
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -78,31 +119,61 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[E] 🇸🇬 新加坡 27'
-  network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 4840
-  server: 16.163.148.1
+- client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 23'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.162.61.34
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
-- name: '[E] 🇸🇬 新加坡 28'
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 26'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.89.205.195
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[E] 🇸🇬 新加坡 30'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 2511
-  server: 13.231.182.84
+  server: 18.179.108.192
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 29'
+- name: '[E] 🇸🇬 新加坡 31'
+  network: tcp
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 4840
+  server: 54.46.2.55
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[E] 🇸🇬 新加坡 32'
   network: tcp
   password: BxceQaOe
   port: 2074
-  server: 13.231.251.168
+  server: 43.199.253.121
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇸🇬 新加坡 32'
+- name: '[G] 🇸🇬 新加坡 35'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'

@@ -1,24 +1,27 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: tw07.352343.cc
-  sni: tw07.352343.cc
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 02'
+- client-fingerprint: chrome
+  name: '[B] 🇨🇳 台湾 01'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
-  sni: 🔒
-  tls: true
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 02'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[B] 🇨🇳 台湾 03'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: tw3.757866.xyz
-  sni: tw3.757866.xyz
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 04'
   network: ws
   port: 6235
   server: 125.227.219.98
@@ -31,78 +34,36 @@ proxies:
     path: /xxxxhttpsecurity=tls
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 05'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇨🇳 台湾 06'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: tw11.352343.cc
-  sni: tw11.352343.cc
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
+  name: '[B] 🇨🇳 台湾 04'
+  network: tcp
   port: 30811
   server: 218.173.203.171
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇨🇳 台湾 08'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: 5gzdx.233235.xyz
-  sni: 5gzdx.233235.xyz
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 09'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: tw40.453521.xyz
-  sni: tw40.453521.xyz
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 10'
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  port: 8080
-  server: tw4.453521.xyz
-  sni: tw4.453521.xyz
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: '[B] 🇨🇳 台湾 11'
-  port: 8443
-  security: tls
-  server: tw1.344233.cc
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 1aa84841-8701-4700-ad46-2923dc2900d0
 - alpn:
-  - http/1.1
-  name: '[B] 🇨🇳 台湾 12'
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
+  name: '[B] 🇨🇳 台湾 05'
   network: ws
-  port: 48721
-  security: tls
-  server: 82.152.90.229
-  servername: e9x.mirror-node.chinav.indevs.in
+  port: 443
+  server: 1.161.50.87
+  servername: xjv.node-proxy.chinam.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: e9x.mirror-node.chinav.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: '[B] 🇨🇳 台湾 13'
-  port: 8443
-  security: tls
-  server: tw06.352343.cc
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 1aa84841-8701-4700-ad46-2923dc2900d0
+      Host: xjv.node-proxy.chinam.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
 - allowInsecure: '0'
   alpn:
   - http/1.1
@@ -112,7 +73,7 @@ proxies:
   fp: chrome
   host: snippet.gfw.qzz.io
   insecure: '0'
-  name: '[G] 🇨🇳 台湾 14'
+  name: '[G] 🇨🇳 台湾 06'
   network: ws
   path: /danfeng?ed=2560
   port: 443
@@ -129,3 +90,9 @@ proxies:
       Host: snippet.gfw.qzz.io
     max-early-data: 2560
     path: /danfeng
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇨🇳 台湾 07'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007117fb8.cybervena.com
+  type: ss
