@@ -1,18 +1,35 @@
 proxies:
 - client-fingerprint: edge
+  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
   name: '[G] SE 01'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
+    _spider-x: /
     public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
     short-id: '!!str 2d6d073dc88f22a8'
-  server: se-cdn.ru
+  server: 64.112.127.16
   servername: se-cdn.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9ebf8c2-dbe9-4220-9234-6a47be3e9dea
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] SE 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '!!str 2d6d073dc88f22a8'
+  server: 207.2.120.84
+  servername: se-cdn.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

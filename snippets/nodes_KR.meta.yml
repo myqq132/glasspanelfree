@@ -1,13 +1,32 @@
 proxies:
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
+- alpn:
+  - 'http/1.1
+
+    '
+  client-fingerprint: firefox
+  encryption: none
   name: '[G] 🇰🇷 韩国 01'
   network: ws
-  port: 27015
-  server: 59.29.161.191
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 10002
+  security: tls
+  server: 61.79.126.130
+  servername: mcbeaamn.relay-api.fgfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: mcbeaamn.relay-api.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: '[G] 🇰🇷 韩国 02'
+  network: ws
+  port: 30005
+  server: 121.173.15.62
+  servername: ggj.core-node-01.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -17,76 +36,18 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: ggj.core-node-01.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
-- name: '[G] 🇰🇷 韩国 02'
-  network: ws
-  port: 18264
-  server: 222.104.238.146
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    path: /danfeng
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
   name: '[G] 🇰🇷 韩国 03'
   network: ws
-  port: '11965'
-  server: 39.121.84.150
-  servername: iuh1.auth-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: iuh1.auth-proxy.chinat.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: firefox
-  encryption: none
-  name: '[G] 🇰🇷 韩国 04'
-  network: ws
-  port: 20005
-  server: 211.106.142.25
-  servername: ynwta9.api-edge.fgfw.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: ynwta9.api-edge.fgfw.qzz.io
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[G] 🇰🇷 韩国 05'
-  network: ws
-  port: 10002
-  server: 125.136.152.137
-  servername: xfxl35a.node-edge.gfw.hidns.co
+  port: 18000
+  server: 110.46.149.53
+  servername: ggj.core-node-01.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -96,27 +57,6 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[G] 🇰🇷 韩国 06'
-  network: ws
-  port: 18790
-  server: 1.254.8.60
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
+      Host: ggj.core-node-01.gfw.hidns.co
     max-early-data: 2560
     path: /danfeng
