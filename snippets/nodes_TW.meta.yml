@@ -11,51 +11,41 @@ proxies:
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: '[B] 🇨🇳 台湾 02'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇨🇳 台湾 03'
   network: ws
   port: 6235
-  security: tls
   server: 125.227.219.98
   servername: baidu.com
   skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d150
   ws-opts:
     headers:
       Host: baidu.com
     path: /xxxxhttp
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 04'
-  network: tcp
-  port: '443'
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  skip-cert-verify: true
+  encryption: none
+  name: '[B] 🇨🇳 台湾 03'
+  network: ws
+  port: 443
+  security: tls
+  server: 1.161.48.13
+  servername: gogo2.kmj.qzz.io
   tls: true
   type: vless
-  udp: true
-  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
-  xudp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo2.kmj.qzz.io
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: '[B] 🇨🇳 台湾 05'
+  name: '[B] 🇨🇳 台湾 04'
   network: ws
   port: 443
   server: 1.161.63.21
@@ -72,27 +62,9 @@ proxies:
         Chrome/68.0.3440.106 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇨🇳 台湾 06'
-  network: ws
-  port: 443
-  security: tls
-  server: 1.161.48.13
-  servername: gogo2.kmj.qzz.io
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo2.kmj.qzz.io
-    path: /
 - alpn:
   - http/1.1
-  cert-sha: EF087A3208B641D6309A4A5F576B906DF335B841535E5E9A10517CBF2CF3E6CB
-  client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇨🇳 台湾 07'
+  name: '[B] 🇨🇳 台湾 05'
   network: ws
   port: 6235
   security: tls
@@ -105,7 +77,46 @@ proxies:
   ws-opts:
     headers:
       Host: baidu.com
-    path: /xxxxhttp
+    path: /xxxxhttpfp=chrome
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 06'
+  port: 443
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇨🇳 台湾 07'
+  network: ws
+  port: 443
+  security: tls
+  server: 1.161.50.87
+  servername: gogo5.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo5.kmj.qzz.io
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 08'
+  network: tcp
+  port: '443'
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
+  xudp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -115,7 +126,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[B] 🇨🇳 台湾 08'
+  name: '[B] 🇨🇳 台湾 09'
   network: tcp
   port: 443
   server: taipei1.ap221.com
@@ -128,20 +139,34 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 09'
+  name: '[B] 🇨🇳 台湾 10'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 10'
+  name: '[B] 🇨🇳 台湾 11'
   port: 30811
   server: 218.173.203.171
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: '[G] 🇨🇳 台湾 11'
+  name: '[B] 🇨🇳 台湾 12'
+  network: ws
+  port: 443
+  server: 114.33.57.170
+  servername: 3-c6l.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-c6l.pages.dev
+    path: /
+- client-fingerprint: chrome
+  name: '[G] 🇨🇳 台湾 13'
   network: ws
   port: '443'
   server: 1.161.48.13
@@ -166,7 +191,7 @@ proxies:
   fp: chrome
   host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
   insecure: '0'
-  name: '[G] 🇨🇳 台湾 12'
+  name: '[G] 🇨🇳 台湾 14'
   network: ws
   path: /danfeng?ed=2560
   port: 10600
@@ -183,3 +208,9 @@ proxies:
       Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
     max-early-data: 2560
     path: /danfeng
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇨🇳 台湾 15'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss

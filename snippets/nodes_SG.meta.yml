@@ -1,326 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 01'
-  network: ws
+- name: '[B] 🇸🇬 新加坡 01'
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 8.222.244.182
-  servername: gogo6.kmj.qzz.io
-  skip-cert-verify: false
+  server: 66.42.61.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo6.kmj.qzz.io
-    path: /
+  type: trojan
 - client-fingerprint: chrome
+  encryption: none
   name: '[B] 🇸🇬 新加坡 02'
   network: ws
-  port: 443
-  server: 47.84.95.77
-  servername: gogo3.kmj.qzz.io
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo3.kmj.qzz.io
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
-  port: 30845
-  server: v45.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 04'
-  network: ws
-  port: 443
-  security: tls
-  server: 34.143.159.175
-  servername: gogo.kmj.qzz.io
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.kmj.qzz.io
-    path: /socks5=gogo:gogo@185.184.70.120:50088
-- name: '[B] 🇸🇬 新加坡 05'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 47.82.155.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 06'
-  network: ws
-  port: 39085
-  security: tls
-  server: 142.248.151.249
-  servername: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
-    path: /danfengfp=chrome
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 07'
-  network: ws
-  port: 8443
-  security: tls
-  server: 45.66.10.141
-  servername: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: b.8.q.1.z.7.c.5.y.k.2.v.x.0.a.m.6.n.d.h.3.h.u.9.danfeng.rr.kg
-    path: /danfeng?ed=2560
-- delay: 2415
-  name: '[B] 🇸🇬 新加坡 08'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 47.84.54.115
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 09'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.64.147.237
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- name: '[B] 🇸🇬 新加坡 10'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 128.199.128.117
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 11'
-  network: ws
-  port: 2053
-  security: tls
-  server: 172.64.147.243
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 12'
-  network: ws
-  port: 8443
-  security: tls
-  server: 198.41.223.148
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- alpn:
-  - http/1.1
-  name: '[B] 🇸🇬 新加坡 13'
-  network: ws
-  port: 8443
-  security: tls
-  server: 195.26.231.53
-  servername: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
-    path: /danfeng?ed=2560fp=chrome
-- name: '[B] 🇸🇬 新加坡 14'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.104.186.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 15'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.223.93.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 16'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.127.192.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 17'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.134.174.114
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 18'
-  network: ws
   port: 2083
-  security: tls
-  server: 172.67.65.144
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /
-- name: '[B] 🇸🇬 新加坡 19'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 5.34.176.240
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇸🇬 新加坡 20'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.162.61.34
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 21'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.166.230.196
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 22'
-  network: ws
-  port: 35911
-  security: tls
-  server: 104.234.233.57
-  servername: 3-7gj.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-7gj.pages.dev
-- name: '[B] 🇸🇬 新加坡 23'
-  network: ws
-  port: 2083
-  security: tls
-  server: 8.39.125.54
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
-- name: '[B] 🇸🇬 新加坡 24'
-  network: ws
-  port: 2083
-  security: tls
-  server: 8.39.125.222
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇸🇬 新加坡 25'
-  network: ws
-  port: 443
   security: tls
   server: 198.41.223.162
   servername: kalami-eew.pages.dev
@@ -331,42 +22,417 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- name: '[B] 🇸🇬 新加坡 26'
+- name: '[B] 🇸🇬 新加坡 03'
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 198.41.223.84
+  server: 149.28.159.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 04'
+  network: ws
+  port: 2053
+  security: tls
+  server: 172.64.145.49
   servername: kalami-eew.pages.dev
+  tls: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fpsecurity=tls
-- name: '[E] 🇸🇬 新加坡 27'
-  network: tcp
-  password: ba62c023f9bce796ae334fecb20ef7cc
-  port: 2511
-  server: 18.179.108.192
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 05'
+  network: ws
+  port: 443
+  security: tls
+  server: 173.245.59.79
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 06'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 168.138.165.174
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
-- name: '[E] 🇸🇬 新加坡 28'
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 07'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 92.243.75.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 08'
+  network: ws
+  port: 80
+  server: 141.193.213.21
+  type: vless
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.ggff.net
+    path: /@Tech_Sonic
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 09'
+  network: ws
+  port: 443
+  security: tls
+  server: 5.35.45.9
+  servername: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 10'
+  network: ws
+  port: 8443
+  security: tls
+  server: 212.111.89.146
+  servername: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
+    path: /danfeng?ed=2560
+- name: '[B] 🇸🇬 新加坡 11'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.65.143.223
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 12'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.104.186.18
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 174.138.20.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 14'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.18.41.69
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 15'
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.64.146.50
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 16'
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.64.144.208
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 17'
+  network: ws
+  port: 8443
+  server: 185.235.131.40
+  servername: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: k.3.x.8.p.0.q.m.2.z.a.7.c.v.y.1.b.h.e.5.q.e.1.z.9.gfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 18'
+  network: ws
+  port: 443
+  security: tls
+  server: 173.245.59.241
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 19'
+  network: ws
+  port: 12388
+  security: tls
+  server: 34.168.95.100
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 20'
+  network: ws
+  port: 2053
+  security: tls
+  server: 104.18.34.60
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 21'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 62.72.44.6
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 22'
+  network: ws
+  port: 2083
+  security: tls
+  server: 8.39.125.68
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 23'
+  network: ws
+  port: 443
+  security: tls
+  server: 176.222.54.227
+  servername: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: x.2.q.9.a.v.3.m.8.c.t.y.1.k.f.z.7.b.h.6.w.b.1.j.danfeng.com.cfd
+    path: /danfeng?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 24'
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.18.45.51
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 25'
+  network: ws
+  port: 443
+  security: tls
+  server: 172.64.146.218
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 26'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.26.128.147
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 27'
+  network: ws
+  port: 2053
+  security: tls
+  server: 172.64.145.101
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 28'
+  network: ws
+  port: 2096
+  security: tls
+  server: 104.18.35.147
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇸🇬 新加坡 29'
+  network: ws
+  port: 2096
+  security: tls
+  server: 8.35.211.92
+  servername: kalami-eew.pages.dev
+  tls: true
+  type: vless
+  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
+  ws-opts:
+    headers:
+      Host: kalami-eew.pages.dev
+    path: /
+- name: '[E] 🇸🇬 新加坡 30'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 4840
-  server: 54.46.2.55
+  server: 54.46.50.228
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 29'
+- name: '[E] 🇸🇬 新加坡 31'
+  network: tcp
+  password: ba62c023f9bce796ae334fecb20ef7cc
+  port: 3842
+  server: 13.231.106.216
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[E] 🇸🇬 新加坡 32'
   network: tcp
   password: BxceQaOe
   port: 2074
-  server: 43.199.253.121
+  server: 43.207.186.192
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇸🇬 新加坡 30'
+- name: '[G] 🇸🇬 新加坡 33'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: vpn-sg-001.fastervpn.world
@@ -376,7 +442,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇸🇬 新加坡 31'
+  name: '[G] 🇸🇬 新加坡 34'
   network: ws
   port: 2083
   server: 162.159.43.121
