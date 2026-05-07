@@ -1,123 +1,56 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
-  port: 28666
-  server: tw2.kidcc.xyz
-  type: vmess
-  uuid: e27fc835-3363-4196-97bc-54556aa370bf
-- flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 02'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 43b0a450-d0fb-4c8f-b809-4dde6e3c167a
-- flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 03'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: b9319c4d-a325-4ecb-aa64-cf8b893b8897
-- flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 04'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 2bd9c075-e47a-46d8-a777-93baa759d8aa
-- flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 05'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 79b78774-0ccd-4792-aa2d-189887dd987f
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 06'
-  port: 28666
-  server: tw1.kidcc.xyz
-  type: vmess
-  uuid: e27fc835-3363-4196-97bc-54556aa370bf
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 07'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 0da53d40-3e61-4459-8014-bd0f22bef196
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 08'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 09'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 8f25d191-c31c-4d07-86ec-db01fe1085d9
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 10'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: faebdef9-5c25-4e53-825c-2f57afdf87db
-- encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 11'
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  tls: true
-  type: vless
-  uuid: 0dcd0d55-8a1c-4a8b-91c5-6967720a8444
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 12'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇨🇳 台湾 13'
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 01'
+  port: 443
+  reality-opts:
+    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
+    short-id: '!!str a13b96ad'
+  server: edge-di.yuetong.online
+  servername: www.canon.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5ff9631-1d11-4298-8c79-27bc53e41a04
+- name: '[B] 🇨🇳 台湾 02'
+  obfs: ''
+  obfs-password: ''
+  password: c5ff9631-1d11-4298-8c79-27bc53e41a04
+  port: 34204
+  server: edge-di.yuetong.online
+  skip-cert-verify: false
+  sni: edge-di.yuetong.online
+  type: hysteria2
+  udp: true
+- name: '[B] 🇨🇳 台湾 03'
+  obfs: ''
+  obfs-password: ''
+  password: c5ff9631-1d11-4298-8c79-27bc53e41a04
+  port: 30933
+  server: edge-di.yuetong.online
+  skip-cert-verify: false
+  sni: edge-di.yuetong.online
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: '[B] 🇨🇳 台湾 04'
   network: ws
   port: 443
-  security: tls
-  server: 1.161.52.57
-  servername: gogo.kmj.qzz.io
+  server: 60.249.21.29
+  servername: gogo3.kmj.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: gogo.kmj.qzz.io
-    path: /socks5=gogo:gogo@185.184.70.120:50088
+      Host: gogo3.kmj.qzz.io
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 05'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
