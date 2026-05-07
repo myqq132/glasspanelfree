@@ -1,16 +1,19 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443-udp443
-  name: '[B] 🇨🇳 台湾 01'
+- name: '[B] 🇨🇳 台湾 01'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
+  server: 114.33.57.170
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  flow: xtls-rprx-vision-udp443-udp443-udp443
   name: '[B] 🇨🇳 台湾 02'
   port: 443
   security: tls
@@ -18,16 +21,18 @@ proxies:
   servername: taipei.ap221.com
   tls: true
   type: vless
-  uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+- alterId: 2
+  cipher: auto
   name: '[B] 🇨🇳 台湾 03'
-  network: tcp
-  port: 443
-  security: tls
-  server: taipei1.ap221.com
-  servername: taipei.ap221.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
+  port: 30811
+  server: 218.173.203.171
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

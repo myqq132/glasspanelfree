@@ -1,112 +1,151 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 美国3
+    flag: 🇺🇸
+    multiplier: 1
+    originalName: 美国3
+    region: 美国
+    tags: []
+  name: '[B] 🇯🇵 日本 01'
   network: ws
-  port: 443
-  security: tls
-  server: 52.69.138.142
+  port: 37811
+  server: 154.17.237.73
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: gogo.kmj.qzz.io
-    path: /socks5=gogo:gogo@185.184.70.120:50088
-- name: '[B] 🇯🇵 日本 02'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-004.fastervpn.world
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国5
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国5
+    region: 韩国
+    tags: []
+  name: '[B] 🇯🇵 日本 02'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.8.112.158
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 10891
+  server: 165.246.171.218
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 04'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 日本3
+    flag: 🇯🇵
+    multiplier: 1
+    originalName: 日本3
+    region: 日本
+    tags: []
+  name: '[B] 🇯🇵 日本 03'
+  network: ws
+  port: 31772
+  server: 8.211.174.145
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 04'
+  port: 55386
+  server: 103.127.243.60
   skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
-  type: hysteria2
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - name: '[B] 🇯🇵 日本 05'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17222
-  server: 212.50.248.248
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
   server: 154.197.88.253
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-- name: '[B] 🇯🇵 日本 07'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 140.235.37.69
-  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 韩国2
+    flag: 🇰🇷
+    multiplier: 1
+    originalName: 韩国2
+    region: 韩国
+    tags: []
+  name: '[B] 🇯🇵 日本 06'
+  network: ws
+  port: 30001
+  server: 114.204.40.185
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- flow: xtls-rprx-vision-udp443-udp443
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 德国5
+    flag: 🇩🇪
+    multiplier: 1
+    originalName: 德国5
+    region: 德国
+    tags: []
+  name: '[B] 🇯🇵 日本 07'
+  network: ws
+  port: 4443
+  server: 185.235.241.14
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
   name: '[B] 🇯🇵 日本 08'
-  port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
-  tls: true
-  type: vless
-  uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
+  network: http
+  port: 54291
+  server: 103.127.243.66
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - name: '[B] 🇯🇵 日本 09'
-  network: ws
-  port: 2096
-  security: tls
-  server: 172.64.229.155
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
-- name: '[B] 🇯🇵 日本 10'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 20770
-  server: 219.103.68.164
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 11'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -119,21 +158,30 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 12'
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 新加坡1
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡1
+    region: 新加坡
+    tags: []
+  name: '[B] 🇯🇵 日本 10'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 141.147.144.109
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  port: 21219
+  server: 193.32.151.49
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 13'
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- name: '[B] 🇯🇵 日本 11'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 44004
@@ -146,105 +194,180 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- flow: xtls-rprx-vision-udp443
-  name: '[B] 🇯🇵 日本 14'
+- name: '[B] 🇯🇵 日本 12'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 德国3
+    flag: 🇩🇪
+    multiplier: 1
+    originalName: 德国3
+    region: 德国
+    tags: []
+  name: '[B] 🇯🇵 日本 13'
+  network: ws
+  port: 20205
+  server: 146.70.20.105
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
   tls: true
   type: vless
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 15'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
   udp: true
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 16'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10949
-  server: 45.66.129.38
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 17'
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- name: '[B] 🇯🇵 日本 14'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 10563
-  server: 88.214.22.165
+  port: 2083
+  server: 64.176.38.23
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 18'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 23.27.52.79
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 19'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳
-- name: '[B] 🇯🇵 日本 20'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 8443
-  server: 140.83.34.214
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 瑞典5
+    flag: 🇸🇪
+    multiplier: 1
+    originalName: 瑞典5
+    region: 瑞典
+    tags: []
+  name: '[B] 🇯🇵 日本 15'
+  network: ws
+  port: 448
+  server: 62.60.152.64
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- name: '[B] 🇯🇵 日本 16'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 103.31.77.108
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-- name: '[B] 🇯🇵 日本 21'
+- down: 50
+  name: '[B] 🇯🇵 日本 17'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-001.fastervpn.world
+  type: hysteria2
+  up: 10
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 瑞典1
+    flag: 🇸🇪
+    multiplier: 1
+    originalName: 瑞典1
+    region: 瑞典
+    tags: []
+  name: '[B] 🇯🇵 日本 18'
+  network: ws
+  port: 4433
+  server: 138.124.112.67
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- encryption: none
+  name: '[B] 🇯🇵 日本 19'
   network: ws
   port: 2083
-  security: tls
-  server: 162.159.38.73
+  server: 108.162.198.68
   servername: kalami-eew.pages.dev
-  tls: true
+  skip-cert-verify: true
   type: vless
   uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
   ws-opts:
     headers:
       Host: kalami-eew.pages.dev
-    path: /fp=chrome
+    path: /fp=chromesecurity=tls
+- name: '[B] 🇯🇵 日本 20'
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 140.83.34.214
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - client-fingerprint: chrome
-  encryption: none
+  name: '[B] 🇯🇵 日本 21'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 155.248.181.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 英国5
+    flag: 🇬🇧
+    multiplier: 1
+    originalName: 英国5
+    region: 英国
+    tags: []
   name: '[B] 🇯🇵 日本 22'
   network: ws
-  port: 2096
+  port: 36089
+  server: 83.147.254.4
+  servername: sas0dpjv2rmyx842.makuyo.dpdns.org
+  sni: sas0dpjv2rmyx842.makuyo.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sas0dpjv2rmyx842.makuyo.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇯🇵 日本 23'
+  network: ws
+  port: 2083
   security: tls
-  server: 108.162.198.132
+  server: 108.162.198.154
   servername: kalami-eew.pages.dev
   tls: true
   type: vless
@@ -253,37 +376,11 @@ proxies:
     headers:
       Host: kalami-eew.pages.dev
     path: /
-- name: '[B] 🇯🇵 日本 23'
-  network: ws
-  port: 2083
-  security: tls
-  server: 108.162.198.132
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
 - name: '[B] 🇯🇵 日本 24'
-  network: ws
-  port: 8443
-  security: tls
-  server: 108.162.198.90
-  servername: kalami-eew.pages.dev
-  tls: true
-  type: vless
-  uuid: df862b4c-2150-4b36-81ac-405036cf9ff6
-  ws-opts:
-    headers:
-      Host: kalami-eew.pages.dev
-    path: /fp=chrome
-- name: '[B] 🇯🇵 日本 25'
   network: ws
   port: 443
   security: tls
-  server: 89.125.244.207
+  server: 103.13.19.227
   servername: 1-aym.pages.dev
   tls: true
   type: vless
@@ -292,7 +389,7 @@ proxies:
     headers:
       Host: 1-aym.pages.dev
     path: /fp=chrome
-- name: '[E] 🇯🇵 日本 26'
+- name: '[E] 🇯🇵 日本 25'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -300,7 +397,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 27'
+- name: '[E] 🇯🇵 日本 26'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 8066
@@ -308,7 +405,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 28'
+- name: '[E] 🇯🇵 日本 27'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 11541
@@ -317,7 +414,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[G] 🇯🇵 日本 29'
+  name: '[G] 🇯🇵 日本 28'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
@@ -334,7 +431,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇯🇵 日本 30'
+  name: '[G] 🇯🇵 日本 29'
   network: ws
   port: 443
   server: 57.182.243.203
@@ -351,7 +448,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '[G] 🇯🇵 日本 31'
+  name: '[G] 🇯🇵 日本 30'
   password: BxceQaOe
   port: '4099'
   server: 54.248.66.236
@@ -361,7 +458,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇯🇵 日本 32'
+  name: '[H] 🇯🇵 日本 31'
   network: tcp
   port: 180
   server: 82.198.246.9
