@@ -3,39 +3,22 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 114.33.57.170
-  sni: 🔒
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 6235
+- flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 02'
+  port: 443
   security: tls
-  server: 125.227.219.98
-  servername: baidu.com
-  skip-cert-verify: true
+  server: taipei1.ap221.com
   tls: true
-  type: vless
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d150
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /xxxxhttpfp=chrome
-- name: '[B] 🇨🇳 台湾 03'
-  port: 443
-  server: taipei1.ap221.com
-  servername: 🔒
-  skip-cert-verify: true
-  type: vless
-  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
-- name: '[B] 🇨🇳 台湾 04'
-  port: 443
-  server: taipei1.ap221.com
-  servername: 🔒
   type: vless
   uuid: 3a54d818-82c2-49b8-b01a-e8f8e59d59c5
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision-udp443
-  name: '[B] 🇨🇳 台湾 05'
+  name: '[B] 🇨🇳 台湾 03'
+  network: tcp
   port: 443
   security: tls
   server: taipei1.ap221.com
@@ -43,22 +26,20 @@ proxies:
   tls: true
   type: vless
   uuid: 4e7bd311-d91e-4a85-aa08-121313cf50d9
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 06'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
-  port: 30811
-  server: 218.173.203.171
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 04'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 74988350-8b14-4924-b8a2-c3aac967bf28
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 08'
+  name: '[H] 🇨🇳 台湾 05'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg0011499tl.cybervena.com
