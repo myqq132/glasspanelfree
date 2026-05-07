@@ -2,19 +2,13 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  port: 443
-  reality-opts:
-    public-key: RsG53RnTZKpPwbKt0mnj3963DinwNFHpk3eWaHH6oG4
-    short-id: '!!str 653253254366'
-  server: 217.18.61.215
-  servername: mydogcollections.com
+  network: tcp
+  port: 52006
+  server: 178.72.181.34
+  servername: cluster-europe-1.firstvideocdn.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: d428091c-e6eb-48f9-9a07-b44eb886ac90
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇷🇺 俄罗斯 02'
-  password: ZH434aHPW0YAS_H2BNzEHc5SuuMSM-Er
-  port: 8080
-  server: 130.49.189.40
-  type: ss
+  uuid: 75807638-6f19-1f40-ae08-38492ee85c88
+  xudp: true
