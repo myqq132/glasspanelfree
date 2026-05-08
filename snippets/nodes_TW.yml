@@ -1,8 +1,44 @@
 proxies:
-- alterId: 2
+- name: '[B] 🇨🇳 台湾 02'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 114.33.57.170
+  sni: 🔒
+  tls: true
+  type: trojan
+- alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 05'
-  port: 30811
-  server: v11.zgtfqs.click
+  name: '[B] 🇨🇳 台湾 06'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 07'
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 08'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
