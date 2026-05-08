@@ -1,28 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇰🇷 韩国 01'
+  name: '[D] 🇰🇷 韩国 01'
   network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
+  port: '52312'
+  server: bgroup.node2.v.nodelist-airport.com
   servername: ''
   tls: false
   type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
   ws-opts:
     headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: '16648'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+      Host: ''
     path: /

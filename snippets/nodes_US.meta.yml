@@ -12,13 +12,7 @@ proxies:
     headers:
       Host: node33.ourfast.asia
     path: /
-- cipher: aes-128-gcm
-  name: '[B] 🇺🇸 美国 02'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 6604
@@ -26,7 +20,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
@@ -34,7 +28,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 44386
@@ -42,3 +36,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

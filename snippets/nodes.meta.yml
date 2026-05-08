@@ -1,10 +1,18 @@
 proxies:
+- name: '[B] 🌍 其它地区 01'
+  password: 7aXwJPnpAJ
+  port: 50824
+  server: yespaintstudio.rav-kraski.ru
+  skip-cert-verify: false
+  sni: yespaintstudio.rav-kraski.ru
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '[B] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.37
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -13,58 +21,35 @@ proxies:
   name: '[B] 🇬🇧 英国 02'
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 01'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '[B] 🇬🇧 英国 03'
   network: tcp
   port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇬🇧 英国 04'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.37
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 02'
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 01'
   network: ws
-  port: 16648
+  port: 16618
   server: planb.mojcn.com
   tls: false
   type: vmess
@@ -86,52 +71,29 @@ proxies:
     headers:
       Host: node33.ourfast.asia
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[B] 🇬🇧 英国 04'
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- name: '[B] 🌍 其它地区 03'
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: true
+  sni: '%F0%9F%94%92'
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '[B] 🇬🇧 英国 05'
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
+  network: tcp
+  port: 180
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- cipher: aes-128-gcm
-  name: '[B] 🇺🇸 美国 02'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 03'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: '16648'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 04'
   password: amazonskr05
@@ -171,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 2140
@@ -179,7 +141,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 11541
@@ -187,7 +149,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 24184
@@ -219,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 6604
@@ -227,7 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
@@ -235,7 +197,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 44386
@@ -243,3 +205,103 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 05'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 05'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 06'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇩🇪 德国 01'
+  password: TiG7cxCZiTR0fGReBMY02w
+  port: 1080
+  server: 45.76.80.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇷🇺 俄罗斯 01'
+  password: 5sB7nrSt-a2rAJNTPnC48A
+  port: 59
+  server: 80.90.188.226
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 07'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.148
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇸🇬 新加坡 04'
+  network: tcp
+  port: '28641'
+  server: bgroup.node3.v.nodelist-airport.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇰🇷 韩国 01'
+  network: ws
+  port: '52312'
+  server: bgroup.node2.v.nodelist-airport.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-gcm
+  name: '[D] 🇭🇰 香港 06'
+  password: 7e1dd4c55bf85da5
+  port: 40210
+  server: 212.192.15.78
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🇷🇺 俄罗斯 02'
+  password: 9f3d1a6d31468599
+  port: 60129
+  server: 195.58.49.9
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🇷🇺 俄罗斯 03'
+  password: 3150466568eda87b
+  port: 60129
+  server: 195.58.49.26
+  type: ss
