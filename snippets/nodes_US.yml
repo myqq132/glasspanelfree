@@ -1,11 +1,14 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: BxceQaOe
-  port: 6463
-  server: bb.bejkn.cn
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 01'
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
@@ -30,3 +33,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
