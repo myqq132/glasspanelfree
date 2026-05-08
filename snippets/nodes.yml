@@ -1,17 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '[B] 🇬🇧 英国 01'
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-gcm
+  name: '[B] 🌍 其它地区 01'
+  password: 63d7c17506d1f48b
+  port: 60981
+  server: 203.32.26.24
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '[B] 🇬🇧 英国 02'
+  name: '[B] 🇬🇧 英国 01'
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -19,29 +15,34 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h2
-  - http/1.1
-  name: '[B] 🌍 其它地区 01'
+- cipher: chacha20-ietf-poly1305
+  name: '[B] 🇺🇸 美国 01'
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: 20.108.14.16
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 02'
   network: tcp
-  password: 7aXwJPnpAJ
-  port: 50824
-  server: yespaintstudio.rav-kraski.ru
-  sni: yespaintstudio.rav-kraski.ru
-  type: trojan
+  port: 180
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: '[B] 🇬🇧 英国 03'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.122
+  server: 82.38.31.101
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
+  name: '[B] 🇺🇸 美国 02'
   network: tcp
   port: '30830'
   server: v30.hdacd.com
-  servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -49,40 +50,28 @@ proxies:
   cipher: auto
   name: '[B] 🇬🇧 英国 04'
   network: tcp
-  port: 180
-  server: 82.198.246.214
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: '[B] 🌍 其它地区 02'
-  password: 63d7c17506d1f48b
-  port: 60981
-  server: 203.32.26.24
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[B] 🇬🇧 英国 05'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.131
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🇬🇧 英国 06'
   network: tcp
-  port: 54022
-  server: 103.181.164.145
+  port: '180'
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: '[B] 🇬🇧 英国 06'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[B] 🇬🇧 英国 07'
@@ -93,18 +82,23 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: '[B] 🌍 其它地区 02'
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.15.185.70
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 04'
+  name: '[B] 🌍 其它地区 03'
   network: tcp
-  port: 51556
+  port: '51556'
   server: 103.181.164.145
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 05'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -190,7 +184,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 6604
@@ -198,7 +192,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
   port: 52249
@@ -206,7 +200,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 44386
@@ -214,13 +208,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 05'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
