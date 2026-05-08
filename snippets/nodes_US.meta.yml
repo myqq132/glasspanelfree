@@ -1,10 +1,11 @@
 proxies:
-- cipher: aes-256-gcm
-  name: '[B] 🇺🇸 美国 01'
-  password: c5fcdf7829112cb4
-  port: 60129
-  server: 45.140.169.216
-  type: ss
+- name: '[B] 🇺🇸 美国 01'
+  password: BxceQaOe
+  port: 6463
+  server: bb.bejkn.cn
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: ba62c023f9bce796ae334fecb20ef7cc
