@@ -3,20 +3,27 @@ proxies:
   name: '[A] 🇺🇸 美国 01'
   password: W74XFALLLuw6m5IA
   port: 443
-  server: series-a1.samanehha.co
+  server: series-a2.samanehha.co
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[A] 🇺🇸 美国 02'
-  password: 1kVr0KATIJI7mwOF
-  port: 443
-  server: admin.c1.havij.co
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: '[A] 🇺🇸 美国 03'
-  password: W74XFALLLuw6m5IA
+  network: ws
   port: 443
-  server: series-a2.samanehha.co
-  type: ss
+  server: node33.ourfast.asia
+  tls: true
+  type: vmess
+  uuid: 360470f4-8c38-4934-b690-4458c0834604
+  ws-opts:
+    headers:
+      Host: node33.ourfast.asia
+    path: /
 - name: '[B] 🇺🇸 美国 04'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
@@ -45,7 +52,7 @@ proxies:
   cipher: auto
   name: '[B] 🇺🇸 美国 07'
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.250
   servername: ''
   tls: false
@@ -65,8 +72,7 @@ proxies:
   name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: '180'
-  server: 82.198.246.9
-  servername: ''
+  server: 82.198.246.97
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
