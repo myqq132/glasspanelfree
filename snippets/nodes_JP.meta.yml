@@ -2,16 +2,16 @@ proxies:
 - name: '[B] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 6463
-  server: 54.178.153.235
+  port: 4099
+  server: 54.64.30.114
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[B] 🇯🇵 日本 02'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 11541
-  server: 16.162.87.210
+  port: 8066
+  server: 54.46.109.238
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -19,13 +19,7 @@ proxies:
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 24184
-  server: 16.162.87.210
+  server: 18.167.37.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[C] 🇯🇵 日本 04'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.82
-  type: ss

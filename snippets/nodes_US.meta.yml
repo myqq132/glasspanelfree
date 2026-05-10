@@ -14,24 +14,24 @@ proxies:
 - name: '[B] 🇺🇸 美国 03'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 52249
-  server: 16.162.191.171
+  port: 6604
+  server: 18.167.37.32
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[B] 🇺🇸 美国 04'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 6604
-  server: 16.162.87.210
+  port: 52249
+  server: 13.113.153.204
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[B] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
-  port: 50606
-  server: 54.178.153.235
+  port: 44386
+  server: 13.112.154.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -51,6 +51,13 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: '[C] 🇺🇸 美国 08'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
