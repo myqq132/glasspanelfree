@@ -30,14 +30,13 @@ proxies:
   cipher: auto
   name: '[A] 🇬🇧 英国 03'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.214
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
   name: '[A] 🇬🇧 英国 04'
   network: tcp
   port: '180'
@@ -47,7 +46,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
+  cipher: aes-128-gcm
   name: '[A] 🇬🇧 英国 05'
   network: tcp
   port: '180'
@@ -182,47 +181,11 @@ proxies:
   name: '[C] 🌍 其它地区 02'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.35
+  server: 82.38.31.149
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: '[C] 🌍 其它地区 03'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.99
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 07'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇭🇰 香港 04'
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇭🇰 香港 05'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[C] 🌍 其它地区 04'
   network: ws
   port: 12890
   server: gtm1.ktmwan.net
@@ -233,18 +196,36 @@ proxies:
     headers:
       Host: baidu.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇭🇰 香港 06'
-  network: tcp
-  port: '11987'
-  server: board-02.ddnskunlun.com
-  tls: false
-  type: vmess
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+- cipher: chacha20-ietf-poly1305
+  name: '[C] 🌍 其它地区 04'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇷🇺 俄罗斯 01'
+  name: '[C] 🌍 其它地区 05'
   password: c5fcdf7829112cb4
   port: 30112
   server: 45.140.169.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[C] 🌍 其它地区 06'
+  password: aJYrMevXvoeQvuX-mNWg4ausWCwX4Nyu
+  port: 8080
+  server: 130.49.189.40
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[C] 🌍 其它地区 07'
+  network: tcp
+  port: 10086
+  server: 64.186.233.131
+  tls: false
+  type: vmess
+  uuid: 1eeb55f2-8516-46f3-8c7b-17db1de1df9b
+- cipher: aes-128-gcm
+  name: '[C] 🌍 其它地区 09'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 216.38.170.154
   type: ss
