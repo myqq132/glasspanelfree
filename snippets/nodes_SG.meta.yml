@@ -2,24 +2,36 @@ proxies:
 - name: '[B] 🇸🇬 新加坡 01'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 1180
-  server: 43.206.223.143
+  port: 4840
+  server: 95.40.118.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[B] 🇸🇬 新加坡 02'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
-  port: 667
-  server: 13.113.153.204
+  port: 3842
+  server: 3.112.206.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[B] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
-  port: 42750
-  server: 35.78.121.124
+  port: 5159
+  server: 43.206.119.178
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ''
+  name: '[C] 🇸🇬 新加坡 04'
+  network: tcp
+  port: 443
+  server: shadownetxfree.zorox.store
+  servername: 🚀
+  tls: true
+  type: vless
+  uuid: 315795b6-7a6c-4fed-8d38-78fb2021fe79
