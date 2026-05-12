@@ -34,18 +34,8 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
+  cipher: aes-128-gcm
   name: '[C] 🇺🇸 美国 05'
-  network: tcp
-  port: '180'
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 06'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -53,34 +43,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 07'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 08'
-  network: tcp
-  port: 10086
-  server: 64.186.233.131
-  tls: false
-  type: vmess
-  uuid: 1eeb55f2-8516-46f3-8c7b-17db1de1df9b
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 09'
-  network: tcp
-  port: '18000'
-  server: 38.110.1.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- cipher: chacha20-ietf-poly1305
-  name: '[C] 🇺🇸 美国 10'
-  password: 3EGqlVKhsUsSFOjmmr1lRg
-  port: 1080
-  server: 2.26.51.36
-  type: ss

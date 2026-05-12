@@ -23,7 +23,7 @@ proxies:
   server: 82.38.31.155
   type: ss
 - alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
   name: '[A] 🇬🇧 英国 02'
   network: tcp
   port: '180'
@@ -36,14 +36,13 @@ proxies:
   cipher: auto
   name: '[A] 🇬🇧 英国 03'
   network: tcp
-  port: '180'
+  port: 180
   server: 82.198.246.97
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
   name: '[A] 🇬🇧 英国 04'
   network: tcp
   port: '180'
@@ -174,17 +173,17 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🌍 其它地区 05'
   network: tcp
-  port: '180'
-  server: 82.198.246.9
+  port: '30830'
+  server: v30.hdacd.com
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 06'
+  cipher: aes-128-gcm
+  name: '[C] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -192,13 +191,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 07'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: '[C] 🇭🇰 香港 04'
   network: tcp
@@ -209,63 +202,20 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: '[C] 🌍 其它地区 05'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 08'
-  network: tcp
-  port: 10086
-  server: 64.186.233.131
-  tls: false
-  type: vmess
-  uuid: 1eeb55f2-8516-46f3-8c7b-17db1de1df9b
-- cipher: chacha20-ietf-poly1305
   name: '[C] 🌍 其它地区 06'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
+  password: 889e7055-e174-43a2-9004-a8f55f5d9784
+  port: 35603
+  server: gw.lydwan.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 09'
-  network: tcp
-  port: '18000'
-  server: 38.110.1.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: aes-256-gcm
   name: '[C] 🇷🇺 俄罗斯 01'
-  password: f34579d0148b2581
-  port: 50129
-  server: 185.22.154.104
-  type: ss
-- cipher: aes-256-gcm
-  name: '[C] 🇷🇺 俄罗斯 02'
   password: c5fcdf7829112cb4
   port: 30112
   server: 45.140.169.216
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[C] 🇨🇳 台湾 01'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.249.66.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[C] 🇨🇳 台湾 02'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[C] 🇺🇸 美国 10'
-  password: 3EGqlVKhsUsSFOjmmr1lRg
-  port: 1080
-  server: 2.26.51.36
+- cipher: aes-128-gcm
+  name: '[C] 🇷🇺 俄罗斯 02'
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: ru.safepass.click
   type: ss
