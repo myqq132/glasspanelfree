@@ -1,17 +1,28 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: '[A] 🇺🇸 美国 01'
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: admin.c1.webramz.co
-  type: ss
-- cipher: chacha20-ietf-poly1305
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
   name: '[A] 🇺🇸 美国 02'
-  password: 1kVr0KATIJI7mwOF
-  port: 443
-  server: admin.c1.havij.co
-  type: ss
-- name: '[B] 🇺🇸 美国 03'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.154.94
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '[A] 🇺🇸 美国 03'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.65.55.47
+  type: trojan
+- name: '[B] 🇺🇸 美国 04'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
@@ -19,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 05'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 52249
@@ -27,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 38692
@@ -36,24 +47,34 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  cipher: aes-128-gcm
+  name: '[B] 🇺🇸 美国 07'
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 08'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 09'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: 10086
   server: 64.186.233.131
@@ -62,7 +83,7 @@ proxies:
   uuid: 1eeb55f2-8516-46f3-8c7b-17db1de1df9b
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 11'
   network: tcp
   port: '18000'
   server: 38.110.1.246
@@ -71,7 +92,7 @@ proxies:
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: chacha20-ietf-poly1305
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 12'
   password: 3EGqlVKhsUsSFOjmmr1lRg
   port: 1080
   server: 2.26.51.36
