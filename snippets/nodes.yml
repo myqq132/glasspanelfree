@@ -1,59 +1,15 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 104.238.170.163
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 165.232.54.102
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tr
-- name: '[A] 🌍 其它地区 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 62.60.157.104
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-256-cfb
-  name: '[A] 🇭🇰 香港 01'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 203.23.128.33
+  name: '[A] 🌍 其它地区 01'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.117
   type: ss
 - name: '[A] 🌍 其它地区 02'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 31.58.50.202
+  port: 57606
+  server: 89.34.227.238
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -61,8 +17,65 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-gcm
+  name: '[A] 🇺🇸 美国 01'
+  password: c5fcdf7829112cb4
+  port: 30112
+  server: 45.140.169.216
+  type: ss
 - cipher: aes-256-cfb
-  name: '[B] 🌍 其它地区 03'
+  name: '[A] 🌍 其它地区 03'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.194
+  type: ss
+- name: '[A] 🇸🇬 新加坡 01'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.89.205.195
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: '[A] 🌍 其它地区 04'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.18
+  type: ss
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.24.235
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 44.32.224.196
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-256-cfb
+  name: '[A] 🌍 其它地区 05'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
+  type: ss
+- cipher: aes-256-cfb
+  name: '[B] 🌍 其它地区 06'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -116,7 +129,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇸🇬 新加坡 01'
+- name: '[B] 🇸🇬 新加坡 02'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 1180
@@ -124,7 +137,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 03'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 2511
@@ -132,7 +145,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 33763
@@ -244,14 +257,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: '[C] 🇷🇺 俄罗斯 01'
-  password: c5fcdf7829112cb4
-  port: 30112
-  server: 45.140.169.216
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 07'
   password: 889e7055-e174-43a2-9004-a8f55f5d9784
   port: 35601
   server: gw.lydwan.com

@@ -1,10 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[A] 🇭🇰 香港 01'
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 203.23.128.33
-  type: ss
+- name: '[A] 🇭🇰 香港 01'
+  network: ws
+  port: 7443
+  server: 222.167.202.23
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.23%3A7443'
 - alterId: 2
   cipher: auto
   name: '[B] 🇭🇰 香港 02'

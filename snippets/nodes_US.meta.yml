@@ -1,49 +1,44 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 104.238.170.163
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-256-gcm
+  name: '[A] 🇺🇸 美国 01'
+  password: c5fcdf7829112cb4
+  port: 30112
+  server: 45.140.169.216
+  type: ss
 - name: '[A] 🇺🇸 美国 02'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 165.232.54.102
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: 80
+  server: 104.20.6.134
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+      Host: vip.yaml7.ggff.net
+    path: /+@ProxyVPN11
 - name: '[A] 🇺🇸 美国 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 8.6.112.0
+  port: 443
+  server: 72.56.24.235
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /tr
+    path: /trTelegram🇨🇳+@WangCai2
 - name: '[A] 🇺🇸 美国 04'
   network: ws
-  port: 2096
-  server: 104.20.6.134
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 44.32.224.196
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-    path: '%2F'
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - name: '[B] 🇺🇸 美国 05'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
