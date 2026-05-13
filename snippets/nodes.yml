@@ -1,100 +1,66 @@
 proxies:
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '[A] 🇬🇧 英国 01'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 02'
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.190.113
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 02'
+- name: '[A] 🇺🇸 美国 01'
   network: ws
-  port: '2053'
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 104.238.170.163
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
-- alterId: 64
-  cipher: auto
-  name: '[A] 🌍 其它地区 01'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[A] 🌍 其它地区 02'
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  skip-cert-verify: true
-  sni: 78.159.131.12
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 165.232.54.102
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 03'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 04'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 05'
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[A] 🇺🇸 美国 03'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 8.6.112.0
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: '[A] 🌍 其它地区 01'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 62.60.157.104
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- cipher: aes-256-cfb
+  name: '[A] 🇭🇰 香港 01'
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 203.23.128.33
   type: ss
+- name: '[A] 🌍 其它地区 02'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 31.58.50.202
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
   name: '[B] 🌍 其它地区 03'
   password: amazonskr05
@@ -103,7 +69,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[B] 🇭🇰 香港 01'
+  name: '[B] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -111,14 +77,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇭🇰 香港 02'
+- name: '[B] 🇭🇰 香港 03'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 2008
   server: 54.248.28.2
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇭🇰 香港 03'
+- name: '[B] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -174,7 +140,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 05'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
@@ -182,7 +148,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
@@ -190,7 +156,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -200,7 +166,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 08'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -210,22 +186,85 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇯🇵 日本 04'
   network: tcp
-  port: '11917'
-  server: board-01.ddnskunlun.com
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇭🇰 香港 05'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 10'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  port: '180'
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '[C] 🇺🇸 美国 12'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇭🇰 香港 06'
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   name: '[C] 🇷🇺 俄罗斯 01'
   password: c5fcdf7829112cb4
   port: 30112
   server: 45.140.169.216
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[C] 🌍 其它地区 04'
+  password: 889e7055-e174-43a2-9004-a8f55f5d9784
+  port: 35601
+  server: gw.lydwan.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[C] 🇩🇪 德国 01'
+  password: w3JDLilehmBXnpPZp8Mcrj
+  port: 443
+  server: fcisisfckhfcakhfcch.outline.name
+  type: ss
 - cipher: aes-128-gcm
-  name: '[C] 🇷🇺 俄罗斯 02'
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
-  port: 442
-  server: ru.safepass.click
+  name: '[C] 🇺🇸 美国 13'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 216.38.170.154
   type: ss

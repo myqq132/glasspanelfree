@@ -1,34 +1,50 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.190.113
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 02'
+- name: '[A] 🇺🇸 美国 01'
   network: ws
-  port: '2053'
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
-  type: vmess
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 104.238.170.163
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
-- cipher: aes-128-gcm
-  name: '[A] 🇺🇸 美国 03'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- name: '[B] 🇺🇸 美国 04'
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 165.232.54.102
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 8.6.112.0
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  port: 2096
+  server: 104.20.6.134
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: '%2F'
+- name: '[B] 🇺🇸 美国 05'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
@@ -36,7 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 6604
@@ -44,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 14919
@@ -54,7 +70,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 08'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -62,3 +88,39 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 10'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  port: '180'
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '[C] 🇺🇸 美国 12'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: '[C] 🇺🇸 美国 13'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 216.38.170.154
+  type: ss
