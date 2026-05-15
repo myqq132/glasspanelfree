@@ -1,17 +1,5 @@
 proxies:
-- name: '[A] 🇸🇬 新加坡 01'
-  network: ws
-  port: 2096
-  server: 114.129.43.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-- name: '[B] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 01'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 667
@@ -19,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 02'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 3842
@@ -27,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 4203
