@@ -1,16 +1,10 @@
 proxies:
-- name: '[A] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 443
-  server: 31.128.32.98
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
+- cipher: aes-128-gcm
+  name: '[C] 🇷🇺 俄罗斯 01'
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: 45.139.25.43
+  type: ss
 - alpn:
   - h2
   - http/1.1
