@@ -1,30 +1,10 @@
 proxies:
-- name: '[A] 🇬🇧 英国 01'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[A] 🇬🇧 英国 02'
-  network: ws
-  port: 443
-  server: 148.253.210.141
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
 - alterId: 0
   cipher: auto
-  name: '[A] 🇬🇧 英国 03'
+  name: '[A] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.37
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess

@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: '[A] 🇫🇷 法国 01'
+  network: ws
+  port: 2053
+  server: 54.36.98.82
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
