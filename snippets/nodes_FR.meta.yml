@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- name: '[A] 🇫🇷 法国 01'
+  network: ws
+  port: 8443
+  server: 57.128.176.82
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed'
+- name: '[A] 🇫🇷 法国 02'
+  network: ws
+  port: 2053
+  server: 57.129.47.78
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
