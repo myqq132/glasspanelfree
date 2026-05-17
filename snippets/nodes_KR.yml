@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: '[A] 🇰🇷 韩国 01'
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 37215
+  server: 222.98.185.243
+  sni: vpn1.rnmcnm.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn1.rnmcnm.com
+    path: '%2Ftrj-ws'
