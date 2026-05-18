@@ -1,14 +1,19 @@
 proxies:
-- name: '[C] 🇷🇺 俄罗斯 01'
-  network: ws
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[A] 🇷🇺 俄罗斯 01'
+  network: tcp
   port: 443
-  server: s28233.cdn.ngenix.net
-  servername: s28233.cdn.ngenix.net
-  skip-cert-verify: true
+  server: s298.okgg.top
+  servername: 3556s298.okgg.top
   tls: true
   type: vless
-  uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
+  uuid: 8f8ccdc5-fe99-38d7-a8a6-422f8c88ef0a
   ws-opts:
     headers:
-      Host: s28233.cdn.ngenix.net
-    path: '%2F'
+      Host: s298.okgg.top
+    path: ''

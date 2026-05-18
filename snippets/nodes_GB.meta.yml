@@ -1,11 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[A] 🇬🇧 英国 01'
   network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
+  port: 443
+  reality-opts:
+    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
+    short-id: '!!str d1e9faa1b2c3'
+  server: download.spectrum.vu
+  servername: download.spectrum.vu
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
