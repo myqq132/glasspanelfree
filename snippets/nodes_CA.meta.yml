@@ -1,13 +1,14 @@
 proxies:
-- name: '[C] 🇨🇦 加拿大 01'
+- name: '[A] 🇨🇦 加拿大 01'
   network: ws
-  port: 443
-  server: worker-5n2.pages.dev
-  servername: ''
+  port: 2096
+  server: 205.233.181.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: wOrker-5N2.pAgeS.DEv
-    path: '%2F%25252F'
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
