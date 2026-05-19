@@ -1,17 +1,5 @@
 proxies:
-- name: '[A] 🇩🇪 德国 01'
-  network: ws
-  port: 19128
-  server: 213.179.69.128
-  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-    path: /@Marisa_kristi
-- name: '[C] 🇩🇪 德国 02'
+- name: '[C] 🇩🇪 德国 01'
   network: raw
   port: 443
   server: srv163.towersflowerss.com

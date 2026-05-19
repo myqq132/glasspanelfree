@@ -1,116 +1,26 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 178.128.70.6
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: humanity
   port: 443
-  server: 198.12.145.253
+  server: v3.dabache.top
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  sni: www.gossipglove.com
   type: trojan
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.167.230.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 04'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 216.180.125.171
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 06'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.169.92
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 07'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
-- name: '[A] 🇺🇸 美国 08'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 104.20.6.134
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: '%2Ftr'
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 10'
-  network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  port: 443
-  server: 104.20.6.134
-  sni: sni.111000.dynv6.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3Fproxyip%3Dip.111000.de5.net%3A443'
-- name: '[A] 🇺🇸 美国 11'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.71.189.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
 - name: '[A] 🇺🇸 美国 13'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
+  password: humanity
   port: 443
-  server: 146.190.102.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  server: 104.18.11.110
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    path: '%2Fassignment'
 - name: '[B] 🇺🇸 美国 14'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
@@ -140,17 +50,17 @@ proxies:
   name: '[B] 🇺🇸 美国 17'
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 18'
+  name: '[B] 🇺🇸 美国 18'
   network: tcp
   port: '180'
-  server: 82.198.246.97
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
@@ -160,7 +70,7 @@ proxies:
   name: '[C] 🇺🇸 美国 19'
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
@@ -170,6 +80,16 @@ proxies:
   name: '[C] 🇺🇸 美国 20'
   network: tcp
   port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 21'
+  network: tcp
+  port: '180'
   server: 82.198.246.37
   servername: ''
   tls: false
@@ -177,7 +97,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 21'
+  name: '[C] 🇺🇸 美国 22'
   network: tcp
   port: '180'
   server: 82.198.246.9
@@ -186,20 +106,20 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 22'
+  name: '[C] 🇺🇸 美国 23'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[C] 🇺🇸 美国 23'
+  name: '[C] 🇺🇸 美国 24'
   password: 64NU1dhA4DdPMx4ZIC1DVc
   port: 443
   server: 5.175.219.248
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 24'
+  name: '[C] 🇺🇸 美国 25'
   network: ws
   port: '48060'
   server: 66.154.106.185
