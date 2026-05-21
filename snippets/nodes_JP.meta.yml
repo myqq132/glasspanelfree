@@ -2,23 +2,46 @@ proxies:
 - name: '[A] 🇯🇵 日本 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 83.229.121.78
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇯🇵 日本 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 45.32.51.200
+  server: 172.93.187.184
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 02'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 116.206.92.123
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[B] 🇯🇵 日本 03'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-005.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-005.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-010.fastervpn.world
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 05'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-010.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-010.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: BxceQaOe
   port: 6463
@@ -26,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[B] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 07'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -34,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[B] 🇯🇵 日本 05'
+- name: '[C] 🇯🇵 日本 08'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 24184
@@ -43,7 +66,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: '[C] 🇯🇵 日本 06'
+  name: '[D] 🇯🇵 日本 09'
   password: 6784aee2-0dfe-474f-8446-480259ff9918
   port: 442
   server: ru.safepass.click
