@@ -1,19 +1,14 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
   network: tcp
-  port: 2040
+  port: 10444
   reality-opts:
-    public-key: b6DZwkKAeXf3wjXrL6iV6dTt1Crpv2o88LRDJRgFglE
-    short-id: '!!str b589db8f02882bae'
-  server: 62.133.60.206
-  servername: eh.vk.com
+    public-key: praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4
+    short-id: '!!str 378086fbdb7c61cd'
+  server: serv-ne-3.whit3.net
+  servername: serv-ne-3.whit3.net
   tls: false
   type: vless
-  uuid: aef7716a-d0a5-4a85-9cb0-fda41d9f34b0
-- cipher: aes-128-gcm
-  name: '[C] 🇷🇺 俄罗斯 02'
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
-  port: 442
-  server: 45.139.25.43
-  type: ss
+  uuid: 49f3fec2-1a21-481e-ae65-7c32ae262582
