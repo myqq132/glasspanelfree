@@ -1,11 +1,8 @@
 proxies:
-- name: '[A] 🇩🇪 德国 01'
-  network: ws
-  port: 8880
-  server: 5.10.215.30
+- name: '[B] 🇩🇪 德国 01'
+  password: 51fb0449-9fbf-48b9-8c24-3c5a9a7132c3
+  port: 443
+  server: v4.yuetoto.net
+  sni: net-sd.yuetong.online
   tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
+  type: hysteria2

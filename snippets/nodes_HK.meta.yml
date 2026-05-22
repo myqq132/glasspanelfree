@@ -2,22 +2,78 @@ proxies:
 - name: '[A] 🇭🇰 香港 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.177
+  port: 8443
+  server: 62.60.250.48
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram
+    path: /trTelegram🇨🇳+@WangCai2
 - name: '[B] 🇭🇰 香港 02'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  password: 51fb0449-9fbf-48b9-8c24-3c5a9a7132c3
   port: 443
-  server: 154.83.84.58
-  sni: s488.ccgfw.online
+  server: v4.yuetoto.net
+  sni: api-d0tv.yuetong.online
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '35619'
+  server: iv2yun.iv2yunch.work
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  network: ws
+  port: '63353'
+  server: iv2yun.iv2yunch.work
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 05'
+  network: ws
+  port: '31119'
+  server: iv2yun.iv2yunch.work
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: '61519'
+  server: iv2yun.iv2yunch.work
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -25,14 +81,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 2008
   server: 43.206.93.224
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 40748
@@ -40,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
   port: 11233
