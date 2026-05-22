@@ -1,8 +1,14 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 51fb0449-9fbf-48b9-8c24-3c5a9a7132c3
-  port: 443
-  server: v4.yuetoto.net
-  sni: net-sd.yuetong.online
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇩🇪 德国 01'
+  network: raw
+  port: 2443
+  reality-opts:
+    public-key: Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ
+    short-id: '!!str e6df8954df22'
+  server: 193.168.197.76
+  servername: www.ya.ru
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: b198c7e4-b6a5-4309-ac0e-0783cf8b129c

@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
-  network: ws
-  port: '16717'
-  server: iv2yun.iv2yunch.work
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d73c2cea-34e9-380d-8511-bb8521aa6183
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3842
@@ -21,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3842
@@ -29,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 4203
