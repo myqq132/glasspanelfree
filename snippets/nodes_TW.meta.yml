@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 01'
+  network: ws
+  port: '12888'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d4bb251-5a5a-49d2-bc8a-9a530788fd89
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
