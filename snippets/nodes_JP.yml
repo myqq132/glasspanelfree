@@ -9,7 +9,17 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[C] 🇯🇵 日本 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 02'
+  network: tcp
+  port: '32117'
+  server: t.tizi001.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7456253f-6d63-46a2-a1ed-9d37cae32811
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 15109
@@ -17,7 +27,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 8066
@@ -25,7 +35,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -33,3 +43,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 06'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

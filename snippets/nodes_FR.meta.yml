@@ -1,9 +1,19 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
+  password: Stpd-CO_tjcHIzXeMGM46otUpn7Ktk7W
+  port: 41443
+  server: multi.fresedvpn.site
+  skip-cert-verify: false
+  sni: multi.fresedvpn.site
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 02'
+  network: tcp
+  port: '54604'
+  server: t.tizi001.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7456253f-6d63-46a2-a1ed-9d37cae32811
