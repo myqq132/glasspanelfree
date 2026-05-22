@@ -1,14 +1,5 @@
 proxies:
-- name: '[A] 🇨🇦 加拿大 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 46639
-  server: 192.131.142.161
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 443
   server: vip.yaml7.ggff.net
@@ -20,7 +11,7 @@ proxies:
     headers:
       Host: vip.yaml7.ggff.net
     path: '%2F'
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: worker-5n2.pages.dev
@@ -31,17 +22,4 @@ proxies:
   ws-opts:
     headers:
       Host: wOrker-5N2.pAgeS.DEv
-    path: '%2F%25252F'
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  port: 2053
-  server: ciallo-egb.pages.dev
-  servername: Ciallo-eGB.PageS.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: Ciallo-eGB.PageS.dev
     path: '%2F%25252F'
