@@ -1,44 +1,17 @@
 proxies:
-- name: '[A] 🇬🇧 英国 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 195.200.17.170
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇬🇧 英国 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 5.178.96.130
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇬🇧 英国 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 77.239.98.191
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇬🇧 英国 04'
+  name: '[A] 🇬🇧 英国 01'
   network: tcp
-  port: '2513'
-  server: world.t.51guangtaobao.com
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[B] 🇬🇧 英国 05'
+  name: '[B] 🇬🇧 英国 02'
   network: tcp
   port: '10190'
   server: t.tizi001.com
@@ -46,9 +19,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 7456253f-6d63-46a2-a1ed-9d37cae32811
+- cipher: aes-256-gcm
+  name: '[D] 🇬🇧 英国 03'
+  password: tUjC8m8b0/YBw8aMW3ZIdSF2wRVusJh9XId8v9nXSYY=
+  port: 27715
+  server: 2.24.74.180
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇬🇧 英国 06'
+  name: '[D] 🇬🇧 英国 04'
   password: 3fcrUYO1q7yO5FpiDlm01T
   port: 443
   server: 51.241.246.228
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇬🇧 英国 05'
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
   type: ss
