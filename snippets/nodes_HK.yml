@@ -1,17 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: tcp
-  port: '20091'
-  server: hk31.ccdn3.work
-  servername: hk31.ccdn3.work
-  tls: true
-  type: vmess
-  uuid: 2543af60-245c-11f1-aa57-8f36e190ad40
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -19,7 +9,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 53018
@@ -27,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -35,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -45,7 +35,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 05'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -55,7 +45,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 06'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -64,7 +54,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 07'
   password: 7e1dd4c55bf85da5
   port: 20129
   server: 212.192.15.78

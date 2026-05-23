@@ -1,14 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '50946'
-  server: t.tizi001.com
-  servername: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇩🇪 德国 01'
+  network: raw
+  port: 2443
+  reality-opts:
+    public-key: Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ
+    short-id: '!!str e6df8954df22'
+  server: 193.168.197.76
+  servername: www.ya.ru
   tls: false
-  type: vmess
-  uuid: 7456253f-6d63-46a2-a1ed-9d37cae32811
+  type: vless
+  uuid: b198c7e4-b6a5-4309-ac0e-0783cf8b129c
 - name: '[D] 🇩🇪 德国 02'
   port: 51847
   server: 91.107.166.215
