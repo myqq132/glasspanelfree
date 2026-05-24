@@ -1,54 +1,79 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
   network: ws
-  port: 443
-  server: 104.20.6.134
-  servername: y6-3cj.PAgES.DEV
-  tls: true
-  type: vless
-  uuid: a01daac7-1e65-4645-854d-b47d226f6b08
-  ws-opts:
-    headers:
-      Host: y6-3cj.PAgES.DEV
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  port: 443
-  server: 104.20.6.134
-  sni: sni.111000.dynv6.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3Fproxyip%3Dip.111000.de5.net%3A443'
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  port: 2096
-  server: 104.20.6.134
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
-- name: '[A] 🇺🇸 美国 04'
-  network: ws
-  port: 2096
-  server: 155.46.167.138
-  servername: sni.111000.indevs.in
+  port: 2083
+  server: ciallo-egb.pages.dev
+  servername: cIAllO-EGB.pAGES.dev
   skip-cert-verify: true
   tls: true
   type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: cIAllO-EGB.pAGES.dev
+    path: '%2F%25252F'
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  port: 443
+  server: 162.159.33.40
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
+  type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
-- name: '[B] 🇺🇸 美国 05'
+      Host: sni.latonyamadeline.ndjp.net
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.153.158
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  port: 443
+  server: 104.17.48.197
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: '%2F%3Fhttps%253A%252F%252Ft.me%252Fwangcai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D'
+- cipher: aes-128-gcm
+  name: '[A] 🇺🇸 美国 05'
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: ru.safepass.click
+  type: ss
+- name: '[A] 🇺🇸 美国 06'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 144.31.79.168
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[A] 🇺🇸 美国 07'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.180.92
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- name: '[B] 🇺🇸 美国 08'
   password: dongtaiwang.com
   port: 27921
   server: 157.254.223.43
@@ -56,7 +81,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- alpn:
+  - h3
+  fingerprint: ''
+  name: '[B] 🇺🇸 美国 09'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 185.106.96.231
+  skip-cert-verify: false
+  sni: s559.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
@@ -64,7 +100,7 @@ proxies:
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 5224
@@ -72,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 2663
@@ -80,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 8359
@@ -90,7 +126,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -100,7 +136,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -110,7 +146,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 16'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -120,7 +156,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -130,7 +166,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 18'
   network: tcp
   port: '180'
   server: 82.198.246.9
