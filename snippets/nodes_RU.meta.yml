@@ -1,37 +1,58 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[A] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '[A] 🇷🇺 俄罗斯 02'
+- name: '[A] 🇷🇺 俄罗斯 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 176.124.201.78
+  port: 8443
+  server: 213.232.204.65
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[A] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 4433
+  server: 89.23.108.19
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: '%2F%40Marisa_kristi'
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 03'
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[A] 🇷🇺 俄罗斯 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.233.80.60
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-128-gcm
-  name: '[D] 🇷🇺 俄罗斯 03'
+  name: '[D] 🇷🇺 俄罗斯 05'
   password: 6784aee2-0dfe-474f-8446-480259ff9918
   port: 442
   server: ru.safepass.click
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 04'
+  name: '[D] 🇷🇺 俄罗斯 06'
   password: 32c0ea6e823341a2
   port: 50129
   server: 45.140.168.54
   type: ss
 - cipher: aes-128-gcm
-  name: '[D] 🇷🇺 俄罗斯 05'
+  name: '[D] 🇷🇺 俄罗斯 07'
   password: 6784aee2-0dfe-474f-8446-480259ff9918
   port: 442
   server: 45.139.25.43

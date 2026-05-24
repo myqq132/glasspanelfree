@@ -8,11 +8,29 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: '[B] 🇫🇷 法国 02'
+- name: '[A] 🇫🇷 法国 02'
+  network: ws
+  port: 8880
+  server: 94.140.0.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime26.workers.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[B] 🇫🇷 法国 03'
   password: dongtaiwang.com
   port: 22000
   server: 62.210.124.146
   skip-cert-verify: true
   sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: hysteria2_fastlane_210pha9tw
+  port: 443
+  server: 150.241.79.106
+  sni: de2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
