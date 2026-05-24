@@ -37,8 +37,34 @@ proxies:
   name: '[D] 🇯🇵 日本 05'
   network: tcp
   port: '180'
-  server: 82.198.246.97
+  server: 82.198.246.9
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[D] 🇯🇵 日本 06'
+  network: tcp
+  port: 10026
+  server: 8.216.21.135
+  tls: false
+  type: vless
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 07'
+  network: tcp
+  port: '23464'
+  server: 47.91.10.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 08'
+  network: tcp
+  port: '29712'
+  server: bgroup.node1.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
