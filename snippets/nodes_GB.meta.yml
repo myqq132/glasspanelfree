@@ -1,14 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[A] 🇬🇧 英国 01'
-  password: idMvoewrSyLLvEvP03k9zR
-  port: 46576
-  server: 138.68.153.223
-  type: ss
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  server: 15.204.97.206
+  servername: fuck.rkn
+  tls: false
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - name: '[B] 🇬🇧 英国 02'
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
   server: 217.179.6.102
+  skip-cert-verify: true
   sni: holz4.api3-max.ru
   tls: false
   type: hysteria2
@@ -16,6 +24,7 @@ proxies:
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
   server: 217.179.6.105
+  skip-cert-verify: true
   sni: holz2.api3-max.ru
   tls: false
   type: hysteria2
@@ -23,6 +32,7 @@ proxies:
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
   server: 217.179.6.54
+  skip-cert-verify: true
   sni: holz1.api3-max.ru
   tls: false
   type: hysteria2
@@ -30,6 +40,7 @@ proxies:
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
   server: 217.179.6.71
+  skip-cert-verify: true
   sni: holz5.api3-max.ru
   tls: false
   type: hysteria2
@@ -37,6 +48,7 @@ proxies:
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
   server: 217.179.6.75
+  skip-cert-verify: true
   sni: holz10.api3-max.ru
   tls: false
   type: hysteria2

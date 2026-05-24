@@ -2,31 +2,26 @@ proxies:
 - name: '[A] 🇷🇺 俄罗斯 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.182.196.202
+  port: 2053
+  server: 195.211.124.140
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇷🇺 俄罗斯 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 91.184.243.61
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[A] 🇷🇺 俄罗斯 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 94.103.80.218
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[B] 🇷🇺 俄罗斯 04'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: raw
+  port: 20567
+  reality-opts:
+    public-key: 1WOtQYIQ-3sJtbrhSA1LW6gAnO-wG0Z5aCnlL_zoiXQ
+    short-id: '!!str b82d7208fe23'
+  server: fr.gryaz-vpn.com
+  servername: cloudflare.com
+  tls: false
+  type: vless
+  uuid: 40bf709c-4353-4552-ba26-406d2bf7821d
+- name: '[B] 🇷🇺 俄罗斯 03'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247
