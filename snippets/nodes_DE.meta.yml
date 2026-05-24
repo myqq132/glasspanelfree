@@ -1,12 +1,25 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇩🇪 德国 01'
+  network: raw
+  port: 2443
+  reality-opts:
+    public-key: Pyn-CZrKJEIoM7mcj__Eosc4F03CpqvwRZEqlJzqOnQ
+    short-id: '!!str e6df8954df22'
+  server: 193.168.197.76
+  servername: www.ya.ru
+  tls: false
+  type: vless
+  uuid: b198c7e4-b6a5-4309-ac0e-0783cf8b129c
+- name: '[B] 🇩🇪 德国 02'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 03'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
@@ -14,13 +27,13 @@ proxies:
   sni: de3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 04'
   port: 51847
   server: 91.107.166.215
   tls: false
   type: vless
   uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 51847
   server: ir20.novalynxhub.online
@@ -29,7 +42,7 @@ proxies:
   uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 06'
   network: tcp
   port: 10097
   server: 45.144.54.183
