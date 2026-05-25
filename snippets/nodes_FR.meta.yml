@@ -7,7 +7,7 @@ proxies:
   reality-opts:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '!!str 01'
-  server: 51.158.206.34
+  server: 51.158.206.12
   servername: fuck.rkn
   tls: false
   type: vless
@@ -77,6 +77,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 10'
+  password: hysteria2_fastlane_210pha9tw:vpgCasGegr3TmyztgCbfrGSR2wVre8Rt
+  port: 1935
+  server: 150.241.79.106
+  skip-cert-verify: false
+  sni: de2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 11'
   password: hysteria2_fastlane_210pha9tw
   port: 443
   server: 150.241.79.106
