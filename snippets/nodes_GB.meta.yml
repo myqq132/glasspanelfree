@@ -1,13 +1,12 @@
 proxies:
 - name: '[A] 🇬🇧 英国 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 77.239.98.192
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 5.39.254.225
+  skip-cert-verify: true
+  sni: ld1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - name: '[B] 🇬🇧 英国 02'
   password: 65bc8227-48db-4993-9e9d-68394de672a1
   port: 443
@@ -41,28 +40,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 06'
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 217.179.6.75
-  skip-cert-verify: true
-  sni: holz10.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇬🇧 英国 07'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 5.39.254.225
   skip-cert-verify: true
-  sni: ld1.mangshe.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇬🇧 英国 08'
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002

@@ -1,5 +1,5 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
+- name: '[A] 🇺🇸 美国 02'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -11,18 +11,50 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇺🇸 美国 06'
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 04'
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
+  type: ss
+- name: '[A] 🇺🇸 美国 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 104.167.196.91
+  port: 443
+  server: 23.168.72.23
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 12'
+  network: ws
+  port: '22047'
+  server: 103.179.142.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 948763b5-a064-453c-a015-185cb183bbfe
+  ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[C] 🇺🇸 美国 08'
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: cg1c02.waimaojd.com
+  servername: cg1c02.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  ws-opts:
+    headers:
+      Host: cg1c02.waimaojd.com
+    path: /api/v1/graphql
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -30,7 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -38,7 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -48,7 +80,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -57,8 +89,8 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: '[C] 🇺🇸 美国 12'
+  cipher: auto
+  name: '[C] 🇺🇸 美国 18'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -68,73 +100,11 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 13'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 14'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 15'
-  network: tcp
-  port: '180'
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 16'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🇺🇸 美国 17'
-  password: uwmRUOVM5ljNAtPj
-  port: 443
-  server: 154.53.57.143
-  type: ss
-- cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 18'
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
-  type: ss
-- cipher: aes-128-gcm
   name: '[D] 🇺🇸 美国 19'
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.170
-  type: ss
-- cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 20'
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.167
-  type: ss
-- cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 21'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-- cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 22'
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
