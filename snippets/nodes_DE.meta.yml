@@ -1,12 +1,21 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
+- name: '[A] 🇩🇪 德国 01'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 193.23.216.14
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[B] 🇩🇪 德国 02'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 03'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
@@ -16,17 +25,17 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 03'
-  network: ''
+  name: '[B] 🇩🇪 德国 04'
+  network: raw
   port: '30830'
-  server: v30.hdacd.com
+  server: 103.182.97.25
   servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 05'
   network: raw
   port: '10097'
   server: 45.144.54.183
@@ -34,12 +43,12 @@ proxies:
   type: vmess
   uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
 - cipher: aes-256-gcm
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 06'
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
   type: ss
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 07'
   network: tcp
   port: 777
   server: 93.123.84.128
@@ -47,7 +56,7 @@ proxies:
   type: vless
   uuid: c9424b66-67dd-4dbf-ddbc-752514cc04a5
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 08'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.60.250.107
