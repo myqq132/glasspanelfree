@@ -3,30 +3,22 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 194.135.38.131
+  server: 92.246.136.90
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 02'
-  password: D1oFY5dskhFuI8PNbSA35s
-  port: 34898
-  server: 195.133.2.2
-  type: ss
-- client-fingerprint: chrome
-  name: '[A] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: '!!str b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  tls: false
+  network: raw
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
   type: vless
-  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
-- name: '[D] 🇷🇺 俄罗斯 04'
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[D] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 4443
   server: 185.175.47.238
@@ -34,20 +26,20 @@ proxies:
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 05'
+- name: '[D] 🇷🇺 俄罗斯 04'
   port: 4443
   server: 5.188.156.138
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 06'
+- name: '[D] 🇷🇺 俄罗斯 05'
   network: tcp
   port: 4443
   server: ru2.alexanderoff.ru
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 07'
+- name: '[D] 🇷🇺 俄罗斯 06'
   network: tcp
   port: 4443
   server: ru3.alexanderoff.ru
