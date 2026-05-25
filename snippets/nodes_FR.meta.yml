@@ -2,29 +2,40 @@ proxies:
 - name: '[A] 🇫🇷 法国 01'
   network: ws
   port: 443
-  server: 57.129.137.241
-  servername: sni.111000.v6.navy
+  server: 165.22.80.22
+  servername: sni.latonyamadeline.ndjp.net
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-- name: '[A] 🇫🇷 法国 02'
-  network: ws
-  port: 8443
-  server: 57.128.183.225
-  servername: sni.111000.v6.navy
+      Host: sni.latonyamadeline.ndjp.net
+- name: '[B] 🇫🇷 法国 02'
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 152.89.253.116
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3Ftelegram'
+  sni: holz9.api3-max.ru
+  tls: false
+  type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.67.139.157
+  skip-cert-verify: true
+  sni: holz7.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: 65bc8227-48db-4993-9e9d-68394de672a1
+  port: 443
+  server: 45.67.139.87
+  skip-cert-verify: true
+  sni: holz8.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
   password: dongtaiwang.com
   port: 22000
   server: 62.210.124.146
@@ -33,7 +44,7 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: ''
-  name: '[B] 🇫🇷 法国 04'
+  name: '[B] 🇫🇷 法国 06'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 84.200.33.151
@@ -41,7 +52,7 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 07'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 84.200.33.151
@@ -49,14 +60,14 @@ proxies:
   sni: nlb1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
+- name: '[B] 🇫🇷 法国 08'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 37.114.49.38
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
+- name: '[B] 🇫🇷 法国 09'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 37.114.49.38
@@ -64,7 +75,7 @@ proxies:
   sni: flkf.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
+- name: '[B] 🇫🇷 法国 10'
   password: hysteria2_fastlane_210pha9tw:vpgCasGegr3TmyztgCbfrGSR2wVre8Rt
   port: 1935
   server: 150.241.79.106
@@ -72,7 +83,7 @@ proxies:
   sni: de2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
+- name: '[B] 🇫🇷 法国 11'
   password: hysteria2_fastlane_210pha9tw
   port: 443
   server: 150.241.79.106

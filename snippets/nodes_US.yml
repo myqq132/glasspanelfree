@@ -1,9 +1,9 @@
 proxies:
-- name: '[A] 🇺🇸 美国 02'
+- name: '[A] 🇺🇸 美国 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 198.62.62.253
+  server: 141.101.120.25
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -11,50 +11,37 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 04'
-  password: GyZ5Xo0ht41vYmW3H4
-  port: 816
-  server: 149.28.255.6
-  type: ss
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.144.234.149
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
 - name: '[A] 🇺🇸 美国 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 23.168.72.23
+  server: 199.68.156.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 12'
-  network: ws
-  port: '22047'
-  server: 103.179.142.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 948763b5-a064-453c-a015-185cb183bbfe
-  ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 13'
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[A] 🇺🇸 美国 08'
   network: ws
-  port: '443'
-  server: cg1c02.waimaojd.com
-  servername: cg1c02.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 332774e5-9371-48bb-b518-1fe56c7268da
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 142.91.108.54
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: cg1c02.waimaojd.com
-    path: /api/v1/graphql
-- name: '[C] 🇺🇸 美国 14'
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -62,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -70,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -80,7 +67,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 17'
+  name: '[C] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -90,7 +77,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 18'
+  name: '[C] 🇺🇸 美国 13'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -100,7 +87,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 19'
+  name: '[D] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.37

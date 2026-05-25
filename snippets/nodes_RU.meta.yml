@@ -3,40 +3,21 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 92.246.136.90
+  server: 62.182.196.202
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳+@WangCai2
 - name: '[A] 🇷🇺 俄罗斯 02'
   network: ws
-  port: 6593
-  server: 176.96.136.176
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 92.246.136.90
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
-- name: '[B] 🇷🇺 俄罗斯 03'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 185.228.139.247
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇷🇺 俄罗斯 04'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 185.228.139.247
-  skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[D] 🇷🇺 俄罗斯 05'
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[D] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 4443
   server: 185.175.47.238
@@ -44,20 +25,20 @@ proxies:
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 06'
+- name: '[D] 🇷🇺 俄罗斯 04'
   port: 4443
   server: 5.188.156.138
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 07'
+- name: '[D] 🇷🇺 俄罗斯 05'
   network: tcp
   port: 4443
   server: ru2.alexanderoff.ru
   tls: false
   type: vless
   uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
-- name: '[D] 🇷🇺 俄罗斯 08'
+- name: '[D] 🇷🇺 俄罗斯 06'
   network: tcp
   port: 4443
   server: ru3.alexanderoff.ru
