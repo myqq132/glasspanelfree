@@ -4,37 +4,22 @@ proxies:
   name: '[A] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.37
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: '[A] 🇬🇧 英国 02'
   network: ws
-  port: 2096
-  server: 109.176.239.138
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 5.178.96.130
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[A] 🇬🇧 英国 03'
-  network: tcp
-  port: 59999
-  reality-opts:
-    public-key: x0t1otRGBv62aJKGNbsQRJGtwh-sp6CEScFS6S8y3EM
-    short-id: '!!str 0f1e2d3c'
-  server: 82.22.41.0
-  servername: yastatic.net
-  tls: false
-  type: vless
-  uuid: 15efeadc-234a-4642-89b1-e34210e51758
+    path: /trTelegram🇨🇳+@WangCai2
 - fingerprint: ''
-  name: '[B] 🇬🇧 英国 04'
+  name: '[B] 🇬🇧 英国 03'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 5.39.254.225
@@ -42,10 +27,22 @@ proxies:
   sni: ld1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 05'
+- name: '[B] 🇬🇧 英国 04'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 5.39.254.225
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇬🇧 英国 05'
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇬🇧 英国 06'
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 2.56.179.80
+  type: ss
