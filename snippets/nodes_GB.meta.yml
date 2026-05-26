@@ -1,19 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[A] 🇬🇧 英国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
-    short-id: '!!str bdac121c7debdaba'
-  server: swe-8t.freeonline.pro
-  servername: www.microsoft.com
-  tls: false
-  type: vless
-  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - fingerprint: ''
-  name: '[B] 🇬🇧 英国 02'
+  name: '[B] 🇬🇧 英国 01'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 5.39.254.225
@@ -21,7 +8,7 @@ proxies:
   sni: ld1.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 03'
+- name: '[B] 🇬🇧 英国 02'
   password: fe9b17e8-41e1-4d1b-b588-93a23665724f
   port: 2056
   server: 5.39.254.225
@@ -29,13 +16,13 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇬🇧 英国 04'
+  name: '[D] 🇬🇧 英国 03'
   password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
   port: 31348
   server: 89.185.84.34
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇬🇧 英国 05'
+  name: '[D] 🇬🇧 英国 04'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 2.56.179.80

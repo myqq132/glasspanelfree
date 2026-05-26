@@ -1,5 +1,14 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
+- fingerprint: ''
+  name: '[B] 🇨🇳 台湾 01'
+  password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
+  port: 13456
+  server: cdntw.xhl666.top
+  skip-cert-verify: true
+  sni: cdntw.xhl666.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -8,7 +17,7 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇨🇳 台湾 02'
+  name: '[D] 🇨🇳 台湾 03'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg0011499tl.cybervena.com
