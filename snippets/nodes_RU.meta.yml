@@ -1,15 +1,22 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 2096
-  server: 176.124.223.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
+  network: raw
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
   tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[A] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 8880
+  server: 213.219.247.50
+  tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
+      Host: vms.lifetime26.workers.dev
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'

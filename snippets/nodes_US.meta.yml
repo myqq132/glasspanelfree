@@ -2,27 +2,64 @@ proxies:
 - name: '[A] 🇺🇸 美国 01'
   network: ws
   port: 80
-  server: 104.18.15.19
+  server: 104.18.14.19
   tls: false
   type: vless
   uuid: a2af6e7c-a792-4e51-9460-fff4bd74fbfc
   ws-opts:
     headers:
       Host: vahidqaz-ft33vt-1.vahidqaz.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 02'
-  network: tcp
-  port: '56738'
-  server: 103.127.243.59
-  servername: ''
+    path: '%2F'
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  port: 443
+  server: 63.141.128.9
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F'
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  port: 2086
+  server: 104.20.6.134
   tls: false
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  port: 2052
+  server: 104.20.5.134
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
+- name: '[A] 🇺🇸 美国 05'
+  network: ws
+  port: 443
+  server: 135.84.74.44
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?Telegram🇨🇳+@WangCai2=
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[A] 🇺🇸 美国 03'
+  name: '[A] 🇺🇸 美国 06'
   network: tcp
   port: 8443
   reality-opts:
@@ -34,7 +71,7 @@ proxies:
   uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[A] 🇺🇸 美国 04'
+  name: '[A] 🇺🇸 美国 07'
   network: tcp
   port: 50574
   reality-opts:
@@ -45,34 +82,40 @@ proxies:
   tls: false
   type: vless
   uuid: 11697f33-7b99-45ad-ba9d-7e6b3574e916
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 05'
+- name: '[A] 🇺🇸 美国 08'
   network: ws
-  port: 2096
-  server: 45.40.147.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
+  port: 2086
+  server: creativecommons.org
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 06'
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- name: '[A] 🇺🇸 美国 09'
   network: ws
-  password: humanity
-  port: 443
-  server: 172.64.229.75
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
+  port: 2086
+  server: 104.20.5.134
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: '[B] 🇺🇸 美国 07'
+      Host: index.0x15.workers.dev
+    path: '%2FPdgTMW8NBNZYo6L23v'
+- name: '[A] 🇺🇸 美国 10'
+  network: ws
+  port: 2052
+  server: creativecommons.org
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: index.0x14.workers.dev
+    path: '%2Fassets'
+- name: '[B] 🇺🇸 美国 11'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 41227
   server: 163.172.126.108
@@ -80,7 +123,16 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 08'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 12'
+  password: 6d49fae1-374d-313e-b360-1227b0ea8dea
+  port: 443
+  server: s473.okgfw.top
+  sni: s473.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 5224
@@ -88,7 +140,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -96,7 +148,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -106,7 +158,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 16'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -116,7 +168,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -124,14 +176,14 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 18'
   port: 52729
   server: 31.59.40.53
   tls: false
   type: vless
   uuid: e0a98968-eb18-417a-87e7-c8933aac5f13
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 19'
   password: 4LwjNxZEaMDsT26xKjcNmo
   port: 4668
   server: 79.141.163.21
