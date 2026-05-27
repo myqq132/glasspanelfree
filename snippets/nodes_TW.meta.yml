@@ -1,73 +1,28 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: tw11.769970.xyz
-  skip-cert-verify: true
-  sni: tw11.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 02'
-  password: 15893455-4d21-4338-a273-01aed1d77fa2
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 03'
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  tls: false
-  type: hysteria2
+- name: '[A] 🇨🇳 台湾 01'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇨🇳 台湾 02'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: nbmrcg0034686rw.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇨🇳 台湾 03'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
 - name: '[B] 🇨🇳 台湾 04'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 05'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: tw3.769970.xyz
-  skip-cert-verify: true
-  sni: tw3.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 06'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 07'
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 08'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: 5gzdx.769970.xyz
-  skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 09'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
   tls: false
   type: hysteria2

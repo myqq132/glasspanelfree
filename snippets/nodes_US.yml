@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 01'
-  password: GyZ5Xo0ht41vYmW3H4
-  port: 816
-  server: 149.28.255.6
-  type: ss
 - alterId: 0
   cipher: auto
   name: '[A] 🇺🇸 美国 08'
@@ -15,7 +9,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 5224
@@ -23,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -31,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -41,7 +35,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 17'
+  name: '[C] 🇺🇸 美国 14'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.233

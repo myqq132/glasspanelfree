@@ -6,20 +6,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
-  port: '666'
-  server: 47.239.172.165
-  servername: ''
+- name: '[B] 🇭🇰 香港 02'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
   tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: //@BullShit_iu telegramNadia
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: '[C] 🇭🇰 香港 03'
