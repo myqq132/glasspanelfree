@@ -1,5 +1,14 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 01'
+  password: 6d49fae1-374d-313e-b360-1227b0ea8dea
+  port: 443
+  server: s663.ccgfw.top
+  sni: s663.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
   port: 54985
   server: 45.76.83.35
   tls: false
