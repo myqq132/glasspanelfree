@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: '666'
+  server: 47.239.172.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: //@BullShit_iu telegramNadia
 - alterId: 2
   cipher: auto
   name: '[C] 🇭🇰 香港 03'
@@ -13,14 +27,14 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 13.231.74.103
+  server: 3.112.12.209
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 95.40.61.5
+  server: 35.77.230.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -32,13 +46,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 07'
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
