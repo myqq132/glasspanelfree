@@ -1,14 +1,23 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
+  port: 20000
+  server: hkt03ddns.poke-mon.xyz
   skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 6yhPOr3f9o
+  port: 30236
+  server: 47.242.216.193
+  skip-cert-verify: true
+  sni: go.microsoft.com
   tls: false
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -16,14 +25,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
   server: 52.69.114.14
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -31,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -41,7 +50,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 07'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -51,7 +60,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 08'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -61,7 +70,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 09'
   network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -71,7 +80,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 09'
+  name: '[D] 🇭🇰 香港 10'
   network: tcp
   port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -79,15 +88,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 10'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[D] 🇭🇰 香港 11'
@@ -155,7 +155,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 18'
   network: tcp
-  port: 11128
+  port: 11129
   server: dotu-usv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -164,7 +164,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 19'
   network: tcp
-  port: 11129
+  port: 11130
   server: dotu-usv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -173,39 +173,12 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 20'
   network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 21'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 22'
-  network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 23'
-  network: tcp
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '[D] 🇭🇰 香港 24'
+- name: '[D] 🇭🇰 香港 21'
   network: tcp
   port: 47683
   server: 47.242.43.198

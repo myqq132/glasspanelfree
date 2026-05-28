@@ -1,22 +1,25 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
-  network: raw
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '[A] 🇷🇺 俄罗斯 02'
-  network: ws
-  port: 8880
-  server: 213.219.247.50
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.151
+  servername: cloudcdn-m9-15.cdn.yandex.net
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
+  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
+- client-fingerprint: chrome
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
