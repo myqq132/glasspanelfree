@@ -1,25 +1,13 @@
 proxies:
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[A] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-  server: 185.139.214.151
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  tls: false
-  type: vless
-  uuid: 9270ef77-592f-11f1-98cc-54db13ea7d40
-- client-fingerprint: chrome
-  name: '[A] 🇷🇺 俄罗斯 02'
-  network: tcp
-  port: 19562
-  reality-opts:
-    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
-    short-id: '!!str 9e'
-  server: 90.156.254.164
+    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
+    short-id: '!!str 52a6'
+  server: 147.45.145.127
   servername: yahoo.com
   tls: false
   type: vless
-  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9

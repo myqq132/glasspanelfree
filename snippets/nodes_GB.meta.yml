@@ -4,7 +4,7 @@ proxies:
   name: '[A] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
@@ -15,15 +15,23 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: '!!str 6d6f13013d3e1d0c'
-  server: g1.steptofreedom.one
-  servername: g1.steptofreedom.one
+    public-key: MBkIKCORF_f5gqwnugFO7K4HUR8HAKPUuYVIarrQNU0
+    short-id: '!!str bfc5'
+  server: 31.76.120.162
+  servername: www.sony.com
   tls: false
   type: vless
-  uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4
+  uuid: 05e9d254-8ea8-4097-9450-d4aefc44bd7e
+- name: '[B] 🇬🇧 英国 03'
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 5.39.254.225
+  skip-cert-verify: true
+  sni: ld1.mangshe.xyz
+  tls: false
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇬🇧 英国 03'
+  name: '[D] 🇬🇧 英国 04'
   password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
   port: 31348
   server: 89.185.84.34
