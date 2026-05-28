@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   name: '[A] 🌍 其它地区 01'
   network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
@@ -12,8 +12,8 @@ proxies:
 - name: '[A] 🇰🇷 韩国 01'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18080
-  server: 175.192.103.88
+  port: 16010
+  server: 121.154.249.1
   sni: vpn.rnmcnm.com
   type: trojan
   ws-opts:
@@ -23,34 +23,50 @@ proxies:
   name: '[A] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 02'
-  network: ws
-  port: '33108'
-  server: cu3.ainivp.com
+  name: '[A] 🌍 其它地区 03'
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu3.ainivp.com
-    path: /ray
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 03'
+  network: tcp
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 04'
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 08'
+  name: '[C] 🌍 其它地区 09'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -58,14 +74,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
   server: 52.69.114.14
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -73,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -81,7 +97,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -89,7 +105,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 8066
@@ -97,7 +113,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 05'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -129,7 +145,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -137,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -145,7 +161,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 2702
@@ -155,17 +171,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 13'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -175,7 +181,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇯🇵 日本 06'
+  name: '[D] 🇯🇵 日本 04'
   network: tcp
   port: 11103
   server: dotu-hkv1.kunlun03dns.com
@@ -183,46 +189,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 06'
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 07'
+  name: '[D] 🇯🇵 日本 05'
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇬🇧 英国 04'
+  name: '[D] 🇬🇧 英国 03'
   password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
   port: 31348
   server: 89.185.84.34
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 07'
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 09'
+  name: '[D] 🌍 其它地区 10'
   password: hfSE3thwAQqvSIac5xLpUD
   port: 53292
   server: 45.83.130.97
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -231,7 +218,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 05'
   network: tcp
   port: 11129
   server: dotu-usv1.kunlun03dns.com
@@ -240,16 +227,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 09'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 10'
+  name: '[D] 🇭🇰 香港 06'
   network: tcp
   port: 11136
   server: dotu-sgv1.kunlun03dns.com
@@ -258,7 +236,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 11'
+  name: '[D] 🇭🇰 香港 07'
   network: tcp
   port: 11112
   server: dotu-twv1.kunlun03dns.com
@@ -267,7 +245,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 12'
+  name: '[D] 🇭🇰 香港 08'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -276,7 +254,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 13'
+  name: '[D] 🇭🇰 香港 09'
   network: tcp
   port: 11128
   server: dotu-usv1.kunlun03dns.com
@@ -285,16 +263,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 14'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 15'
+  name: '[D] 🇭🇰 香港 10'
   network: tcp
   port: 11105
   server: dotu-hkv1.kunlun03dns.com
@@ -302,7 +271,7 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 12'
   password: pMZgtJEakEyHUSpe8a16ec
   port: 51544
   server: 109.107.182.229
@@ -314,26 +283,26 @@ proxies:
   server: 47.82.148.244
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 13'
   password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
   port: 443
   server: vip9.myspacex.shop
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 14'
   password: 7DoWqLxD5CMubpT1tzIyWX
   port: 4917
   server: 145.249.109.13
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 14'
+  name: '[D] 🌍 其它地区 15'
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 185.213.20.110
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 16'
+  name: '[D] 🇭🇰 香港 11'
   network: tcp
   port: 11101
   server: dotu-hkv1.kunlun03dns.com
@@ -342,7 +311,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 17'
+  name: '[D] 🇭🇰 香港 12'
   network: tcp
   port: 11102
   server: dotu-hkv1.kunlun03dns.com
