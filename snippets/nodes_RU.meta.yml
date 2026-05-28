@@ -1,13 +1,11 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc
-    short-id: '!!str 52a6'
-  server: 147.45.145.127
-  servername: yahoo.com
-  tls: false
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
