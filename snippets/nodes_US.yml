@@ -1,7 +1,13 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 05'
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '[A] 🇺🇸 美国 09'
+  name: '[A] 🇺🇸 美国 07'
   network: tcp
   port: '56738'
   server: 103.127.243.59
@@ -9,33 +15,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 95.40.28.136
+  port: 2663
+  server: 95.40.114.115
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 16.163.157.10
+  port: 2663
+  server: 52.69.114.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.166.178.81
+  port: 2702
+  server: 43.206.155.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 17'
+  name: '[C] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -45,7 +51,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 18'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -53,8 +59,28 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 16'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 17'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇺🇸 美国 20'
+  name: '[D] 🇺🇸 美国 18'
   password: 4LwjNxZEaMDsT26xKjcNmo
   port: 4668
   server: 79.141.163.21

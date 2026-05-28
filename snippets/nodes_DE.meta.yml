@@ -1,27 +1,16 @@
 proxies:
-- name: '[A] 🇩🇪 德国 01'
-  network: ws
+- name: '[D] 🇩🇪 德国 01'
   port: 8880
-  server: 91.206.71.50
+  server: 188.137.230.245
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 762ca06a-daba-4510-8533-7ba0667fb1f1
   ws-opts:
-    headers:
-      Host: vms.lifetime15.workers.dev
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FYouTube%40%E5%B0%8F%E9%9D%92%E7%A7%91%E5%AD%A6%E7%BD%91%F0%9F%87%A8%F0%9F%87%B3'
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 02'
-  password: 6d49fae1-374d-313e-b360-1227b0ea8dea
-  port: 443
-  server: s663.ccgfw.top
-  sni: s663.ccgfw.top
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  port: 54985
-  server: 45.76.83.35
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 02'
+  network: tcp
+  port: 10040
+  server: 47.91.94.112
   tls: false
   type: vless
-  uuid: 20b29119-7ca2-46de-973f-dd6c758c1a1e
+  uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
