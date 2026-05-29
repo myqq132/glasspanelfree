@@ -36,7 +36,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 05'
   network: tcp
-  port: '54022'
+  port: '51556'
   server: 103.181.164.145
   servername: ''
   tls: false
@@ -46,6 +46,16 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 06'
   network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 07'
+  network: tcp
   port: '11105'
   server: dotu-hkv1.kunlun03dns.com
   tls: false
@@ -53,7 +63,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 08'
   network: tcp
   port: '11113'
   server: dotu-twv1.kunlun03dns.com
@@ -62,18 +72,9 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 08'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
   name: '[D] 🇭🇰 香港 09'
   network: tcp
-  port: '6001'
+  port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
   type: vmess

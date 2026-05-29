@@ -1,5 +1,12 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- name: '[A] 🇩🇪 德国 01'
+  network: tcp
+  port: 666
+  server: 194.59.183.234
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '[D] 🇩🇪 德国 02'
   port: 47518
   server: de-on-demand.not-a-projects.xyz
   tls: false
