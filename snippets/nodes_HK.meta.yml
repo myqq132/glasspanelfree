@@ -96,8 +96,8 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 11'
   network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
   servername: ''
   tls: false
   type: vmess
@@ -106,8 +106,9 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 12'
   network: tcp
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -115,7 +116,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 13'
   network: tcp
-  port: 11112
+  port: 11111
   server: dotu-twv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -124,8 +125,8 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 14'
   network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -133,7 +134,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 15'
   network: tcp
-  port: 11121
+  port: 11119
   server: dotu-jpv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -142,8 +143,8 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 16'
   network: tcp
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -151,8 +152,8 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 17'
   network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -205,7 +206,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 23'
   network: tcp
-  port: 11135
+  port: 11138
   server: dotu-sgv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -214,7 +215,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 24'
   network: tcp
-  port: 11138
+  port: 11136
   server: dotu-sgv1.kunlun03dns.com
   tls: false
   type: vmess
@@ -223,15 +224,6 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 25'
   network: tcp
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 26'
-  network: tcp
   port: 11145
   server: dotu-krv1.kunlun03dns.com
   tls: false
@@ -239,7 +231,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 27'
+  name: '[D] 🇭🇰 香港 26'
   network: tcp
   port: '11103'
   server: dotu-hkv1.kunlun03dns.com
@@ -247,16 +239,25 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: aes-128-gcm
-  name: '[D] 🇭🇰 香港 28'
+  name: '[D] 🇭🇰 香港 27'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 29'
+  name: '[D] 🇭🇰 香港 28'
   network: tcp
   port: 11105
+  server: dotu-hkv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 29'
+  network: tcp
+  port: 11102
   server: dotu-hkv1.kunlun03dns.com
   tls: false
   type: vmess
