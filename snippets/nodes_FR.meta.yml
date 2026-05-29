@@ -1,14 +1,7 @@
 proxies:
-- name: '[A] 🇫🇷 法国 01'
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇫🇷 法国 01'
+  password: Sj2yu7qKPprUmPJoOCgN6q
   port: 443
-  server: 81.255.154.10
-  servername: jp.aniua.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: jp.aniua.qzz.io
-    path: /
+  server: 163.5.192.18
+  type: ss

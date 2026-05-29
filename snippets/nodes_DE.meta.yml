@@ -5,28 +5,3 @@ proxies:
   tls: false
   type: vless
   uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- name: '[D] 🇩🇪 德国 02'
-  port: 2052
-  server: azmononline.konkuriran.sbs
-  tls: false
-  type: vless
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-- name: '[D] 🇩🇪 德国 03'
-  network: tcp
-  port: 2052
-  server: 91.107.179.170
-  tls: false
-  type: vless
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
-  network: tcp
-  port: 8443
-  server: de.connfull.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e0021a91-e53a-4757-96fc-912c7c830721
