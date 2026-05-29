@@ -1,23 +1,14 @@
 proxies:
 - name: '[A] 🇨🇳 台湾 01'
+  network: tcp
   password: gcuCpQfaiVeDBdWG
   port: 19128
   server: 211.76.176.98
-  skip-cert-verify: false
   sni: yazhou10.dynu.net
   type: trojan
-- name: '[B] 🇨🇳 台湾 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+- name: '[A] 🇨🇳 台湾 02'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan

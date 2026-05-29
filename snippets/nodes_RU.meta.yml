@@ -1,6 +1,18 @@
 proxies:
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  tls: false
+  type: vless
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇷🇺 俄罗斯 01'
+  name: '[D] 🇷🇺 俄罗斯 02'
   password: hcxv0CvT14Zki4b1p1J9nE
   port: 11270
   server: 84.54.44.54
@@ -9,7 +21,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇷🇺 俄罗斯 02'
+  name: '[D] 🇷🇺 俄罗斯 03'
   network: xhttp
   port: 443
   server: ftatx5g6dt.cdn.twcstorage.ru
