@@ -1,5 +1,17 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
+- client-fingerprint: '360'
+  name: '[A] 🇬🇧 英国 01'
+  network: ws
+  port: 2083
+  server: 217.163.76.118
+  servername: fl0.lizardshop.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
+  ws-opts:
+    path: '%2F%3Fed'
+- name: '[B] 🇬🇧 英国 02'
   password: hy2_lositfbu:sWBLzjRX9zEvCSBHmJvoefyg9LYx05rv
   port: 443
   server: 144.31.213.121
@@ -7,7 +19,7 @@ proxies:
   sni: gb.cleanersaz.help
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 03'
   port: 443
   server: 155.117.127.137
   tls: false
