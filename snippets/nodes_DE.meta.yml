@@ -7,40 +7,19 @@ proxies:
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '[D] 🇩🇪 德国 02'
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
-  tls: false
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- name: '[D] 🇩🇪 德国 03'
-  password: Q40WHz2g1k-dqYqraBP6Ow
-  port: 8443
-  server: 178.63.244.9
-  type: trojan
-- name: '[D] 🇩🇪 德国 04'
   network: tcp
-  port: 47518
-  server: 2.27.37.100
+  port: 38704
+  server: 108.61.210.114
   tls: false
   type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-  ws-opts:
-    headers:
-      Host: de-on-demand.not-a-projects.xyz
-    path: '%2F'
-- name: '[D] 🇩🇪 德国 05'
-  port: 48862
-  server: 212.100.171.194
-  tls: false
-  type: vless
-  uuid: da9f6ce2-aaba-47dd-be50-5afd17331fd9
+  uuid: f8f3a3a8-0a03-4979-9265-daf5b7503b17
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
-  port: '2053'
-  server: de5.taskflowhub.org
+  port: '30521'
+  server: 108.61.210.114
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
+  uuid: f8f3a3a8-0a03-4979-9265-daf5b7503b17

@@ -1,15 +1,17 @@
 proxies:
-- name: '[A] 🇬🇧 英国 01'
-  network: ws
-  port: 8880
-  server: 80.93.202.40
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇬🇧 英国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: '!!str bdac121c7debdaba'
+  server: swe-8t.freeonline.pro
+  servername: www.microsoft.com
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: /
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - name: '[B] 🇬🇧 英国 02'
   password: hy2_lositfbu:sWBLzjRX9zEvCSBHmJvoefyg9LYx05rv
   port: 443
@@ -18,3 +20,9 @@ proxies:
   sni: gb.cleanersaz.help
   tls: false
   type: hysteria2
+- name: '[D] 🇬🇧 英国 03'
+  port: 443
+  server: 155.117.127.137
+  tls: false
+  type: vless
+  uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
