@@ -12,3 +12,35 @@ proxies:
   tls: false
   type: vless
   uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+- name: '[D] 🇩🇪 德国 03'
+  password: Q40WHz2g1k-dqYqraBP6Ow
+  port: 8443
+  server: 178.63.244.9
+  type: trojan
+- name: '[D] 🇩🇪 德国 04'
+  network: tcp
+  port: 47518
+  server: 2.27.37.100
+  tls: false
+  type: vless
+  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
+  ws-opts:
+    headers:
+      Host: de-on-demand.not-a-projects.xyz
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 05'
+  port: 48862
+  server: 212.100.171.194
+  tls: false
+  type: vless
+  uuid: da9f6ce2-aaba-47dd-be50-5afd17331fd9
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 06'
+  network: tcp
+  port: '2053'
+  server: de5.taskflowhub.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884

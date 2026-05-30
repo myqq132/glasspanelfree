@@ -12,15 +12,16 @@ proxies:
 - name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2008
-  server: 52.69.114.14
+  port: 53018
+  server: 18.166.208.219
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
-  port: 4327
-  server: 54.168.196.137
+  port: 50712
+  server: 13.231.192.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -36,7 +37,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 05'
   network: tcp
-  port: '51556'
+  port: '54022'
   server: 103.181.164.145
   servername: ''
   tls: false
@@ -46,7 +47,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 06'
   network: tcp
-  port: '54022'
+  port: '51556'
   server: 103.181.164.145
   servername: ''
   tls: false
@@ -56,89 +57,33 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 07'
   network: tcp
-  port: '11105'
-  server: dotu-hkv1.kunlun03dns.com
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
   name: '[D] 🇭🇰 香港 08'
   network: tcp
-  port: '11113'
-  server: dotu-twv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 09'
-  network: tcp
-  port: '6004'
+  port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
+  name: '[D] 🇭🇰 香港 09'
+  network: tcp
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- cipher: aes-128-gcm
   name: '[D] 🇭🇰 香港 10'
-  network: tcp
-  port: '11121'
-  server: dotu-jpv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 11'
-  network: tcp
-  port: '11112'
-  server: dotu-twv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 12'
-  network: tcp
-  port: '11127'
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 13'
-  network: tcp
-  port: 11104
-  server: dotu-hkv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 14'
-  network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 15'
-  network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 16'
-  network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 202.85.76.170
+  type: ss
