@@ -1,44 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- alpn:
+  - http/1.1
   name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '[A] 🇺🇸 美国 02'
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
+  skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.calmloud.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 03'
-  network: tcp
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 05'
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -46,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -54,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -64,17 +39,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 08'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -83,7 +48,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 09'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155
