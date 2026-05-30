@@ -1,7 +1,8 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
+  network: tcp
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
@@ -9,7 +10,32 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- name: '[D] 🇷🇺 俄罗斯 02'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: aQdv6gDmsVZc5dO1WmmEQ6Q_puJhNUurND-TJJjtCSs
+    short-id: '!!str 8f2c0e7a15bd'
+  server: 88.210.9.69
+  servername: images.apple.com
+  tls: false
+  type: vless
+  uuid: ccbbd3a3-db22-4f82-956e-d65178de2743
+- client-fingerprint: chrome
+  name: '[A] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+- name: '[D] 🇷🇺 俄罗斯 04'
   network: tcp
   port: 80
   server: 95.182.82.78
@@ -20,7 +46,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇷🇺 俄罗斯 03'
+  name: '[D] 🇷🇺 俄罗斯 05'
   network: xhttp
   port: 443
   server: ftatx5g6dt.cdn.twcstorage.ru
@@ -37,7 +63,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇷🇺 俄罗斯 04'
+  name: '[D] 🇷🇺 俄罗斯 06'
   network: tcp
   port: 7443
   server: ru5.cleanersaz.help
