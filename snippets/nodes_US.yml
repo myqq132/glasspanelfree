@@ -1,7 +1,14 @@
 proxies:
+- name: '[A] 🇺🇸 美国 01'
+  network: tcp
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
+  port: 443
+  server: 65.20.90.225
+  sni: www.sandbox-cloud.click
+  type: trojan
 - alpn:
   - http/1.1
-  name: '[A] 🇺🇸 美国 01'
+  name: '[A] 🇺🇸 美国 02'
   network: ws
   password: humanity
   port: 443
@@ -13,7 +20,7 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: '%2Fassignment'
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -21,7 +28,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -29,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -39,7 +46,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -48,7 +65,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 11'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155

@@ -1,17 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 01'
+- name: '[A] 🇺🇸 美国 01'
   network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
+  port: 443
+  server: 65.20.90.225
+  sni: www.sandbox-cloud.click
+  type: trojan
 - alpn:
   - http/1.1
-  name: '[A] 🇺🇸 美国 01'
+  name: '[A] 🇺🇸 美国 02'
   network: ws
   password: humanity
   port: 443
@@ -23,48 +20,8 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇨🇳 台湾 01'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[A] 🌍 其它地区 03'
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 03'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[B] CH 02'
-  network: ws
-  port: '80'
-  server: 45.128.72.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a2170d39-140a-47f9-85b8-084078856c36
-  ws-opts:
-    headers:
-      Host: ''
-    path: /api/v1
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 09'
+  name: '[C] 🌍 其它地区 10'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -151,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -159,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -167,7 +124,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -177,7 +134,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -187,7 +154,17 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 10'
+  name: '[D] 🇯🇵 日本 04'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 11'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -196,10 +173,16 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 11'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇨🇳 台湾 01'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[D] 🇫🇷 法国 01'
@@ -213,13 +196,13 @@ proxies:
   server: 178.63.244.9
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 12'
   password: v2LIewZzNUsIrqODr22FVc
   port: 34898
   server: 195.133.2.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 13'
   password: MZeSTvpl2uoey1R0frhPyJ
   port: 51544
   server: 109.107.182.229
@@ -231,7 +214,7 @@ proxies:
   server: 89.23.98.196
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 14'
   password: dhUfc0noSQDTLOAR
   port: 443
   server: 20.164.221.1

@@ -1,14 +1,16 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[A] 🇷🇺 俄罗斯 01'
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
+  network: tcp
+  port: 38065
+  reality-opts:
+    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
+    short-id: '!!str fa'
+  server: 83.222.23.81
+  servername: yahoo.com
+  tls: false
   type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
 - alpn:
   - h2
   - http/1.1
