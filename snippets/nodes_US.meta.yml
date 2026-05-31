@@ -1,59 +1,97 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: ws
-  password: trojan
-  port: 2087
-  server: 22b.net
-  sni: store.timimi.dpdns.org
-  type: trojan
-  ws-opts:
-    path: '%2F%3FBIA_TELEGRAM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29%20TM%20%28%40AZARBAYJAB1%29'
-- name: '[A] 🇺🇸 美国 02'
-  network: tcp
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 01'
+  password: hCCWOcIsK5wrFz4OX70rWf
   port: 443
-  server: 172.236.220.10
-  sni: 172.236.220.10
-  type: trojan
+  server: 216.105.168.18
+  type: ss
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 02'
+  network: ws
+  port: 443
+  server: 198.41.223.61
+  servername: edgetunnell-1dc.pages.dev
+  tls: true
+  type: vless
+  uuid: 7f3faff8-41db-403d-8329-6b9072aaabe2
+  ws-opts:
+    headers:
+      Host: edgetunnell-1dc.pages.dev
+    path: '%2F'
 - name: '[A] 🇺🇸 美国 03'
+  network: tcp
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
   server: 172.238.120.124
+  skip-cert-verify: false
+  sni: ''
   type: trojan
 - name: '[A] 🇺🇸 美国 04'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 8443
-  server: 104.143.0.117
-  skip-cert-verify: true
-  sni: vpn.rnmcnm.com
-  type: trojan
-  ws-opts:
-    path: /trojan
-- name: '[A] 🇺🇸 美国 05'
-  network: tcp
-  password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
   port: 443
-  server: 23.227.193.173
-  skip-cert-verify: true
-  sni: www.dataset-logger.click
-  type: trojan
-- name: '[B] 🇺🇸 美国 06'
+  server: 20.103.221.187
+  servername: obscure-succotash-jrj4wq7v96j4h54r5-443.app.github.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4b616b6f-6f6c-4e65-7773-b8e2c9f3d541
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 05'
+  network: ws
+  port: 443
+  server: 104.19.229.21
+  servername: cyylr.eu.cc
+  tls: true
+  type: vless
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  ws-opts:
+    headers:
+      Host: cyylr.eu.cc
+    path: /sg-melbi
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 06'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇺🇸 美国 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo
+    short-id: '!!str 6eda877655137aff'
+  server: nl-3.srv.vpnza300.org
+  servername: nl-3.srv.vpnza300.org
+  tls: false
+  type: vless
+  uuid: d0b60427-ccb0-4026-aeec-d095b6b7dd08
+  ws-opts:
+    headers:
+      Host: nl-3.srv.vpnza300.org
+    path: ''
+- name: '[B] 🇺🇸 美国 08'
   password: hysteria2_fastlane_ip6l3kf9n
   port: 443
   server: 77.110.109.5
   sni: us2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 09'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
-  skip-cert-verify: false
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 10'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -61,7 +99,16 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 09'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 11'
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  port: 443
+  server: s473.okgfw.top
+  sni: u712927us473.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -69,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -77,7 +124,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -87,7 +134,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -97,7 +144,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 13'
+  name: '[C] 🇺🇸 美国 16'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -107,7 +154,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -117,7 +164,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 15'
+  name: '[D] 🇺🇸 美国 18'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -127,7 +174,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 19'
   network: tcp
   port: '27910'
   server: bgroup.node5.v.nodelist-airport.com

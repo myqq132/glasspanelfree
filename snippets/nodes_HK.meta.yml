@@ -1,15 +1,7 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: IG9Sundefinedvx6RJ
-  port: 58771
-  server: 47.76.94.197
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -17,14 +9,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
   server: 43.199.204.59
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 32858
@@ -32,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -42,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 05'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -51,23 +43,14 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 06'
   password: 7e1dd4c55bf85da5
   port: 20129
   server: 212.192.15.225
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 08'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 09'
+  name: '[D] 🇭🇰 香港 07'
   network: tcp
   port: '6003'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -76,7 +59,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 10'
+  name: '[D] 🇭🇰 香港 08'
   network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -85,7 +68,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 11'
+  name: '[D] 🇭🇰 香港 09'
   network: tcp
   port: '2510'
   server: world.t.51guangtaobao.com
@@ -93,7 +76,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[D] 🇭🇰 香港 12'
+- name: '[D] 🇭🇰 香港 10'
   network: tcp
   port: 57078
   server: 43.99.60.225
@@ -105,7 +88,7 @@ proxies:
       Host: varzesh3.com
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 13'
+  name: '[D] 🇭🇰 香港 11'
   network: ws
   port: 53213
   server: bgroup.node4.v.nodelist-airport.com
