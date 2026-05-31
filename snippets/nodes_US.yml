@@ -1,23 +1,55 @@
 proxies:
-- name: '[A] 🇺🇸 美国 02'
-  network: raw
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 01'
   network: tcp
-  password: IbezlLAYfrLRwFn9.mHn5FDwk1asLi599U
-  port: 443
-  server: 130.94.65.52
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 02'
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
+  type: ss
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 8443
+  server: 104.143.0.117
   skip-cert-verify: true
-  sni: www.static-cast.click
+  sni: vpn.rnmcnm.com
   type: trojan
   ws-opts:
-    headers:
-      Host: v2rayNplus-v2rayNplus-v2rayNplus
-- name: '[C] 🇺🇸 美国 09'
+    path: /trojan
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 04'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[A] 🇺🇸 美国 05'
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  port: 443
+  server: 172.235.63.252
+  skip-cert-verify: true
+  sni: 172.235.63.252
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 06'
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -25,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -33,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -43,7 +75,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 15'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 16'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -53,17 +95,17 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 17'
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 18'
   network: tcp
   port: '27910'
   server: bgroup.node5.v.nodelist-airport.com
