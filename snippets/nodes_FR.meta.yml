@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: '[A] 🇫🇷 法国 01'
+  network: tcp
+  password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY
+  port: 443
+  server: 172.104.237.100
+  skip-cert-verify: true
+  sni: 172.104.237.100
+  type: trojan

@@ -1,9 +1,10 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: 45dae7e6-4573-4e6b-a1f3-57b3bbaf990d
-  port: 65534
-  server: hk02.xn--9kq85xcu6b.com
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
   skip-cert-verify: true
+  sni: go.microsoft.com
   tls: false
   type: hysteria2
 - alterId: 2
@@ -43,7 +44,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 06'
   network: tcp
-  port: '54022'
+  port: '51556'
   server: 103.181.164.145
   servername: ''
   tls: false
@@ -59,7 +60,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 08'
   network: tcp
-  port: '6003'
+  port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
   type: vmess
@@ -68,7 +69,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 09'
   network: tcp
-  port: '6001'
+  port: '6003'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
   type: vmess
@@ -77,13 +78,22 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 10'
   network: tcp
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 11'
+  network: tcp
   port: '2510'
   server: world.t.51guangtaobao.com
   servername: ''
   tls: false
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[D] 🇭🇰 香港 11'
+- name: '[D] 🇭🇰 香港 12'
   network: tcp
   port: 57078
   server: 43.99.60.225
@@ -95,7 +105,7 @@ proxies:
       Host: varzesh3.com
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 12'
+  name: '[D] 🇭🇰 香港 13'
   network: ws
   port: 53213
   server: bgroup.node4.v.nodelist-airport.com
