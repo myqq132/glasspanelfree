@@ -1,48 +1,44 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇺🇸 美国 01'
+- name: '[A] 🇺🇸 美国 01'
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  sni: 172.236.220.10
+  type: trojan
 - name: '[A] 🇺🇸 美国 02'
-  network: ws
-  port: 2086
-  server: creativecommons.org
+  network: tcp
+  port: 22
+  server: 172.65.111.43
   tls: false
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers:
-      Host: index.0x15.workers.dev
-    path: '%2FPdgTMW8NBNZYo6L23v'
+    path: /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+- name: '[A] 🇺🇸 美国 03'
+  network: raw
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  sni: 172.237.145.189
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '[A] 🇺🇸 美国 03'
+  name: '[A] 🇺🇸 美国 04'
   network: tcp
-  port: 6003
+  port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 04'
-  network: ws
-  port: 2083
-  server: 63.141.128.5
-  servername: mzaxmc.lizardshop.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
-  ws-opts:
-    path: /?ed
-- name: '[A] 🇺🇸 美国 05'
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 05'
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
+  type: ss
+- name: '[A] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 20.103.221.187
@@ -53,41 +49,28 @@ proxies:
   uuid: 4b616b6f-6f6c-4e65-7773-b8e2c9f3d541
   ws-opts:
     path: /
-- name: '[A] 🇺🇸 美国 06'
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 07'
   network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 8443
-  server: 104.143.0.117
-  skip-cert-verify: true
-  sni: vpn.rnmcnm.com
-  type: trojan
-  ws-opts:
-    path: /trojan
-- name: '[A] 🇺🇸 美国 07'
-  network: ws
-  password: humanity
   port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
-  type: trojan
+  server: 104.19.229.21
+  servername: cyylr.eu.cc
+  tls: true
+  type: vless
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
   ws-opts:
-    path: /assignment
+    headers:
+      Host: cyylr.eu.cc
+    path: /sg-melbi
 - name: '[A] 🇺🇸 美国 08'
-  network: raw
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  network: tcp
+  password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
   port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
+  server: 172.235.63.252
+  skip-cert-verify: true
+  sni: 172.235.63.252
   type: trojan
-- name: '[B] 🇺🇸 美国 09'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 185.106.96.231
-  skip-cert-verify: false
-  sni: s559.ccgfw.top
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -95,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -103,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -111,6 +94,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 12'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[C] 🇺🇸 美国 13'
@@ -126,7 +119,7 @@ proxies:
   name: '[D] 🇺🇸 美国 14'
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
@@ -135,9 +128,18 @@ proxies:
   cipher: auto
   name: '[D] 🇺🇸 美国 15'
   network: tcp
-  port: '10086'
-  server: 57.151.100.27
+  port: '180'
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 16'
+  network: tcp
+  port: '27910'
+  server: bgroup.node5.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
