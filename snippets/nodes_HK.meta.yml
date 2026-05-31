@@ -1,10 +1,10 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: fe40f32a-b03d-4ada-8bee-00f41b766098
-  port: 63077
-  server: 122.10.117.1
+  password: 6yhPOr3f9o
+  port: 30236
+  server: 47.242.216.193
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: go.microsoft.com
   tls: false
   type: hysteria2
 - alterId: 2
@@ -54,7 +54,7 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 07'
   network: tcp
-  port: 6003
+  port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
   type: vmess
@@ -63,22 +63,13 @@ proxies:
   cipher: auto
   name: '[D] 🇭🇰 香港 08'
   network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 09'
-  network: tcp
   port: '2510'
   server: world.t.51guangtaobao.com
   servername: ''
   tls: false
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[D] 🇭🇰 香港 10'
+- name: '[D] 🇭🇰 香港 09'
   network: tcp
   port: 57078
   server: 43.99.60.225

@@ -1,17 +1,25 @@
 proxies:
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
   name: '[A] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 19562
+  password: v2LIewZzNUsIrqODr22FVc
+  port: 34898
+  server: 195.133.2.2
+  type: ss
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: grpc
+  port: 40470
   reality-opts:
-    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
-    short-id: '!!str 9e'
-  server: 90.156.254.164
-  servername: yahoo.com
+    public-key: kn16KgkUCMVfqSIwKI9fd0yDy6VcavlTt56LqE_7JWI
+    short-id: '!!str 1fad87'
+  server: 85.198.85.193
+  servername: 5post-gate.x5.ru
   tls: false
   type: vless
-  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
-- name: '[B] 🇷🇺 俄罗斯 02'
+  uuid: b43c896e-d9b8-4606-b902-b1bf6d10d2f9
+- name: '[B] 🇷🇺 俄罗斯 03'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247
@@ -23,7 +31,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇷🇺 俄罗斯 03'
+  name: '[D] 🇷🇺 俄罗斯 04'
   network: xhttp
   port: 443
   server: ftatx5g6dt.cdn.twcstorage.ru
@@ -36,7 +44,7 @@ proxies:
     headers:
       Host: ftatx5g6dt.cdn.twcstorage.ru
     path: '%2F'
-- name: '[D] 🇷🇺 俄罗斯 04'
+- name: '[D] 🇷🇺 俄罗斯 05'
   network: ws
   port: 3443
   server: 5.188.114.12
