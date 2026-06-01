@@ -1,24 +1,51 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇨🇳 台湾 01'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 05'
+- alterId: 0
+  cipher: auto
+  name: '[A] 🌍 其它地区 01'
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '[A] 🇺🇸 美国 01'
+  network: tcp
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  port: 443
+  server: 45.79.8.17
+  skip-cert-verify: false
+  sni: 45.79.8.17
+  type: trojan
+- name: '[A] 🌍 其它地区 05'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 188.114.96.3
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.creationlong.org
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
+      Host: www.creationlong.org
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 02'
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: '[A] 🇬🇧 英国 01'
@@ -29,15 +56,33 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇬🇧 英国 02'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[A] 🇫🇷 法国 01'
+  network: tcp
+  password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY
+  port: 443
+  server: 172.104.237.100
+  skip-cert-verify: true
+  sni: 172.104.237.100
+  type: trojan
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 10'
+  name: '[C] 🌍 其它地区 11'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -45,14 +90,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 2008
   server: 13.115.175.169
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -60,7 +105,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -108,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 18'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -116,7 +161,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 19'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -124,7 +169,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 20'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -134,7 +179,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 21'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -144,7 +189,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 22'
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -154,7 +199,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 05'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -164,17 +209,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 23'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 06'
   network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -184,7 +219,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 09'
+  name: '[D] 🇭🇰 香港 07'
   network: tcp
   port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -194,7 +229,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 10'
+  name: '[D] 🇭🇰 香港 08'
   network: tcp
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -203,7 +238,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 11'
+  name: '[D] 🇭🇰 香港 09'
   network: tcp
   port: 2510
   server: world.t.51guangtaobao.com
@@ -211,16 +246,22 @@ proxies:
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇨🇳 台湾 02'
+  name: '[D] 🇨🇳 台湾 01'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 12'
   password: MZeSTvpl2uoey1R0frhPyJ
   port: 51544
   server: 109.107.182.229
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇨🇳 台湾 02'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001269pz2.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -236,13 +277,13 @@ proxies:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 13'
   password: a9d727cd-330b-4edd-8911-7c224df6afd5
   port: 25891
   server: 77.74.201.171
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 14'
   password: mNQciatPYywzM_MZ03TxOA
   port: 2443
   server: 213.165.37.30

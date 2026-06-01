@@ -1,19 +1,30 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 05'
+- name: '[A] 🇺🇸 美国 01'
+  network: tcp
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  port: 443
+  server: 45.79.8.17
+  skip-cert-verify: false
+  sni: 45.79.8.17
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 02'
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
+- name: '[A] 🇺🇸 美国 03'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '[C] 🇺🇸 美国 18'
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -21,7 +32,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 19'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -29,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 20'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -39,7 +50,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 21'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -49,20 +60,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 22'
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 23'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
