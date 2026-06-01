@@ -7,22 +7,12 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇦 加拿大 02'
-  port: 3389
-  server: 172.65.158.241
-  tls: false
-  type: vless
-  uuid: 88b0b142-88e1-422d-84fb-ad8a762a9e11
-- client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 03'
-  network: ws
+- alpn:
+  - h3
+  name: '[B] 🇨🇦 加拿大 02'
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
   port: 443
-  server: nimahavok.pages.dev
-  servername: nimahavok.pages.dev
-  tls: true
-  type: vless
-  uuid: cb0be83e-ff5c-4601-8572-18deac592958
-  ws-opts:
-    headers:
-      Host: nimahavok.pages.dev
-    path: /
+  server: 5.175.183.35
+  sni: u712927us250.ayxj.top
+  tls: false
+  type: hysteria2
