@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇬🇧 英国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gLwECcibrJ-wErHzfYbPzMDVu6960VNuXUhjOQ3rUQk
+  server: 51.250.106.197
+  servername: max.ru
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '[A] 🇬🇧 英国 02'
+  network: tcp
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+  port: 443
+  server: 185.126.236.44
+  skip-cert-verify: true
+  sni: www.mesaly.click
+  type: trojan
