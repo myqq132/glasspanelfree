@@ -1,51 +1,86 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  network: raw
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   port: 443
-  server: 45.79.8.17
-  skip-cert-verify: false
-  sni: 45.79.8.17
+  server: 65.20.90.225
+  sni: www.sandbox-cloud.click
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 02'
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  port: 21273
-  server: 149.104.109.74
-  type: ss
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  password: humanity
+- name: '[A] 🇺🇸 美国 02'
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
   port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
+  server: 130.94.68.100
+  skip-cert-verify: true
+  sni: www.rolll.click
+  type: trojan
+- name: '[A] 🇺🇸 美国 03'
+  network: tcp
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  port: 443
+  server: 130.94.104.210
+  skip-cert-verify: true
+  sni: www.cdn-structure.click
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+      Host: v2rayNplus-v2rayNplus-v2rayNplus
+- alterId: 0
+  cipher: auto
   name: '[A] 🇺🇸 美国 04'
   network: tcp
-  port: 54254
-  reality-opts:
-    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
-    short-id: '!!str db35ffdc'
-  server: 134.33.73.249
-  servername: apple.com
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[A] 🇺🇸 美国 05'
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: true
+  sni: 172.236.220.10
+  type: trojan
+- name: '[A] 🇺🇸 美国 06'
+  password: IbezlLAYfrLRwFn9.mHn5FDwk1asLi599U
+  port: 443
+  server: 130.94.65.52
+  skip-cert-verify: false
+  sni: www.static-cast.click
+  type: trojan
+- name: '[A] 🇺🇸 美国 07'
+  network: ws
+  port: 443
+  server: up2-df6.pages.dev
+  servername: up2-df6.pages.dev
+  tls: true
+  type: vless
+  uuid: ce69190e-935a-4394-9e5e-2ab2872ba242
+  ws-opts:
+    headers:
+      Host: up2-df6.pages.dev
+    path: '%2FuTZSXPBI2IfoxF86'
+- name: '[A] 🇺🇸 美国 08'
+  network: ws
+  port: 80
+  server: 151.101.193.57
   tls: false
   type: vless
-  uuid: acba684c-4098-4eca-f519-828b09f96464
-- name: '[B] 🇺🇸 美国 05'
-  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  uuid: 2c15f192-3812-98db-85a2-88cd7d02b868
+  ws-opts:
+    headers:
+      Host: Vpsdelta.com
+    path: /?ed=2048
+- name: '[B] 🇺🇸 美国 09'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
-  server: s473.okgfw.top
+  server: 195.133.53.33
   skip-cert-verify: false
-  sni: u712927us473.okgfw.top
+  sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -53,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -61,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -71,7 +106,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 13'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -81,7 +116,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -89,3 +124,35 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 15'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 16'
+  network: tcp
+  port: '180'
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: '[D] 🇺🇸 美国 17'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- cipher: aes-128-gcm
+  name: '[D] 🇺🇸 美国 18'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 216.38.170.155
+  type: ss
