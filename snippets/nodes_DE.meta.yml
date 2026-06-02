@@ -1,18 +1,20 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: ws
-  port: 8880
-  server: 188.137.230.245
-  tls: false
-  type: vless
-  uuid: 762ca06a-daba-4510-8533-7ba0667fb1f1
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   password: DQHK4mtugy7xMNChJjB9Jm
   port: 443
   server: 185.129.84.12
   type: ss
+- name: '[D] 🇩🇪 德国 02'
+  network: tcp
+  port: 443
+  server: 45.77.67.185
+  tls: false
+  type: vless
+  uuid: 56f389ce-8e0f-42fd-889d-5c4b698b534f
+- name: '[D] 🇩🇪 德国 03'
+  port: 443
+  server: 164.92.181.129
+  tls: false
+  type: vless
+  uuid: e9728f25-f6cd-4a83-b851-f296d722b3d6
