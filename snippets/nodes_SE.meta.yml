@@ -1,10 +1,10 @@
 proxies:
-- name: '[A] SE 01'
-  network: ws
-  password: rYuChHcwQZskq9E0zdoR
-  port: 443
-  server: 193.180.209.21
-  sni: vpn5.rnmcnm.com
-  type: trojan
-  ws-opts:
-    path: '%2Fws-79dffb8106db'
+- grpc-opts:
+    grpc-service-name: ''
+  name: '[D] SE 01'
+  network: grpc
+  port: 4443
+  server: bc-pl-1c.ray-balance.space
+  tls: false
+  type: vless
+  uuid: 0eca1f22-e5a1-4888-a0fa-c2345e87cf2f

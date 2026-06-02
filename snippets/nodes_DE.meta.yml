@@ -1,17 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇩🇪 德国 01'
-  password: DQHK4mtugy7xMNChJjB9Jm
-  port: 443
-  server: 185.129.84.12
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇩🇪 德国 02'
-  password: ZSzCXxMc0U8gRNctj6NbfD
-  port: 443
-  server: 62.133.60.6
-  type: ss
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 01'
   network: ws
   port: 8880
   server: 188.137.230.245
@@ -19,4 +7,12 @@ proxies:
   type: vless
   uuid: 762ca06a-daba-4510-8533-7ba0667fb1f1
   ws-opts:
-    path: '%2F'
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇩🇪 德国 02'
+  password: DQHK4mtugy7xMNChJjB9Jm
+  port: 443
+  server: 185.129.84.12
+  type: ss
