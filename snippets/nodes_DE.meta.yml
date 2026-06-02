@@ -1,11 +1,15 @@
 proxies:
 - name: '[A] 🇩🇪 德国 01'
-  network: tcp
-  port: 666
-  server: 194.59.183.234
+  network: ws
+  port: 8880
+  server: 31.185.108.30
   tls: false
   type: vless
-  uuid: 56aaf8cd-d2fb-5211-bc9b-c242ee37d429
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: '%2F'
 - cipher: chacha20-ietf-poly1305
   name: '[D] 🇩🇪 德国 02'
   password: DQHK4mtugy7xMNChJjB9Jm
