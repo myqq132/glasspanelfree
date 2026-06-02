@@ -1,78 +1,85 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 02'
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  port: 21273
-  server: 149.104.109.74
-  type: ss
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 03'
   network: tcp
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   port: 443
-  reality-opts:
-    public-key: qa6dtExYCAVoxRNSfoyuz9JRM9nq475NbuW-P6aJyS0
-    short-id: '!!str d0c2ffdf'
-  server: hungary.cloudpath.live
-  servername: microsoft.com
-  tls: false
-  type: vless
-  uuid: a1fbffe9-8e5a-5a0e-9333-045d32eccd59
-- name: '[A] 🇺🇸 美国 04'
+  server: 172.238.19.11
+  skip-cert-verify: true
+  sni: 172.238.19.11
+  type: trojan
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '[A] 🇺🇸 美国 03'
   network: ws
   port: 443
-  server: 104.25.252.37
+  server: dx.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: '%2Ffp%3Drandom'
+- name: '[A] 🇺🇸 美国 04'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: '[A] 🇺🇸 美国 05'
+  network: tcp
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  port: 443
+  server: 45.79.8.17
+  sni: 45.79.8.17
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 06'
+  password: GyZ5Xo0ht41vYmW3H4
+  port: 816
+  server: 149.28.255.6
+  type: ss
+- name: '[A] 🇺🇸 美国 07'
+  network: ws
+  port: 443
+  server: 104.25.242.61
   servername: juzi.qea.ccwu.cc
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
   ws-opts:
     headers:
       Host: juzi.qea.ccwu.cc
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-- name: '[A] 🇺🇸 美国 05'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
-  port: 443
-  server: 130.94.104.210
-  sni: www.cdn-structure.click
-  type: trojan
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 06'
-  network: ws
-  port: 443
-  server: 108.162.193.217
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /tixvuws
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 07'
-  password: 205d6869-02ca-3b36-b933-be2465250c7e
-  port: 443
-  server: s869.okgfwbackxyz.xyz
-  sni: u716087us869.okgfwbackxyz.xyz
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 08'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
-  password: 7ce9a8d0-2cb2-4b8d-8de9-262c1d6597ac
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[A] 🇺🇸 美国 09'
+  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
   port: 443
-  server: us.gotogle.com
+  server: 65.20.90.225
   skip-cert-verify: false
-  sni: us.gotogle.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 09'
+  sni: www.sandbox-cloud.click
+  type: trojan
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -80,7 +87,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -90,7 +97,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -99,13 +106,13 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 13'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 14'
   password: 504cb0be-b285-4ec5-9561-bc289aea0d46
   port: 23122
   server: bgroup.node5.s2.nodelist-airport.com
