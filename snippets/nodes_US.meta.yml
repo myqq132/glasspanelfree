@@ -1,59 +1,89 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  port: 22
-  server: 172.65.111.43
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: v1.dabache.top
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: '[A] 🇺🇸 美国 03'
+  port: 46989
+  server: 135.125.136.238
+  skip-cert-verify: false
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: '%2F%40monacoVPN%40monacoVPN%40monacoVPN%40monacoVPN'
-- name: '[A] 🇺🇸 美国 02'
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 04'
   network: tcp
-  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
-  port: 443
-  server: 172.238.19.11
-  skip-cert-verify: true
-  sni: 172.238.19.11
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
-  password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
-  port: 443
-  server: 65.20.90.225
-  skip-cert-verify: false
-  sni: www.sandbox-cloud.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 04'
-  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
-  port: 443
-  server: 130.94.97.11
-  sni: www.selectnet.click
-  type: trojan
+  port: 2040
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: '!!str 53197c66aef53c44'
+  server: germ-node.datamove.online
+  servername: tradingview.com
+  tls: false
+  type: vless
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
 - name: '[A] 🇺🇸 美国 05'
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  network: ws
+  port: 2095
+  server: kobe.ns.cloudflare.com
+  tls: false
+  type: vless
+  uuid: e833874b-b2e8-4efc-bf39-0b061890e30f
+  ws-opts:
+    headers:
+      Host: iran-fast.azazilvpn.sbs
+    path: /ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇺🇸 美国 06'
+  network: ws
+  port: '2089'
+  server: 43.130.42.218
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram @rootface
+- name: '[A] 🇺🇸 美国 07'
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
   port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  sni: 172.237.145.189
+  server: 130.94.68.100
+  sni: www.rolll.click
   type: trojan
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 08'
   password: 205d6869-02ca-3b36-b933-be2465250c7e
   port: 443
   server: s869.okgfwbackxyz.xyz
   sni: u716087us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 09'
+  password: 205d6869-02ca-3b36-b933-be2465250c7e
   port: 443
-  server: 195.133.53.33
-  sni: s516.okgfw.top
+  server: s869.okgfwbackxyz.xyz
+  sni: u716087us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -61,7 +91,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 2702
@@ -71,7 +101,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -81,7 +111,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 13'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -90,13 +120,13 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 14'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - cipher: aes-128-gcm
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 15'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155
