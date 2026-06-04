@@ -1,30 +1,38 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
-  port: 443
-  server: 172.236.220.10
-  skip-cert-verify: false
-  sni: 172.236.220.10
-  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 02'
+  name: '[A] 🇺🇸 美国 01'
   password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
   port: 21273
   server: 149.104.109.74
   type: ss
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: '[A] 🇺🇸 美国 03'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
+  server: 45.79.8.17
+  sni: 45.79.8.17
   type: trojan
-- name: '[A] 🇺🇸 美国 04'
-  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+- name: '[B] 🇺🇸 美国 04'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
-  server: 130.94.97.11
-  sni: www.selectnet.click
-  type: trojan
+  server: 195.133.53.33
+  skip-cert-verify: false
+  sni: s516.okgfw.top
+  tls: false
+  type: hysteria2
 - name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
