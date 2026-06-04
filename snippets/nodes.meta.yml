@@ -1,31 +1,300 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- name: '[A] 🇺🇸 美国 01'
+  network: tcp
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: '[A] 🇩🇪 德国 01'
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  server: 91.233.8.25
+  skip-cert-verify: false
+  sni: fra34.tracker-ws.click
+  type: trojan
+- name: '[A] 🇺🇸 美国 02'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[A] 🇺🇸 美国 04'
+  network: ws
+  port: 443
+  server: 104.25.242.61
+  servername: juzi.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
+  ws-opts:
+    headers:
+      Host: juzi.qea.ccwu.cc
+    path: '%2F'
+- flow: xtls-rprx-vision
   name: '[A] 🌍 其它地区 01'
   network: tcp
-  port: '1'
-  server: 0.0.0.0
-  servername: web.51.la
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  port: 443
+  server: 87.120.126.205
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇷🇺 俄罗斯 01'
+  password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
+  port: 28655
+  server: 109.120.138.95
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '[A] 🌍 其它地区 02'
+  name: '[A] 🇬🇧 英国 01'
   network: tcp
-  port: '2'
-  server: 0.0.0.0
-  servername: web.51.la
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[A] 🇺🇸 美国 05'
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- name: '[A] 🇬🇧 英国 02'
+  port: 8443
+  server: cdn7-09.vk-cdnvideo.com
+  servername: cdn7-09.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- flow: xtls-rprx-vision
+  name: '[A] 🇬🇧 英国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '7a3f9e2b1c8d4f6a'
+  server: 31.76.113.91
+  servername: it.s3-cloud.xyz
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- name: '[B] 🇫🇷 法国 01'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.26.173
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
+  port: 11000
+  server: 185.227.108.195
+  skip-cert-verify: false
+  sni: de-node.farnet.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 01'
+  password: 6yhPOr3f9o
+  port: 30236
+  server: 47.242.216.193
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 03'
+  password: e3a5bb40be52de65
+  port: 55555
+  server: 89.251.26.111
+  skip-cert-verify: true
+  sni: apps.apple.com
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '[C] 🌍 其它地区 02'
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
   cipher: auto
-  name: '[A] 🌍 其它地区 03'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
-  port: '3'
-  server: 0.0.0.0
-  servername: web.51.la
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[C] 🇭🇰 香港 05'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 53018
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇭🇰 香港 06'
+  network: tcp
+  password: BxceQaOe
+  port: 11031
+  server: 95.40.80.85
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[C] 🇭🇰 香港 07'
+  network: tcp
+  password: BxceQaOe
+  port: 50712
+  server: 18.183.163.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[C] 🇯🇵 日本 01'
+  network: tcp
+  password: BxceQaOe
+  port: 16712
+  server: 13.114.234.238
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[C] 🇯🇵 日本 02'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 31351
+  server: 43.207.82.19
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇯🇵 日本 03'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 16.162.32.32
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 01'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 18.162.232.155
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 02'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 03'
+  network: tcp
+  password: BxceQaOe
+  port: 19465
+  server: 43.199.217.71
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[C] 🇺🇸 美国 06'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 5224
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 07'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 6604
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 08'
+  network: tcp
+  password: BxceQaOe
+  port: 22057
+  server: 18.166.154.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: aes-128-gcm
+  name: '[D] 🇺🇸 美国 09'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- name: '[D] 🇷🇺 俄罗斯 02'
+  port: 8443
+  server: cdn9-33.vk-cdnvideo.com
+  servername: cdn9-33.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 03'
+  password: 7Gm1sdCSRWB46CrO
+  port: 443
+  server: 20.164.45.116
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  name: '[D] 🌍 其它地区 04'
+  network: tcp
+  port: 20607
+  server: 45.39.241.51
+  servername: 45.39.241.51
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 53860602-f0ea-4bb0-bc10-852a27606b87
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇨🇳 台湾 01'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.18.14
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  name: '[D] 🌍 其它地区 05'
+  network: tcp
+  port: 45466
+  server: 5.144.179.56
+  tls: true
+  type: vless
+  uuid: 6a8233fe-6fc0-4dd8-aab2-d4063c16089c
