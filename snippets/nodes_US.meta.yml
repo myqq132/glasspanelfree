@@ -5,48 +5,27 @@ proxies:
   port: 443
   server: 172.236.220.10
   skip-cert-verify: false
-  sni: ''
+  sni: 172.236.220.10
   type: trojan
-- name: '[A] 🇺🇸 美国 02'
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 02'
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
+- name: '[A] 🇺🇸 美国 03'
   password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
   server: 130.94.107.171
   sni: www.logger-guard.click
   type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 03'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - name: '[A] 🇺🇸 美国 04'
-  network: ws
+  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
   port: 443
-  server: 104.25.242.61
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: '%2F'
-- name: '[A] 🇺🇸 美国 05'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
+  server: 130.94.97.11
+  sni: www.selectnet.click
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -54,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -62,7 +41,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 22057
@@ -70,6 +49,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 08'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
   name: '[D] 🇺🇸 美国 09'
   password: JVrsLLN1tkN8oXZO
