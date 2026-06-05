@@ -1,98 +1,36 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: '[A] 🇬🇧 英国 01'
+- name: '[A] 🌍 其它地区 01'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.123
-  servername: it.s3-cloud.xyz
-  tls: false
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- name: '[A] 🇺🇸 美国 01'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: picassooo.info
+  port: 8443
+  server: cdn7-09.vk-cdnvideo.com
+  servername: cdn7-09.vk-cdnvideo.com
   tls: true
   type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  ws-opts:
-    headers:
-      Host: picassooo.info
-    path: /aymdlws
-- flow: xtls-rprx-vision
-  name: '[A] 🇬🇧 英国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '7a3f9e2b1c8d4f6a'
-  server: 31.76.113.51
-  servername: it.s3-cloud.xyz
-  tls: false
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- name: '[A] 🇨🇳 台湾 01'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  port: 80
-  server: 104.21.23.131
-  tls: false
-  type: vless
-  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
-  ws-opts:
-    headers:
-      Host: main.boobie.eu.cc
-    path: /
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
   network: tcp
-  port: 10444
-  reality-opts:
-    public-key: praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4
-    short-id: '378086fbdb7c61cd'
-  server: 185.66.68.90
-  servername: max.ru
-  tls: false
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: f4df3096-8568-4c86-83d2-985623035724
-- name: '[A] 🇺🇸 美国 04'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[A] 🇺🇸 美国 01'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
+  server: 64.176.65.85
+  sni: ''
   type: trojan
-- name: '[A] 🇺🇸 美国 05'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+- name: '[A] 🇺🇸 美国 02'
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
   port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
+  server: 130.94.92.144
+  sni: www.node-finder.click
   type: trojan
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 01'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: s544.ccgfw.online
-  sni: u723829us544.ccgfw.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 01'
+- name: '[A] 🇫🇷 法国 01'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.26.173
@@ -100,12 +38,62 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
+- name: '[A] 🇫🇷 法国 02'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.29.98
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[A] 🇺🇸 美国 03'
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
+  port: 443
+  server: 45.79.8.17
+  skip-cert-verify: false
+  sni: 45.79.8.17
+  type: trojan
+- alpn:
+  - h2
+  name: '[A] 🌍 其它地区 02'
+  network: tcp
+  port: 8443
+  server: 152.233.28.198
+  servername: uk1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- flow: xtls-rprx-vision
+  name: '[A] 🇺🇸 美国 04'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M1a5zeQ6Ckoo1UybbRYD8696xaWb-fRcCY-7iaQ4wCA
+    short-id: 'fd3f0f2bce8083fe'
+  server: nld02.helpbot.click
+  servername: nld02.helpbot.click
+  tls: false
+  type: vless
+  uuid: b95e6017-d54e-4016-b651-91c86aeaa463
+- flow: xtls-rprx-vision
+  name: '[A] 🌍 其它地区 03'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: 'd82fb387'
+  server: 45.92.219.119
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: 0b0f0f45-b79a-4647-b466-d7879cd4aeea
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 04'
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+  port: 443
+  server: s544.ccgfw.online
+  sni: u723829us544.ccgfw.online
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
@@ -134,14 +122,14 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 05'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 06'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -158,7 +146,7 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 05'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -245,7 +233,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -253,7 +241,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -263,7 +251,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -286,13 +274,13 @@ proxies:
       Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 03'
+  name: '[D] 🌍 其它地区 06'
   password: 0FXkHNQO6q1s9KQX
   port: 443
   server: 20.87.212.31
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 04'
+  name: '[D] 🌍 其它地区 07'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.192
@@ -300,7 +288,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: '[D] 🌍 其它地区 05'
+  name: '[D] 🌍 其它地区 08'
   network: tcp
   port: 45466
   server: 5.144.179.56
