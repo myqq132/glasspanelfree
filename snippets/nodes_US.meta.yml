@@ -1,28 +1,35 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  port: 24211
-  server: 174.138.75.30
-  tls: false
-  type: vless
-  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
-- name: '[A] 🇺🇸 美国 02'
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 02'
   network: ws
-  port: 4399
-  server: 64.226.109.18
-  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  port: 443
+  server: 172.64.33.162
+  servername: octopusss5.info
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
   ws-opts:
     headers:
-      Host: ooa858iqkhza12.mesa.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
+      Host: octopusss5.info
+    path: /udfyfws
 - name: '[A] 🇺🇸 美国 03'
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  type: trojan
+- name: '[A] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: hyperlink-free.poweredproyuz.com
@@ -33,72 +40,89 @@ proxies:
     headers:
       Host: hyperlink-free.poweredproyuz.com
     path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
-- name: '[A] 🇺🇸 美国 04'
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+- name: '[A] 🇺🇸 美国 05'
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
-  server: 64.176.65.85
+  server: 172.238.120.124
   type: trojan
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 05'
+- name: '[A] 🇺🇸 美国 06'
   network: ws
-  port: 2083
-  server: 172.66.47.45
-  servername: wk1.f1w.de5.net
-  skip-cert-verify: false
+  port: 2087
+  server: 104.16.150.246
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: wk1.f1w.de5.net
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
     path: /
-- name: '[A] 🇺🇸 美国 06'
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  sni: 172.237.145.189
-  type: trojan
-- name: '[B] 🇺🇸 美国 07'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: s869.okgfwbackxyz.xyz
-  skip-cert-verify: false
-  sni: u723829us869.okgfwbackxyz.xyz
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: '[A] 🇺🇸 美国 07'
+  network: ws
+  port: 80
+  server: speedtest.org
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: de2.ping-game.ir
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alpn:
   - h3
   name: '[B] 🇺🇸 美国 08'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
+  skip-cert-verify: true
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 09'
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+  port: 443
+  server: s869.okgfwbackxyz.xyz
+  skip-cert-verify: false
+  sni: u723829us869.okgfwbackxyz.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 11'
+  password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  port: 48653
+  server: 192.129.193.206
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 12'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
+  skip-cert-verify: false
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 11'
+  name: '[B] 🇺🇸 美国 13'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: 82.47.22.163
+  skip-cert-verify: true
   sni: u723829us372.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -106,7 +130,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -114,7 +138,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -124,7 +148,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 15'
+  name: '[C] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.250
