@@ -7,20 +7,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[A] 🇫🇷 法国 02'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.29.98
   skip-cert-verify: true
   sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
@@ -39,3 +39,18 @@ proxies:
   sni: de-node.farnet.top
   tls: false
   type: hysteria2
+- name: '[D] 🇫🇷 法国 06'
+  network: tcp
+  port: 52196
+  server: 51.83.22.65
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '[D] 🇫🇷 法国 07'
+  port: 1935
+  server: 51.83.22.65
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /
