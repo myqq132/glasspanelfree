@@ -1,64 +1,77 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
+  network: ''
+  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  port: 443
+  server: 130.94.97.11
+  sni: www.selectnet.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 02'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.208
+  server: 104.19.2.175
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  port: 80
+  server: 172.67.211.74
+  tls: false
+  type: vless
+  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
+  ws-opts:
+    headers:
+      Host: main.boobie.eu.cc
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 04'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmloud.com
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 05'
+  network: ws
+  password: humanity
+  port: 443
+  server: 66.81.247.155
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[A] 🇺🇸 美国 02'
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇺🇸 美国 03'
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  port: 21273
-  server: 149.104.109.74
-  type: ss
-- name: '[A] 🇺🇸 美国 04'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 05'
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[A] 🇺🇸 美国 06'
   network: ws
   port: 443
-  server: 209.46.30.149
-  servername: resources.office.com.r3xxe.eu.cc
-  skip-cert-verify: true
+  server: 104.18.34.124
+  servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
-  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: resources.office.com.r3xxe.eu.cc
-    path: /us-gllc
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 06'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+- name: '[A] 🇺🇸 美国 07'
+  network: tcp
+  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
   port: 443
-  server: s869.okgfwbackxyz.xyz
-  skip-cert-verify: true
-  sni: u723829us869.okgfwbackxyz.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: s869.okgfwbackxyz.xyz
-  skip-cert-verify: false
-  sni: u723829us869.okgfwbackxyz.xyz
-  tls: false
-  type: hysteria2
+  server: 172.238.19.11
+  sni: 172.238.19.11
+  type: trojan
 - name: '[B] 🇺🇸 美国 08'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
@@ -66,7 +79,16 @@ proxies:
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- fingerprint: ''
+  name: '[B] 🇺🇸 美国 09'
+  password: miaoge110
+  port: 21180
+  server: 173.249.208.148
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -74,22 +96,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 11'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
-  skip-cert-verify: false
-  sni: s516.okgfw.top
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 11'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: 82.47.22.163
   skip-cert-verify: true
-  sni: u723829us372.okgfw.top
+  sni: s516.okgfw.top
   tls: false
   type: hysteria2
 - name: '[C] 🇺🇸 美国 12'
