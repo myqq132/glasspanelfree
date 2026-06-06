@@ -1,24 +1,10 @@
 proxies:
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[A] 🇬🇧 英国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.113.34
-  servername: it.s3-cloud.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - alterId: 0
   cipher: auto
-  name: '[A] 🇬🇧 英国 02'
+  name: '[A] 🇬🇧 英国 01'
   network: tcp
   port: '180'
-  server: 82.198.246.214
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess

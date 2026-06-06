@@ -1,55 +1,46 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  network: ''
-  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 130.94.97.11
-  sni: www.selectnet.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.2.175
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmloud.com
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 05'
-  network: ws
-  password: humanity
-  port: 443
-  server: 66.81.247.155
+  server: 172.237.145.189
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: 172.237.145.189
+  type: trojan
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: assignment
+- name: '[A] 🇺🇸 美国 04'
+  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  port: 443
+  server: 172.238.120.124
+  skip-cert-verify: false
+  type: trojan
+- name: '[A] 🇺🇸 美国 05'
+  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
+  port: 443
+  server: 130.94.68.100
+  sni: www.rolll.click
+  type: trojan
+- name: '[A] 🇺🇸 美国 06'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '[A] 🇺🇸 美国 07'
-  network: tcp
-  password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg
-  port: 443
-  server: 172.238.19.11
-  sni: 172.238.19.11
-  type: trojan
-- name: '[C] 🇺🇸 美国 12'
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -57,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -65,7 +56,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -73,13 +64,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 15'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
