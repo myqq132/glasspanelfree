@@ -1,46 +1,27 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  network: tcp
+  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
   port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  sni: 172.237.145.189
+  server: 149.104.87.182
+  skip-cert-verify: true
+  sni: www.jewelapp.click
   type: trojan
 - name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: humanity
+  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
   port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 130.94.104.210
+  sni: www.cdn-structure.click
   type: trojan
-  ws-opts:
-    path: assignment
-- name: '[A] 🇺🇸 美国 04'
+- name: '[A] 🇺🇸 美国 03'
+  network: tcp
   password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
   port: 443
   server: 172.238.120.124
   skip-cert-verify: false
+  sni: 172.238.120.124
   type: trojan
-- name: '[A] 🇺🇸 美国 05'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 06'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -48,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -56,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -64,3 +45,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
