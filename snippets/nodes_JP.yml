@@ -1,5 +1,17 @@
 proxies:
-- name: '[C] 🇯🇵 日本 01'
+- name: '[A] 🇯🇵 日本 01'
+  network: ws
+  password: ertpzfsl7w4kqvk4
+  port: 443
+  server: 151.101.108.223
+  skip-cert-verify: true
+  sni: default.ssl.fastly.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nleiyajji.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -7,7 +19,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5701
@@ -15,7 +27,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 37973

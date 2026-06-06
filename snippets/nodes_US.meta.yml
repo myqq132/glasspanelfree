@@ -3,7 +3,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.36
+  server: 104.18.152.208
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -11,69 +11,39 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
+- name: '[A] 🇺🇸 美国 02'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: 172.64.33.162
-  servername: octopusss5.info
-  tls: true
-  type: vless
-  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
-  ws-opts:
-    headers:
-      Host: octopusss5.info
-    path: /udfyfws
-- name: '[A] 🇺🇸 美国 03'
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
-  port: 443
-  server: 172.236.220.10
+  server: 64.176.65.85
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[A] 🇺🇸 美国 03'
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  port: 21273
+  server: 149.104.109.74
+  type: ss
 - name: '[A] 🇺🇸 美国 04'
-  network: ws
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
-  server: hyperlink-free.poweredproyuz.com
-  tls: true
-  type: vless
-  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
-  ws-opts:
-    headers:
-      Host: hyperlink-free.poweredproyuz.com
-    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
-- name: '[A] 🇺🇸 美国 05'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
+  server: 130.94.107.171
+  sni: www.logger-guard.click
   type: trojan
-- name: '[A] 🇺🇸 美国 06'
+- name: '[A] 🇺🇸 美国 05'
   network: ws
-  port: 2087
-  server: 104.16.150.246
-  servername: fgnix832fx.fx6hsv0.ccwu.cc
+  port: 443
+  server: 209.46.30.149
+  servername: resources.office.com.r3xxe.eu.cc
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
   ws-opts:
     headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
-    path: /
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: '[A] 🇺🇸 美国 07'
-  network: ws
-  port: 80
-  server: speedtest.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: de2.ping-game.ir
-    path: /IOebhLMhl1CTbFHbL95myfRX2
+      Host: resources.office.com.r3xxe.eu.cc
+    path: /us-gllc
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 06'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
@@ -81,7 +51,7 @@ proxies:
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 07'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
@@ -89,14 +59,14 @@ proxies:
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 08'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 11'
+- name: '[B] 🇺🇸 美国 09'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -104,7 +74,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 12'
+- name: '[B] 🇺🇸 美国 10'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -114,7 +84,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 13'
+  name: '[B] 🇺🇸 美国 11'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: 82.47.22.163
@@ -122,7 +92,7 @@ proxies:
   sni: u723829us372.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -130,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -138,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -148,7 +118,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 17'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.250
