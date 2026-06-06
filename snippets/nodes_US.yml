@@ -1,47 +1,16 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: tcp
+- name: '[A] 🇺🇸 美国 04'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: '[A] 🇺🇸 美国 06'
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
   server: 172.237.145.189
-  skip-cert-verify: false
   sni: 172.237.145.189
   type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
-  port: 443
-  server: 130.94.104.210
-  sni: www.cdn-structure.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '[A] 🇺🇸 美国 04'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 05'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 06'
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -49,7 +18,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -57,7 +26,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -67,7 +36,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 13'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.250

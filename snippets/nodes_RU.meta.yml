@@ -1,5 +1,31 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- cipher: aes-256-gcm
+  name: '[A] 🇷🇺 俄罗斯 03'
+  password: 7e1dd4c55bf85da5
+  port: 20129
+  server: 212.192.12.98
+  type: ss
+- name: '[B] 🇷🇺 俄罗斯 04'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247
@@ -7,7 +33,7 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[B] 🇷🇺 俄罗斯 02'
+- name: '[B] 🇷🇺 俄罗斯 05'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247

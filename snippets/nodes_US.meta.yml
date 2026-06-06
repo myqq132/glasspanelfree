@@ -1,72 +1,104 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
   network: tcp
+  port: 24211
+  server: 174.138.75.30
+  tls: false
+  type: vless
+  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  port: 4399
+  server: 64.226.109.18
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
+  port: 443
+  server: hyperlink-free.poweredproyuz.com
+  tls: true
+  type: vless
+  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
+  ws-opts:
+    headers:
+      Host: hyperlink-free.poweredproyuz.com
+    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
+- name: '[A] 🇺🇸 美国 04'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 05'
+  network: ws
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
+- name: '[A] 🇺🇸 美国 06'
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
   server: 172.237.145.189
-  skip-cert-verify: false
   sni: 172.237.145.189
   type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+- name: '[B] 🇺🇸 美国 07'
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
-  server: 130.94.104.210
-  sni: www.cdn-structure.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  type: trojan
-- name: '[A] 🇺🇸 美国 04'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
+  server: s869.okgfwbackxyz.xyz
   skip-cert-verify: false
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 05'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  skip-cert-verify: false
-  sni: www.rolll.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 06'
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
+  sni: u723829us869.okgfwbackxyz.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 08'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 09'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 195.133.53.33
+  sni: s516.okgfw.top
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 11'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: 82.47.22.163
   sni: u723829us372.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -74,7 +106,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -82,7 +114,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -92,7 +124,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 13'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.250

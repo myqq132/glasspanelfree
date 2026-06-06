@@ -1,31 +1,4 @@
 proxies:
-- name: '[A] 🇫🇷 法国 01'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
-  port: 443
-  server: 172.237.145.189
-  skip-cert-verify: false
-  sni: 172.237.145.189
-  type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
-  port: 443
-  server: 130.94.104.210
-  sni: www.cdn-structure.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 03'
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
-  port: 443
-  server: 172.238.120.124
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '[A] 🇬🇧 英国 01'
@@ -36,62 +9,164 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[A] 🇨🇳 中国 01'
+- name: '[A] 🇺🇸 美国 01'
+  network: tcp
+  port: 24211
+  server: 174.138.75.30
+  tls: false
+  type: vless
+  uuid: 7d2c6756-8397-426e-bed2-100d9f5da95d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray@Azaranv2ray
+- flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[A] 🇺🇸 美国 02'
   network: ws
-  port: 33284
-  server: 8.219.2.255
-  servername: nn9jdg-k7yewrrk.acg.xx.kg
-  skip-cert-verify: false
+  port: 4399
+  server: 64.226.109.18
+  servername: ooa858iqkhza12.mesa.ip-ddns.com
   tls: true
   type: vless
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
-    path: '%2F%40Marisa_kristi'
-- name: '[A] 🇺🇸 美国 04'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+    headers:
+      Host: ooa858iqkhza12.mesa.ip-ddns.com
+    path: /@Marisa_kristifp=chrome
+- name: '[A] 🇺🇸 美国 03'
+  network: ws
   port: 443
-  server: 130.94.107.171
-  skip-cert-verify: false
-  sni: www.logger-guard.click
+  server: hyperlink-free.poweredproyuz.com
+  tls: true
+  type: vless
+  uuid: 2be7b933-c720-4838-a35a-740ae50987ee
+  ws-opts:
+    headers:
+      Host: hyperlink-free.poweredproyuz.com
+    path: /hyperlink-hyperlink-join-to-hyperlink-hyperlink_ch-hyperlink-hlink_robot-hyperlink
+- name: '[A] 🇨🇳 台湾 01'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: '[A] 🇺🇸 美国 04'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
   type: trojan
 - name: '[A] 🇺🇸 美国 05'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
+  network: ws
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
   skip-cert-verify: false
-  sni: www.rolll.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 06'
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[A] 🇬🇧 英国 02'
   network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
-- name: '[A] 🇫🇷 法国 02'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.29.98
+  reality-opts:
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '7a3f9e2b1c8d4f6a'
+  server: 31.76.113.25
+  servername: it.s3-cloud.xyz
   skip-cert-verify: true
-  sni: bing.com
+  tls: false
+  type: vless
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- flow: xtls-rprx-vision
+  name: '[A] 🇨🇳 中国 01'
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
+  server: 122.8.44.3
+  servername: dl.google.com
+  tls: false
+  type: vless
+  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
+- flow: xtls-rprx-vision
+  name: '[A] 🌍 其它地区 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '8ffa160e608bf539'
+  server: as.pink-perfect.ru
+  servername: as.pink-perfect.ru
+  tls: false
+  type: vless
+  uuid: 5d8fcd24-9634-4dd7-845c-3dc2d6291942
+- flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '[A] 🇺🇸 美国 06'
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
+  port: 443
+  server: 172.237.145.189
+  sni: 172.237.145.189
+  type: trojan
+- cipher: aes-256-gcm
+  name: '[A] 🇷🇺 俄罗斯 03'
+  password: 7e1dd4c55bf85da5
+  port: 20129
+  server: 212.192.12.98
+  type: ss
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 02'
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+  port: 443
+  server: s544.ccgfw.online
+  sni: u723829us544.ccgfw.online
   tls: false
   type: hysteria2
-- name: '[A] 🇩🇪 德国 01'
-  network: tcp
-  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
-  port: 443
-  server: 91.233.8.25
-  skip-cert-verify: false
-  sni: fra34.tracker-ws.click
-  type: trojan
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 01'
   password: dongtaiwang.com
   port: 22000
   server: 62.210.124.146
   skip-cert-verify: true
   sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.26.173
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
@@ -110,7 +185,7 @@ proxies:
   sni: de-node.farnet.top
   tls: false
   type: hysteria2
-- name: '[B] 🇷🇺 俄罗斯 01'
+- name: '[B] 🇷🇺 俄罗斯 04'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247
@@ -118,7 +193,7 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[B] 🇷🇺 俄罗斯 02'
+- name: '[B] 🇷🇺 俄罗斯 05'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 185.228.139.247
@@ -126,13 +201,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -142,27 +210,42 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 01'
+  name: '[B] 🌍 其它地区 03'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: 150.129.10.140
   sni: u723829us614.ccgfw.online
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: 1c65bee4-bc54-364c-8988-6a5912fda891
+  port: 443
+  server: s869.okgfwbackxyz.xyz
+  skip-cert-verify: false
+  sni: u723829us869.okgfwbackxyz.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 08'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: s869.okgfwbackxyz.xyz
   sni: u723829us869.okgfwbackxyz.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 09'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
   sni: s559.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 195.133.53.33
+  sni: s516.okgfw.top
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
@@ -183,7 +266,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 11'
   password: 1c65bee4-bc54-364c-8988-6a5912fda891
   port: 443
   server: 82.47.22.163
@@ -191,14 +274,14 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -206,7 +289,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -214,7 +297,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -270,7 +353,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -278,7 +361,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -286,7 +369,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -296,7 +379,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 13'
+  name: '[C] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -305,7 +388,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇨🇳 台湾 01'
+  name: '[D] 🇨🇳 台湾 02'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
@@ -318,19 +401,19 @@ proxies:
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 03'
+  name: '[D] 🌍 其它地区 05'
   password: 0FXkHNQO6q1s9KQX
   port: 443
   server: 20.87.212.31
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 04'
+  name: '[D] 🌍 其它地区 06'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.192
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   password: V6_RXT2UlL5ONSD3Fmvd9XqBGNmespBu
   port: 28893
   server: 103.244.145.247
@@ -358,7 +441,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇬🇧 英国 02'
+  name: '[D] 🇬🇧 英国 03'
   network: tcp
   port: '2053'
   server: uk5.taskflowhub.org
