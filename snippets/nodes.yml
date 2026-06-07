@@ -1,54 +1,28 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 01'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 02'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 01'
+- name: '[A] 🇺🇸 美国 01'
   network: ws
   password: humanity
   port: 443
   server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '[A] 🇺🇸 美国 02'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
-  port: 443
-  server: 130.94.104.210
-  skip-cert-verify: false
-  sni: www.cdn-structure.click
-  type: trojan
+    path: /assignment
+- cipher: aes-256-gcm
+  name: '[A] 🇸🇬 新加坡 01'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.036.node-for-bigairport.win
+  type: ss
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -56,7 +30,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -64,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11031
@@ -72,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -80,7 +54,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 9731
@@ -88,7 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 37973
@@ -96,7 +70,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
@@ -104,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 28111
@@ -112,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 49277
@@ -120,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -128,8 +102,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 07'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 05'
+  name: '[D] 🌍 其它地区 04'
   password: CULuHB2PKuvK6yEN
   port: 443
   server: 40.123.244.72
@@ -142,7 +126,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 09'
+  name: '[D] 🌍 其它地区 08'
   network: ws
   port: '10123'
   server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
@@ -156,7 +140,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇸🇬 新加坡 03'
+  name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 10056
   server: 66.90.98.51

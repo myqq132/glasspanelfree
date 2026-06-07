@@ -1,5 +1,11 @@
 proxies:
-- name: '[C] 🇸🇬 新加坡 01'
+- cipher: aes-256-gcm
+  name: '[A] 🇸🇬 新加坡 01'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 19887
+  server: ss.036.node-for-bigairport.win
+  type: ss
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6357
@@ -7,7 +13,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 28111
@@ -17,7 +23,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇸🇬 新加坡 03'
+  name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 10056
   server: 66.90.98.51
