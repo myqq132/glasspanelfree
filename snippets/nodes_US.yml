@@ -1,24 +1,22 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 02'
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
 - name: '[A] 🇺🇸 美国 03'
-  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
   port: 443
-  server: 172.236.220.10
+  server: 130.94.107.171
+  sni: www.logger-guard.click
   type: trojan
 - name: '[A] 🇺🇸 美国 04'
-  network: ''
-  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: 130.94.97.11
-  sni: www.selectnet.click
+  server: 64.176.65.85
+  type: trojan
+- name: '[A] 🇺🇸 美国 05'
+  network: tcp
+  password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
+  port: 443
+  server: 130.94.92.144
+  skip-cert-verify: false
+  sni: www.node-finder.click
   type: trojan
 - name: '[C] 🇺🇸 美国 09'
   network: tcp
@@ -36,3 +34,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
