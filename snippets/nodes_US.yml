@@ -1,57 +1,51 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
-  port: 443
-  server: 149.104.87.182
-  skip-cert-verify: true
-  sni: www.jewelapp.click
-  type: trojan
 - name: '[A] 🇺🇸 美国 02'
-  password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   port: 443
-  server: 130.94.104.210
-  sni: www.cdn-structure.click
+  server: 172.237.145.189
+  skip-cert-verify: false
+  sni: 172.237.145.189
   type: trojan
 - name: '[A] 🇺🇸 美国 03'
   network: tcp
-  password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
   port: 443
-  server: 172.238.120.124
-  skip-cert-verify: false
-  sni: 172.238.120.124
-  type: trojan
-- name: '[C] 🇺🇸 美国 08'
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 95.40.35.52
+  server: 130.94.97.11
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: www.selectnet.click
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 17005
-  server: 18.167.42.231
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+  ws-opts:
+    headers:
+      Host: '@ProxyVPN11'
 - name: '[C] 🇺🇸 美国 10'
   network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 49277
+  server: 43.199.71.149
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 11'
+  network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.40.218
+  port: 17801
+  server: 95.40.47.145
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 12'
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: '[D] 🇺🇸 美国 13'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss

@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: '[B] CH 01'
+  password: 341bc5bf-a705-433a-a393-ba3894f087c0
+  port: 443
+  server: 14.node.snly.win
+  skip-cert-verify: false
+  sni: flc.ydns.eu
+  tls: false
+  type: hysteria2

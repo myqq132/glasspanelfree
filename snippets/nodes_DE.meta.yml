@@ -1,5 +1,17 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  name: '[A] 🇩🇪 德国 01'
+  network: ws
+  port: 35130
+  server: 213.179.69.150
+  servername: nn9jdg-k7yewrrk.acg.xx.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    path: '%2F%40Marisa_kristi'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 80
   server: me.colorbox.space
@@ -7,3 +19,10 @@ proxies:
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
+- name: '[D] 🇩🇪 德国 03'
+  network: xhttp
+  port: 6444
+  server: ws-test-5.hysteria.ltd
+  tls: true
+  type: vless
+  uuid: d6caf8b3-bef3-48ab-9277-34b186900cd8
