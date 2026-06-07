@@ -1,28 +1,5 @@
 proxies:
-- name: '[A] 🇺🇸 美国 03'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🇨🇳 台湾 01'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[A] 🌍 其它地区 01'
-  password: CULuHB2PKuvK6yEN
-  port: 443
-  server: 40.123.244.72
-  type: ss
-- name: '[A] 🇺🇸 美国 04'
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: '[A] 🇺🇸 美国 05'
+- name: '[A] 🇺🇸 美国 01'
   network: tcp
   password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
   port: 443
@@ -30,12 +7,45 @@ proxies:
   skip-cert-verify: false
   sni: www.node-finder.click
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 443
+  server: renderer-stream-1-411.mirra.now
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: '[A] 🇺🇸 美国 04'
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 05'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[A] 🇨🇳 台湾 02'
+  name: '[A] 🇨🇳 台湾 01'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: nbmrcg0034686rw.cybervena.com
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
+- name: '[A] 🇺🇸 美国 06'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 03'
   password: amazonskr05
@@ -108,7 +118,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 49277
@@ -116,7 +126,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -126,7 +136,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -135,6 +145,12 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 04'
+  password: CULuHB2PKuvK6yEN
+  port: 443
+  server: 40.123.244.72
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: '[D] 🇩🇪 德国 01'
   password: Xu7h4yO69H7QG_C0A9tY7jP1wN0jSzc8
   port: 26190
@@ -142,7 +158,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 07'
+  name: '[D] 🌍 其它地区 08'
   network: ws
   port: '10123'
   server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl

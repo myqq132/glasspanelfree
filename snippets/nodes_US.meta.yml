@@ -1,43 +1,5 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.57
-  servername: www.microsoft.com
-  tls: false
-  type: vless
-  uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
-  port: 443
-  server: 45.130.125.0
-  servername: octopusss4.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: '[A] 🇺🇸 美国 03'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 04'
-  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
-  port: 443
-  server: 64.176.65.85
-  type: trojan
-- name: '[A] 🇺🇸 美国 05'
+- name: '[A] 🇺🇸 美国 01'
   network: tcp
   password: oUAfbL8z87q-mhgjZ6g7mWQobf9=b7ut_F
   port: 443
@@ -45,7 +7,55 @@ proxies:
   skip-cert-verify: false
   sni: www.node-finder.click
   type: trojan
-- name: '[B] 🇺🇸 美国 06'
+- name: '[A] 🇺🇸 美国 02'
+  network: ws
+  port: 2087
+  server: 104.16.150.246
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+    path: '%2F'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[A] 🇺🇸 美国 03'
+  network: ws
+  port: 443
+  server: 199.232.78.158
+  servername: default.ssl.fastly.net
+  tls: true
+  type: vless
+  uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86
+  ws-opts:
+    headers:
+      Host: nesfsheshab.global.ssl.fastly.net
+    path: /
+- name: '[A] 🇺🇸 美国 04'
+  password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  port: 443
+  server: 172.236.220.10
+  skip-cert-verify: false
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[A] 🇺🇸 美国 05'
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  type: trojan
+- name: '[A] 🇺🇸 美国 06'
+  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
+  port: 443
+  server: 130.94.107.171
+  sni: www.logger-guard.click
+  type: trojan
+- name: '[B] 🇺🇸 美国 07'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
@@ -53,7 +63,7 @@ proxies:
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 08'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -61,7 +71,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 09'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -69,7 +79,7 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 49277
@@ -77,7 +87,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -87,7 +97,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.250
