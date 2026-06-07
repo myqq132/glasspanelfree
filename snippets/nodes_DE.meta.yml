@@ -1,16 +1,14 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: ws
-  port: 80
-  server: me.colorbox.space
-  servername: me.colorbox.space
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '[D] 🇩🇪 德国 02'
-  network: xhttp
-  port: 6444
-  server: ws-test-5.hysteria.ltd
-  tls: true
-  type: vless
-  uuid: d6caf8b3-bef3-48ab-9277-34b186900cd8
+- name: '[A] 🇩🇪 德国 01'
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  server: 91.233.8.25
+  skip-cert-verify: false
+  sni: fra34.tracker-ws.click
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇩🇪 德国 02'
+  password: Xu7h4yO69H7QG_C0A9tY7jP1wN0jSzc8
+  port: 26190
+  server: 103.244.145.244
+  type: ss

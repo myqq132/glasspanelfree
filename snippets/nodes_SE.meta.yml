@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] SE 01'
+  network: xhttp
+  port: 80
+  server: se.riotvpn.eu
+  servername: obhod.riotvpn.eu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ac0321ed-0ecf-4200-9d5a-a8321252fb28
+  ws-opts:
+    path: /
