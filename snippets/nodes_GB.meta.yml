@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇬🇧 英国 01'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇬🇧 英国 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: '!!str 2f49bccf11150ef2'
+  server: uk.riotvpn.eu
+  servername: ads.x5.ru
+  tls: false
+  type: vless
+  uuid: ec5e0aed-c265-4f02-9142-8ec76ee50ceb
