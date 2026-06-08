@@ -1,85 +1,12 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+  network: tcp
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
-  server: 149.104.87.182
-  sni: www.jewelapp.click
+  server: 45.79.8.17
+  sni: 45.79.8.17
   type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '[A] 🇺🇸 美国 03'
-  network: ws
-  port: 443
-  server: 162.159.13.206
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 04'
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: picassooo.info
-  tls: true
-  type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  ws-opts:
-    headers:
-      Host: picassooo.info
-    path: /aymdlws
-- name: '[A] 🇺🇸 美国 05'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[A] 🇺🇸 美国 06'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: assignment
-- name: '[A] 🇺🇸 美国 07'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 02'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -87,14 +14,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 03'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -102,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -110,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -118,3 +45,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 07'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

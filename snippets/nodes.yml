@@ -1,74 +1,17 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
-  port: 443
-  server: 149.104.87.182
-  sni: www.jewelapp.click
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: '[A] 🇨🇳 台湾 01'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 02'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇬🇧 英国 01'
+- name: '[A] 🇺🇸 美国 01'
   network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[A] 🇺🇸 美国 05'
-  network: ws
-  password: humanity
+  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
   port: 443
-  server: 104.18.152.219
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 45.79.8.17
+  sni: 45.79.8.17
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[A] 🇺🇸 美国 06'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: assignment
-- name: '[A] 🇺🇸 美国 07'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 03'
   password: amazonskr05
@@ -77,7 +20,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -85,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
@@ -93,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11031
@@ -101,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -157,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -165,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -173,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -181,6 +124,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇺🇸 美国 07'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[D] 🇯🇵 日本 04'
