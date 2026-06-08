@@ -1,37 +1,5 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 03'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '[A] 🇺🇸 美国 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: true
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -39,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -47,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801

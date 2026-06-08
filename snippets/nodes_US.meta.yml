@@ -1,81 +1,16 @@
 proxies:
 - name: '[A] 🇺🇸 美国 01'
-  password: l64tlWoGT6USQr=3WnjWedzvVSHXn8TNTE
-  port: 443
-  server: 130.94.68.100
-  sni: www.rolll.click
-  type: trojan
-- name: '[A] 🇺🇸 美国 02'
-  password: s.wRSE4ANZp4=4h.=B_9Qbetw6XUc0V1SV
-  port: 443
-  server: 130.94.107.171
-  sni: www.logger-guard.click
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 03'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '[A] 🇺🇸 美国 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: true
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 05'
-  network: ws
-  port: 443
-  server: 199.232.78.158
-  servername: default.ssl.fastly.net
-  skip-cert-verify: true
-  tls: true
+  port: 80
+  server: 172.67.211.74
+  tls: false
   type: vless
-  uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86
+  uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
   ws-opts:
     headers:
-      Host: nesfsheshab.global.ssl.fastly.net
+      Host: main.boobie.eu.cc
     path: '%2F'
-- client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 06'
-  network: ws
-  port: 443
-  server: 172.67.185.178
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: '[A] 🇺🇸 美国 07'
-  network: ws
-  port: 443
-  server: 209.46.30.149
-  servername: resources.office.com.r3xxe.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
-  ws-opts:
-    headers:
-      Host: resources.office.com.r3xxe.eu.cc
-    path: /us-gllc
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 02'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
@@ -83,7 +18,7 @@ proxies:
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 03'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -91,14 +26,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 04'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -106,7 +41,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -114,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801

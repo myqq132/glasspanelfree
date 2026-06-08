@@ -1,12 +1,15 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: 6yhPOr3f9o
-  port: 30236
-  server: 47.242.216.193
-  skip-cert-verify: true
-  sni: go.microsoft.com
+- client-fingerprint: chrome
+  name: '[A] 🇭🇰 香港 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.81.36.248
+  servername: api.digital-help-prd.autodesk.com
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - name: '[B] 🇭🇰 香港 02'
   password: e3a5bb40be52de65
   port: 55555
