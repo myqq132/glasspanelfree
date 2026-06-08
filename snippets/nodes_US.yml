@@ -1,12 +1,5 @@
 proxies:
-- name: '[A] 🇺🇸 美国 01'
-  network: tcp
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
-  sni: 45.79.8.17
-  type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -14,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -22,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -32,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 06'
   network: tcp
   port: '180'
   server: 82.198.246.250

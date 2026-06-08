@@ -1,13 +1,23 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.149.25.106
-  servername: ai.sellflow.org
-  tls: false
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 029a4bc6-4557-4b6b-a5fc-6232e943e43b
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[A] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
