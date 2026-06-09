@@ -1,13 +1,5 @@
 proxies:
-- name: '[A] 🇩🇪 德国 01'
-  password: miaoge110
-  port: 51511
-  server: 5.45.100.100
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 01'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
@@ -19,7 +11,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 8443
   server: del.hfgtek.ir
