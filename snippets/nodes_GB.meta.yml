@@ -5,10 +5,26 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: _M0MBe7f2r36dqtjltSRSOOBlclR2q7uY3Rje5r_mgY
-    short-id: '!!str 73'
-  server: 2.26.135.131
-  servername: lada.mycdn-me.ru
+    public-key: D0tYligRGe3BOGZyKT6RhHQxYFZqpKm7-FnDrYHkIzU
+    short-id: '!!str a9496097304cffd1'
+  server: 31.76.84.184
+  servername: x5.ru
   tls: false
   type: vless
-  uuid: 0a963275-4865-452b-8d65-ac67344f913a
+  uuid: 5481bfe3-bf42-425c-b561-cb9d64bff7ff
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇬🇧 英国 02'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '[D] 🇬🇧 英国 03'
+  port: 13149
+  server: 91.223.236.155
+  tls: false
+  type: vless
+  uuid: 236b557f-90db-4a63-87bf-ae3c944c4764

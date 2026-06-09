@@ -7,3 +7,15 @@ proxies:
   sni: de3.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 02'
+  network: tcp
+  port: 8443
+  server: del.hfgtek.ir
+  servername: del.hfgtek.ir
+  tls: true
+  type: vless
+  uuid: 087ebc31-5965-4ba9-8992-e13343e4cf99
