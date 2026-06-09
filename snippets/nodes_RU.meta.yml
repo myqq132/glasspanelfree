@@ -1,23 +1,24 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: edge
+  ws-opts:
+    headers:
+      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[A] 🇷🇺 俄罗斯 02'
   network: tcp
-  port: 22231
-  server: r1.mizulina.top
+  port: 443
+  server: 85.234.114.53
   servername: r1.mizulina.top
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8

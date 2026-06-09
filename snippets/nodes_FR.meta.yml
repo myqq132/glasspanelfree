@@ -2,12 +2,20 @@ proxies:
 - name: '[B] 🇫🇷 法国 01'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
-  server: 62.210.29.98
+  server: 62.210.26.173
   skip-cert-verify: true
   sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
   port: 11000
   server: 185.227.108.195
@@ -15,11 +23,16 @@ proxies:
   sni: de-node.farnet.top
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 04'
   password: xn7dkQ0HsgfElvy0
   port: 32000
   server: turovnet.duckdns.org
-  skip-cert-verify: false
   sni: turovver.duckdns.org
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇫🇷 法国 05'
+  password: xs-h9TyN3xE21ntt8osfVg
+  port: 1080
+  server: 45.67.139.93
+  type: ss
