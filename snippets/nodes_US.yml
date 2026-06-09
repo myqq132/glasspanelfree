@@ -1,17 +1,12 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 04'
-  network: ws
-  password: humanity
+- name: '[A] 🇺🇸 美国 03'
+  network: tcp
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
   port: 443
-  server: www.creationlong.org
+  server: 64.176.65.85
+  sni: 64.176.65.85
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -19,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -27,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 39959
@@ -37,7 +32,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 08'
   network: tcp
   port: '180'
   server: 82.198.246.250

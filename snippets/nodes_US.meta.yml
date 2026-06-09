@@ -1,38 +1,10 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[A] 🇺🇸 美国 01'
-  network: ws
-  port: 2083
-  server: fans.liverpool.qzz.io
-  servername: FANs.LIVeRPOol.QZz.IO
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  ws-opts:
-    headers:
-      Host: fans.liverpool.qzz.io
-    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
-- name: '[A] 🇺🇸 美国 02'
-  network: ws
-  port: 2086
-  server: 104.21.46.101
-  tls: false
-  type: vless
-  uuid: 4a956dfd-b65a-4846-b6da-c85fc79918a5
-  ws-opts:
-    headers:
-      Host: green-scene-32df.atalastchance.workers.dev
-    path: /eyJqdW5rIjoibW81VDZwNXg5S2IiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 03'
+- name: '[A] 🇺🇸 美国 01'
   network: ws
   port: 443
-  server: 172.64.146.138
+  server: 172.64.147.137
   servername: octopusss4.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
@@ -40,26 +12,33 @@ proxies:
     headers:
       Host: octopusss4.com
     path: /tsghdws
-- alpn:
-  - http/1.1
-  name: '[A] 🇺🇸 美国 04'
+- name: '[A] 🇺🇸 美国 02'
   network: ws
-  password: humanity
-  port: 443
-  server: www.creationlong.org
-  type: trojan
+  port: 80
+  server: 151.101.0.1
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: '[B] 🇺🇸 美国 05'
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: '[A] 🇺🇸 美国 03'
+  network: tcp
+  password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+  port: 443
+  server: 64.176.65.85
+  sni: 64.176.65.85
+  type: trojan
+- name: '[B] 🇺🇸 美国 04'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
+  skip-cert-verify: true
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -67,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -75,7 +54,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 39959
@@ -85,7 +64,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 08'
   network: tcp
   port: '180'
   server: 82.198.246.250
