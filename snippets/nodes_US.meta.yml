@@ -3,6 +3,7 @@ proxies:
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
+  skip-cert-verify: false
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
@@ -54,10 +55,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[D] 🇺🇸 美国 07'
-  network: tcp
-  port: 23335
-  server: cdn.vpnifty.ru
-  tls: false
-  type: vless
-  uuid: 96e36192-a0e5-4491-9e88-d5a7a4be88fc
