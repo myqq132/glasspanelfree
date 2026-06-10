@@ -1,10 +1,9 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10078
-  server: us01.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
+  password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
+  port: 443
+  server: 161.104.88.46
+  sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
 - name: '[C] 🇺🇸 美国 02'
@@ -37,6 +36,16 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
   servername: ''
   tls: false
   type: vmess
