@@ -1,11 +1,4 @@
 proxies:
-- name: '[B] CH 01'
-  password: 9f5ce1f6-d223-4f80-b848-72b7d662f189
-  port: 443
-  server: 5.39.202.94
-  sni: cz2.helper-internet.com
-  tls: false
-  type: hysteria2
 - name: '[B] 🌍 其它地区 01'
   obfs: salamander
   obfs-password: killmebaby
@@ -32,57 +25,45 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: e3a5bb40be52de65
-  port: 55555
-  server: 89.251.26.111
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
-  sni: apps.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10085
+  server: hk01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 01'
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10086
+  server: jp01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
-  password: 9f5ce1f6-d223-4f80-b848-72b7d662f189
-  port: 443
-  server: 88.119.176.134
-  sni: lit7.helper-internet.com
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10078
+  server: us01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 02'
-  network: ws
-  port: '443'
-  server: renderer-stream-1-411.mirra.now
-  servername: renderer-stream-1-411.mirra.now
-  tls: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 03'
-  network: ws
-  port: '443'
-  server: renderer-stream-1-411.mirra.now
-  servername: renderer-stream-1-411.mirra.now
-  tls: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /api/v1/gpu-stream/socket
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 02'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -90,7 +71,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
@@ -98,7 +79,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -106,7 +87,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 3515
@@ -114,7 +95,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 16712
@@ -122,7 +103,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
@@ -130,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 3743
@@ -198,7 +179,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇯🇵 日本 05'
   network: tcp
   port: '180'
   server: 82.198.246.214
