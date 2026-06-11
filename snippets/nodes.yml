@@ -13,15 +13,29 @@ proxies:
     headers:
       Host: myvpshosting.name.ng
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 04'
+  network: ws
+  port: '80'
+  server: myvpshosting.name.ng
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 05'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -29,7 +43,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
@@ -37,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 43747
@@ -45,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 50116
