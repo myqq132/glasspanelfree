@@ -1,29 +1,4 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 01'
-  password: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
-  port: 443
-  server: s544.ccgfw.online
-  sni: u727887us544.ccgfw.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 01'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 01'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 152.53.12.152
-  skip-cert-verify: true
-  sni: de3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - name: '[B] 🇷🇺 俄罗斯 01'
   password: miaoge110
   port: 51511
@@ -32,45 +7,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10085
-  server: hk01.jgpy.help
+  password: e3a5bb40be52de65
+  port: 55555
+  server: 89.251.26.111
   skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 03'
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10089
-  server: hk03.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 01'
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10086
-  server: jp01.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
-  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
-  port: 10078
-  server: us01.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
@@ -78,6 +22,20 @@ proxies:
   sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 01'
+  network: ws
+  port: '80'
+  server: myvpshosting.name.ng
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: myvpshosting.name.ng
+    path: /vmess
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 02'
   password: amazonskr05
@@ -86,7 +44,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -94,7 +52,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
@@ -102,7 +60,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 43747
@@ -110,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 50116
@@ -118,7 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 53307
@@ -126,7 +84,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
@@ -134,7 +92,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 3743
@@ -166,7 +124,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -174,7 +132,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -182,7 +140,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 54240
@@ -192,7 +150,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -202,7 +160,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 06'
   network: tcp
   port: '180'
   server: 82.198.246.214
