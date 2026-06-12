@@ -1,13 +1,27 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 152.53.12.152
-  skip-cert-verify: true
-  sni: de3.xiaoliyu.cyou
+- name: '[B] 🌍 其它地区 01'
+  password: 80deaf6e-6747-35f1-848e-b8e8aeb8b2fa
+  port: 443
+  server: s544.ccgfw.online
+  sni: u727887us544.ccgfw.online
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 03'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -15,7 +29,7 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 01'
+- name: '[B] 🌍 其它地区 02'
   password: efe3901e-b309-43f3-843a-f4f871670cf3
   port: 8449
   server: 888275.nl01-cherry.online
@@ -27,19 +41,18 @@ proxies:
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
-  skip-cert-verify: false
   sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -47,7 +60,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 53018
@@ -55,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 1123
@@ -63,7 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 1123
