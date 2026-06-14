@@ -4,26 +4,26 @@ proxies:
   name: '[B] 🇺🇸 美国 01'
   password: 723af53a-b131-3270-8ce0-13f8ecaaa322
   port: 443
-  server: s554.okgfw.top
+  server: 23.166.40.27
   skip-cert-verify: true
+  sni: u723828us881.ccgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
+  port: 443
+  server: s554.okgfw.top
   sni: u723828us554.okgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
   skip-cert-verify: true
   sni: k71530.w-mebel.pro
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 03'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: 195.133.53.225
-  sni: u723828us462.csgfw.top
   tls: false
   type: hysteria2
 - name: '[C] 🇺🇸 美国 04'
