@@ -1,27 +1,17 @@
 proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
+  port: 4433
+  server: us3.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: e3a5bb40be52de65
+  port: 55555
+  server: 89.251.26.111
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 01'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: 89.125.244.28
-  skip-cert-verify: true
-  sni: u723828us646.csgfw.top
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 01'
@@ -40,40 +30,43 @@ proxies:
   sni: sni.nl01-cherry.online
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: 23.166.40.27
-  skip-cert-verify: true
-  sni: u723828us881.ccgfw.top
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 02'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: s554.okgfw.top
-  sni: u723828us554.okgfw.top
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 01'
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 03'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
+- name: '[B] 🌍 其它地区 03'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 103.173.155.158
-  sni: u723828us229.csgfw.top
+  server: 180.93.128.92
+  skip-cert-verify: true
+  sni: vpn-vn-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 01'
+  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
+  port: 1935
+  server: sg2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 02'
+  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
+  port: 1935
+  server: sg3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
+  port: 4433
+  server: hk1.xiaoliyu.cyou
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -116,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 5408
@@ -124,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 55973
@@ -132,7 +125,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 5701
@@ -156,7 +149,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -164,7 +157,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -172,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -182,7 +175,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -191,7 +184,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[D] 🇯🇵 日本 05'
+  name: '[D] 🇯🇵 日本 04'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
