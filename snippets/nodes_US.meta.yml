@@ -18,20 +18,28 @@ proxies:
   name: '[B] 🇺🇸 美国 03'
   password: 723af53a-b131-3270-8ce0-13f8ecaaa322
   port: 443
-  server: s554.okgfw.top
-  sni: u723828us554.okgfw.top
+  server: 23.166.40.27
+  sni: u723828us881.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
+  port: 443
+  server: 161.104.88.46
+  skip-cert-verify: true
+  sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 05'
   password: 723af53a-b131-3270-8ce0-13f8ecaaa322
   port: 443
-  server: 195.133.53.225
-  sni: u723828us462.csgfw.top
+  server: 188.119.64.120
+  sni: u723828us429.csgfw.top
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -39,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -47,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -57,7 +65,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
