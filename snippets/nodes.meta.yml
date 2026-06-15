@@ -15,11 +15,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: e3a5bb40be52de65
+  port: 55555
+  server: 89.251.26.111
   skip-cert-verify: true
-  sni: hkt.ccwink.cc
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 01'
@@ -42,16 +42,8 @@ proxies:
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
-  skip-cert-verify: false
-  sni: k71530.w-mebel.pro
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 180.93.128.92
   skip-cert-verify: true
-  sni: vpn-vn-001.fastervpn.world
+  sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
@@ -62,6 +54,14 @@ proxies:
   sni: sg2.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- name: '[B] 🇨🇦 加拿大 02'
+  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
+  port: 1935
+  server: sg3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
   password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
   port: 4433
@@ -69,23 +69,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 03'
-  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
-  port: 4433
-  server: hk1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: hk1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -93,7 +85,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 2008
@@ -101,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -109,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
