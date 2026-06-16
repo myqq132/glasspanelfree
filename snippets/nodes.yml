@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[B] 🇨🇦 加拿大 01'
+  network: tcp
+  port: '38291'
+  server: tttttt.ly123.edu.kg
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
+- alterId: 0
+  cipher: auto
   name: '[B] 🇯🇵 日本 01'
   network: ws
   port: '443'
@@ -14,14 +24,14 @@ proxies:
       Host: polartime.link
     path: /ws/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 03'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -29,7 +39,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -37,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -45,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11035
