@@ -1,13 +1,12 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: false
-  sni: hkt.ccwink.cc
+- name: '[B] 🇫🇷 法国 01'
+  password: c6b2924e-a913-4864-a910-b446b9841b4b
+  port: 443
+  server: connect-ger2.gadmap.online
+  sni: connect-ger2.gadmap.online
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
+- name: '[B] 🇭🇰 香港 01'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -23,9 +22,27 @@ proxies:
   sni: cdntw.xhl666.top
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 01'
+  password: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+  port: 443
+  server: 88.151.33.158
+  skip-cert-verify: true
+  sni: u729792us504.csgfw.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 01'
+  password: be7441a663ef465566e3a6e441a16357
+  port: 7443
+  server: tw-vds.t1n2.com
+  skip-cert-verify: true
+  sni: tw-vds.t1n2.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 01'
+  name: '[B] 🌍 其它地区 02'
   network: ws
   port: '49515'
   server: 163.223.224.68
@@ -39,11 +56,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 02'
+  name: '[B] 🌍 其它地区 03'
   network: ws
   port: '49515'
   server: 163.223.224.68
-  servername: ''
+  servername: varzesh3.com
   tls: false
   type: vmess
   uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
@@ -52,14 +69,14 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 03'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -67,7 +84,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 2008
@@ -75,7 +92,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -83,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -139,7 +156,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -147,7 +164,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -155,7 +172,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 22057
@@ -163,9 +180,78 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   name: '[D] 🇯🇵 日本 04'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
+  password: yu2XnSPWhmQjxn83iJA3DA
+  port: 3478
+  server: 207.2.120.46
   type: ss
+- name: '[D] 🌍 其它地区 05'
+  network: tcp
+  port: 23009
+  server: 85.90.207.152
+  tls: false
+  type: vless
+  uuid: 21db6b31-6e8b-4307-9127-994c99606e15
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 05'
+  network: tcp
+  port: '30022'
+  server: 186.244.208.78
+  tls: false
+  type: vmess
+  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: tcp
+  port: '29633'
+  server: 23.141.204.132
+  tls: false
+  type: vmess
+  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 06'
+  password: I5ihJzedSnGzDoeQZh6pkT
+  port: 443
+  server: 91.198.166.110
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 07'
+  password: ZniGoEIP89dwFUGJ3dkksgJ_-rK_Jpq6
+  port: 54635
+  server: 212.108.107.238
+  type: ss
+- name: '[D] SE 01'
+  network: tcp
+  port: 443
+  server: 70.34.211.208
+  tls: false
+  type: vless
+  uuid: 2ef5251a-dc71-49b2-85bc-c9c56654d857
+- name: '[D] 🇫🇷 法国 02'
+  port: 6805
+  server: faranse.duravex.net
+  tls: false
+  type: vless
+  uuid: 4c0c49ab-28f1-4411-bf90-5d073caf56ed
+- alpn:
+  - h2
+  - http/1.1
+  name: '[D] 🇸🇬 新加坡 04'
+  network: tcp
+  port: 443
+  server: group.shalana.xyz
+  servername: aka.ms
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 75979242-d597-4311-a019-f3735eb3793d
+- name: '[D] 🇺🇸 美国 07'
+  network: tcp
+  port: 52011
+  server: 5.78.62.9
+  tls: false
+  type: vless
+  uuid: be36abcb-7ddc-4e1a-9777-db3a7fc8790a

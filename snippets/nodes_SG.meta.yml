@@ -23,3 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇸🇬 新加坡 04'
+  network: tcp
+  port: 443
+  server: group.shalana.xyz
+  servername: aka.ms
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 75979242-d597-4311-a019-f3735eb3793d
