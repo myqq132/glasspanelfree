@@ -1,21 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 02'
-  network: ws
-  port: '49515'
-  server: 163.223.224.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
-  ws-opts:
-    headers:
-      Host: varzesh3.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🌍 其它地区 01'
   network: ws
   port: '49515'
   server: 163.223.224.68
@@ -28,7 +14,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 02'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -115,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -123,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -131,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 39959
@@ -139,9 +125,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 03'
+  password: BKtw7AVI6tDcK1oAP4B2lu
+  port: 443
+  server: 94.103.2.174
+  type: ss
 - cipher: aes-128-gcm
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇭🇰 香港 05'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇭🇰 香港 06'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19001
+  server: ss.047.node-for-bigairport.win
   type: ss
