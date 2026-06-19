@@ -23,13 +23,9 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   name: '[D] 🇯🇵 日本 04'
-  network: tcp
-  port: '30022'
-  server: 186.244.208.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss

@@ -15,21 +15,6 @@ proxies:
   sni: connect-ger2.gadmap.online
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
 - name: '[B] 🇨🇳 台湾 01'
   password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
   port: 13456
@@ -41,28 +26,57 @@ proxies:
 - name: '[B] 🌍 其它地区 01'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
-  server: 31.59.39.134
-  skip-cert-verify: false
-  sni: connect-nl1.gadmap.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 02'
-  password: c6b2924e-a913-4864-a910-b446b9841b4b
-  port: 443
   server: connect-nl1.gadmap.online
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: connect-nl1.gadmap.online
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 01'
-  password: be7441a663ef465566e3a6e441a16357
-  port: 7443
-  server: tw-vds.t1n2.com
-  skip-cert-verify: false
-  sni: tw-vds.t1n2.com
+- alpn:
+  - h3
+  name: '[B] 🇬🇧 英国 01'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 88.151.195.220
+  sni: u711540us282.wagahaha.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 01'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 23.166.40.27
+  sni: u711540us881.ccgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: s554.okgfw.top
+  sni: u711540us554.okgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 03'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 195.133.53.225
+  sni: u711540us462.csgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 188.119.65.33
+  sni: u711540us261.wagahaha.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: 167.104.219.219
@@ -70,7 +84,7 @@ proxies:
   sni: connect-tr1.gadmap.online
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 06'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: connect-tr1.gadmap.online
@@ -78,6 +92,20 @@ proxies:
   sni: connect-tr1.gadmap.online
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 02'
+  network: ws
+  port: '49515'
+  server: 163.223.224.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
+  ws-opts:
+    headers:
+      Host: varzesh3.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 03'
@@ -100,7 +128,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -108,7 +136,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -116,7 +144,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -124,7 +152,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -180,7 +208,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -188,7 +216,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -196,7 +224,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 39959
@@ -204,86 +232,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   name: '[D] 🇯🇵 日本 04'
-  network: tcp
-  port: '30022'
-  server: 186.244.208.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
-- name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 2089
-  server: 116.203.94.160
-  tls: false
-  type: vless
-  uuid: 334b4652-f11d-4f0a-9d26-b5c0fff6c31f
-  ws-opts:
-    headers:
-      Host: telewebion.com
-- name: '[D] 🇬🇧 英国 01'
-  port: 22263
-  server: 104.194.148.56
-  tls: false
-  type: vless
-  uuid: 05671cd1-ab2f-4f64-a926-b655f199a23d
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 05'
-  password: I5ihJzedSnGzDoeQZh6pkT
-  port: 443
-  server: 91.198.166.110
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
   type: ss
-- name: '[D] 🇩🇪 德国 02'
-  network: tcp
-  port: 620
-  server: white77.alexanderoff.ru
-  tls: false
-  type: vless
-  uuid: 3b3d263c-21cc-440e-a463-5c15052dcfe4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '[D] 🇩🇪 德国 03'
-  network: tcp
-  port: 630
-  server: white77.alexanderoff.ru
-  tls: false
-  type: vless
-  uuid: 3b3d263c-21cc-440e-a463-5c15052dcfe4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '[D] 🇩🇪 德国 04'
-  network: tcp
-  port: 610
-  server: white77.alexanderoff.ru
-  tls: false
-  type: vless
-  uuid: 3b3d263c-21cc-440e-a463-5c15052dcfe4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '[D] 🇩🇪 德国 05'
-  network: tcp
-  port: 640
-  server: white77.alexanderoff.ru
-  tls: false
-  type: vless
-  uuid: 3b3d263c-21cc-440e-a463-5c15052dcfe4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- name: '[D] 🇬🇧 英国 02'
-  network: tcp
-  port: 8880
-  server: 165.227.236.227
-  tls: false
-  type: vless
-  uuid: 53b8b074-c180-41d9-80dc-55979e0ddc58

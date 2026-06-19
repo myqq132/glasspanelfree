@@ -1,13 +1,41 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: be7441a663ef465566e3a6e441a16357
-  port: 7443
-  server: tw-vds.t1n2.com
-  skip-cert-verify: false
-  sni: tw-vds.t1n2.com
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 01'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 23.166.40.27
+  sni: u711540us881.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: s554.okgfw.top
+  sni: u711540us554.okgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 03'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 195.133.53.225
+  sni: u711540us462.csgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 188.119.65.33
+  sni: u711540us261.wagahaha.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: 167.104.219.219
@@ -15,7 +43,7 @@ proxies:
   sni: connect-tr1.gadmap.online
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 06'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: connect-tr1.gadmap.online
@@ -23,7 +51,7 @@ proxies:
   sni: connect-tr1.gadmap.online
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -31,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -39,7 +67,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 39959
