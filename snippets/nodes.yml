@@ -1,27 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
+  name: '[B] 🌍 其它地区 03'
   network: ws
-  port: '33104'
-  server: cu1.ainivp.com
-  servername: cu1.ainivp.com
-  tls: true
+  port: '49515'
+  server: 163.223.224.68
+  servername: varzesh3.com
+  tls: false
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabe1344
+  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
   ws-opts:
     headers:
-      Host: cu1.ainivp.com
-    path: /ray
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -29,51 +29,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 2008
-  server: 95.40.53.120
+  port: 53018
+  server: 95.40.53.3
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 18.163.182.144
+  server: 43.198.84.209
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 54.46.54.203
+  server: 18.166.66.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[C] 🇯🇵 日本 01'
+  network: tcp
+  password: BxceQaOe
+  port: 28694
+  server: 18.181.208.41
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
-  password: BxceQaOe
-  port: 9731
-  server: 35.77.220.48
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  port: 5701
+  server: 95.40.59.3
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
-  server: 95.40.53.120
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 04'
-  network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 5701
-  server: 3.112.84.255
+  server: 3.112.174.152
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -81,27 +81,27 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 29642
-  server: 95.40.53.120
+  server: 95.40.59.3
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 6357
-  server: 3.112.84.255
+  port: 29642
+  server: 16.163.104.155
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.162.87.106
+  port: 41421
+  server: 18.166.66.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -109,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -117,47 +117,27 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.163.124.229
+  port: 39959
+  server: 16.163.107.6
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 05'
-  password: yu2XnSPWhmQjxn83iJA3DA
-  port: 3478
-  server: 207.2.120.46
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇯🇵 日本 04'
   network: tcp
   port: '30022'
   server: 186.244.208.78
+  servername: ''
   tls: false
   type: vmess
   uuid: b7d93549-0f3f-4af2-9f4d-4340867a23b4
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 07'
-  network: tcp
-  port: '29633'
-  server: 23.141.204.132
-  tls: false
-  type: vmess
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 04'
+  name: '[D] 🌍 其它地区 05'
   password: I5ihJzedSnGzDoeQZh6pkT
   port: 443
   server: 91.198.166.110
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 05'
-  password: ZniGoEIP89dwFUGJ3dkksgJ_-rK_Jpq6
-  port: 54635
-  server: 212.108.107.238
   type: ss
