@@ -1,19 +1,17 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
+- name: '[B] 🇺🇸 美国 01'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 23.166.40.27
-  skip-cert-verify: true
   sni: u711540us881.ccgfw.top
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
-  server: 23.166.40.27
-  sni: u711540us881.ccgfw.top
+  server: s554.okgfw.top
+  skip-cert-verify: false
+  sni: u711540us554.okgfw.top
   tls: false
   type: hysteria2
 - alpn:
@@ -22,23 +20,23 @@ proxies:
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: s554.okgfw.top
-  skip-cert-verify: true
   sni: u711540us554.okgfw.top
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
-  server: s554.okgfw.top
-  skip-cert-verify: false
-  sni: u711540us554.okgfw.top
+  server: 195.133.53.225
+  skip-cert-verify: true
+  sni: u711540us462.csgfw.top
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 05'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 195.133.53.225
-  skip-cert-verify: false
   sni: u711540us462.csgfw.top
   tls: false
   type: hysteria2
@@ -50,7 +48,16 @@ proxies:
   sni: u711540us261.wagahaha.xyz
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 07'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 07'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 188.119.65.33
+  sni: u711540us261.wagahaha.xyz
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -58,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -66,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 41889
@@ -74,13 +81,10 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 11'
   network: tcp
-  port: 443
-  server: atiins.com.tr
-  servername: atiins.com.tr
-  tls: true
-  type: vmess
-  uuid: 97775936-05ea-4fea-8562-e9eb98559790
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  port: 8443
+  server: 23.149.28.8.sslip.io
+  skip-cert-verify: false
+  type: trojan

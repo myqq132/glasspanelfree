@@ -24,8 +24,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[D] 🇯🇵 日本 04'
-  port: 37716
-  server: 167.233.116.204
-  tls: false
+  network: tcp
+  port: 8443
+  server: 185.229.191.157
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 9d09a22b-acf7-4da2-923c-3dc3a3442fbb
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93

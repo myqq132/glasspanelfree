@@ -1,7 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 01'
-  password: UlY3BdJmpmWdy9RJmgxfaA
-  port: 1080
-  server: 217.179.5.162
-  type: ss
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
+    short-id: '!!str 31e36d0ac3355472'
+  server: 191.44.118.101
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
