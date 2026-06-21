@@ -1,4 +1,46 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 01'
+  network: ws
+  port: '33207'
+  server: ct2.ainivp.com
+  servername: ct2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  ws-opts:
+    headers:
+      Host: ct2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 01'
+  network: ws
+  port: '33404'
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '33405'
+  server: yd3.ainivp.com
+  servername: yd3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9217afcd-026e-781f-1abc-c06efabd2328
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 01'
   password: amazonskr05
@@ -79,7 +121,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -87,7 +129,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -95,7 +137,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -105,7 +147,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 04'
+  name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 80
   server: 69.84.182.49
