@@ -1,27 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: gFP8-P4r8FKkN10b0q1keHgL7jjmUOpY9qPAem_3z34
-    short-id: '!!str 5201'
-  server: 72.56.112.226
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: 8c158c22-ecaf-441e-8653-91f1a5a4fd15
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
-    short-id: '!!str 31e36d0ac3355472'
-  server: 191.44.118.101
-  servername: www.microsoft.com
+    public-key: iOyInEua-HgrNQf2MwlKiVx8BCPbLP1uv5tbwy5IDmo
+  server: up.king-ston.store
+  servername: up.king-ston.store
   tls: false
   type: vless
-  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+  uuid: 7d14f1cf-3740-4fbd-a31c-6f7d078f97d7
+- name: '[D] 🇩🇪 德国 02'
+  network: ws
+  port: 2087
+  server: 191.40.5.176
+  tls: false
+  type: vless
+  uuid: af2c3727-c1e7-41c1-86b5-7fb5fcc63359
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

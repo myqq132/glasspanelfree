@@ -25,8 +25,10 @@ proxies:
   type: trojan
 - name: '[D] 🇯🇵 日本 04'
   network: tcp
-  port: 25752
-  server: 217.28.48.29
-  tls: false
+  port: 8443
+  server: 87.249.139.247
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 27f2ae85-3e15-4a9a-9c71-49ee032e7b26
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93

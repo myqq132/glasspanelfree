@@ -107,7 +107,7 @@ proxies:
   cipher: auto
   name: '[D] 🇺🇸 美国 04'
   network: ws
-  port: 80
+  port: '80'
   server: 69.84.182.49
   servername: ''
   tls: false
@@ -117,39 +117,9 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- name: '[D] 🇰🇷 韩国 02'
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.161
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇷🇺 俄罗斯 01'
-  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
-  port: 51523
-  server: ru.moktana.app
+- cipher: aes-128-gcm
+  name: '[D] 🇭🇰 香港 04'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
   type: ss
-- name: '[D] 🇰🇷 韩国 03'
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 130.162.132.38
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '[D] 🌍 其它地区 19'
-  network: ws
-  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
-  port: 443
-  server: 185.18.250.252
-  sni: unnes.ac.id.r3xxe.eu.cc
-  type: trojan
-  ws-opts:
-    path: /au-mt

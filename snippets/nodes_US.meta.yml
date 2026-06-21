@@ -27,7 +27,7 @@ proxies:
   cipher: auto
   name: '[D] 🇺🇸 美国 04'
   network: ws
-  port: 80
+  port: '80'
   server: 69.84.182.49
   servername: ''
   tls: false
@@ -37,10 +37,25 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- name: '[D] 🇺🇸 美国 05'
+- flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 05'
   network: tcp
-  port: 44918
-  server: 64.118.155.66
+  port: 443
+  reality-opts:
+    public-key: OOo-agzuOug2EM-rLJMrgH2pkuVahVWEdXSFMl3z_EE
+  server: nextcloud.c-coo.store
+  servername: nextcloud.c-coo.store
   tls: false
   type: vless
-  uuid: cd6a9e75-2df3-4fad-9bd1-0752bb1bf30c
+  uuid: 7d14f1cf-3740-4fbd-a31c-6f7d078f97d7
+- name: '[D] 🇺🇸 美国 06'
+  network: xhttp
+  port: 2052
+  server: 45.40.145.21
+  tls: false
+  type: vless
+  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
+  ws-opts:
+    headers:
+      Host: cdn3.goofymoofy.com
+    path: /pabloping
