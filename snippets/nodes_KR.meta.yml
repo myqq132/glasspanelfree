@@ -1,19 +1,6 @@
 proxies:
 - name: '[D] 🇰🇷 韩国 01'
   network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.175
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇰🇷 韩国 02'
-  network: ws
   port: 443
   server: 211.49.57.178
   servername: s5.868001.xyz
@@ -22,8 +9,10 @@ proxies:
   type: vless
   uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
   ws-opts:
-    path: '%2Fproxyip'
-- name: '[D] 🇰🇷 韩国 03'
+    headers:
+      Host: s5.868001.xyz
+    path: /proxyipfp=chrome
+- name: '[D] 🇰🇷 韩国 02'
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -34,4 +23,13 @@ proxies:
   ws-opts:
     headers:
       Host: hhcm.hhxaf.cc.cd
+    path: '%2F'
+- name: '[D] 🇰🇷 韩国 03'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 130.162.132.38
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
     path: '%2F'
