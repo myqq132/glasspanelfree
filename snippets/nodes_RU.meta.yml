@@ -1,19 +1,7 @@
 proxies:
-- client-fingerprint: qq
-  name: '[D] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 9443
-  server: 176.109.94.202
-  servername: mms-2tets.hysteria.ltd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
-  ws-opts:
-    path: '%2Fws'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 02'
+  name: '[D] 🇷🇺 俄罗斯 01'
   network: tcp
   port: 443
   reality-opts:
@@ -24,6 +12,18 @@ proxies:
   tls: false
   type: vless
   uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e
+- client-fingerprint: qq
+  name: '[D] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 9443
+  server: 176.109.94.202
+  servername: mms-2tets.hysteria.ltd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
+  ws-opts:
+    path: '%2Fws'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[D] 🇷🇺 俄罗斯 03'
