@@ -111,11 +111,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-128-gcm
+  name: '[D] 🇭🇰 香港 07'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 07'
   network: ws
-  port: '80'
+  port: 80
   server: 69.84.182.49
   servername: ''
   tls: false

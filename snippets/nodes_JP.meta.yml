@@ -23,10 +23,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
-  network: tcp
+- client-fingerprint: chrome
+  name: '[D] 🇯🇵 日本 04'
   port: 8443
-  server: 87.249.139.235
+  server: 87.249.139.233
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
