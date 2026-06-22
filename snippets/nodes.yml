@@ -1,32 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 01'
+  name: '[B] 🇺🇸 美国 06'
   network: ws
-  port: '49515'
-  server: 163.223.224.68
-  servername: varzesh3.com
-  tls: false
+  port: '443'
+  server: 104.18.42.54
+  servername: vienna-bread-threats-amendment.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
+  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
   ws-opts:
     headers:
-      Host: varzesh3.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 02'
-  network: ws
-  port: '49515'
-  server: 163.223.224.68
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+      Host: vienna-bread-threats-amendment.trycloudflare.com
+    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 03'
   password: amazonskr05
@@ -115,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
@@ -123,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
@@ -131,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -141,7 +127,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 11'
   network: ws
   port: '80'
   server: 69.84.182.49

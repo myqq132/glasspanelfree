@@ -1,6 +1,13 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.79.47.137
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   network: xhttp
   port: 443
   reality-opts:
