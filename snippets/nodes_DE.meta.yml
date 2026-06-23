@@ -1,28 +1,6 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: ws
-  port: 8880
-  server: 185.135.9.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[D] 🇩🇪 德国 02'
-  network: ws
-  port: 8880
-  server: 31.185.108.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime23.workers.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
+- client-fingerprint: firefox
+  name: '[D] 🇩🇪 德国 01'
   network: grpc
   port: 443
   reality-opts:
@@ -30,6 +8,7 @@ proxies:
     short-id: '!!str c56c3ba3b9f676c5'
   server: 95.85.233.181
   servername: c.primarymaster.online
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
