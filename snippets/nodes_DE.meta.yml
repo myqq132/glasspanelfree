@@ -1,14 +1,35 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
-    short-id: '!!str 31e36d0ac3355472'
-  server: 191.44.118.101
-  servername: www.microsoft.com
+- name: '[D] 🇩🇪 德国 01'
+  network: ws
+  port: 8880
+  server: 185.135.9.50
   tls: false
   type: vless
-  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 02'
+  network: ws
+  port: 8880
+  server: 31.185.108.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 03'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
+    short-id: '!!str c56c3ba3b9f676c5'
+  server: 95.85.233.181
+  servername: c.primarymaster.online
+  tls: false
+  type: vless
+  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f

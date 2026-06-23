@@ -6,9 +6,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -16,15 +24,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 2008
-  server: 43.207.69.202
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -32,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -40,48 +48,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[D] 🇭🇰 香港 06'
-  network: tcp
-  port: 58712
-  reality-opts:
-    public-key: en2L9xxQOv2w4eD0sxqu3eOFGnqOxZLWuR9sFqBDdAM
-    short-id: '!!str f266fd3d4e'
-  server: 1.sdwan.realm-sync.com
-  servername: swcdn.apple.com
-  tls: false
-  type: vless
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
-- cipher: aes-128-gcm
-  name: '[D] 🇭🇰 香港 07'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[D] 🇭🇰 香港 08'
-  network: tcp
-  port: 60776
-  reality-opts:
-    public-key: rPR7TUpmOpwShZeyLs2QFa46zzCBNkNdYkxe7-trUUc
-    short-id: '!!str 63290ae7179078'
-  server: 1.sdwan.realm-sync.com
-  servername: swcdn.apple.com
-  tls: false
-  type: vless
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇭🇰 香港 09'
-  network: tcp
-  port: 55567
-  reality-opts:
-    public-key: 0soGDTguByd3I9e2nLuzkw5BOHELZ_AHHDkA0Zx3JRA
-    short-id: '!!str f3f70ca767'
-  server: 1.sdwan.realm-sync.com
-  servername: www.discoverasr.com
-  tls: false
-  type: vless
-  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
