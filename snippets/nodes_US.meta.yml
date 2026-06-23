@@ -1,13 +1,5 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  skip-cert-verify: true
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 01'
   network: tcp
   password: 2009158055b4d37156cee7082c50ffde
   port: 49277
@@ -15,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: 2009158055b4d37156cee7082c50ffde
   port: 17005
@@ -23,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -31,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 04'
   network: ws
   port: 80
   server: 167.82.0.1
@@ -46,7 +38,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 05'
   network: tcp
   port: 443
   server: assets.trorays.com
@@ -55,7 +47,7 @@ proxies:
   tls: true
   type: vless
   uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 8880
   server: 50.62.198.50
@@ -66,7 +58,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -79,7 +71,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 08'
   network: ws
   port: '80'
   server: 69.84.182.49
