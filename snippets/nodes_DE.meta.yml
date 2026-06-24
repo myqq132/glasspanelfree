@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 01'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
+    short-id: '!!str c56c3ba3b9f676c5'
+  server: 95.85.233.181
+  servername: c.primarymaster.online
+  tls: false
+  type: vless
+  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
+- name: '[D] 🇩🇪 德国 02'
+  network: ws
+  port: 80
+  server: 151.101.7.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: 80
+  server: 151.101.6.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
