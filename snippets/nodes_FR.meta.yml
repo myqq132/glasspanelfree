@@ -6,18 +6,10 @@ proxies:
   password: 77ca8039-d388-4ed7-8c83-301b48fcfe59
   port: 23661
   server: fr.verymad.net
-  skip-cert-verify: true
   sni: fr.verymad.net
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: hysteria2_fastlane_6td9h97i4
-  port: 443
-  server: 2.27.28.106
-  sni: de8.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 02'
   network: ws
   port: 443
   server: t-panel.wasmer.app
