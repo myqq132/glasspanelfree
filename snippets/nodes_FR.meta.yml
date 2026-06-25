@@ -11,20 +11,29 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  password: hysteria2_fastlane_6td9h97i4
+  port: 443
+  server: 2.27.28.106
+  sni: de8.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: hysteria2_fastlane_doif060eb
   port: 443
   server: 2.27.29.158
   sni: de10.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 04'
   network: ws
-  port: 80
-  server: 151.101.120.151
-  tls: false
+  port: 443
+  server: t-panel.wasmer.app
+  servername: t-panel.wasmer.app
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: 9cd65844-3f28-4081-8d70-b5c61815f45d
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+      Host: t-panel.wasmer.app
+    path: '%2Fws%2F9cd65844-3f28-4081-8d70-b5c61815f45d'

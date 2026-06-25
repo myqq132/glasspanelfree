@@ -2,7 +2,30 @@ proxies:
 - name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 80
-  server: 151.101.124.151
+  server: 151.101.2.219
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: '[D] 🇨🇦 加拿大 02'
+  network: ws
+  port: 80
+  server: 151.101.2.151
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  port: 80
+  server: 151.101.130.151
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -10,7 +33,29 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 04'
+  network: ws
+  port: 80
+  server: 151.101.128.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F'
+- name: '[D] 🇨🇦 加拿大 05'
+  network: ws
+  port: 80
+  server: 151.101.64.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 80
   server: 151.101.1.151
@@ -20,19 +65,8 @@ proxies:
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
-    path: '%2F'
-- name: '[D] 🇨🇦 加拿大 03'
-  network: ws
-  port: 80
-  server: 151.101.0.35
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: '[D] 🇨🇦 加拿大 04'
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 80
   server: 151.101.0.60
