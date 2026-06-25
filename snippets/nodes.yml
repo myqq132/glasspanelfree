@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 03'
+  name: '[C] 🌍 其它地区 02'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -15,7 +15,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: a844e75e40134ee742e80ced8509b310
   port: 2008
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -111,13 +111,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[D] 🇯🇵 日本 04'
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
 - cipher: aes-128-gcm
-  name: '[D] 🇸🇬 新加坡 04'
+  name: '[D] 🇨🇳 中国 01'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
-- name: '[D] 🇸🇬 新加坡 05'
+- name: '[D] 🇸🇬 新加坡 04'
   network: ws
   password: '114514'
   port: 443
@@ -128,11 +136,33 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: '%2F'
-- name: '[D] 🇭🇰 香港 10'
+- name: '[D] 🇭🇰 香港 09'
   network: ws
   password: '114514'
   port: 443
   server: 23.156.153.57
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: '%2F'
+- name: '[D] 🇨🇦 加拿大 01'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 05'
+  network: ws
+  password: '114514'
+  port: 443
+  server: 72.249.204.157
   sni: tjaaa.hhllfly.kdns.fr
   type: trojan
   ws-opts:

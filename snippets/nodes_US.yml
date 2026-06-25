@@ -23,3 +23,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[D] 🇺🇸 美国 05'
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  server: 72.249.204.157
+  sni: tjaaa.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: '%2F'
