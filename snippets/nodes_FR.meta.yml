@@ -1,15 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[B] 🇫🇷 法国 01'
-  password: 77ca8039-d388-4ed7-8c83-301b48fcfe59
-  port: 23661
-  server: fr.verymad.net
-  sni: fr.verymad.net
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- name: '[D] 🇫🇷 法国 01'
   network: ws
   port: 443
   server: t-panel.wasmer.app

@@ -2,30 +2,6 @@ proxies:
 - name: '[B] 🇨🇳 台湾 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 103.115.109.49
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 103.115.109.49
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: hy1.466688.xyz
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Fdaily_free_vpn
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 台湾 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
@@ -33,7 +9,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 台湾 05'
+  name: '[D] 🇨🇳 台湾 02'
   network: tcp
   port: 443
   reality-opts:
