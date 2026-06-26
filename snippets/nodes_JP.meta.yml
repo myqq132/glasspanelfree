@@ -1,12 +1,19 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
+  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
+  port: 25443
+  server: 142.91.109.84
+  sni: cloudrynth.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
   password: 5cb196b8-701a-46b8-843b-2c14061885b5
   port: 10277
   server: jp.baiyi.cloudns.org
   sni: jp.baiyi.cloudns.org
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 51976
@@ -14,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 333967de4411e1e833244ba4becc20bf
   port: 3743
@@ -22,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: 333967de4411e1e833244ba4becc20bf
   port: 55973
@@ -30,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 05'
+- name: '[D] 🇯🇵 日本 06'
   network: ws
   port: 443
   server: 167.82.101.251

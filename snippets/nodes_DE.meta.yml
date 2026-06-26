@@ -1,7 +1,21 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
+  port: 25443
+  server: 203.23.179.232
+  sni: cloudrynth.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 9f57befb-85df-4c38-b921-438a6be3f9a3
+  port: 25443
+  server: 94.185.83.5
+  sni: cloudrynth.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: 9443
   server: 37.114.48.146
