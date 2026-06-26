@@ -1,17 +1,9 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
-  network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 95.40.109.13
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[C] 🇺🇸 美国 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 43.198.98.136
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 49277
+  server: 18.163.100.203
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -19,18 +11,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 18.166.177.233
+  server: 16.162.121.169
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 05'
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  server: 72.249.204.157
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'

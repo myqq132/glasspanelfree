@@ -1,13 +1,13 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -15,91 +15,83 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 06'
-  network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 2008
-  server: 95.40.80.58
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[C] 🇭🇰 香港 07'
   network: tcp
-  password: BxceQaOe
-  port: 27167
-  server: 18.163.184.21
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 2008
+  server: 18.163.100.203
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 43.199.73.120
+  port: 27167
+  server: 43.199.45.214
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 54.250.183.37
+  port: 27167
+  server: 16.162.217.128
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 37973
-  server: 13.158.46.252
+  password: BxceQaOe
+  port: 51976
+  server: 13.158.45.13
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 03'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
+  password: 333967de4411e1e833244ba4becc20bf
   port: 3743
-  server: 13.158.46.252
+  server: 18.166.209.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 29642
-  server: 95.40.109.13
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 55973
+  server: 43.198.247.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 6357
-  server: 95.40.80.58
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 18.166.209.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 03'
   network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 16.162.119.13
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[C] 🇺🇸 美国 01'
-  network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 95.40.109.13
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 43.198.247.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: '[C] 🇸🇬 新加坡 04'
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 54.46.14.161
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: '[C] 🇺🇸 美国 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 43.198.98.136
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 49277
+  server: 18.163.100.203
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -107,46 +99,10 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 18.166.177.233
+  server: 16.162.121.169
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
-- cipher: aes-128-gcm
-  name: '[D] 🇨🇳 中国 01'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- name: '[D] 🇸🇬 新加坡 04'
-  network: ws
-  password: '114514'
-  port: 443
-  server: 172.236.154.50
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'
-- name: '[D] 🇭🇰 香港 09'
-  network: ws
-  password: '114514'
-  port: 443
-  server: 23.156.153.57
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'
 - name: '[D] 🇨🇦 加拿大 01'
   network: ws
   password: humanity
@@ -158,14 +114,3 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 05'
-  network: ws
-  password: '114514'
-  port: 443
-  server: 72.249.204.157
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'

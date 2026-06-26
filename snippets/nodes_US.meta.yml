@@ -1,17 +1,16 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
-  network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 95.40.109.13
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+- name: '[B] 🇺🇸 美国 01'
+  password: 62ef3d06-a2f5-4606-9283-39c456202a00
+  port: 48273
+  server: mg.baiyi.cloudns.org
+  sni: mg.baiyi.cloudns.org
+  tls: false
+  type: hysteria2
 - name: '[C] 🇺🇸 美国 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 17005
-  server: 43.198.98.136
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 49277
+  server: 18.163.100.203
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -19,32 +18,13 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 18.166.177.233
+  server: 16.162.121.169
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[D] 🇺🇸 美国 04'
   port: 443
   server: 206.82.3.131
-  tls: false
-  type: vless
-  uuid: d26598cf-2cdf-4219-80d0-94646dff160d
-- name: '[D] 🇺🇸 美国 05'
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  server: 72.249.204.157
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'
-- flow: ''
-  name: '[D] 🇺🇸 美国 06'
-  network: tcp
-  port: 443
-  server: 206.82.3.133
   tls: false
   type: vless
   uuid: d26598cf-2cdf-4219-80d0-94646dff160d
