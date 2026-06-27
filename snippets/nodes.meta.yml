@@ -12,7 +12,6 @@ proxies:
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
-  skip-cert-verify: true
   sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
@@ -21,6 +20,7 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -28,7 +28,7 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 04'
@@ -36,7 +36,7 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
+  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 05'
@@ -44,7 +44,6 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 01'
@@ -92,7 +91,6 @@ proxies:
   password: 9794d18f-9280-3553-a7a5-a23da75aca76
   port: 443
   server: 88.151.33.158
-  skip-cert-verify: true
   sni: u691611us504.csgfw.top
   tls: false
   type: hysteria2
