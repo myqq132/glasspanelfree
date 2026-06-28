@@ -11,23 +11,18 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 03'
-  port: 443
-  reality-opts:
-    public-key: nnUS7C7-QQntfoyBI7_Ym2DYIJX8ULNjHkKk9Zr8dRs
-    short-id: '!!str 3a8657890bb824a2'
-  server: 163.128.99.219
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 6d06761b-8103-41cb-af1b-5a3b32b0eedc
-- name: '[D] 🇸🇬 新加坡 04'
+- name: '[D] 🇸🇬 新加坡 03'
+  password: 63872b0d-87dd-4474-b690-92773af2922e
+  port: 20035
+  server: kkvlvvq-a.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 3389
   server: 43.163.89.186
@@ -52,3 +47,27 @@ proxies:
     headers:
       Host: c.eoa.ccwu.cc
     path: '%2F'
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 06'
+  port: 443
+  reality-opts:
+    public-key: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
+    short-id: '!!str 12ec278197ed73d9'
+  server: 163.128.98.179
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: f68eda7b-a93a-437e-8b35-3bb6c675b025
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 07'
+  port: 443
+  reality-opts:
+    public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
+    short-id: '!!str 93a993bbc8b86684'
+  server: 163.128.98.252
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2

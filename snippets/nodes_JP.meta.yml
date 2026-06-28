@@ -2,8 +2,8 @@ proxies:
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -23,9 +23,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
-  password: 63872b0d-87dd-4474-b690-92773af2922e
-  port: 20035
-  server: kkvlvvq-a.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
+- alpn:
+  - h3
+  client-fingerprint: firefox
+  name: '[D] 🇯🇵 日本 04'
+  network: ws
+  port: 443
+  server: 192.71.82.2
+  servername: kingcloud.biack.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a5c05c1e-aa68-443f-8598-09800244bd4b
+  ws-opts:
+    path: /LiL?ed=2560

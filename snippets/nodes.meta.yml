@@ -12,14 +12,15 @@ proxies:
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
-  sni: hkt.ccwink.cc
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
+  sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -27,7 +28,6 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 04'
@@ -35,10 +35,18 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
+  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 05'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 06'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -101,7 +109,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -109,7 +117,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: 230012981ba34c12fec11deca0379005
   port: 53012
@@ -117,27 +125,27 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
-  network: tcp
-  password: BxceQaOe
-  port: 50116
-  server: 18.166.59.96
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
-  port: 20744
-  server: 54.46.109.132
+  port: 3941
+  server: 18.166.29.105
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[C] 🇭🇰 香港 10'
+  network: tcp
+  password: BxceQaOe
+  port: 3941
+  server: 18.163.56.230
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 52.196.252.9
+  port: 18021
+  server: 18.183.83.131
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -169,7 +177,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 9149
-  server: 18.162.53.161
+  server: 18.166.29.105
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -185,93 +193,74 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 22657
-  server: 54.46.109.132
+  server: 16.163.142.40
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
+- alpn:
+  - h3
+  client-fingerprint: firefox
+  name: '[D] 🇯🇵 日本 04'
+  network: ws
+  port: 443
+  server: 192.71.82.2
+  servername: kingcloud.biack.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a5c05c1e-aa68-443f-8598-09800244bd4b
+  ws-opts:
+    path: /LiL?ed=2560
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM
+    short-id: '19d6296d2621d9fa'
+  server: 95.85.227.25
+  servername: pol1.hatvpn.org
+  tls: false
+  type: vless
+  uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
+- name: '[D] 🇸🇬 新加坡 03'
   password: 63872b0d-87dd-4474-b690-92773af2922e
   port: 20035
   server: kkvlvvq-a.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 03'
-  port: 443
-  reality-opts:
-    public-key: nnUS7C7-QQntfoyBI7_Ym2DYIJX8ULNjHkKk9Zr8dRs
-    short-id: '3a8657890bb824a2'
-  server: 163.128.99.219
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 6d06761b-8103-41cb-af1b-5a3b32b0eedc
-- name: '[D] 🇫🇷 法国 02'
-  port: 80
-  reality-opts:
-    public-key: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
-    short-id: 'c1'
-  server: 45.67.139.162
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 02'
-  port: 443
-  reality-opts:
-    public-key: Y6bmuGtVRQXa89gLGIXxOtl1pudIe3LCE6neY6kG_V4
-    short-id: '91fce232563631ab'
-  server: kzt-t14.plugvpn.ru
-  servername: kzt-t14.plugvpn.ru
-  tls: false
-  type: vless
-  uuid: 3d6518df-cab2-4840-83fa-a0d0759d1309
 - name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 8880
-  server: 162.159.156.214
+  server: 172.64.88.251
   tls: false
   type: vless
-  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
   ws-opts:
     headers:
-      Host: purple-disk-f68d.14-360.workers.dev
-    path: '%2Fpyip%3DProxyIP.US.CMLiussss.net'
+      Host: patient-cake-39c7.44-e7a.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 8880
-  server: www.gov.ua
+  server: 162.159.48.193
   tls: false
   type: vless
-  uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
+  uuid: e74e8806-06b5-4fb0-a89e-cf79d88cfd02
   ws-opts:
     headers:
-      Host: round-resonance-a84c.13-531.workers.dev
-    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '[D] 🇨🇦 加拿大 03'
+      Host: wild-frog-54a9.170-dcc.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '[D] 🌍 其它地区 03'
   network: ws
-  port: 8880
-  server: 104.16.106.213
-  tls: false
-  type: vless
-  uuid: 3e7bb66e-d7c6-4711-aa05-e4ab0ec58c6d
+  password: Mitivpn
+  port: 80
+  server: 151.101.242.172
+  type: trojan
   ws-opts:
     headers:
-      Host: shrill-cell-cca7.158-6fa.workers.dev
-    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
-  ws-opts:
-    headers:
-      Host: purple-disk-f68d.14-360.workers.dev
-    path: '%2Fpyip%3DProxyIP.US.CMLiussss.net'
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn
 - name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 3389
@@ -296,17 +285,17 @@ proxies:
     headers:
       Host: c.eoa.ccwu.cc
     path: '%2F'
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 8880
-  server: log.bpminecraft.com
+  server: 162.159.156.214
   tls: false
   type: vless
-  uuid: fba6d1fd-0dab-428d-ae71-0e64c73a6060
+  uuid: 090e5985-bbeb-4400-8278-d3a8e9ae5d92
   ws-opts:
     headers:
-      Host: morning-wood-0e8a.28-63e.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
+      Host: shy-star-7967.311-f0b.workers.dev
+    path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
 - name: '[D] 🇺🇸 美国 03'
   network: ws
   password: '114514'
@@ -318,78 +307,103 @@ proxies:
     headers:
       Host: tjaaa.hhllfly.kdns.fr
     path: '%2F'
-- name: '[D] 🇺🇸 美国 04'
-  network: ws
-  port: 443
-  server: 162.159.44.191
-  servername: wz1.fum.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
-  ws-opts:
-    headers:
-      Host: wz1.fum.ccwu.cc
-    path: '%2Fproxyip%3Dsjc.o00o.ooo'
-- name: '[D] 🇨🇦 加拿大 06'
-  network: ws
-  port: 2087
-  server: 104.18.37.191
-  servername: wz1.fum.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65
-  ws-opts:
-    headers:
-      Host: wz1.fum.ccwu.cc
-    path: '%2Fproxyip%3Dsjc.o00o.ooo'
-- name: '[D] 🌍 其它地区 03'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 8880
-  server: sv2.azparadox.ir
-  servername: azsv2.ir5ive.ir
+  server: www.baipiao.eu.org
   tls: false
   type: vless
-  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
+  uuid: 18a7834f-bf89-4c87-ad57-49927a56deed
   ws-opts:
     headers:
-      Host: azsv2.ir5ive.ir
-    path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇨🇳 台湾 06'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
+      Host: holy-violet-858e.471.workers.dev
+    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[D] 🌍 其它地区 04'
-  network: grpc
-  port: 52077
+  port: 443
   reality-opts:
-    public-key: PHBDzNOQhRFtN4bDJ6pOySCGlIA09CC_Josq13rTIwk
-    short-id: '2f8f7f5099e27197'
-  server: fanlandv2.sorcepack.ir
-  servername: yahoo.com
+    public-key: aG121VHPQfsuK_DYqAxQkh6moKXKqYQT2JFxNDjFBjo
+    short-id: '44cac987d1070b5b'
+  server: 2.26.2.173
+  servername: nl01.port-server.online
   tls: false
   type: vless
-  uuid: f6c9ef00-feb2-456e-ac54-11fd5a996cc3
+  uuid: dbfa97b8-f4fb-4687-96dc-a5a2aebfae11
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 06'
+  port: 443
+  reality-opts:
+    public-key: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
+    short-id: '12ec278197ed73d9'
+  server: 163.128.98.179
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: f68eda7b-a93a-437e-8b35-3bb6c675b025
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 07'
+  port: 443
+  reality-opts:
+    public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
+    short-id: '93a993bbc8b86684'
+  server: 163.128.98.252
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2
+- flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  port: 443
+  reality-opts:
+    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+    short-id: 'd23753491eefde7e'
+  server: 185.137.157.72
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+- flow: xtls-rprx-vision
+  name: '[D] 🇨🇳 台湾 06'
+  port: 443
+  reality-opts:
+    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
+    short-id: '473277e2'
+  server: tw3.miyazono-kaori.com
+  servername: dlcdnets.asus.com
+  tls: false
+  type: vless
+  uuid: 580d81f8-4f30-49d6-ad90-59fb4a850313
+- name: '[D] 🇫🇷 法国 02'
+  port: 80
+  reality-opts:
+    public-key: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
+    short-id: 'c1'
+  server: 45.67.139.162
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[D] 🌍 其它地区 05'
-  network: grpc
-  port: 52077
+  port: 443
   reality-opts:
-    public-key: PHBDzNOQhRFtN4bDJ6pOySCGlIA09CC_Josq13rTIwk
-    short-id: 'a7f1b353c9e43d98'
-  server: fanlandv3.sorcepack.ir
-  servername: yahoo.com
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: 'a1b2c3d4e5f6'
+  server: 153.76.122.225
+  servername: cloudflare.com
   tls: false
   type: vless
-  uuid: a36b1024-70b2-476e-9caf-0fd644d5b9ac
-- name: '[D] 🇨🇦 加拿大 07'
+  uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
-  sni: www.ignitelimit.com
+  server: 172.66.47.69
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     path: /assignment

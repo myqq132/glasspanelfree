@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  port: 443
+  reality-opts:
+    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+    short-id: '!!str d23753491eefde7e'
+  server: 185.137.157.72
+  servername: www.nvidia.com
+  tls: false
+  type: vless
+  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
