@@ -7,7 +7,16 @@ proxies:
   sni: testing8.nimarko.org
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: s554.okgfw.top
+  sni: u691611us554.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 49277
@@ -15,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 17005
@@ -23,7 +32,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 44265

@@ -11,23 +11,23 @@ proxies:
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   port: 8445
   server: wlte.nimarko.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: testing3.nimarko.org
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
+  sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -35,10 +35,25 @@ proxies:
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 04'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 05'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 06'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -104,7 +119,7 @@ proxies:
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   port: 8450
   server: wlte8.nimarko.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: testing6.nimarko.org
   tls: false
   type: hysteria2
@@ -116,13 +131,6 @@ proxies:
   sni: testing7.nimarko.org
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 07'
-  password: 80672396-244e-4061-9711-19e8103a1557
-  port: 2083
-  server: 45.145.14.108
-  sni: free-2-swe.endurancepro.space
-  tls: false
-  type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   port: 8444
@@ -131,11 +139,36 @@ proxies:
   sni: testing8.nimarko.org
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: s554.okgfw.top
+  sni: u691611us554.okgfw.top
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 07'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 103.173.155.158
+  sni: u691611u2dd066f2s226.sspcccdn.xyz
+  tls: false
+  type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
   password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
   port: 8443
   server: srvhy1.ezcon24.online
   sni: srvhy1.ezcon24.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 02'
+  password: 80672396-244e-4061-9711-19e8103a1557
+  port: 2083
+  server: 45.145.14.108
+  sni: free-2-swe.endurancepro.space
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -146,7 +179,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -154,7 +187,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 53012
@@ -162,7 +195,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -170,7 +203,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -226,7 +259,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 49277
@@ -234,7 +267,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 17005
@@ -242,7 +275,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -278,7 +311,7 @@ proxies:
   server: kkvlvvq-a.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 8880
   server: www.baipiao.eu.org
@@ -289,7 +322,7 @@ proxies:
     headers:
       Host: square-brook-e650.353-3ac.workers.dev
     path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 8880
   server: log.bpminecraft.com
@@ -300,7 +333,7 @@ proxies:
     headers:
       Host: little-pond-8731.81-68e.workers.dev
     path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   port: 8880
   server: 104.16.100.66
@@ -323,7 +356,7 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: '%2Fus-gllc'
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 8880
   server: 104.16.107.139
@@ -360,7 +393,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 06'
+  name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 104.21.102.164
@@ -370,7 +403,7 @@ proxies:
   uuid: cd82822e-2290-4511-ac5d-1d1be9c0335d
   ws-opts:
     path: /
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
@@ -379,7 +412,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🇨🇦 加拿大 08'
+- name: '[D] 🇨🇦 加拿大 09'
   network: ws
   password: humanity
   port: 443
@@ -388,7 +421,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🇨🇦 加拿大 09'
+- name: '[D] 🇨🇦 加拿大 10'
   network: ws
   password: humanity
   port: 443
