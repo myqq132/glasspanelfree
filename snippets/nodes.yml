@@ -1,13 +1,27 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '18746'
+  server: 138.252.100.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cae7714-9c61-4c5c-876e-c45a1cb13be4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 03'
+  name: '[C] 🌍 其它地区 08'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 07'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -15,7 +29,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
   port: 2008
@@ -23,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -31,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 10'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -111,44 +125,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇭🇰 香港 11'
+- name: '[D] 🇭🇰 香港 08'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
 - cipher: aes-256-gcm
-  name: '[D] 🇭🇰 香港 12'
+  name: '[D] 🇭🇰 香港 09'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 01'
+  name: '[D] 🇷🇺 俄罗斯 02'
   password: 1a87017d0bf57f34
   port: 32432
   server: 195.133.23.142
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 02'
+  name: '[D] 🇷🇺 俄罗斯 03'
   password: 9f3d1a6d31468599
   port: 32012
   server: 195.133.23.164
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 03'
+  name: '[D] 🇷🇺 俄罗斯 04'
   password: cfe685726eea2c4b
   port: 50129
   server: 46.17.43.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 04'
+  name: '[D] 🇷🇺 俄罗斯 05'
   password: 32c0ea6e823341a2
   port: 30129
   server: 46.17.43.147
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇷🇺 俄罗斯 05'
+  name: '[D] 🇷🇺 俄罗斯 06'
   password: b24a80e79cee1d1f
   port: 30129
   server: 46.29.163.176
