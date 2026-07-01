@@ -24,9 +24,13 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[D] 🇯🇵 日本 04'
-  network: tcp
-  port: 6666
-  server: 109.122.251.182
-  tls: false
+  network: ws
+  port: 443
+  server: 104.16.75.224
+  servername: server-ir-3.ariyuz.org
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
+  ws-opts:
+    path: /page=2

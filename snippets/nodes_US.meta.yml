@@ -1,5 +1,12 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: d7774e0e-4cca-4b35-b688-0f3c60a01087
+  port: 8444
+  server: nerr6yxly3lz35bf.m3mer.com
+  sni: nerr6yxly3lz35bf.m3mer.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: f872264a-664a-4b6a-84e8-516a39099860
   port: 443
   server: 134.195.101.199
@@ -7,7 +14,7 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
   password: c059a786-3a03-4300-9ace-4f9cda0f360c
   port: 8444
   server: wlte3.nimarko.org
@@ -15,20 +22,6 @@ proxies:
   sni: testing8.nimarko.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '48885'
-  server: 216.36.115.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 04'
@@ -69,14 +62,13 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   name: '[D] 🇺🇸 美国 08'
-  network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+  network: tcp
+  port: 42841
+  reality-opts:
+    public-key: dzQmB-5PshfbZ228GO154TnSIcKV1HvG8sAhzlLn_zo
+    short-id: '!!str a00ad308'
+  server: 155.103.69.33
+  servername: www.yahoo.com
+  tls: false
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-melbi'
+  uuid: 88888888-8888-8888-8888-888888888888

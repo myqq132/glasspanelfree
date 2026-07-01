@@ -1,14 +1,24 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[D] 🇷🇺 俄罗斯 01'
-  network: tcp
   port: 443
   reality-opts:
-    public-key: Thx57ocixT-wpeK_mdnJaluVW6eAwhlMgglxgjxEmhs
-    short-id: '!!str 65557338e1cd5605'
-  server: 45.152.113.206
-  servername: 1.ru.oncloudnineservicestreang.com
+    public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
+    short-id: '!!str a8389289e18af5f4'
+  server: ru-01.gni-daed.ru
+  servername: ru-01.gni-daed.ru
   tls: false
   type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 02'
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+  server: 78.159.250.32
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
