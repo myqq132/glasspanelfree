@@ -158,9 +158,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[C] 🇭🇰 香港 07'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
+  password: b8494776252056a1b62e77c4ff6a6d61
   port: 2008
-  server: 95.40.113.209
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -168,94 +168,88 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29449
-  server: 95.40.58.222
+  server: 18.162.144.111
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 16.163.149.119
+  port: 11035
+  server: 18.166.152.128
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 52904
-  server: 18.181.219.39
+  port: 10624
+  server: 52.195.161.184
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 3743
-  server: 18.163.118.4
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 5701
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇯🇵 日本 03'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 37973
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 3743
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 01'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 6357
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 29642
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 02'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 48738
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
-  network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 16.162.192.195
+  port: 41421
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇺🇸 美国 05'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 49277
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 17005
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇺🇸 美国 06'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 17005
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 49277
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 16.163.149.119
+  port: 44265
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
+- alpn:
+  - h2
+  name: '[D] 🇯🇵 日本 04'
   network: ws
   port: 443
-  server: 104.16.75.224
+  server: 104.16.75.214
   servername: server-ir-3.ariyuz.org
   skip-cert-verify: false
   tls: true
@@ -263,128 +257,50 @@ proxies:
   uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
   ws-opts:
     path: /page=2
-- alpn:
-  - h2
-  name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇩🇪 德国 01'
   network: ws
   port: 443
-  server: 104.16.75.226
-  servername: server-ir-3.ariyuz.org
+  server: 109.120.176.17
+  servername: sertraline.adaspoloandco.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
+  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
   ws-opts:
-    path: '%2Fpage%3D2'
-- flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 01'
-  port: 443
-  reality-opts:
-    public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
-    short-id: 'a8389289e18af5f4'
-  server: ru-01.gni-daed.ru
-  servername: ru-01.gni-daed.ru
-  tls: false
-  type: vless
-  uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 02'
-  port: 1111
-  reality-opts:
-    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
-  server: 78.159.250.32
-  servername: api-maps.yandex.ru
-  tls: false
-  type: vless
-  uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
+    headers:
+      Host: sertraline.adaspoloandco.com
+    path: /download.php
+- cipher: aes-128-gcm
+  name: '[D] 🇭🇰 香港 10'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
 - name: '[D] 🌍 其它地区 07'
-  network: ws
-  port: 8880
-  server: 193.176.240.129
-  tls: false
-  type: vless
-  uuid: d9307ab3-1ed0-4b6d-bfd0-e104c7ccc25a
-  ws-opts:
-    headers:
-      Host: azsv2.ir5ive.ir
-    path: '%2F'
-- name: '[D] 🇨🇦 加拿大 03'
-  network: ws
-  port: 8880
-  server: 162.159.140.78
-  tls: false
-  type: vless
-  uuid: 6d73dc1e-1627-4b16-b471-53e63aa16c78
-  ws-opts:
-    headers:
-      Host: sweet-truth-ccdb.134-7e9.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  port: 8880
-  server: log.bpminecraft.com
-  tls: false
-  type: vless
-  uuid: f7ebef03-3c34-4769-bfe4-66e3c92ed665
-  ws-opts:
-    headers:
-      Host: lively-dream-d892.262.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  port: 8880
-  server: www.ipget.net
-  tls: false
-  type: vless
-  uuid: 90f0ae37-5a8f-4649-98ad-ac5323840f93
-  ws-opts:
-    headers:
-      Host: silent-king-06b6.297-842.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[D] 🌍 其它地区 08'
-  network: ws
-  port: 2053
-  server: 14.102.228.201
-  servername: gw-f1.orgspeed.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[D] 🌍 其它地区 09'
-  network: ws
-  port: 3445
-  server: faq.chapjavan.ir
-  servername: faq.chapjavan.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278
-  ws-opts:
-    path: /
-- name: '[D] 🇺🇸 美国 08'
   network: tcp
-  port: 42841
+  port: 8443
   reality-opts:
-    public-key: dzQmB-5PshfbZ228GO154TnSIcKV1HvG8sAhzlLn_zo
-    short-id: 'a00ad308'
-  server: 155.103.69.33
+    public-key: CmOo6N7jVYHj9MhRHT3BpxIU8ZgWLPDR3ops_Vqj_l4
+    short-id: 'db49335ae082'
+  server: 78.135.87.247
   servername: www.yahoo.com
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '[D] 🇨🇦 加拿大 06'
+  uuid: d543719b-7325-44ef-a8f4-b1a6e6b44078
+- flow: xtls-rprx-vision
+  name: '[D] CH 01'
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
+    short-id: '4e590fdc'
+  server: 83.228.228.243
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
+- name: '[D] 🌍 其它地区 08'
   network: xhttp
   port: 2086
   server: cd3.postshup.ir
@@ -395,27 +311,72 @@ proxies:
     headers:
       Host: B.cafearen.ir
     path: /?ed=8192
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[D] 🌍 其它地区 10'
+- name: '[D] 🌍 其它地区 09'
   network: ws
-  port: 2053
-  server: 45.131.6.203
-  servername: cache-h2.persia.my
-  skip-cert-verify: false
-  tls: true
+  port: 8080
+  server: 64.176.23.205
+  tls: false
   type: vless
-  uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278
+  uuid: 6f346289-e095-4b99-9304-416830c08e0a
   ws-opts:
-    path: /
-- name: '[D] 🇩🇪 德国 01'
+    headers:
+      Host: t.codmgiftcp.com
+    path: /t-me-V2RayyNGvpn
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 01'
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+  server: 78.159.250.32
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: 104.18.12.149
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[D] 🌍 其它地区 10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.32
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
+- name: '[D] 🌍 其它地区 11'
+  network: ws
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
+  port: 443
+  server: 185.18.250.252
+  sni: unnes.ac.id.r3xxe.eu.cc
+  type: trojan
+  ws-opts:
+    path: /au-mt
+- name: '[D] 🇨🇦 加拿大 04'
+  network: ws
+  port: 443
+  server: 104.16.75.224
+  servername: server-ir-3.ariyuz.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
+  ws-opts:
+    path: '%2Fpage%3D2'

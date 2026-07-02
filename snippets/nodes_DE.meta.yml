@@ -1,10 +1,15 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 01'
   network: ws
-  password: humanity
   port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 109.120.176.17
+  servername: sertraline.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
   ws-opts:
-    path: /assignment
+    headers:
+      Host: sertraline.adaspoloandco.com
+    path: /download.php
