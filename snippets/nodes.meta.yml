@@ -15,29 +15,35 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 443
+  server: 31.77.158.156
+  sni: argg2.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
+  port: 443
+  server: 31.77.158.156
+  sni: argg2.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 01'
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  port: 443
+  server: 2.26.7.99
+  sni: argg9.auragg.org
+  tls: false
+  type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 04'
+- name: '[B] 🇭🇰 香港 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -45,7 +51,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 05'
+- name: '[B] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -53,12 +59,20 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 06'
+- name: '[B] 🇭🇰 香港 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
   skip-cert-verify: true
   sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 02'
@@ -69,28 +83,27 @@ proxies:
   sni: sni.nl01-cherry.online
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 01'
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  port: 8444
-  server: wlte3.nimarko.org
-  skip-cert-verify: false
-  sni: testing8.nimarko.org
+- name: '[B] 🌍 其它地区 03'
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  port: 443
+  server: 150.241.94.156
+  sni: argglive.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 01'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: 31.77.131.115
+  sni: argg3.auragg.org
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🌍 其它地区 04'
   password: 9794d18f-9280-3553-a7a5-a23da75aca76
   port: 443
   server: 103.173.155.158
   skip-cert-verify: true
-  sni: u691611u2dd066f2s226.sspcccdn.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
-  password: 9794d18f-9280-3553-a7a5-a23da75aca76
-  port: 443
-  server: 103.173.155.158
   sni: u691611u2dd066f2s226.sspcccdn.xyz
   tls: false
   type: hysteria2
@@ -102,6 +115,20 @@ proxies:
   sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 01'
+  network: ws
+  port: '48885'
+  server: 216.36.115.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 05'
   password: amazonskr05
@@ -110,7 +137,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 07'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -118,7 +145,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 2008
@@ -126,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -134,7 +161,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 10'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -219,7 +246,7 @@ proxies:
   uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c
   ws-opts:
     path: /page=2
-- name: '[D] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 443
   server: 109.120.176.17
@@ -233,7 +260,7 @@ proxies:
       Host: sertraline.adaspoloandco.com
     path: /download.php
 - cipher: aes-128-gcm
-  name: '[D] 🇭🇰 香港 11'
+  name: '[D] 🇭🇰 香港 09'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
