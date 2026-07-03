@@ -6,8 +6,30 @@ proxies:
   sni: argg9.auragg.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 02'
+  port: 443
+  reality-opts:
+    public-key: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
+    short-id: '!!str e1a78782'
+  server: 51.116.101.212
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: ad1f7afa-af80-4878-816d-1196c9ea70f2
+- name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 6f413d55-a63b-4630-b6e4-6a1466fef96c
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 04'
   network: ws
   port: 443
   server: 109.120.176.17
