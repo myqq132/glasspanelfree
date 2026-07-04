@@ -23,7 +23,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 04'
+  password: 64a72ac3-9a9b-4365-99b3-0a10e4bf59ee
+  port: 55000
+  server: 104.234.233.100
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 48738
@@ -31,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 29642
@@ -39,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 07'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -48,7 +56,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇸🇬 新加坡 07'
+  name: '[D] 🇸🇬 新加坡 08'
   password: 8Q8WSWTEJfzYVjXH1setj3
   port: 16161
   server: 143.198.86.126

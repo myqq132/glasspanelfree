@@ -3,24 +3,11 @@ proxies:
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
   port: 443
   server: alba.normbot.ru
+  skip-cert-verify: true
   sni: alba.normbot.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 01'
-  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
-  port: 443
-  server: at164.mechvpn.online
-  sni: at164.mechvpn.online
-  tls: false
-  type: hysteria2
 - name: '[B] 🇫🇷 法国 01'
-  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
-  port: 443
-  server: de5.mechvpn.online
-  sni: de5.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
   password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
   port: 5443
   server: unic.hysteria.ltd
@@ -28,14 +15,7 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: 612d9f38-5242-42b8-84ad-cdbf528b4cbd
-  port: 29968
-  server: jason.ilovezhenjiu.top
-  sni: jason.ilovezhenjiu.top
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
+- name: '[B] 🇫🇷 法国 02'
   password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
   port: 8443
   server: srvhy1.ezcon24.online
@@ -44,18 +24,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 50961
+  server: 82.47.32.31
   skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: de659099-a3f5-4759-944b-fcef9893d3f3
+  port: 52856
+  server: 82.47.32.31
   skip-cert-verify: true
-  sni: hkt.ccwink.cc
+  sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -66,25 +47,36 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
+- name: '[B] 🇭🇰 香港 04'
+  password: 3213f4a7-4817-45b8-bfff-59e5836a78bc
+  port: 55000
+  server: 156.226.172.6
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 05'
+  password: 64a72ac3-9a9b-4365-99b3-0a10e4bf59ee
+  port: 55000
+  server: 156.226.172.6
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 06'
+  password: c6d33e4e-c01a-4ec0-82d3-c4c18f451e4c
+  port: 40000
+  server: 128.241.227.213
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: '[B] 🌍 其它地区 02'
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
   port: 443
   server: lithis.normbot.ru
+  skip-cert-verify: true
   sni: Lithis.normbot.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
-  port: 443
-  server: pl10.mechvpn.online
-  sni: pl10.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
-  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
-  port: 443
-  server: fr136.mechvpn.online
-  sni: fr136.mechvpn.online
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 01'
@@ -111,12 +103,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 01'
-  password: d5m-5bGOsVbFgRlxsEyO3pCF
-  port: 55020
-  server: 8.148.4.25
+- name: '[B] 🇸🇬 新加坡 04'
+  password: 64a72ac3-9a9b-4365-99b3-0a10e4bf59ee
+  port: 55000
+  server: 104.234.233.100
   skip-cert-verify: true
-  sni: ''
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 01'
@@ -127,7 +119,7 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 05'
+- name: '[B] 🌍 其它地区 03'
   password: 0047a8bc-0025-4d45-899b-c75c669f3ede
   port: 8449
   server: 888275.cherry-nll-01.live
@@ -139,7 +131,16 @@ proxies:
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
   port: 443
   server: velikhis.normbot.ru
+  skip-cert-verify: true
   sni: velikhis.normbot.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 01'
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 52625
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
@@ -159,6 +160,38 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: 3a73ed62-94e5-4c36-856e-a87e2d2487f2
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
+  port: 51717
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
+  password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  port: 51017
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 08'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 50581
   server: 172.96.141.4
@@ -166,7 +199,47 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 09'
+  password: af223a34-e37f-41c8-8467-26474a3ac9d8
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 11'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: vkmks.hysteria.ltd
+  skip-cert-verify: false
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 12'
+  password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
+  port: 51857
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 13'
+  password: cb887032-0447-4216-be3c-7333ecdcda9a
+  port: 50045
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 14'
   password: 8ab59c8d-e4b5-4275-b916-083600addd53
   port: 30000
   server: ru.841130.xyz
@@ -174,7 +247,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 04'
+- name: '[B] 🇭🇰 香港 07'
   password: a5728687-26d6-4962-8fff-45db165acac1
   port: 55000
   server: 45.202.248.138
@@ -182,7 +255,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 05'
+- name: '[B] 🇭🇰 香港 08'
   password: af223a34-e37f-41c8-8467-26474a3ac9d8
   port: 55000
   server: 45.202.248.138
@@ -219,14 +292,14 @@ proxies:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 06'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -234,7 +307,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 10'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 53012
@@ -242,7 +315,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 11'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -250,7 +323,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 12'
   network: tcp
   password: BxceQaOe
   port: 4374
@@ -282,7 +355,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 48738
@@ -290,7 +363,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 29642
@@ -298,7 +371,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 07'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -306,7 +379,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -314,7 +387,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -322,7 +395,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 17'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -343,7 +416,7 @@ proxies:
       Host: nbhhh.mrcool.kdns.fr
     path: /proxyip=Telegram-WangCai2🇨🇳fp=chromefp=chrome
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 07'
+  name: '[D] 🌍 其它地区 05'
   password: 2803361d6c196af8
   port: 30888
   server: 166.1.228.172
@@ -355,7 +428,7 @@ proxies:
   server: 88.218.170.50
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇸🇬 新加坡 07'
+  name: '[D] 🇸🇬 新加坡 08'
   password: 8Q8WSWTEJfzYVjXH1setj3
   port: 16161
   server: 143.198.86.126
