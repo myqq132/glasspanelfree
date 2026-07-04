@@ -7,6 +7,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
+  password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  port: 51844
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
   password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
   port: 5443
   server: united.hysteria.ltd
@@ -14,23 +22,23 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  port: 5443
-  server: hyst-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: hyst-1.hysteria.ltd
-  tls: false
-  type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
-  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  port: 5443
-  server: vkmks.hysteria.ltd
-  skip-cert-verify: false
-  sni: vkmks.hysteria.ltd
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 50581
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 05'
+  password: 8ab59c8d-e4b5-4275-b916-083600addd53
+  port: 30000
+  server: ru.841130.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -38,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -46,7 +54,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 34638
