@@ -1,5 +1,12 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
+  port: 443
+  server: at164.mechvpn.online
+  sni: at164.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
   port: 5443
   server: united.hysteria.ltd
@@ -7,7 +14,23 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: vkmks.hysteria.ltd
+  skip-cert-verify: false
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -15,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -23,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 34638
