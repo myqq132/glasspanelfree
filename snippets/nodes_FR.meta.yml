@@ -1,9 +1,23 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
+  password: e91d47a0-db5f-42da-828b-282e20a1f218
+  port: 8443
+  server: node.cvedcvpn.ru
+  sni: node.cvedcvpn.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
   password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
   port: 8443
   server: srvhy1.ezcon24.online
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: srvhy1.ezcon24.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: e91d47a0-db5f-42da-828b-282e20a1f218
+  port: 443
+  server: node-de2.celerisvpn.ru
+  sni: node-de2.celerisvpn.ru
   tls: false
   type: hysteria2
