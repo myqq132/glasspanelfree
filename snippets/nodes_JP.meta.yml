@@ -2,8 +2,8 @@ proxies:
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 3.112.52.247
+  port: 47656
+  server: 95.40.61.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -23,16 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[D] 🇯🇵 日本 04'
-  network: ws
-  port: 443
-  server: wasmer-earth.jzy88.top
-  servername: wasmer-earth.jzy88.top
-  tls: true
-  type: vless
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
-  ws-opts:
-    headers:
-      Host: wasmer-earth.jzy88.top
-    path: '%2F60156344'

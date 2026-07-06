@@ -7,28 +7,31 @@ proxies:
   sni: argg9.auragg.org
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  network: ws
-  port: 80
-  server: 146.75.119.82
+- name: '[B] 🇩🇪 德国 02'
+  password: 837084dd-c009-444b-839a-7f54bddea4f4
+  port: 443
+  server: newnooodesw.5gvpn.pw
+  sni: newnooodesw.5gvpn.pw
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  name: '[D] 🇩🇪 德国 03'
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
   tls: false
   type: vless
-  uuid: 0a4695e5-7e65-4f1d-906c-d1c0618ebae9
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
+  uuid: ed838389-e7e0-0001-8a1b-040f06d0ba88
+- name: '[D] 🇩🇪 德国 04'
   network: ws
-  port: 443
-  server: 109.120.176.17
-  servername: sertraline.adaspoloandco.com
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 102.177.176.30
+  tls: false
   type: vless
-  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sertraline.adaspoloandco.com
-    path: /download.php
+      Host: vms.lifetime28.workers.dev
+    path: '%2F'
