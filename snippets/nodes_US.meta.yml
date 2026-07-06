@@ -1,21 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 4bbc48e4-e800-4937-a4ce-d7e1fd4ed586
-  port: 443
-  server: at164.mechvpn.online
-  skip-cert-verify: false
-  sni: at164.mechvpn.online
+  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 7Z47Z7yK4CpDBW6ht3XifQopIW7WVmEM
-  port: 443
-  server: 192.220.32.174
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 50581
   server: 172.96.141.4
@@ -23,7 +15,7 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 03'
   password: cb887032-0447-4216-be3c-7333ecdcda9a
   port: 52738
   server: 172.96.141.4
@@ -31,12 +23,19 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: cb887032-0447-4216-be3c-7333ecdcda9a
-  port: 50045
+- name: '[B] 🇺🇸 美国 04'
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 51385
   server: 46.17.40.117
   skip-cert-verify: true
   sni: music.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
+  port: 51385
+  server: 46.17.40.117
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[C] 🇺🇸 美国 06'

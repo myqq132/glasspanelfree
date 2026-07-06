@@ -7,15 +7,8 @@ proxies:
   sni: argg9.auragg.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 837084dd-c009-444b-839a-7f54bddea4f4
-  port: 443
-  server: newnooodesw.5gvpn.pw
-  sni: newnooodesw.5gvpn.pw
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   port: 443
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
@@ -24,7 +17,7 @@ proxies:
   tls: false
   type: vless
   uuid: ed838389-e7e0-0001-8a1b-040f06d0ba88
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 8880
   server: 102.177.176.30
