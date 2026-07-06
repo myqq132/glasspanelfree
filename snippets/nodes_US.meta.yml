@@ -1,13 +1,5 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
-  port: 55000
-  server: 156.229.164.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 50581
   server: 172.96.141.4
@@ -15,15 +7,15 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: cb887032-0447-4216-be3c-7333ecdcda9a
-  port: 52738
-  server: 172.96.141.4
+- name: '[B] 🇺🇸 美国 02'
+  password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
+  port: 36713
+  server: 107.173.11.163
   skip-cert-verify: true
-  sni: api.push.apple.com
+  sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 03'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 51385
   server: 46.17.40.117
@@ -31,13 +23,23 @@ proxies:
   sni: music.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 04'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 51385
   server: 46.17.40.117
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
 - name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
