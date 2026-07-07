@@ -1,5 +1,33 @@
 proxies:
-- name: '[C] 🇺🇸 美国 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '20368'
+  server: 45.78.72.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b4dc8abc-cd61-407c-98cd-175344688b20
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '19679'
+  server: 45.78.72.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4fb543fa-8034-45a4-ae29-a023d843e838
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -7,7 +35,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -15,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 22657
