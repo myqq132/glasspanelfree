@@ -7,6 +7,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: fee5bf09-5d07-45e8-9a47-859b06694971
+  port: 443
+  server: ball.bluekitty.lol
+  sni: ball.bluekitty.lol
+  tls: false
+  type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
@@ -15,11 +22,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
-  password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
-  port: 50961
-  server: 82.47.32.31
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -27,7 +33,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 04'
@@ -35,7 +41,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 01'
@@ -97,27 +103,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
-  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
-  port: 55000
-  server: 156.229.164.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
   port: 36713
   server: 107.173.11.163
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 05'
-  password: a5728687-26d6-4962-8fff-45db165acac1
-  port: 55000
-  server: 45.202.248.138
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -128,7 +118,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -136,7 +126,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
@@ -144,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 4374
@@ -152,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -208,7 +198,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -216,7 +206,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -224,7 +214,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -281,7 +271,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 02'
+  name: '[D] 🇫🇷 法国 03'
   port: 443
   reality-opts:
     public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
@@ -291,7 +281,7 @@ proxies:
   tls: false
   type: vless
   uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
-- name: '[D] 🇭🇰 香港 10'
+- name: '[D] 🇭🇰 香港 09'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -299,7 +289,7 @@ proxies:
   type: trojan
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 04'
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -318,7 +308,7 @@ proxies:
   tls: false
   type: vmess
   uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e
-- name: '[D] 🇺🇸 美国 06'
+- name: '[D] 🇺🇸 美国 05'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -397,7 +387,7 @@ proxies:
     headers:
       Host: zeus-panel-67qb7f.zeus-moi2iw.workers.dev
     path: '%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh'
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 80
   server: 72.167.241.4
@@ -408,7 +398,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 80
   server: 209.94.90.4
@@ -419,7 +409,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 80
   server: 141.193.27.4
@@ -431,7 +421,7 @@ proxies:
       Host: proud-cloud-5c50.113-8dc.workers.dev
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
 - flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 04'
+  name: '[D] 🇫🇷 法国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -476,7 +466,7 @@ proxies:
       Host: rb24.ir
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 05'
+  name: '[D] 🇫🇷 法国 06'
   network: tcp
   port: 443
   reality-opts:
