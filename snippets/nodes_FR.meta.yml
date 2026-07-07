@@ -8,6 +8,15 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.27.216
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: fee5bf09-5d07-45e8-9a47-859b06694971
   port: 443
   server: ball.bluekitty.lol
@@ -16,7 +25,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 04'
   port: 443
   reality-opts:
     public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
@@ -28,7 +37,7 @@ proxies:
   uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 04'
+  name: '[D] 🇫🇷 法国 05'
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -40,7 +49,7 @@ proxies:
   uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 05'
+  name: '[D] 🇫🇷 法国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -53,7 +62,7 @@ proxies:
   uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 06'
+  name: '[D] 🇫🇷 法国 07'
   network: tcp
   port: 443
   reality-opts:
