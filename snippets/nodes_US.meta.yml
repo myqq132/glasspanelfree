@@ -1,5 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
   port: 36713
   server: 107.173.11.163
@@ -7,35 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '8080'
-  server: 153.75.235.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '19679'
-  server: 45.78.72.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fb543fa-8034-45a4-ae29-a023d843e838
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -43,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -51,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -59,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -70,7 +50,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 80
   server: 72.167.241.4
@@ -81,7 +61,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 80
   server: 209.94.90.4
@@ -92,7 +72,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 80
   server: 141.193.27.4

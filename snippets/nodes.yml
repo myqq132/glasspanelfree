@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '8080'
-  server: 153.75.235.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '19679'
-  server: 45.78.72.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fb543fa-8034-45a4-ae29-a023d843e838
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 06'
   password: amazonskr05
@@ -115,7 +87,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -123,7 +95,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -131,7 +103,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 22657
