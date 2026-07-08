@@ -1,5 +1,30 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: france-2.hysteria.ltd
+  sni: france-2.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 02'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: france-2.hysteria.ltd
+  sni: france-2.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 03'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 6443
+  server: france-2.hysteria.ltd
+  sni: france-2.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -7,7 +32,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
+- name: '[B] 🇫🇷 法国 05'
   obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -16,7 +41,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 06'
   password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
   port: 5443
   server: unic.hysteria.ltd
@@ -24,11 +49,13 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: fee5bf09-5d07-45e8-9a47-859b06694971
-  port: 443
-  server: ball.bluekitty.lol
-  sni: ball.bluekitty.lol
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 07'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: unic.hysteria.ltd
+  sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
@@ -37,6 +64,14 @@ proxies:
   server: 202.146.222.29
   skip-cert-verify: true
   sni: https%3A%2F%2Ft.me%2FWangCai2
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 01'
@@ -57,22 +92,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 01'
-  password: d5m-5bGOsVbFgRlxsEyO3pCF
-  port: 55020
-  server: 8.148.4.25
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 01'
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 31.77.144.133
-  sni: argg9.auragg.org
-  tls: false
-  type: hysteria2
 - name: '[B] 🇨🇳 台湾 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -82,21 +101,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 03'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: 144.31.224.27
-  skip-cert-verify: false
-  sni: argg3.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
-  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
-  port: 443
-  server: 5.255.102.165
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 05'
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
@@ -104,7 +108,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 06'
+- name: '[B] 🌍 其它地区 04'
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
@@ -120,47 +124,34 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
-  port: 55000
-  server: 156.229.164.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
-  port: 36713
-  server: 107.173.11.163
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
   password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
   port: 5443
-  server: hyst-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: hyst-1.hysteria.ltd
+  server: united.hysteria.ltd
+  sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: vkmks.hysteria.ltd
-  skip-cert-verify: false
-  sni: vkmks.hysteria.ltd
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 05'
+  network: tcp
+  port: '2026'
+  server: 155.103.71.163
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: b2fcc775-1579-4b4b-9fe8-f8dde771c861
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 07'
+  name: '[C] 🌍 其它地区 06'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -168,7 +159,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 32583
@@ -176,7 +167,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -184,7 +175,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -240,7 +231,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -248,7 +239,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -256,7 +247,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -270,7 +261,7 @@ proxies:
   tls: false
   type: vless
   uuid: 2166fcae-8e93-4f50-d3c4-94c7042767ac
-- name: '[D] 🇭🇰 香港 06'
+- name: '[D] 🇭🇰 香港 07'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -292,14 +283,14 @@ proxies:
     headers:
       Host: farsnews.wayspro.ir
     path: /
-- name: '[D] 🌍 其它地区 08'
+- name: '[D] 🌍 其它地区 07'
   network: tcp
   port: 19218
   server: 92.42.207.27
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 1.tls.fastly.veraspeed.ir
@@ -325,7 +316,7 @@ proxies:
     path: /?ed=2082
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 10'
+  name: '[D] 🇺🇸 美国 07'
   network: ws
   port: '18814'
   server: 23.95.78.146
@@ -338,7 +329,7 @@ proxies:
       Host: www.bing.com
     path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 09'
+  name: '[D] 🌍 其它地区 08'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -349,7 +340,7 @@ proxies:
   type: vless
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 10'
+  name: '[D] 🌍 其它地区 09'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -361,7 +352,7 @@ proxies:
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 10'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -372,7 +363,7 @@ proxies:
   type: vless
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 08'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -384,7 +375,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 11'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -395,7 +386,7 @@ proxies:
   type: vless
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 09'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -407,7 +398,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 12'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -419,7 +410,7 @@ proxies:
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 14'
+  name: '[D] 🌍 其它地区 13'
   port: 8443
   reality-opts:
     public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
@@ -430,7 +421,7 @@ proxies:
   type: vless
   uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 10'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -441,7 +432,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 11'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -452,7 +443,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 15'
+  name: '[D] 🇺🇸 美国 12'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -463,7 +454,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 13'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -474,7 +465,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 17'
+  name: '[D] 🇺🇸 美国 14'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -485,7 +476,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 15'
+  name: '[D] 🌍 其它地区 14'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -496,7 +487,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 16'
+  name: '[D] 🌍 其它地区 15'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -507,7 +498,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 18'
+  name: '[D] 🇺🇸 美国 15'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -518,7 +509,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 19'
+  name: '[D] 🇺🇸 美国 16'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -529,7 +520,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 20'
+  name: '[D] 🇺🇸 美国 17'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -540,7 +531,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 21'
+  name: '[D] 🇺🇸 美国 18'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -551,7 +542,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 22'
+  name: '[D] 🇺🇸 美国 19'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -562,7 +553,7 @@ proxies:
   type: vless
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 17'
+  name: '[D] 🌍 其它地区 16'
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -573,7 +564,7 @@ proxies:
   type: vless
   uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 18'
+  name: '[D] 🌍 其它地区 17'
   port: 443
   reality-opts:
     public-key: zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg
@@ -584,7 +575,7 @@ proxies:
   type: vless
   uuid: eece4171-e025-40a3-9027-e395036ff99d
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 19'
+  name: '[D] 🌍 其它地区 18'
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -596,7 +587,7 @@ proxies:
   uuid: 360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 20'
+  name: '[D] 🌍 其它地区 19'
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -607,7 +598,7 @@ proxies:
   type: vless
   uuid: 7896c501-248f-4068-bc2f-363c91ba5122
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 21'
+  name: '[D] 🌍 其它地区 20'
   port: 8443
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
@@ -618,7 +609,7 @@ proxies:
   type: vless
   uuid: 7896c501-248f-4068-bc2f-363c91ba5122
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 23'
+  name: '[D] 🇺🇸 美国 20'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
