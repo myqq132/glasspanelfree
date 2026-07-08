@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇬🇧 英国 01'
+  network: ws
+  port: 4042
+  server: farsnews.wayspro.ir
+  servername: farsnews.wayspro.ir
+  tls: true
+  type: vless
+  uuid: 972f7902-9af1-4bd6-befc-bc7c61f95fc7
+  ws-opts:
+    headers:
+      Host: farsnews.wayspro.ir
+    path: /

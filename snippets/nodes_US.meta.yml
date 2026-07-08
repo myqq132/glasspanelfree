@@ -1,5 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: united.hysteria.ltd
+  skip-cert-verify: false
+  sni: united.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
   port: 55000
   server: 156.229.164.1
@@ -7,7 +15,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
   password: AmWCbxhVSBz7b1XL9ZNJSReMCxdFZlxX
   port: 36713
   server: 107.173.11.163
@@ -15,71 +23,226 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 04'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: vkmks.hysteria.ltd
+  skip-cert-verify: false
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 07'
-  network: ws
-  port: 80
-  server: 72.167.241.4
-  tls: false
-  type: vless
-  uuid: 9e72bb88-d361-4462-8ee3-3d4567be7c3d
-  ws-opts:
-    headers:
-      Host: tiantizmlb.dpdns.org
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 08'
-  network: ws
-  port: 80
-  server: 209.94.90.4
-  tls: false
-  type: vless
-  uuid: 9e72bb88-d361-4462-8ee3-3d4567be7c3d
-  ws-opts:
-    headers:
-      Host: tiantizmlb.dpdns.org
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
 - name: '[D] 🇺🇸 美国 09'
   network: ws
-  port: 80
-  server: 141.193.27.4
-  tls: false
+  port: 443
+  server: 1.tls.fastly.veraspeed.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
+  uuid: 0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335
   ws-opts:
     headers:
-      Host: proud-cloud-5c50.113-8dc.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 10'
+  network: ws
+  port: '18814'
+  server: 23.95.78.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dc0672f1-1a09-42ec-8f46-0a7e68349e79
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 11'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.58
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 12'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.114
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 13'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.42
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 14'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.49
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 15'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.106
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 16'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.34
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 17'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.105
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 18'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.28
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 19'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.1
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 20'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.54
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 21'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.118
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 22'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.68
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 23'
+  port: 443
+  reality-opts:
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: '!!str d020b987f84eb78a'
+  server: 45.196.182.87
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36

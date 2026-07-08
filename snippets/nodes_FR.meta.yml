@@ -1,14 +1,13 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.27.216
-  skip-cert-verify: true
-  sni: bing.com
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: france-2.hysteria.ltd
+  skip-cert-verify: false
+  sni: france-2.hysteria.ltd
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -17,59 +16,26 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
+  obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.27.216
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
   password: fee5bf09-5d07-45e8-9a47-859b06694971
   port: 443
   server: ball.bluekitty.lol
   sni: ball.bluekitty.lol
   tls: false
   type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 04'
-  port: 443
-  reality-opts:
-    public-key: TeIrR5shMsMAwIU0UgcnvokkgE97_38kJrNNVXGmEDg
-    short-id: '!!str 341ad73bbc77993c'
-  server: fr1.waspnest.space
-  servername: fr1.waspnest.space
+- name: '[B] 🇫🇷 法国 05'
+  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
+  port: 5443
+  server: unic.hysteria.ltd
+  skip-cert-verify: false
+  sni: unic.hysteria.ltd
   tls: false
-  type: vless
-  uuid: 66b63d3a-54ac-41f1-91f7-e74b171f3029
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 05'
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.110
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 06'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.44
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 07'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.239
-  servername: cdn6-49.yahoo.com
-  tls: false
-  type: vless
-  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  type: hysteria2
