@@ -23,38 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 04'
-  password: XG59623478
-  port: 443
-  server: frank-piranha.rooster465.autos
-  type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 05'
-  network: ws
-  port: 443
-  server: x4g-production-1506.up.railway.app
-  servername: x4g-production-1506.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 78174433-c53f-dcbf-1222-02fab7e5b0de
-  ws-opts:
-    headers:
-      Host: x4g-production-1506.up.railway.app
-    path: /ws/78174433-c53f-dcbf-1222-02fab7e5b0de
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: 154.64.237.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f988d3b3-8476-4602-ab9a-1984191a51ac
-  ws-opts:
-    headers:
-      Host: ''
-    path: /

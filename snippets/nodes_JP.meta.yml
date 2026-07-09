@@ -23,9 +23,16 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
   name: '[D] 🇯🇵 日本 04'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 146.70.53.62
-  type: ss
+  network: ws
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: '%2Fsg-melbi'

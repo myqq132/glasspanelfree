@@ -23,14 +23,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[D] 🇸🇬 新加坡 04'
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 129.212.229.240
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'

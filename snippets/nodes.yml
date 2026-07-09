@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -15,7 +15,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 20083
@@ -23,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -31,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -111,137 +111,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 04'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 146.70.53.62
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 05'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 194.54.80.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 06'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 135.136.33.134
-  type: ss
-- name: '[D] 🇺🇸 美国 04'
-  password: XG59623478
-  port: 443
-  server: frank-piranha.rooster465.autos
-  type: trojan
-- name: '[D] 🌍 其它地区 07'
-  password: XG59623478
-  port: 443
-  server: classic-duckling.rooster465.autos
-  type: trojan
-- name: '[D] 🇭🇰 香港 06'
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[D] 🇸🇬 新加坡 04'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 129.212.229.240
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇰🇷 韩国 01'
-  network: ws
-  password: '521314'
-  port: 2096
-  server: 131.186.27.112
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇬🇧 英国 01'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 104.248.160.220
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇬🇧 英国 02'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 104.194.144.187
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🌍 其它地区 08'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 103.83.87.133
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
 - cipher: aes-128-gcm
-  name: '[D] 🇨🇳 中国 01'
+  name: '[D] 🇭🇰 香港 07'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: 154.64.237.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f988d3b3-8476-4602-ab9a-1984191a51ac
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 01'
-  network: ws
-  port: 8880
-  server: 178.104.66.83
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6cd9c576-a21a-49a1-b922-f7daf1f2bfe4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray
+- cipher: aes-256-gcm
+  name: '[D] 🇭🇰 香港 08'
+  password: 7e1dd4c55bf85da5
+  port: 20123
+  server: 212.192.15.108
+  type: ss

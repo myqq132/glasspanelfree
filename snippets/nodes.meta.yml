@@ -7,6 +7,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -14,7 +21,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 04'
   obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -24,11 +31,27 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 01'
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 8.148.4.25
+  skip-cert-verify: true
+  sni: 8.148.4.25
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 01'
@@ -70,7 +93,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -78,7 +101,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 20083
@@ -86,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -94,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -174,189 +197,73 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 04'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 146.70.53.62
-  type: ss
-- name: '[D] 🇨🇦 加拿大 01'
+- name: '[D] 🇯🇵 日本 04'
   network: ws
-  port: 8880
-  server: www.visa.com.sg
-  tls: false
-  type: vless
-  uuid: f7ed4770-81f4-47a1-9490-8b8cd684c97e
-  ws-opts:
-    headers:
-      Host: silent-cloud-aa63.324-7d8.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- alpn:
-  - h2
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 02'
-  network: ws
-  port: 2053
-  server: 172.67.152.85
-  servername: prwgrammer.com
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
-  uuid: aa0b9ed6-8cc9-40a8-8ec2-28e3a0927145
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
-      Host: prwgrammer.com
-    path: /prwgrammer?ed=2560fp=chrome
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 05'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 194.54.80.37
+      Host: support.zoom.us.yxls.eu.cc
+    path: '%2Fsg-melbi'
+- cipher: aes-128-gcm
+  name: '[D] 🇭🇰 香港 07'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
   type: ss
-- name: '[D] 🇨🇦 加拿大 03'
+- cipher: aes-256-gcm
+  name: '[D] 🇭🇰 香港 08'
+  password: 7e1dd4c55bf85da5
+  port: 20123
+  server: 212.192.15.108
+  type: ss
+- name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 8880
   server: download.yunzhongzhuan.com
   tls: false
   type: vless
-  uuid: c6d29888-78d5-446a-b2f0-f3968e6d1634
+  uuid: 20f21d96-3700-46d9-9f63-5933403c0c18
   ws-opts:
     headers:
-      Host: lingering-cherry-5f41.42-08a.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 06'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 135.136.33.134
-  type: ss
-- name: '[D] 🇺🇸 美国 04'
-  password: XG59623478
-  port: 443
-  server: frank-piranha.rooster465.autos
-  type: trojan
-- name: '[D] 🌍 其它地区 07'
-  password: XG59623478
-  port: 443
-  server: classic-duckling.rooster465.autos
-  type: trojan
-- name: '[D] 🇭🇰 香港 06'
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[D] 🇸🇬 新加坡 04'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 129.212.229.240
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇰🇷 韩国 01'
-  network: ws
-  password: '521314'
-  port: 2096
-  server: 131.186.27.112
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇬🇧 英国 01'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 104.248.160.220
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🇬🇧 英国 02'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 104.194.144.187
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- name: '[D] 🌍 其它地区 08'
-  network: ws
-  password: '521314'
-  port: 443
-  server: 103.83.87.133
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🇺🇸 美国 05'
-  network: ws
-  port: 443
-  server: x4g-production-1506.up.railway.app
-  servername: x4g-production-1506.up.railway.app
-  skip-cert-verify: false
-  tls: true
+      Host: restless-math-7bde.299-75c.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 05'
+  port: 8443
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '43dcff53849b81e6'
+  server: 160.191.164.164
+  servername: auto.quattro-tech.ru
+  tls: false
   type: vless
-  uuid: 78174433-c53f-dcbf-1222-02fab7e5b0de
-  ws-opts:
-    headers:
-      Host: x4g-production-1506.up.railway.app
-    path: /ws/78174433-c53f-dcbf-1222-02fab7e5b0de
-- cipher: aes-128-gcm
-  name: '[D] 🇨🇳 中国 01'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: 154.64.237.173
-  servername: ''
+  uuid: 497631c4-a1a4-0030-a86a-f42873473bb6
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  port: 443
+  reality-opts:
+    public-key: B3MWDjEWGQsObyH-9npa_PlkaoQDBqzwlwURFK1zlE8
+    short-id: '3e0527d94cc8d1'
+  server: 148.253.211.10
+  servername: vk.me
   tls: false
-  type: vmess
-  uuid: f988d3b3-8476-4602-ab9a-1984191a51ac
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 01'
+  type: vless
+  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
+- name: '[D] 🇩🇪 德国 01'
   network: ws
-  port: 8880
-  server: 178.104.66.83
-  servername: ''
+  port: 80
+  server: 146.75.119.82
   tls: false
-  type: vmess
-  uuid: 6cd9c576-a21a-49a1-b922-f7daf1f2bfe4
+  type: vless
+  uuid: b003b30f-a71e-4196-986a-b0e504f945e0
   ws-opts:
     headers:
-      Host: ''
-    path: /ray
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
