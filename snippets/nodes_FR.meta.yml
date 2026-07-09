@@ -1,5 +1,19 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg2.auragg.org
+  sni: argg2.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -7,7 +21,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
+- name: '[B] 🇫🇷 法国 04'
   obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -18,7 +32,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 03'
+  name: '[B] 🇫🇷 法国 05'
   password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
   port: 5443
   server: unic.hysteria.ltd
