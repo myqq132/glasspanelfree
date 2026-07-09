@@ -16,12 +16,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 03'
+  password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
+  port: 5443
+  server: unic.hysteria.ltd
+  sni: unic.hysteria.ltd
+  tls: false
+  type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
@@ -29,12 +37,18 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 03'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
   sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 01'
+- name: '[B] 🌍 其它地区 01'
   password: 35415e5e-3666-4454-8c45-903af0fcddf4
   port: 47257
   server: 85.120.228.208
@@ -80,6 +94,33 @@ proxies:
   sni: 5.255.102.165
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 01'
+  password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
+  port: 5443
+  server: united.hysteria.ltd
+  sni: united.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 03'
+  password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
+  port: 5443
+  server: vkmks.hysteria.ltd
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 05'
   password: amazonskr05
@@ -88,7 +129,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -96,7 +137,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 20083
@@ -104,7 +145,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -112,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -168,7 +209,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -176,7 +217,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -184,7 +225,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -247,7 +288,7 @@ proxies:
   port: 1080
   server: 135.136.33.134
   type: ss
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 07'
   password: XG59623478
   port: 443
   server: frank-piranha.rooster465.autos
@@ -257,7 +298,7 @@ proxies:
   port: 443
   server: classic-duckling.rooster465.autos
   type: trojan
-- name: '[D] 🇭🇰 香港 07'
+- name: '[D] 🇭🇰 香港 08'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -331,7 +372,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: x4g-production-1506.up.railway.app
@@ -352,7 +393,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: '443'
   server: 154.64.237.173
