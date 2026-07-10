@@ -2,37 +2,28 @@ proxies:
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 6769
-  server: 13.158.76.164
+  port: 54411
+  server: 18.183.199.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 18.162.148.64
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 03'
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
+  password: bb839d14960b7a4fb1e95a3aef990528
   port: 24370
-  server: 18.162.148.64
+  server: 95.40.99.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '[D] 🇯🇵 日本 04'
-  network: ws
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇯🇵 日本 03'
   port: 443
-  server: 120.55.183.176
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
+  reality-opts:
+    public-key: B3MWDjEWGQsObyH-9npa_PlkaoQDBqzwlwURFK1zlE8
+    short-id: '!!str 3e0527d94cc8d1'
+  server: 148.253.211.10
+  servername: vk.me
+  tls: false
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-melbi'
+  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
