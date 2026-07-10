@@ -1,5 +1,19 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
+- name: '[B] 🇺🇸 美国 01'
+  password: 558e17d8-00fd-46d9-bc5c-1e3bdf73034f
+  port: 443
+  server: lit2.freeinternat.com
+  sni: lit2.freeinternat.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: 6f394ef6-5350-4399-abde-060e5b8a1696
+  port: 443
+  server: lit2.freeinternat.com
+  sni: lit2.freeinternat.com
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 17005
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 17005
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 34638
