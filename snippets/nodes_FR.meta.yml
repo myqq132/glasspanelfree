@@ -16,11 +16,20 @@ proxies:
 - name: '[B] 🇫🇷 法国 03'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
-  server: argg3.auragg.org
-  sni: argg3.auragg.org
+  server: argg2.auragg.org
+  skip-cert-verify: true
+  sni: argg2.auragg.org
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: false
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
   password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
   port: 5443
   server: unic.hysteria.ltd
@@ -30,7 +39,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 05'
+  name: '[B] 🇫🇷 法国 06'
   password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
   port: 5443
   server: unic.hysteria.ltd
