@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- name: '[B] 🇰🇷 韩国 01'
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  server: 193.123.228.188
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 02'
+  obfs-password: C0DD7bgChaltqnh%2FT2az6ijM
+  password: C0DD7bgChaltqnh/T2az6ijM
+  port: 20000
+  server: 193.123.228.188
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
