@@ -3,6 +3,7 @@ proxies:
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
   server: argg2.auragg.org
+  skip-cert-verify: false
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
@@ -17,6 +18,7 @@ proxies:
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg2.auragg.org
+  skip-cert-verify: true
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
