@@ -17,7 +17,6 @@ proxies:
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg2.auragg.org
-  skip-cert-verify: true
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
@@ -46,3 +45,14 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇫🇷 法国 07'
+  port: 50443
+  reality-opts:
+    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+  server: 89.208.113.54
+  servername: www.icloud.com
+  tls: false
+  type: vless
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
