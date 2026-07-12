@@ -1,5 +1,20 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- name: '[B] 🇩🇪 德国 01'
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  port: 443
+  server: sh02.auragg.org
+  sni: sh02.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 443
+  server: sh02.auragg.org
+  skip-cert-verify: false
+  sni: sh02.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 80
   server: 146.75.119.82
