@@ -1,23 +1,37 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
-  network: ws
-  port: 80
-  server: 199.232.224.11
-  tls: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 01'
+  port: 443
+  server: s348.okgfw.top
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
   type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
   ws-opts:
     headers:
-      Host: Fastapi.Org
-    path: /
-- name: '[D] 🇬🇧 英国 02'
-  network: ws
-  port: 80
-  server: 199.232.56.11
-  tls: false
+      Host: 540f16e2s501.okgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 02'
+  port: 443
+  server: 82.47.22.163
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
   type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
   ws-opts:
     headers:
-      Host: Fastapi.Org
-    path: /
+      Host: 540f16e2s501.okgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 03'
+  port: 443
+  server: s561.gogocs.xyz
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
