@@ -1,19 +1,5 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: argg2.auragg.org
-  sni: argg2.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 443
-  server: argg2.auragg.org
-  sni: argg2.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
   password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
   port: 443
   server: a7x-01.ge.auragg.org
@@ -22,7 +8,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 04'
+  name: '[B] 🇫🇷 法国 02'
   password: 1e06c388-d31c-420e-916a-94a990648e34
   port: 5443
   server: unic.hysteria.ltd
@@ -30,7 +16,7 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 03'
   password: 1e06c388-d31c-420e-916a-94a990648e34
   port: 5443
   server: unic.hysteria.ltd
@@ -38,22 +24,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
-  password: 3bf33d8e-7bc7-470c-85af-8436f93dce3e
-  port: 55000
-  server: 45.202.248.138
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 7c7ff1be-a6e9-4a6f-853c-052ed3f3f21b
-  port: 55000
-  server: 45.202.248.138
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
@@ -61,15 +31,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 05'
+- name: '[B] 🇭🇰 香港 02'
   password: 1624ccf4-f88b-4411-81bd-978570b3cbdc
   port: 55000
   server: 156.226.172.6
@@ -77,7 +39,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 06'
+- name: '[B] 🇭🇰 香港 03'
   password: d6cc5b3d-304e-48dc-83b0-68e02f5afc05
   port: 55000
   server: 156.226.172.6
@@ -85,7 +47,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 07'
+- name: '[B] 🇭🇰 香港 04'
   password: e3d48fa4-42b7-40a7-827c-5b6496a043d1
   port: 55000
   server: 156.226.172.6
@@ -142,10 +104,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 01'
-  password: basenato
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
-  server: naive.ghostshell.eu.org
-  sni: naive.ghostshell.eu.org
+  server: 5.255.102.165
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 02'
@@ -164,17 +126,7 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 01'
-  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  port: 8443
-  server: aestheticperforator.ru
-  skip-cert-verify: false
-  sni: aestheticperforator.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 02'
+- name: '[B] 🇨🇦 加拿大 01'
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
@@ -184,13 +136,21 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇨🇦 加拿大 03'
+  name: '[B] 🇨🇦 加拿大 02'
   obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
   skip-cert-verify: true
   sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 05'
+  password: 3bf33d8e-7bc7-470c-85af-8436f93dce3e
+  port: 55000
+  server: 45.202.248.138
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -201,7 +161,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 08'
+  name: '[C] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -209,14 +169,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 20083
   server: 54.46.117.9
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 10'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -224,7 +184,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 11'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -307,7 +267,7 @@ proxies:
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 80
   server: 172.67.215.116
@@ -331,7 +291,7 @@ proxies:
   type: vless
   uuid: 4392b776-41a2-4300-b545-a3d2724b605b
 - client-fingerprint: random
-  name: '[D] 🇨🇦 加拿大 05'
+  name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: 162.159.0.3
@@ -555,7 +515,7 @@ proxies:
   tls: false
   type: vless
   uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
-- name: '[D] 🇨🇦 加拿大 06'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -566,7 +526,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
@@ -589,7 +549,7 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: '%2Fsg-melbi'
-- name: '[D] 🇨🇦 加拿大 08'
+- name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 8880
   server: www.gov.ua
@@ -600,7 +560,7 @@ proxies:
     headers:
       Host: rapid-lab-95ef.173-74c.workers.dev
     path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
-- name: '[D] 🇨🇦 加拿大 09'
+- name: '[D] 🇨🇦 加拿大 08'
   network: ws
   port: 443
   server: cmcc.cloudflare.seeck.cn
@@ -655,7 +615,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: '[D] 🇭🇰 香港 12'
+- name: '[D] 🇭🇰 香港 10'
   network: ws
   port: 8880
   server: 45.192.224.30
