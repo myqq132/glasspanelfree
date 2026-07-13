@@ -1,27 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 1624ccf4-f88b-4411-81bd-978570b3cbdc
-  port: 55000
-  server: 156.229.164.1
+  password: 1e06c388-d31c-420e-916a-94a990648e34
+  port: 5443
+  server: united.hysteria.ltd
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: 1e06c388-d31c-420e-916a-94a990648e34
-  port: 5443
-  server: hyst-1.hysteria.ltd
-  sni: hyst-1.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 1e06c388-d31c-420e-916a-94a990648e34
-  port: 5443
-  server: vkmks.hysteria.ltd
-  sni: vkmks.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -29,14 +15,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 18.163.110.193
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -44,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 05'
   network: ws
   port: 8880
   server: 8.34.70.30
@@ -55,7 +41,7 @@ proxies:
     headers:
       Host: vms.lifetime09.workers.dev
     path: /?ed=2560
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 8880
   server: 63.141.128.30
