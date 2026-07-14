@@ -1,11 +1,27 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 01'
+  network: xhttp
+  port: 1509
+  reality-opts:
+    public-key: -l1KYQqLEwues92UC_8inNAq7tiqrTAmgUVKadMpa3g
+    short-id: '!!str 6a3047730f673c48'
+  server: mcdn.server-wolf.ir
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: 59e48e66-89c0-4139-ab2b-f808ec1ef825
+  ws-opts:
+    headers:
+      Host: yahoo.com
+    path: /
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 80
   server: 146.75.119.82
   tls: false
   type: vless
-  uuid: 4071fd0c-c8d2-4353-907e-d8e39ce9b71b
+  uuid: 69e01558-ebc4-4f72-9431-163fd21ebdcd
   ws-opts:
     headers:
       Host: rb24.ir
