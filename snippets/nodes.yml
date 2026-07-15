@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 08'
+  name: '[B] 🌍 其它地区 06'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -11,21 +11,7 @@ proxies:
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 09'
-  network: ws
-  port: '80'
-  server: 3h-kazakhstan1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: ''
+      Host: 3h-kazakhstan1.09vpn.com
     path: /vmess/
 - alterId: 0
   cipher: auto
@@ -39,21 +25,31 @@ proxies:
   uuid: 68adffea-4146-4f92-b2f9-955cd634c274
 - alterId: 0
   cipher: auto
-  name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: '8880'
-  server: amir.amirport.ir
+  name: '[B] 🇨🇳 台湾 02'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
   servername: ''
   tls: false
   type: vmess
-  uuid: 6991d596-745e-448c-9da4-cfc9dfde6f71
-  ws-opts:
-    headers:
-      Host: amir.amirport.ir
-    path: /
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -63,11 +59,11 @@ proxies:
   uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
   ws-opts:
     headers:
-      Host: ''
+      Host: vpn.cyedu.xyz
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 06'
   network: tcp
   port: '10086'
   server: 45.205.31.175
@@ -77,7 +73,7 @@ proxies:
   uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 07'
   network: ws
   port: '8444'
   server: 45.205.31.175
@@ -91,20 +87,20 @@ proxies:
     path: /warp
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 08'
   network: ws
-  port: '8444'
+  port: '443'
   server: 45.205.31.175
   servername: vpn.cyedu.xyz
   tls: true
   type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
   ws-opts:
     headers:
       Host: ''
-    path: /warp
+    path: /ws
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 10'
+  name: '[C] 🌍 其它地区 07'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -142,7 +138,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 6769
@@ -150,14 +146,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 18.163.123.154
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -180,21 +176,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 18.163.77.5
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 18.163.123.154
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -235,7 +231,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 13'
   password: '3632736327'
   port: 2888
   server: us04021322.tmdsb.org
@@ -256,7 +252,7 @@ proxies:
       Host: zt-ai.cloud
     path: /v2ray
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇺🇸 美国 15'
+  name: '[D] 🇺🇸 美国 14'
   password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
   port: 8388
   server: 43.173.98.184
