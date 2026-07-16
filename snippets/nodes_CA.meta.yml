@@ -1,5 +1,7 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
+- alpn:
+  - h3
+  name: '[B] 🇨🇦 加拿大 01'
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
@@ -8,16 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 02'
-  obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  port: 8443
-  server: aestheticperforator.ru
-  sni: aestheticperforator.ru
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 03'
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
@@ -27,12 +19,20 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇨🇦 加拿大 04'
+  name: '[B] 🇨🇦 加拿大 03'
   obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
   skip-cert-verify: true
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 04'
+  obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
   sni: aestheticperforator.ru
   tls: false
   type: hysteria2
