@@ -1,24 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 06'
+  name: '[B] 🌍 其它地区 03'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      Host: google.com
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 07'
+  name: '[B] 🌍 其它地区 04'
   network: ws
   port: '80'
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   servername: ''
   tls: false
   type: vmess
@@ -29,7 +29,21 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 08'
+  name: '[B] 🌍 其它地区 05'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 06'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -43,7 +57,45 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 03'
+  name: '[B] 🇨🇳 台湾 02'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 07'
+  network: ws
+  port: '443'
+  server: 94.131.108.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '17432'
+  server: 128.242.109.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6cc4a312-2d18-4694-b92d-0af1c039e697
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
   network: ws
   port: '443'
   server: xsj004-10.facai2024.com
@@ -55,39 +107,15 @@ proxies:
     headers:
       Host: xsj004-10.facai2024.com
     path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: tcp
-  port: '10086'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '8444'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
-  ws-opts:
-    headers:
-      Host: ''
-    path: /warp
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 09'
+  name: '[C] 🌍 其它地区 08'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -95,14 +123,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
   server: 18.163.183.241
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -110,7 +138,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -192,13 +220,13 @@ proxies:
   sni: yazhou10.dynu.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇨🇳 台湾 02'
+  name: '[D] 🇨🇳 台湾 03'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇨🇦 加拿大 08'
+  name: '[D] 🇨🇦 加拿大 09'
   password: 2803361d6c196af8
   port: 20111
   server: 50.114.177.235

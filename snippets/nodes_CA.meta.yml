@@ -1,5 +1,7 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
+- alpn:
+  - h3
+  name: '[B] 🇨🇦 加拿大 01'
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
   server: aestheticperforator.ru
@@ -7,7 +9,18 @@ proxies:
   sni: aestheticperforator.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇦 加拿大 02'
+- alpn:
+  - h3
+  name: '[B] 🇨🇦 加拿大 02'
+  obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: true
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 03'
   obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   password: 48139d20-931e-4e2b-83f5-8ea97d226c18
   port: 8443
@@ -16,7 +29,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 03'
+  name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: vpn3.rnmcnm.com
@@ -28,7 +41,7 @@ proxies:
     headers:
       Host: vpn3.rnmcnm.com
     path: /ray
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   port: 80
   server: 162.159.40.70
@@ -40,7 +53,7 @@ proxies:
       Host: sahanwickramasinghevip.shop
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 05'
+  name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: cf.877774.xyz
@@ -53,7 +66,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 06'
+  name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 172.64.52.240
@@ -65,7 +78,7 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 08'
   network: ws
   port: 8880
   server: 104.17.21.137
@@ -77,7 +90,7 @@ proxies:
       Host: misty-wood-62b4.263-93e.workers.dev
     path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
 - cipher: aes-256-gcm
-  name: '[D] 🇨🇦 加拿大 08'
+  name: '[D] 🇨🇦 加拿大 09'
   password: 2803361d6c196af8
   port: 20111
   server: 50.114.177.235
