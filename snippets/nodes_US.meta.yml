@@ -1,25 +1,25 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: austria_hysteria2_fastlane_i0wx4v6sl:jMASHojZ8JzSLBDuBWLe7ZVgCPAi8hwK
-  port: 1935
-  server: 193.32.8.212
-  skip-cert-verify: false
-  sni: at4.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: Ov_98eqvJ9N8SE3_Bxhr238e_Ntz2_Sxc47_J2
   port: 8443
   server: 185.126.236.152
   sni: key-hm-at.1cooldns.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 02'
   password: 0c62d145-d288-4b2c-9df3-8a76e6489d25
   port: 14656
   server: 172.245.189.138
   skip-cert-verify: true
   sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
@@ -30,14 +30,20 @@ proxies:
   sni: vpn.cyedu.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: Xiao456.
-  port: 8443
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '8444'
   server: 45.205.31.175
-  skip-cert-verify: true
-  sni: vpn.cyedu.xyz
-  tls: false
-  type: hysteria2
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
+  ws-opts:
+    headers:
+      Host: vpn.cyedu.xyz
+    path: /warp
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 06'

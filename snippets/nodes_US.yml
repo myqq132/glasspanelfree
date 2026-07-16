@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '8444'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
+  ws-opts:
+    headers:
+      Host: vpn.cyedu.xyz
+    path: /warp
+- alterId: 0
+  cipher: auto
   name: '[B] 🇺🇸 美国 06'
   network: ws
   port: '8444'
