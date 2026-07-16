@@ -1,7 +1,12 @@
 proxies:
-- cipher: aes-256-gcm
+- client-fingerprint: qq
   name: '[D] 🇷🇺 俄罗斯 01'
-  password: 32c0ea6e823341a2
-  port: 20123
-  server: 185.22.154.254
-  type: ss
+  port: 443
+  reality-opts:
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e

@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  port: 443
+  reality-opts:
+    public-key: kWLch3EWX5VBdNU5EiTNQhMwaOWNUtqR-ftUcc-B6gc
+    short-id: '!!str 43dabaaf5e906033'
+  server: 2.26.124.69
+  servername: site.rumedia-cdn.com
+  tls: false
+  type: vless
+  uuid: 73db72eb-eae3-4623-9395-a5eedc584569

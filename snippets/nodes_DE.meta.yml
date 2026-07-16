@@ -1,23 +1,14 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: ws
-  password: humanity
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  network: tcp
   port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[D] 🇩🇪 德国 02'
-  network: ws
-  port: 80
-  server: 146.75.119.82
+  reality-opts:
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: '!!str 59eee550a1014198'
+  server: de10.buycloud.app
+  skip-cert-verify: true
   tls: false
   type: vless
-  uuid: 7e07dd97-784e-4d6a-99c6-acaea4708d88
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
