@@ -1,14 +1,26 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 01'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: '!!str 59eee550a1014198'
-  server: de10.buycloud.app
-  skip-cert-verify: true
+  port: 22223
+  server: 18.194.165.203
   tls: false
   type: vless
-  uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[D] 🇩🇪 德国 02'
+  network: tcp
+  port: 22222
+  server: 18.194.165.203
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: b36f1fa4-2fc7-4031-bf3f-20e71228e3c9
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
