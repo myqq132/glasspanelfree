@@ -1,21 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 04'
+  name: '[B] 🌍 其它地区 06'
   network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🌍 其它地区 07'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -29,23 +29,51 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 04'
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
+  name: '[B] 🌍 其它地区 08'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
+  ws-opts:
+    headers:
+      Host: vpn.cyedu.xyz
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: tcp
+  port: '10086'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 05'
+  name: '[C] 🌍 其它地区 09'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -53,14 +81,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
   server: 43.198.71.42
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -68,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -76,7 +104,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -84,14 +112,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 24370
   server: 43.198.71.42
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 24370
@@ -121,21 +149,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 18.166.55.241
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 43.198.71.42
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -144,20 +172,29 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇯🇵 日本 05'
   password: Vr06rU_v1vFPYeXq9zbsAA
   port: 1080
   server: 194.187.251.2
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   name: '[D] 🌍 其它地区 10'
+  network: tcp
+  port: '18339'
+  server: c87s5.portablesubmarines.com
+  tls: false
+  type: vmess
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 15'
   password: 3JB91l5ol2HvkPUduw2hj4
   port: 57925
   server: 157.22.240.141
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 20'
+  name: '[D] 🇨🇦 加拿大 19'
   network: ws
   port: '2087'
   server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
@@ -171,7 +208,7 @@ proxies:
     path: /mehdi
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 16'
   network: ws
   port: '2096'
   server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
