@@ -1,7 +1,31 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  port: 443
+  server: histerrr-faq-www.ru
+  skip-cert-verify: false
+  sni: histerrr-faq-www.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  skip-cert-verify: false
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 03'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  skip-cert-verify: false
+  sni: sw02.auragg.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 04'
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -13,7 +37,7 @@ proxies:
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 05'
   port: 2443
   reality-opts:
     public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
@@ -25,7 +49,7 @@ proxies:
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 06'
   port: 443
   reality-opts:
     public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
