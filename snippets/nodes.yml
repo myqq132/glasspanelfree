@@ -1,7 +1,111 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '12889'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 01'
+  network: raw
+  port: '10043'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 02'
+  network: ws
+  port: '12899'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
+  network: ws
+  port: '12898'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '12890'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  network: ws
+  port: '12883'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '12887'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 08'
+  network: raw
+  port: '10039'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 09'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,51 +119,127 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 04'
+  name: '[B] 🌍 其它地区 10'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      Host: 61.245.11.60
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 05'
+  name: '[B] 🌍 其它地区 11'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
       Host: ''
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
-  network: ''
-  port: '10087'
-  server: 43.130.35.53
+  name: '[B] 🇸🇬 新加坡 03'
+  network: ws
+  port: '12901'
+  server: cs.ktmcn.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 36a8372e-4879-4235-8caa-15142896b3dd
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 01'
+  network: tcp
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: '12888'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 12'
+  network: raw
+  port: '10046'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: '12886'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '12885'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 06'
+  name: '[C] 🌍 其它地区 13'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -67,148 +247,162 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 43.198.71.42
+  port: 47867
+  server: 18.166.74.220
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 7674
-  server: 18.163.5.109
+  server: 16.163.145.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
-  port: 27167
-  server: 18.166.113.165
+  port: 50115
+  server: 54.46.125.103
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[C] 🇯🇵 日本 01'
+  network: tcp
+  password: BxceQaOe
+  port: 24397
+  server: 54.238.245.134
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
-  password: BxceQaOe
-  port: 4099
-  server: 18.162.51.224
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 16.163.40.213
+  sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 43.198.71.42
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 04'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 18.166.55.241
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.163.180.35
-  skip-cert-verify: true
+  port: 38937
+  server: 16.163.40.213
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 43.198.71.42
+  server: 18.166.74.220
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 05'
   network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 95.40.52.88
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 06'
+  network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.163.41.112
+  port: 32434
+  server: 54.46.125.103
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 16.163.108.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
-  server: 18.166.55.241
+  server: 16.163.108.33
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 43.198.71.42
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
+  port: 25651
+  server: 43.199.202.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 05'
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: 1080
-  server: 194.187.251.2
+  name: '[D] 🌍 其它地区 14'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 07'
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
+  name: '[D] 🇨🇳 台湾 03'
+  network: raw
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
   tls: false
   type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 12'
-  password: 3JB91l5ol2HvkPUduw2hj4
-  port: 57925
-  server: 157.22.240.141
-  type: ss
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 20'
-  network: ws
-  port: '2087'
-  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-  tls: true
+  name: '[D] 🇨🇳 台湾 04'
+  network: raw
+  port: '10049'
+  server: family.bucket.x9.kfc-520.com
+  tls: false
   type: vmess
-  uuid: efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- name: '[D] 🇨🇦 加拿大 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  sni: www.gossipglove.com
+  type: trojan
   ws-opts:
     headers:
-      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-    path: /mehdi
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: '[D] 🌍 其它地区 18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🇨🇦 加拿大 04'
   network: ws
-  port: '2096'
-  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  port: 443
+  server: 8cdn.njkrpl.com
+  servername: 8cdn.njkrpl.com
   tls: true
   type: vmess
-  uuid: 5402fe64-5f18-43a1-bd07-dcadb5c76d77
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
   ws-opts:
-    headers:
-      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-    path: /mehdi
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇫🇷 法国 01'
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: 1080
-  server: 194.187.249.218
-  type: ss
+    path: /

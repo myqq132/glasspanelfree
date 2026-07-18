@@ -1,33 +1,61 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
-  network: ''
-  port: '10087'
-  server: 43.130.35.53
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '12889'
+  server: gtm1.ktmwan.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 36a8372e-4879-4235-8caa-15142896b3dd
-- name: '[C] 🇺🇸 美国 02'
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '12885'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 16.163.108.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
-  server: 18.166.55.241
+  server: 16.163.108.33
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 43.198.71.42
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
+  port: 25651
+  server: 43.199.202.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

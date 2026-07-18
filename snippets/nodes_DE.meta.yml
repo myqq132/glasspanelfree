@@ -1,26 +1,50 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 22223
-  server: 18.194.165.203
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇩🇪 德国 02'
-  network: tcp
-  port: 22222
-  server: 18.194.165.203
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇩🇪 德国 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
   network: ws
-  port: 80
-  server: 146.75.119.82
+  port: '12898'
+  server: gtm1.ktmwan.net
+  servername: ''
   tls: false
-  type: vless
-  uuid: b36f1fa4-2fc7-4031-bf3f-20e71228e3c9
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+      Host: baidu.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 02'
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwacdi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 03'
+  port: 2443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: '!!str 8f9d033ad6d2cebf'
+  server: ge1.cyphervpn.pro
+  servername: ge1.cyphervpn.pro
+  tls: false
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 04'
+  port: 443
+  reality-opts:
+    public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
+  server: ge-5.lemonbow.ru
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: 8516c47e-a7a1-42f7-9c14-ae9b14873cc8

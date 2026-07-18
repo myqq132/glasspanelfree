@@ -1,153 +1,102 @@
 proxies:
+- name: '[B] 🇺🇸 美国 01'
+  password: Ov_98eqvJ9N8SE3_Bxhr238e_Ntz2_Sxc47_J2
+  port: 8443
+  server: 185.126.236.152
+  sni: key-hm-at.1cooldns.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
-  network: ''
-  port: '10087'
-  server: 43.130.35.53
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '12889'
+  server: gtm1.ktmwan.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 36a8372e-4879-4235-8caa-15142896b3dd
-- name: '[C] 🇺🇸 美国 02'
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '12885'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 16.163.108.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
-  server: 18.166.55.241
+  server: 16.163.108.33
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 43.198.71.42
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 18.163.5.109
+  port: 25651
+  server: 43.199.202.34
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 05'
-  network: ws
-  port: 2053
-  server: 162.159.38.133
-  servername: vp39.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp39.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: 8443
-  server: 8.39.125.142
-  servername: vp29.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp29.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 07'
-  network: ws
-  port: 8443
-  server: 108.162.198.171
-  servername: vp29.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp29.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 08'
-  network: ws
-  port: 8443
-  server: 8.39.125.193
-  servername: vp35.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp35.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 09'
-  network: ws
-  port: 2083
-  server: 8.35.211.62
-  servername: vp39.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp39.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 10'
-  network: ws
-  port: 8443
-  server: 162.159.45.62
-  servername: vp20.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp20.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 11'
-  network: ws
-  port: 2087
-  server: 8.35.211.6
-  servername: vp26.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp26.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 12'
-  network: ws
-  port: 2053
-  server: 162.159.39.251
-  servername: vp28.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp28.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 13'
-  network: ws
-  port: 8443
-  server: 162.159.38.230
-  servername: vp14.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp14.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇺🇸 美国 14'
-  network: ws
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[D] 🇺🇸 美国 08'
+  network: xhttp
   port: 443
-  server: 1.tls.fastly.veraspeed.ir
+  server: 199.232.206.245
   servername: ssl.fastly.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  uuid: 4d2b9de1-8be0-4434-9900-91eccb8422fa
   ws-opts:
     headers:
-      Host: pan21.global.ssl.fastly.net
-    path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
+      Host: networkzvx.global.ssl.fastly.net
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[D] 🇺🇸 美国 09'
+  network: xhttp
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d2b9de1-8be0-4434-9900-91eccb8422fa
+  ws-opts:
+    headers:
+      Host: networkzvx.global.ssl.fastly.net
+    path: /

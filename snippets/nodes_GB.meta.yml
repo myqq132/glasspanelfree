@@ -6,27 +6,17 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 02'
   network: ws
-  port: 2087
-  server: 91.193.59.230
-  servername: vp14.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  port: '12886'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
-      Host: vp14.cc.cd
-    path: /fp=chrome
-- name: '[D] 🇬🇧 英国 03'
-  network: ws
-  port: 443
-  server: 91.193.59.240
-  servername: vp13.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp13.cc.cd
-    path: /fp=chrome
+      Host: baidu.com
+    path: /
