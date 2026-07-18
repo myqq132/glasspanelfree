@@ -1,28 +1,13 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: fl02.auragg.org
-  skip-cert-verify: true
-  sni: fl02.auragg.org
+  password: f422e914-ba20-4855-9441-c044d3f2f6e1
+  port: 443
+  server: fr.air-vpn.lol
+  sni: fr.air-vpn.lol
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 02'
-  network: ws
-  port: '12899'
-  server: gtm1.ktmwan.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - client-fingerprint: chrome
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 02'
   network: xhttp
   port: 18682
   reality-opts:
@@ -36,7 +21,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '[D] 🇫🇷 法国 04'
+  name: '[D] 🇫🇷 法国 03'
   network: xhttp
   port: 43264
   reality-opts:
