@@ -4,46 +4,62 @@ proxies:
   name: '[B] 🌍 其它地区 09'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: 3h-kazakhstan1.09vpn.com
+      Host: ''
     path: /vmess/
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 10'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      Host: google.com
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 11'
-  network: ws
-  port: '80'
-  server: 61.245.11.60
+  name: '[B] 🇰🇷 韩国 01'
+  network: tcp
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: 61.245.11.60
-    path: /vmess/
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 12'
+  name: '[B] 🇰🇷 韩国 02'
+  network: raw
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 02'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 11'
   network: tcp
   port: '10046'
   server: family.bucket.x9.kfc-520.com
@@ -53,8 +69,8 @@ proxies:
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: tcp
+  name: '[B] 🇺🇸 美国 01'
+  network: raw
   port: '10004'
   server: zjs001.kfc-520.com
   servername: ''
@@ -63,65 +79,23 @@ proxies:
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: xsj004-10.facai2024.com
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '443'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 02'
   network: tcp
-  port: '10086'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
+  port: '10004'
+  server: zjs001.kfc-520.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8444'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
-  ws-opts:
-    headers:
-      Host: ''
-    path: /warp
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 13'
+  name: '[C] 🌍 其它地区 12'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -129,14 +103,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.166.74.220
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -144,7 +118,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -174,7 +148,7 @@ proxies:
   server: 16.163.40.213
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
@@ -182,14 +156,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
   server: 95.40.52.88
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -197,21 +171,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 16.163.108.33
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 16.163.108.33
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -221,7 +195,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 06'
   network: tcp
   port: '16025'
   server: c722s801.portablesubmarines.com
@@ -229,23 +203,14 @@ proxies:
   type: vmess
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 14'
+  name: '[D] 🌍 其它地区 13'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇳 台湾 01'
-  network: raw
-  port: '10038'
-  server: family.bucket.x9.kfc-520.com
-  tls: false
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇨🇳 台湾 02'
+  name: '[D] 🇨🇳 台湾 03'
   network: raw
   port: '10049'
   server: family.bucket.x9.kfc-520.com
@@ -263,7 +228,7 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 18'
+- name: '[D] 🌍 其它地区 17'
   network: ws
   password: humanity
   port: 443
