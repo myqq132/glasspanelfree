@@ -7,9 +7,17 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: c6d33e4e-c01a-4ec0-82d3-c4c18f451e4c
+  port: 40000
+  server: 128.241.227.213
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -17,14 +25,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.166.74.220
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -32,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -41,7 +49,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 07'
   network: ws
   port: 2053
   server: 23.133.52.10
@@ -54,7 +62,7 @@ proxies:
       Host: s5gydl.936.us.ci
     path: '%2Fproxyip%3Dtw.william.us.ci%3Fuuid%3Df4e91fac-25eb-4d26-a14c-c82c3778a0e4'
 - client-fingerprint: chrome
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 08'
   network: ws
   port: 8443
   server: 216.23.93.24
