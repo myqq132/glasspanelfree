@@ -1,11 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 01'
-  network: raw
-  port: '10037'
-  server: family.bucket.x9.kfc-520.com
-  servername: ''
+- name: '[B] 🇫🇷 法国 01'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  sni: fl02.auragg.org
   tls: false
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: ge01.auragg.org
+  sni: ge01.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  skip-cert-verify: true
+  sni: vpn.the2oser.lol
+  tls: false
+  type: hysteria2
