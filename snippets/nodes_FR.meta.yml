@@ -8,13 +8,20 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  sni: fl02.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 04'
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8433
   server: de1-hy2.veilvpn.life
@@ -22,31 +29,13 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[D] 🇫🇷 法国 04'
-  network: xhttp
-  port: 18682
-  reality-opts:
-    public-key: OqEscRLjKXGwlfh21MzuR035RB3eiCuR3vZ3mHVGEnU
-    short-id: '!!str a94c4a'
-  server: 31.77.149.177
-  servername: www.yahoo.com
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 05'
+  network: tcp
+  port: '10037'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
   tls: false
-  type: vless
-  uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: '[D] 🇫🇷 法国 05'
-  network: xhttp
-  port: 43264
-  reality-opts:
-    public-key: V7HRYFnC_mCHvqcO5o9sKVN-vs_tQ1FnB9seskMAB0A
-    short-id: '!!str 4cfbda45'
-  server: 91.209.71.83
-  servername: eu-images.shop.samsung.com
-  tls: false
-  type: vless
-  uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
-  ws-opts:
-    path: /
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
