@@ -7,14 +7,39 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: e3a5bb40be52de65
-  port: 2328
-  server: q.baoge.me
+  password: 3wFFmAhSJ0
+  port: 15173
+  server: 104.248.180.67
   skip-cert-verify: true
-  sni: apps.apple.com
+  sni: www.intel.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
+  port: 6443
+  server: newlte.kihsuyhf8jkiugsxb.cfd
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 05'
+  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
+  port: 6443
+  server: newlte.kihsuyhf8jkiugsxb.cfd
+  skip-cert-verify: false
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8443
   server: de5-hy2.veilvpn.life
@@ -22,21 +47,21 @@ proxies:
   sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 18.166.58.27
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 18.162.155.166
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -44,7 +69,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 199.232.249.110
@@ -57,7 +82,7 @@ proxies:
       Host: pan21.global.ssl.fastly.net
     path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
 - client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: 199.232.222.178
@@ -69,7 +94,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   port: 80
   server: 103.133.1.160
@@ -84,7 +109,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 10'
+  name: '[D] 🇺🇸 美国 13'
   network: xhttp
   port: 443
   server: 199.232.206.245
@@ -101,7 +126,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 14'
   network: xhttp
   port: 443
   server: 151.101.56.7
