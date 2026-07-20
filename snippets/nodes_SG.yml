@@ -1,38 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
-  network: ws
-  port: '12901'
-  server: cs.ktmcn.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+- name: '[C] 🇸🇬 新加坡 03'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 18.166.58.27
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 6357
-  server: 18.166.74.220
-  skip-cert-verify: true
+  port: 48738
+  server: 18.162.155.166
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 05'
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 95.40.52.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
-  network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 54.46.125.103
+  port: 41421
+  server: 43.198.13.164
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
