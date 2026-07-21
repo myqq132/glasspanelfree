@@ -6,7 +6,14 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 02'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  sni: sw02.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   password: humanity
   port: 443

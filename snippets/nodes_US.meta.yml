@@ -1,17 +1,18 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: Ov_98eqvJ9N8SE3_Bxhr238e_Ntz2_Sxc47_J2
-  port: 8443
-  server: 185.126.236.152
-  sni: key-hm-at.1cooldns.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: 3wFFmAhSJ0
   port: 15173
   server: 104.248.180.67
   skip-cert-verify: true
   sni: www.intel.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: e3a5bb40be52de65
+  port: 2328
+  server: q.baoge.me
+  skip-cert-verify: true
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
