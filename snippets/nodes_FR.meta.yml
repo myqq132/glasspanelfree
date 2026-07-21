@@ -3,7 +3,6 @@ proxies:
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
-  skip-cert-verify: false
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
@@ -12,18 +11,26 @@ proxies:
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
+  sni: vpn.the2oser.lol
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 03'
+  name: '[B] 🇫🇷 法国 04'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
+- name: '[B] 🇫🇷 法国 05'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
