@@ -15,14 +15,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
-  password: e3a5bb40be52de65
-  port: 2328
-  server: q.baoge.me
-  skip-cert-verify: true
-  sni: apps.apple.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -30,42 +22,29 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
-  port: 6443
-  server: newlte.kihsuyhf8jkiugsxb.cfd
-  sni: newlte.kihsuyhf8jkiugsxb.cfd
+- name: '[B] 🇺🇸 美国 04'
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8443
+  server: de5-hy2.veilvpn.life
+  skip-cert-verify: false
+  sni: de5-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: xsj004-10.facai2024.com
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 95.40.51.248
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
   server: 18.167.109.142
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -74,7 +53,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 10'
+  name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 199.232.222.178
@@ -86,7 +65,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 80
   server: 103.133.1.160
@@ -98,7 +77,7 @@ proxies:
       Host: soft-shadow-1e33.xicav73335.workers.dev
     path: '%2Fws'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 199.232.22.39
@@ -113,7 +92,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: ios
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: x4g-production-815c.up.railway.app
@@ -127,7 +106,7 @@ proxies:
     path: /ws/b0928fc8-ac5f-637b-3208-0535bb18374a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 12'
   network: tcp
   port: 443
   reality-opts:
