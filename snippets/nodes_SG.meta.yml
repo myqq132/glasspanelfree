@@ -1,9 +1,10 @@
 proxies:
 - name: '[B] 🇸🇬 新加坡 01'
-  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 8443
-  server: 209.74.81.28
-  skip-cert-verify: true
+  server: 167.150.100.133
+  skip-cert-verify: false
+  sni: grape-power-sg.roxa.org
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 02'
@@ -11,10 +12,17 @@ proxies:
   port: 8443
   server: 209.74.81.28
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 03'
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
   sni: 209.74.81.28
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
@@ -22,14 +30,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
   server: 18.162.245.180
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: BxceQaOe
   port: 9149
