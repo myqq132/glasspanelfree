@@ -1,5 +1,13 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
   password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
   port: 9443
   server: 91.185.83.9
@@ -10,14 +18,6 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[B] 🇫🇷 法国 02'
-  password: 433def7c1a6e432e8a1ced81e966fe9e
-  port: 443
-  server: 64.188.64.204
-  sni: ge2.skydrgn.xyz
-  tls: false
-  type: hysteria2
-- fingerprint: chrome
   name: '[B] 🇫🇷 法国 03'
   password: 433def7c1a6e432e8a1ced81e966fe9e
   port: 443
@@ -25,11 +25,12 @@ proxies:
   sni: ge2.skydrgn.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- fingerprint: chrome
+  name: '[B] 🇫🇷 法国 04'
+  password: 433def7c1a6e432e8a1ced81e966fe9e
   port: 443
-  server: ge01.auragg.org
-  sni: ge01.auragg.org
+  server: 64.188.64.204
+  sni: ge2.skydrgn.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
@@ -44,14 +45,12 @@ proxies:
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
-  sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 07'
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8433
-  server: 172.86.95.17
-  skip-cert-verify: false
+  server: de1-hy2.veilvpn.life
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
