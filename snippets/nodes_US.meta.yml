@@ -34,17 +34,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 05'
-  network: ws
+  network: tcp
   port: '443'
-  server: xsj004-10.facai2024.com
+  server: 165.140.216.142
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1f1aa362-25
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
