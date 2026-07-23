@@ -7,8 +7,15 @@ proxies:
   sni: prodfr.h2corp.org
   tls: false
   type: hysteria2
+- name: '[B] 🇨🇦 加拿大 02'
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 3478
+  server: de2-hy2.veilvpn.life
+  sni: de2-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: 172.64.53.27
@@ -21,7 +28,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 03'
+  name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: 162.159.34.23
@@ -34,7 +41,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 04'
+  name: '[D] 🇨🇦 加拿大 05'
   network: ws
   port: 8443
   server: 172.64.52.152
@@ -46,7 +53,7 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: store.ubi.com
@@ -62,7 +69,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 06'
+  name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 104.16.72.41
