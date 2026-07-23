@@ -45,76 +45,47 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 16.162.187.38
+  server: 18.163.123.229
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.167.84.124
+  port: 17005
+  server: 16.162.122.228
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 43.198.106.37
+  port: 25651
+  server: 18.163.182.53
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[D] 🇺🇸 美国 09'
   network: ws
-  port: 80
-  server: 103.133.1.160
-  tls: false
+  port: 443
+  server: 162.159.38.119
+  servername: vangoghhh.info
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   ws-opts:
     headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
-    path: '%2Fws'
+      Host: vangoghhh.info
+    path: /rdfgtws
 - name: '[D] 🇺🇸 美国 10'
   network: ws
-  port: 8880
-  server: 8.34.70.30
-  tls: false
+  port: 443
+  server: fast.motorbazan.com
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: b9ab00a9-5fd0-42eb-a474-cc18265df70d
   ws-opts:
     headers:
-      Host: vms.lifetime09.workers.dev
-    path: /?ed=2560
-- name: '[D] 🇺🇸 美国 11'
-  network: ws
-  port: 8880
-  server: 45.40.151.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: '[D] 🇺🇸 美国 12'
-  network: ws
-  port: 8880
-  server: 192.169.223.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: '[D] 🇺🇸 美国 13'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053

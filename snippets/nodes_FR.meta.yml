@@ -35,13 +35,3 @@ proxies:
   sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
