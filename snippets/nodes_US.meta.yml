@@ -1,12 +1,5 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: e3a5bb40be52de65
   port: 2328
   server: q.baoge.me
@@ -14,7 +7,7 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 02'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -22,35 +15,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 95.40.110.103
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 18.167.94.81
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -58,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -69,7 +48,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -80,7 +59,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 80
   server: 103.133.1.160
