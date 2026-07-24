@@ -14,16 +14,55 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 03'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  skip-cert-verify: false
+  sni: swe-one.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 8443
   server: sw02.auragg.org
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 04'
+- name: '[B] 🇩🇪 德国 05'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 8443
   server: sw02.auragg.org
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
+- name: '[B] 🇩🇪 德国 06'
+  password: yg8u9ly451dHdmXyJdbHB4EATgYbrU-C
+  port: 43327
+  server: 2.27.23.44
+  sni: gate-v1.not-a-projects.xyz
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 07'
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
+  server: 170.168.99.3
+  servername: cdn.steamstatic.com
+  tls: false
+  type: vless
+  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
+  ws-opts:
+    path: /
+- name: '[D] 🇩🇪 德国 08'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 43675f40-8d50-438f-a741-b4627d91a445
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048

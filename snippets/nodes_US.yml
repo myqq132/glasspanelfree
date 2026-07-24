@@ -1,21 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ''
-  port: '53168'
-  server: lt.badns.help
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- alterId: 0
-  cipher: auto
   name: '[B] 🇺🇸 美国 04'
   network: ws
   port: '443'
   server: xsj004-10.facai2024.com
-  servername: xsj004-10.facai2024.com
+  servername: ''
   tls: true
   type: vmess
   uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
@@ -23,39 +13,25 @@ proxies:
     headers:
       Host: xsj004-10.facai2024.com
     path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1f1aa362-25
+- name: '[C] 🇺🇸 美国 05'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 95.40.110.103
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.163.123.229
+  server: 18.167.94.81
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇺🇸 美国 07'
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 16.162.122.228
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 08'
-  network: tcp
   password: BxceQaOe
-  port: 25651
-  server: 18.163.182.53
+  port: 35966
+  server: 18.163.28.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
