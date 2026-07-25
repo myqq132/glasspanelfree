@@ -8,33 +8,32 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
   server: fr2.h2corp.org
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
+- name: '[B] 🇫🇷 法国 03'
+  password: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
+  port: 4443
+  server: de.riotvpn.eu
   skip-cert-verify: false
-  sni: germany1.noesissite.ru
+  sni: static.vkimages.io
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
-  skip-cert-verify: true
+  sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 06'
@@ -45,3 +44,16 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '[D] 🇫🇷 法国 07'
+  network: ws
+  port: 443
+  server: 37.59.96.23
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1'

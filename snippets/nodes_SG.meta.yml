@@ -4,29 +4,36 @@ proxies:
   port: 8443
   server: 209.74.81.28
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 02'
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
   sni: 209.74.81.28
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.183.93.55
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[C] 🇸🇬 新加坡 03'
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
+  password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
-  server: 18.183.93.55
+  server: 43.207.96.164
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 04'
   network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.166.52.50
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 05'
+  network: tcp
   password: BxceQaOe
-  port: 51396
-  server: 16.163.106.206
+  port: 29085
+  server: 18.166.50.152
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
