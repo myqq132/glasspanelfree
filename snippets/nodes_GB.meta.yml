@@ -3,7 +3,6 @@ proxies:
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
-  skip-cert-verify: false
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
@@ -15,24 +14,8 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 03'
-  password: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
-  port: 4443
-  server: uk.riotvpn.eu
-  skip-cert-verify: false
-  sni: static.vkimages.io
-  tls: false
-  type: hysteria2
-- name: '[B] 🇬🇧 英国 04'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa1.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇬🇧 英国 05'
+  name: '[D] 🇬🇧 英国 03'
   network: ws
   port: 443
   server: 57.128.177.198
@@ -45,7 +28,7 @@ proxies:
       Host: vp58.cc.cd
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1'
 - client-fingerprint: chrome
-  name: '[D] 🇬🇧 英国 06'
+  name: '[D] 🇬🇧 英国 04'
   network: ws
   port: 443
   server: 57.128.183.79
