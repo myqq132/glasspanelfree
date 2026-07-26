@@ -15,14 +15,6 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 03'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa1.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   - http/1.1
@@ -30,7 +22,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[D] 🇬🇧 英国 04'
+  name: '[D] 🇬🇧 英国 03'
   network: tcp
   port: 443
   server: 193.142.59.180
@@ -49,7 +41,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[D] 🇬🇧 英国 05'
+  name: '[D] 🇬🇧 英国 04'
   network: tcp
   port: 443
   server: s128.okgfw.top
