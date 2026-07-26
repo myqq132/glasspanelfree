@@ -15,31 +15,37 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 178.215.238.30
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: germany1.noesissite.ru
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
+- name: '[B] 🇫🇷 法国 06'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.117
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
+- name: '[B] 🇫🇷 法国 07'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 77.74.123.133
+  sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
