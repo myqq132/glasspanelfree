@@ -6,47 +6,14 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: swe-one.quiet-rogue.site
-  skip-cert-verify: false
-  sni: swe-one.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
-  port: 2095
-  server: 91.124.209.138
-  tls: false
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
+  password: '!!str 521314'
+  port: 443
+  server: 45.80.111.27
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: cdn-cloudflare91.korvexe.ir
-    path: /
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
-  network: ws
-  port: 52225
-  server: 91panel-axiora-vpn.korvexe.ir
-  servername: 91panel-axiora-vpn.korvexe.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  ws-opts:
-    headers:
-      Host: cdn-xui911.korvexe.ir
-    path: /
-- client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 05'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
-  server: 103.27.156.63
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

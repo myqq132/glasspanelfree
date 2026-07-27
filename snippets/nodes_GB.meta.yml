@@ -7,10 +7,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 02'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 205.237.109.212
-  sni: grape-turbo-fr.roxa.org
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa1.api3-max.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 03'
@@ -21,41 +20,52 @@ proxies:
   sni: wopa1.api3-max.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '[D] 🇬🇧 英国 04'
-  network: tcp
+- name: '[B] 🇬🇧 英国 04'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: 193.142.59.180
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  server: wopa3.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 05'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa9.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa9.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 06'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 91.193.58.161
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: 775a58bcs124.ccgfw.top
-    path: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '[D] 🇬🇧 英国 05'
-  network: tcp
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[D] 🇬🇧 英国 07'
+  network: ws
+  password: '!!str 521314'
   port: 443
-  server: s128.okgfw.top
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  server: 91.193.58.36
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: 775a58bcs124.ccgfw.top
-    path: ''
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[D] 🇬🇧 英国 08'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 91.193.58.240
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

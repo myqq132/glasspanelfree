@@ -1,20 +1,20 @@
 proxies:
-- name: '[C] 🇸🇬 新加坡 01'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.166.29.24
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.163.181.97
+  port: 6357
+  server: 18.166.67.128
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[C] 🇸🇬 新加坡 03'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 16.162.91.50
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -22,3 +22,9 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇸🇬 新加坡 05'
+  password: i8asar9lrxhavh38
+  port: 51435
+  server: 178.128.86.181
+  type: ss

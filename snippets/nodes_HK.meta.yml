@@ -1,22 +1,35 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
+- name: '[B] 🇭🇰 香港 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 03'
+  name: '[B] 🇭🇰 香港 05'
   network: ws
   port: '2086'
   server: 85.113.71.85
@@ -30,7 +43,7 @@ proxies:
     path: ba58ca0c-0411-444e-80f7-e361ce49012d-vm
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 04'
+  name: '[B] 🇭🇰 香港 06'
   network: ws
   port: '2086'
   server: 85.113.71.85
@@ -44,7 +57,7 @@ proxies:
     path: ba58ca0c-0411-444e-80f7-e361ce49012d-vm
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -52,45 +65,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 06'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.166.29.24
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇭🇰 香港 07'
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 54.46.125.192
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '[C] 🇭🇰 香港 08'
   network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 47867
+  server: 18.166.67.128
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇭🇰 香港 09'
+  network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.163.144.226
+  port: 7674
+  server: 16.162.119.232
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '[D] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 10'
   network: tcp
+  password: BxceQaOe
+  port: 39412
+  server: 43.198.187.250
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 11'
+  network: ws
   port: 443
-  server: s299.freessr.bid
-  servername: u695099u36cf43b9s298.wagahaha.xyz
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 36cf43b9s298.wagahaha.xyz
-    path: ''
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- name: '[D] 🇭🇰 香港 12'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 27.50.48.27
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
