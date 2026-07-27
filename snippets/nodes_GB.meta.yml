@@ -15,19 +15,12 @@ proxies:
 - name: '[B] 🇬🇧 英国 03'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: wopa1.api3-max.ru
-  sni: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇬🇧 英国 04'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
   server: wopa3.api3-max.ru
   skip-cert-verify: false
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 05'
+- name: '[B] 🇬🇧 英国 04'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
@@ -35,7 +28,7 @@ proxies:
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 06'
+- name: '[D] 🇬🇧 英国 05'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -46,7 +39,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 07'
+- name: '[D] 🇬🇧 英国 06'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -57,7 +50,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 08'
+- name: '[D] 🇬🇧 英国 07'
   network: ws
   password: '!!str 521314'
   port: 443
