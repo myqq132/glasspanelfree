@@ -1,63 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 17'
-  network: ws
-  port: '80'
-  server: 3h-kazakhstan1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 18'
-  network: ws
-  port: '80'
-  server: 61.245.11.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 04'
-  network: ws
-  port: '2096'
-  server: twdx6.baidupi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: twdx6.baidupi.top
-    path: /assets/images/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 05'
-  network: ws
-  port: '2096'
-  server: twdx6.baidupi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: ''
-    path: /assets/images/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 10'
+  name: '[B] 🇺🇸 美国 08'
   network: ws
   port: '2082'
   server: 69.63.204.31
@@ -67,25 +11,11 @@ proxies:
   uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
   ws-opts:
     headers:
-      Host: ''
+      Host: www.bing.com
     path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 11'
-  network: ws
-  port: '2095'
-  server: 64.186.253.113
-  servername: www.bing.com
-  tls: false
-  type: vmess
-  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-  ws-opts:
-    headers:
-      Host: ''
-    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 12'
+  name: '[B] 🇺🇸 美国 09'
   network: ws
   port: '2095'
   server: 64.186.253.113
@@ -98,7 +28,7 @@ proxies:
       Host: www.bing.com
     path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 19'
+  name: '[C] 🌍 其它地区 17'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -181,14 +111,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 18.181.205.36
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -197,7 +127,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇺🇸 美国 15'
+  name: '[D] 🇺🇸 美国 12'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
@@ -238,7 +168,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇺🇸 美国 21'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   password: '521314'
   port: 443
@@ -260,7 +190,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇺🇸 美国 22'
+- name: '[D] 🇺🇸 美国 19'
   network: ws
   password: '521314'
   port: 443
@@ -271,7 +201,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🌍 其它地区 24'
+- name: '[D] 🌍 其它地区 22'
   network: ws
   password: '521314'
   port: 443
@@ -282,7 +212,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🌍 其它地区 25'
+- name: '[D] 🌍 其它地区 23'
   network: ws
   password: '521314'
   port: 443
@@ -293,7 +223,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇺🇸 美国 23'
+- name: '[D] 🇺🇸 美国 20'
   network: ws
   password: '521314'
   port: 443
@@ -304,7 +234,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇺🇸 美国 24'
+- name: '[D] 🇺🇸 美国 21'
   network: ws
   password: '521314'
   port: 443
@@ -315,7 +245,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🌍 其它地区 26'
+- name: '[D] 🌍 其它地区 24'
   network: ws
   password: '521314'
   port: 443
@@ -326,7 +256,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 14'
+- name: '[D] 🇬🇧 英国 11'
   network: ws
   password: '521314'
   port: 443
@@ -337,7 +267,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 15'
+- name: '[D] 🇬🇧 英国 12'
   network: ws
   password: '521314'
   port: 443
@@ -348,7 +278,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 16'
+- name: '[D] 🇬🇧 英国 13'
   network: ws
   password: '521314'
   port: 443
@@ -360,7 +290,7 @@ proxies:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 28'
+  name: '[D] 🌍 其它地区 26'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.147
