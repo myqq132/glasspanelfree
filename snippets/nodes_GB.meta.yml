@@ -44,7 +44,6 @@ proxies:
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
-  skip-cert-verify: false
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
@@ -68,31 +67,25 @@ proxies:
 - name: '[B] 🇬🇧 英国 10'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇬🇧 英国 11'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
   server: wopa6.api3-max.ru
   sni: wopa6.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 12'
+- name: '[B] 🇬🇧 英国 11'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa7.api3-max.ru
   sni: wopa7.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 13'
+- name: '[B] 🇬🇧 英国 12'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 14'
+- name: '[D] 🇬🇧 英国 13'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -103,7 +96,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 15'
+- name: '[D] 🇬🇧 英国 14'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -114,7 +107,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[D] 🇬🇧 英国 16'
+- name: '[D] 🇬🇧 英国 15'
   network: ws
   password: '!!str 521314'
   port: 443
