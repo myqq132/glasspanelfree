@@ -1,6 +1,13 @@
 proxies:
+- name: '[B] 🇨🇦 加拿大 01'
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  sni: prodfr.h2corp.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 01'
+  name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: 162.159.24.39
@@ -13,7 +20,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: 108.162.196.3
