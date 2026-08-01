@@ -18,6 +18,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
+  sni: 202.146.222.29
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 04'
@@ -25,7 +26,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: 202.146.222.29
+  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 05'
@@ -33,17 +34,23 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2
-  tls: false
-  type: hysteria2
-- name: '[B] 🇭🇰 香港 06'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
   sni: https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: '[C] 🇭🇰 香港 07'
