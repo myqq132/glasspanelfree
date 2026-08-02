@@ -12,6 +12,21 @@ proxies:
   port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
-  sni: ''
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 03'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 04'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
