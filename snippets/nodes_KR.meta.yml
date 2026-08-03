@@ -1,16 +1,15 @@
 proxies:
 - name: '[B] 🇰🇷 韩国 01'
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: node-degame.bangboonet.ru
-  skip-cert-verify: false
-  sni: node-degame.bangboonet.ru
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: 222.238.227.54
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇰🇷 韩国 02'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
-  server: hg1.yuanbaojc.site
+  server: 222.238.227.54
   skip-cert-verify: true
   sni: 127.0.0.1
   tls: false
@@ -18,8 +17,9 @@ proxies:
 - name: '[B] 🇰🇷 韩国 03'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
-  server: hg1.yuanbaojc.site
+  server: 222.238.227.54
   skip-cert-verify: true
+  sni: 222.238.227.54
   tls: false
   type: hysteria2
 - name: '[B] 🇰🇷 韩国 04'
@@ -27,6 +27,5 @@ proxies:
   port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
-  sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
