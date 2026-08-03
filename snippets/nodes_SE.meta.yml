@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  port: 443
+  reality-opts:
+    public-key: nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4
+    short-id: '!!str b512d49930874a31'
+  server: 31.207.7.97
+  servername: cdn-se.ai-apiroute.cc
+  tls: false
+  type: vless
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0

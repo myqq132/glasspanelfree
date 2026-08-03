@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: '[D] CH 01'
+  network: tcp
+  port: 2020
+  reality-opts:
+    public-key: qhizbkaunsBTS7KH4ctsyxQBapZ3Qj5Y7Jr6J2r0HAU
+    short-id: '!!str b9fbd4c6'
+  server: 179.237.76.191
+  servername: g.co
+  tls: false
+  type: vless
+  uuid: c877d001-de9f-43d4-87c0-b7474a662424
