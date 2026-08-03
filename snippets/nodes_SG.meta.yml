@@ -14,7 +14,15 @@ proxies:
   sni: 209.74.81.28
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 38.180.190.169
+  skip-cert-verify: true
+  sni: www.gentoo.org
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -22,14 +30,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 95.40.107.76
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: BxceQaOe
   port: 9149
