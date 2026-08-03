@@ -1,40 +1,27 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
-  port: 9992
-  server: 104.36.86.93
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
-  port: 9992
-  server: 104.36.86.93
-  skip-cert-verify: true
-  sni: 104.36.86.93
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 23.95.75.151
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 02'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: mg-1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: mg-1.yuanbaojc.site
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: mg-1.yuanbaojc.site
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 04'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -42,91 +29,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '2082'
-  server: 69.63.204.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      Host: ''
-    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '2082'
-  server: 69.63.204.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '2095'
-  server: 64.186.253.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-  ws-opts:
-    headers:
-      Host: ''
-    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 10'
-  network: ws
-  port: '2095'
-  server: 64.186.253.113
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 11'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 12'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 28051
@@ -134,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 28051
@@ -142,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -152,7 +55,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 08'
   network: tcp
   port: 993
   reality-opts:
@@ -166,7 +69,7 @@ proxies:
     headers:
       Host: download.nvidia.com
     path: '%2F'
-- name: '[D] 🇺🇸 美国 17'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 80
   server: www.true.th
@@ -178,7 +81,7 @@ proxies:
     headers:
       Host: d2pwbkmfr5lxa4.cloudfront.net
     path: '%2F'
-- name: '[D] 🇺🇸 美国 18'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -189,7 +92,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 19'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 80
   server: 103.133.1.160
