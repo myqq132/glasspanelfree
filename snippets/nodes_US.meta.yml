@@ -1,13 +1,5 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -15,6 +7,20 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '8443'
+  server: 176.122.174.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
+  ws-opts:
+    headers:
+      Host: 176.122.174.175
+    path: /vmess
 - name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
