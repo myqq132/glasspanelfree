@@ -8,41 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: 194.180.174.69
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -50,14 +15,24 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 03'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
+- name: '[B] 🇫🇷 法国 05'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
