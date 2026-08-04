@@ -8,13 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 23.95.75.151
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -22,21 +15,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -44,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -52,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -60,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 2053
   server: 162.159.44.66
