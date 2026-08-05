@@ -1,21 +1,36 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 172.245.233.237
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 03'
+  name: '[B] 🇺🇸 美国 05'
   network: ws
   port: '23142'
   server: la.2555555.xyz
@@ -29,19 +44,33 @@ proxies:
     path: /pfrq
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 06'
   network: ws
-  port: '23142'
-  server: la.2555555.xyz
-  servername: la.2555555.xyz
-  tls: true
+  port: '8443'
+  server: 176.122.174.175
+  servername: 176.122.174.175
+  tls: false
   type: vmess
-  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
+  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
   ws-opts:
     headers:
-      Host: la.2555555.xyz
-    path: /pfrq
-- name: '[C] 🇺🇸 美国 05'
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: ws
+  port: '8443'
+  server: 176.122.174.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
+  ws-opts:
+    headers:
+      Host: 176.122.174.175
+    path: /vmess
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -49,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -57,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -65,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 8880
   server: 50.62.198.30
@@ -76,7 +105,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   port: 80
   server: www.true.th
