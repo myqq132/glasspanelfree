@@ -1,5 +1,12 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -7,14 +14,37 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.184
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.184%23%E7%BE%8E%E5%9B%BD3%40wxgqlfx
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 07'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -22,7 +52,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 04'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -30,7 +74,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -38,23 +82,34 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
-  port: 2053
-  server: 162.159.44.66
-  servername: fu.baiproxy.us.ci
-  tls: true
+  port: 8880
+  server: 50.62.198.30
+  tls: false
   type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-    path: '%2F%3Fed%3D2560'
+      Host: vms.lifetime39.workers.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 13'
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  tls: false
+  type: vless
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: '%2F'
