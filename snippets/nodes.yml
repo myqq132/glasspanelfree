@@ -1,21 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 09'
+  name: '[B] 🌍 其它地区 14'
   network: ws
-  port: '443'
-  server: 210.138.37.53
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   ws-opts:
     headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 13'
+  name: '[B] 🇯🇵 日本 02'
+  network: ws
+  port: '36801'
+  server: cindy50.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 15'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -27,15 +41,53 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 16'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 05'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: twdx6.baidupi.top
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: tcp
+  port: '51360'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 14'
+  name: '[C] 🌍 其它地区 17'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 10'
+  name: '[C] 🇭🇰 香港 11'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -43,7 +95,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 11'
+- name: '[C] 🇭🇰 香港 12'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -51,7 +103,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 12'
+- name: '[C] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -59,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 13'
+- name: '[C] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -90,7 +142,7 @@ proxies:
   server: 18.163.100.58
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -98,14 +150,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 18.166.178.12
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -113,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -121,7 +173,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -129,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -137,125 +189,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 17'
-  network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+- cipher: aes-128-gcm
+  name: '[D] 🇺🇸 美国 09'
+  password: xo6k84l7b00n2hJp
+  port: 57841
+  server: 23.185.200.135
+  type: ss
 - cipher: aes-256-gcm
   name: '[D] 🌍 其它地区 18'
   password: d1fa2f4b98a38bc8
   port: 10901
   server: 62.76.234.75
   type: ss
-- name: '[D] 🇸🇬 新加坡 06'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '[D] 🇸🇬 新加坡 07'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20068
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '[D] 🇸🇬 新加坡 08'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 08'
-  network: ws
-  port: 443
-  server: 18.197.218.69
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 19'
-  network: ws
-  port: 443
-  server: 185.246.152.159
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇬🇧 英国 01'
-  network: ws
-  port: 443
-  server: 57.128.183.3
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 09'
-  network: ws
-  port: 443
-  server: 194.164.192.16
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 20'
-  network: ws
-  port: 443
-  server: 185.223.169.157
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 21'
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 137.131.181.254
-  type: ss
-- name: '[D] 🇨🇦 加拿大 01'
-  network: ws
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  port: 443
-  server: 104.16.148.5
-  sni: dimskiee.biz.id
-  type: trojan
-  ws-opts:
-    path: '%2FWangCai-8'
