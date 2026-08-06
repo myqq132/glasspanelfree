@@ -2,28 +2,28 @@ proxies:
 - name: '[B] 🇫🇷 法国 01'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
-  server: 76.164.202.215
+  server: 76.164.202.216
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
-  server: 76.164.202.216
+  server: 76.164.202.217
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.217
-  sni: mercedes-grape.yyuyy.com
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
@@ -42,21 +42,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 07'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 95.164.123.231
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -64,10 +49,28 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 08'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 09'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[B] 🇫🇷 法国 10'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
