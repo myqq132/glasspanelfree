@@ -12,18 +12,26 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 03'
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: 8443
-  server: 213.202.219.29
-  sni: grape-sos-de.roxa.org
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 443
   server: 31.76.11.46
@@ -36,7 +44,7 @@ proxies:
       Host: 31.76.11.46.cdn-one.org
     path: '%2F52872%2FBNzG4FvIAr'
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 06'
   network: ws
   port: 443
   server: 31.76.11.46.cdn-one.org
