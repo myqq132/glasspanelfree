@@ -8,6 +8,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.120
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: 95.164.123.231
@@ -15,16 +22,24 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 04'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 04'
+  name: '[D] 🇫🇷 法国 06'
   port: 443
   reality-opts:
     public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
