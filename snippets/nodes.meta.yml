@@ -1246,41 +1246,42 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[D] 🇯🇵 日本 06'
-  network: ws
   port: 443
-  server: 3.162.103.26
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
 - name: '[D] 🇸🇬 新加坡 15'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   server: hkdcrtc-e.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: '[D] 🇸🇬 新加坡 16'
-  network: ws
-  port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
+- flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 17'
+  port: 993
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  tls: false
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: '[D] 🇺🇸 美国 18'
+  port: 10000
+  server: 180.178.60.253
+  tls: false
+  type: vless
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
 - name: '[D] 🌍 其它地区 22'
   network: ws
   port: 443
   server: 31.76.251.127.cdn-one.org
   servername: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
@@ -1288,84 +1289,41 @@ proxies:
     headers:
       Host: 31.76.251.127.cdn-one.org
     path: '%2F10336%2F2GCOqG7bvA'
-- name: '[D] 🇺🇸 美国 17'
-  port: 10000
-  server: 180.178.60.253
-  tls: false
-  type: vless
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 23'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-  server: 94.102.51.218
-  servername: fair-lunar.cdn.cachefleet.com
-  tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- name: '[D] 🇸🇬 新加坡 17'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇷🇺 俄罗斯 01'
-  password: GczuHD12R6yCLxNEohm_nQ
-  port: 1080
-  server: 37.77.105.11
-  type: ss
-- name: '[D] 🇨🇦 加拿大 19'
-  network: ws
-  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
-  port: 443
-  server: cf.wdqgn.eu.org
-  sni: h2.bnm.uw.to
-  type: trojan
-  ws-opts:
-    headers:
-      Host: h2.bnm.uw.to
-    path: '%2F0cb2739d-98b8-45ce-b52c-4305c40975a6-tr'
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 24'
+- name: '[D] 🌍 其它地区 23'
   network: ws
   port: 443
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- name: '[D] 🇯🇵 日本 07'
-  network: ws
-  port: 8443
-  server: 45.192.200.66
-  servername: rubifen.adaspoloandco.com
+  server: 31.76.251.127
+  servername: 31.76.251.127.cdn-one.org
   tls: true
   type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
   ws-opts:
     headers:
-      Host: rubifen.adaspoloandco.com
-    path: '%2FGOrbEh'
-- name: '[D] 🇷🇺 俄罗斯 02'
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
+- name: '[D] 🌍 其它地区 24'
   network: ws
-  port: 4100
-  server: 104.171.133.53
+  port: 443
+  server: 2.56.206.160
+  servername: ar.iotreeow.ir
+  tls: true
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: ar.iotreeow.ir
+    path: '%2FQv2raychannel'
+- name: '[D] 🇺🇸 美国 19'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
   tls: false
   type: vless
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: live.ok.ru
-    path: '%2Fv1'
+      Host: vms.lifetime50.workers.dev
+    path: ''
 - name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 80
@@ -1377,3 +1335,9 @@ proxies:
     headers:
       Host: rb24.ir
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇷🇺 俄罗斯 01'
+  password: GczuHD12R6yCLxNEohm_nQ
+  port: 1080
+  server: 37.77.105.11
+  type: ss

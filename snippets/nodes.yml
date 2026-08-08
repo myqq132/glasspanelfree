@@ -213,40 +213,9 @@ proxies:
   server: hkdcrtc-e.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: '[D] 🇸🇬 新加坡 17'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: '[D] 🇷🇺 俄罗斯 01'
   password: GczuHD12R6yCLxNEohm_nQ
   port: 1080
   server: 37.77.105.11
   type: ss
-- name: '[D] 🇨🇦 加拿大 19'
-  network: ws
-  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
-  port: 443
-  server: cf.wdqgn.eu.org
-  sni: h2.bnm.uw.to
-  type: trojan
-  ws-opts:
-    headers:
-      Host: h2.bnm.uw.to
-    path: '%2F0cb2739d-98b8-45ce-b52c-4305c40975a6-tr'
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 24'
-  network: ws
-  port: 443
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess

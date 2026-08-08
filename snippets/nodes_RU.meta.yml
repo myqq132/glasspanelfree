@@ -5,14 +5,3 @@ proxies:
   port: 1080
   server: 37.77.105.11
   type: ss
-- name: '[D] 🇷🇺 俄罗斯 02'
-  network: ws
-  port: 4100
-  server: 104.171.133.53
-  tls: false
-  type: vless
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: '%2Fv1'
