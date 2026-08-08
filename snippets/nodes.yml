@@ -1,21 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 19'
-  network: ws
-  port: '80'
-  server: 38.107.234.57
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 38.107.234.57
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 20'
+  name: '[B] 🌍 其它地区 18'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -29,69 +15,51 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 21'
+  name: '[B] 🇨🇳 台湾 08'
   network: ws
-  port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  port: '2096'
+  server: twdx6.baidupi.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 22'
-  network: ws
-  port: '80'
-  server: 3h-kazakhstan1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
   ws-opts:
     headers:
       Host: ''
-    path: /vmess/
+    path: /assets/images/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 23'
-  network: ws
-  port: '80'
-  server: 38.107.234.57
+  name: '[B] 🇨🇳 台湾 09'
+  network: raw
+  port: '35034'
+  server: 165.154.195.38
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 24'
+  name: '[B] 🇨🇳 台湾 10'
   network: ws
-  port: '80'
-  server: 38.107.234.57
+  port: '2096'
+  server: twdx6.baidupi.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
   ws-opts:
     headers:
-      Host: google.com
-    path: /vmess/
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 25'
+  name: '[C] 🌍 其它地区 19'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 14'
+  name: '[C] 🇭🇰 香港 10'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -99,7 +67,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 15'
+- name: '[C] 🇭🇰 香港 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
@@ -107,7 +75,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 16'
+- name: '[C] 🇭🇰 香港 12'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -115,7 +83,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 17'
+- name: '[C] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 35151
@@ -146,7 +114,7 @@ proxies:
   server: 95.40.107.76
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 15'
+- name: '[C] 🇸🇬 新加坡 17'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 36580
@@ -154,14 +122,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 16'
+- name: '[C] 🇸🇬 新加坡 18'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 32434
   server: 57.183.7.187
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 17'
+- name: '[C] 🇸🇬 新加坡 19'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -169,7 +137,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -177,7 +145,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -185,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -193,7 +161,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇸🇬 新加坡 18'
+- name: '[D] 🇸🇬 新加坡 20'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   server: hkdcrtc-e.catcat321.com
