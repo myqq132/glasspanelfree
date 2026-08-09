@@ -42,9 +42,9 @@ proxies:
 - name: '[B] 🇸🇬 新加坡 06'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 47.129.9.33
+  server: 13.229.110.73
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 07'
@@ -72,11 +72,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 10'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.255.220.11
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: 194.87.10.67
   skip-cert-verify: true
-  sni: t.me
+  sni: xjp3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 11'
@@ -118,8 +118,14 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[D] 🇸🇬 新加坡 16'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
