@@ -12,7 +12,6 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 03'
@@ -20,7 +19,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 04'
@@ -28,7 +27,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 05'
@@ -36,7 +35,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 06'
@@ -44,17 +43,52 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
-  network: ws
-  port: 80
-  server: 146.75.119.82
+- name: '[B] 🇩🇪 德国 07'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 08'
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 2083
+  server: 178.253.55.89
+  sni: swe-one.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str abe4a59b9f2407e3'
+  server: 5.254.14.165
+  servername: cdn4-81.yahoo.com
   tls: false
   type: vless
-  uuid: c0386f3f-e9bc-4ede-a00e-2e294993f54e
+  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+      Host: /?BIA_TELEGRAM@
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 10'
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 11'
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
