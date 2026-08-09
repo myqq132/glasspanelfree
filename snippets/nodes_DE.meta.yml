@@ -35,7 +35,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 06'
@@ -43,7 +43,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 07'
@@ -51,78 +51,28 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 08'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 09'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 09'
+- name: '[B] 🇩🇪 德国 10'
   password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
   port: 2083
   server: 178.253.55.89
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 10'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str abe4a59b9f2407e3'
-  server: 5.254.14.165
-  servername: cdn4-81.yahoo.com
-  tls: false
-  type: vless
-  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
-  ws-opts:
-    headers:
-      Host: /?BIA_TELEGRAM@
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 11'
-  port: 443
-  server: ddc-akn.astralweb.tech
-  servername: ddc-akn.astralweb.tech
-  tls: true
-  type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 12'
-  port: 443
-  server: 217.60.193.4
-  servername: ddc-akn.astralweb.tech
-  tls: true
-  type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 13'
-  network: ws
-  port: 2083
-  server: 46.101.253.244
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 14'
-  network: ws
-  port: 2083
-  server: 167.172.165.106
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: '%2F'
