@@ -11,29 +11,29 @@ proxies:
   port: 443
   server: 35.87.211.237
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 35.87.211.237
+  server: 44.251.47.95
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 35.87.211.237
+  server: 44.251.47.95
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 05'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 44.251.47.95
+  server: 54.213.89.22
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
@@ -43,31 +43,23 @@ proxies:
   port: 443
   server: 54.213.89.22
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.213.89.22
-  skip-cert-verify: true
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 07'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 08'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: nl1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 09'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: nl1.noesissite.ru
@@ -76,7 +68,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 11'
+  name: '[B] 🇺🇸 美国 10'
   network: tcp
   port: '51360'
   server: lt.badns.help
@@ -86,17 +78,17 @@ proxies:
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 12'
+  name: '[B] 🇺🇸 美国 11'
   network: tcp
-  port: '53168'
-  server: lt.badns.help
+  port: '443'
+  server: 165.140.216.141
   servername: ''
   tls: false
   type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 13'
+  name: '[B] 🇺🇸 美国 12'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -108,7 +100,7 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 34039
@@ -116,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -125,7 +117,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 15'
   network: tcp
   port: 48347
   reality-opts:
@@ -138,7 +130,7 @@ proxies:
   uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 17'
+  name: '[D] 🇺🇸 美国 16'
   network: tcp
   port: 993
   reality-opts:
@@ -148,13 +140,13 @@ proxies:
   tls: false
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- name: '[D] 🇺🇸 美国 18'
+- name: '[D] 🇺🇸 美国 17'
   port: 10000
   server: 180.178.60.253
   tls: false
   type: vless
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: '[D] 🇺🇸 美国 19'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -165,7 +157,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 20'
+- name: '[D] 🇺🇸 美国 19'
   network: ws
   port: 80
   server: 208.103.161.249
@@ -176,7 +168,7 @@ proxies:
     headers:
       Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
     path: '%2F'
-- name: '[D] 🇺🇸 美国 21'
+- name: '[D] 🇺🇸 美国 20'
   network: ws
   port: 8880
   server: 45.40.149.50
@@ -187,7 +179,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 22'
+- name: '[D] 🇺🇸 美国 21'
   network: ws
   port: 8880
   server: 50.62.198.30
@@ -198,7 +190,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 23'
+- name: '[D] 🇺🇸 美国 22'
   network: ws
   port: 80
   server: 50.62.195.4
@@ -209,7 +201,7 @@ proxies:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 24'
+- name: '[D] 🇺🇸 美国 23'
   network: ws
   port: 80
   server: 45.40.150.4
@@ -220,7 +212,7 @@ proxies:
     headers:
       Host: holy-breeze-0bac.47-dec.workers.dev
     path: '%2F'
-- name: '[D] 🇺🇸 美国 25'
+- name: '[D] 🇺🇸 美国 24'
   network: ws
   port: 8880
   server: 155.46.167.30
