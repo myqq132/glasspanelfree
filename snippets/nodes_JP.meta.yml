@@ -2,16 +2,16 @@ proxies:
 - name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.167.76.203
+  port: 9408
+  server: 16.162.92.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 18.166.178.12
+  port: 18617
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -22,3 +22,27 @@ proxies:
   server: 18.166.178.12
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: firefox
+  name: '[D] 🇯🇵 日本 04'
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- client-fingerprint: chrome
+  name: '[D] 🇯🇵 日本 05'
+  network: ws
+  port: 8443
+  server: 82.40.42.204
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
