@@ -2,15 +2,15 @@ proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[D] 🇷🇺 俄罗斯 01'
-  port: 40443
+  port: 443
   reality-opts:
-    public-key: EbXSjwJKAI1cmU2TK3af62qS2k58x8Rnct1525c0m1I
-    short-id: '!!str e6ada633d7771dda'
-  server: 85.198.69.110
-  servername: deepl.com
+    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
+    short-id: '!!str 9698d67e63bc8ee0'
+  server: stormix.pulsio.cfd
+  servername: stormix.pulsio.cfd
   tls: false
   type: vless
-  uuid: 641baa2f-6f74-4ecf-b948-032d19ba0142
+  uuid: e3c40721-22bc-4862-a358-09502fc14af6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[D] 🇷🇺 俄罗斯 02'
@@ -23,53 +23,3 @@ proxies:
   tls: false
   type: vless
   uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- name: '[D] 🇷🇺 俄罗斯 03'
-  network: ws
-  port: 4100
-  server: 5.129.252.140
-  servername: live.ok.ru
-  tls: false
-  type: vless
-  uuid: eb135f2b-4b9e-4abb-9a89-78242613da61
-  ws-opts:
-    path: '%2Fv1'
-- name: '[D] 🇷🇺 俄罗斯 04'
-  network: ws
-  port: 2200
-  server: 87.228.122.106
-  servername: rzd.ru
-  tls: false
-  type: vless
-  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
-  ws-opts:
-    path: '%2Fv1'
-- name: '[D] 🇷🇺 俄罗斯 05'
-  network: ws
-  port: 4100
-  server: 45.151.101.67
-  servername: live.ok.ru
-  tls: false
-  type: vless
-  uuid: 89537879-e550-45e9-ab1c-5e1a11c168f1
-  ws-opts:
-    path: '%2Fv1'
-- name: '[D] 🇷🇺 俄罗斯 06'
-  network: ws
-  port: 2200
-  server: 77.95.201.235
-  servername: rzd.ru
-  tls: false
-  type: vless
-  uuid: 9b4ba157-f60b-4a5b-b326-4d561eb826d4
-  ws-opts:
-    path: '%2Fv1'
-- name: '[D] 🇷🇺 俄罗斯 07'
-  network: ws
-  port: 4100
-  server: 147.45.253.97
-  servername: live.ok.ru
-  tls: false
-  type: vless
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    path: '%2Fv1'

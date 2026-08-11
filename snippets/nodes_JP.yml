@@ -22,3 +22,12 @@ proxies:
   server: 18.166.178.12
   sni: www.nintendogames.net
   type: trojan
+- name: '[D] 🇯🇵 日本 04'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

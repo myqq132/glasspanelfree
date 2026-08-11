@@ -1,11 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 10'
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 34039
@@ -21,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -29,31 +29,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 13'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  sni: default.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: s1a-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fdde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[D] 🇺🇸 美国 14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 15'
+- alpn:
+  - http/1.1
+  name: '[D] 🇺🇸 美国 13'
   network: ws
   password: humanity
   port: 443
   server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇺🇸 美国 15'
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: autodiscover.fuzzyaytor.cyou
+  type: ss
+- name: '[D] 🇺🇸 美国 17'
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

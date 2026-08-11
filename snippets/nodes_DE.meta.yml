@@ -6,15 +6,58 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: '[D] 🇩🇪 德国 02'
-  port: 13868
-  reality-opts:
-    public-key: XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8
-    short-id: '!!str e852dc'
-  server: ger01.skorostnet.space
-  servername: amd.com
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
   tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: '16616'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 04'
+  network: ws
+  port: '16626'
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
+  ws-opts:
+    headers:
+      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 05'
+  network: ws
+  port: 2083
+  server: 46.101.253.244
+  servername: edge.yzkvm.top
+  tls: true
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: '%2F'
