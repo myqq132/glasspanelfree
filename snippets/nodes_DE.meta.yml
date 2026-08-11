@@ -1,14 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: 8443
-  server: 213.202.219.29
-  sni: grape-sos-de.roxa.org
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -22,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: '16616'
   server: planb.mojcn.com.linuxlh.xin
@@ -36,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 03'
   network: ws
   port: '16626'
   server: planb.mojcn.com.linuxlh.xin
@@ -49,7 +42,7 @@ proxies:
       Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   network: ws
   port: 2083
   server: 46.101.253.244
