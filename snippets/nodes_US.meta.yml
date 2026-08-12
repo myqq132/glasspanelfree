@@ -7,14 +7,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
-  sni: 155.117.19.221
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 35.87.211.237
@@ -22,7 +14,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 03'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 35.87.211.237
@@ -30,31 +22,23 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 04'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 05'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 82.38.60.15
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 06'
   network: tcp
   port: '51360'
   server: lt.badns.help
@@ -62,7 +46,41 @@ proxies:
   tls: false
   type: vmess
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- name: '[C] 🇺🇸 美国 09'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: raw
+  port: '53168'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: tcp
+  port: '53168'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -70,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -78,7 +96,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 28051
@@ -86,7 +104,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 13'
   network: ws
   password: humanity
   port: 443
@@ -95,7 +113,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -104,7 +122,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
@@ -113,7 +131,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 15'
+- name: '[D] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -122,7 +140,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 16'
+- name: '[D] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -131,7 +149,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 17'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   port: 80
   server: 208.103.161.249
