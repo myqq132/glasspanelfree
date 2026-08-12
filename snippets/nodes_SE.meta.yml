@@ -1,12 +1,25 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: edge
   name: '[D] SE 01'
   port: 443
   reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 143.246.194.26
-  servername: sw.rexten.cc
+    public-key: 8R416wHsKA_fipQLIw2gceCaTTBJIZRMwGjNTURAx3I
+    short-id: '!!str ad55857184e91aad'
+  server: 2.27.56.109
+  servername: stacks.vk-portal.net
   tls: false
   type: vless
-  uuid: f61025f4-7973-4e3e-883c-a0fe85f0489c
+  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
+- client-fingerprint: chrome
+  name: '[D] SE 02'
+  network: ws
+  port: 8443
+  server: 193.232.178.149
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: '%2F'

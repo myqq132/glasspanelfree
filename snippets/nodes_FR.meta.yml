@@ -1,24 +1,38 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.125
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
   skip-cert-verify: true
-  sni: 91.196.32.163
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
   tls: false
   type: hysteria2

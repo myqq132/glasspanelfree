@@ -1,25 +1,12 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[D] 🇷🇺 俄罗斯 01'
   port: 443
   reality-opts:
-    public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
-    short-id: '!!str 9698d67e63bc8ee0'
-  server: stormix.pulsio.cfd
-  servername: stormix.pulsio.cfd
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
   tls: false
   type: vless
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 02'
-  port: 443
-  reality-opts:
-    public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
-    short-id: '!!str 33b5887524592cad'
-  server: tunix.ciphero.xyz
-  servername: tunix.ciphero.xyz
-  tls: false
-  type: vless
-  uuid: e3c40721-22bc-4862-a358-09502fc14af6
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
