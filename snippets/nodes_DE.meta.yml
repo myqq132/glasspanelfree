@@ -1,20 +1,13 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   port: 443
   server: de151.mechvpn.online
   tls: true
   type: vless
   uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   password: MiTiVPN
   port: 443
@@ -24,7 +17,7 @@ proxies:
   ws-opts:
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FD-e1%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 2083
   server: 46.101.253.244
@@ -36,7 +29,7 @@ proxies:
     headers:
       Host: edge.yzkvm.top
     path: '%2F'
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 04'
   network: ws
   password: humanity
   port: 443
