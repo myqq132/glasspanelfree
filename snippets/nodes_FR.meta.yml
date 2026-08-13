@@ -1,5 +1,20 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: 179.61.227.11
+  skip-cert-verify: true
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.164
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -7,61 +22,46 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 95.164.123.231
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 95.164.123.231
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: 95.164.123.231
-  skip-cert-verify: true
-  sni: 95.164.123.231
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 194.247.186.120
+  sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
+- fingerprint: firefox
+  name: '[B] 🇫🇷 法国 05'
+  password: 4e82f6c9-e180-4672-9d63-9060679ebdb9
+  port: 443
+  server: node.embrofree.org
+  sni: node.embrofree.org
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 06'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: de2.vpn.legendaah.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 07'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 08'
+  password: 130e6aab-9eba-441e-9021-22cbccc72832
+  port: 8443
+  server: srvhy1.ezcon24.online
+  sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 09'
-  password: 130e6aab-9eba-441e-9021-22cbccc72832
+  password: 553e3253-c454-431d-a7e6-42bc06ea5e14
   port: 8443
   server: srvhy1.ezcon24.online
   sni: srvhy1.ezcon24.online
