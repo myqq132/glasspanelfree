@@ -12,17 +12,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
+  network: raw
+  port: '53168'
+  server: lt.badns.help
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 10'
