@@ -4,18 +4,10 @@ proxies:
   port: 443
   server: 3.36.93.159
   skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇰🇷 韩国 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.36.93.159
-  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 03'
+- name: '[B] 🇰🇷 韩国 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.36.93.74
@@ -23,7 +15,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 04'
+- name: '[B] 🇰🇷 韩国 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 3.36.96.245
@@ -31,7 +23,7 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 05'
+- name: '[B] 🇰🇷 韩国 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 43.201.1.129
@@ -39,11 +31,18 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🇰🇷 韩国 06'
+- name: '[B] 🇰🇷 韩国 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 43.201.58.201
   skip-cert-verify: true
   sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 06'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8080
+  server: 139.28.168.54
+  sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2

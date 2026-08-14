@@ -1,55 +1,281 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 01'
+  name: '[B] 🌍 其它地区 11'
+  network: tcp
+  port: '29020'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
   network: ws
   port: '443'
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: mh7r5ardl0z5jtgy.v.3dns.vip
+  servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
+      Host: mh7R5ArdL0z5jTGY.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 08'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
-  port: '10000'
-  server: 117.27.228.29
+  port: '443'
+  server: mh7r5ardl0z5jtgy.v.3dns.vip
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
-  ws-opts:
-    headers:
-      Host: 117.27.228.29
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 09'
-  network: ws
-  port: '10000'
-  server: 117.27.228.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 05'
+  network: ws
+  port: '443'
+  server: mtckundigepwu3up.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 08'
+  network: ws
+  port: '443'
+  server: 47.83.207.148
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 09'
+  network: ws
+  port: '443'
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 10'
+  network: ws
+  port: '443'
+  server: 7timuei1uufoixbf.v.3dns.vip
+  servername: 7tImuei1uuFOiXbf.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 7tImuei1uuFOiXbf.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 11'
+  network: ws
+  port: '443'
+  server: 8.218.184.4
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 12'
+  network: ws
+  port: '443'
+  server: zudssgtmrqg9lpvi.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 13'
+  network: ws
+  port: '443'
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 14'
+  network: ws
+  port: '443'
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 15'
+  network: ws
+  port: '443'
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 16'
+  network: ws
+  port: '443'
+  server: mtckundigepwu3up.v.3dns.vip
+  servername: mTCKUNDiGePwU3uP.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 17'
+  network: tcp
+  port: '27102'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 01'
+  network: ''
+  port: '27122'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 12'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 13'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: 61.245.11.60
+    path: /vmess/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 11'
+  name: '[C] 🌍 其它地区 14'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 18'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -57,7 +283,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 19'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 7674
@@ -65,7 +291,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 20'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -73,7 +299,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 21'
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -127,7 +353,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -135,7 +361,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -143,7 +369,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -248,7 +474,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -258,7 +484,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -309,7 +535,7 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 20'
+  name: '[D] 🌍 其它地区 23'
   password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
   port: 39880
   server: 79.175.134.49

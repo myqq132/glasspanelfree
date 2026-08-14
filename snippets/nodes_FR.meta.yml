@@ -8,11 +8,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
+  password: hysteria2_fastlane_h43dvv57b:BFhT1zI613GtDOzp0kdvMdgJRMroi7mZ
+  port: 1935
+  server: 2.27.28.106
+  sni: de8.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
@@ -20,6 +19,7 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
@@ -27,13 +27,5 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
-  password: 2_hysteria2_fastlane_rbpddej1k:b31z6w8vqA9q6u7UHIbunwD77COTmpE3
-  port: 1935
-  server: 2.27.25.75
-  sni: de11.h.fastlanehosting.ru
   tls: false
   type: hysteria2
