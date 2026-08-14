@@ -30,9 +30,16 @@ proxies:
   server: 16.162.100.124
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 05'
-  port: 22222
-  server: 63.186.212.143
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇯🇵 日本 05'
+  network: tcp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
