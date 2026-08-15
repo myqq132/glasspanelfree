@@ -15,14 +15,40 @@ proxies:
   sni: at3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: austria_hysteria2_fastlane_rmmu8l31k:sY7bI7Vaev1mknnHsBPG7QeIGgy50P5Z
+- fingerprint: random
+  name: '[B] 🇺🇸 美国 03'
+  password: austria_hysteria2_fastlane_gowsybpu5:FkbLjwxyf9pnAXHKUEBKqNbvKmTyoRRw
   port: 1935
   server: 94.228.163.122
   sni: at4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: austria_hysteria2_fastlane_rmmu8l31k:sY7bI7Vaev1mknnHsBPG7QeIGgy50P5Z
+  port: 1935
+  server: 94.228.163.122
+  sni: at4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 05'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: bel-02.node.lumixnet.com
+  sni: bel-02.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 06'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: ltu-02.node.lumixnet.com
+  sni: ltu-02.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -30,14 +56,29 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 08'
+  password: hysteria2_fastlane_5oymhm4ic:PABYUiwljEujXNoVF6C1zALP4bppk7y7
+  port: 1935
+  server: 193.233.203.162
+  sni: us2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: random
+  name: '[B] 🇺🇸 美国 09'
+  password: hysteria2_fastlane_tl4jpuq34:DBiHpP7f9RtPAwwMVTEfPJ49mtWodRUm
+  port: 1935
+  server: 193.233.203.162
+  sni: us2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: usa_2_hysteria2_fastlane_r0k35qdi9:2HRZ6vb3h2x4THpVyVONEgiwSNBnUWnr
   port: 1935
   server: 92.118.112.227
   sni: us3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 11'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 44.251.47.95
@@ -45,14 +86,30 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 12'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 13'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 14'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 15'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
@@ -60,46 +117,61 @@ proxies:
   sni: 150.241.102.127
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 150.241.102.127
-  skip-cert-verify: true
-  sni: usp.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 16'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
-  server: 139.28.168.54
+  server: 139.28.168.55
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- fingerprint: safari
-  name: '[B] 🇺🇸 美国 11'
+- name: '[B] 🇺🇸 美国 17'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 82.38.60.122
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 18'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
   skip-cert-verify: true
+  sni: els1.mangshe.xyz
   tls: false
   type: hysteria2
 - fingerprint: edge
-  name: '[B] 🇺🇸 美国 12'
+  name: '[B] 🇺🇸 美国 19'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 13'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 20'
+  network: tcp
+  port: '27113'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 14'
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 21'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 22'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -107,7 +179,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 23'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -115,7 +187,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 24'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -123,7 +195,45 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 17'
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 25'
+  network: ws
+  port: 443
+  server: 18.154.132.94
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 26'
+  network: ws
+  port: 443
+  server: 18.154.132.111
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 27'
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 28'
   network: ws
   password: humanity
   port: 443
@@ -133,104 +243,41 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 18'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 29'
   network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
+  port: '80'
+  server: www.true.th
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
   ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 19'
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 30'
   network: ws
-  port: 8880
-  server: 66.81.247.209
+  port: '46373'
+  server: 66.42.72.146
+  tls: false
+  type: vmess
+  uuid: f98fdefd-1b61-4052-c5b5-2a196f6e0541
+  ws-opts:
+    headers:
+      Host: ''
+    path: /my-vmess-path
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 31'
+  port: 443
+  reality-opts:
+    public-key: VRrsZmyM-QD8YgLGgy2h3pMLbauIBCMoGN2pc8Xt5hE
+    short-id: '!!str b605d4e8b7f453ab'
+  server: 195.211.99.49
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  ws-opts:
-    headers:
-      Host: cnd.finland2.2.newwaycdn.com
-    path: /cdn/assets/stream
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 20'
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 21'
-  network: ws
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 22'
-  network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 81df88b4-ab24-4510-dc5f-7ebdbf24ff0a
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
-- name: '[D] 🇺🇸 美国 23'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 24'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 25'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
+  uuid: 7eed6d87-ecf6-467b-a8ca-52071fa84fca

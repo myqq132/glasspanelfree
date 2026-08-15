@@ -15,11 +15,28 @@ proxies:
   sni: at3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- fingerprint: random
+  name: '[B] 🇺🇸 美国 03'
+  password: austria_hysteria2_fastlane_gowsybpu5:FkbLjwxyf9pnAXHKUEBKqNbvKmTyoRRw
+  port: 1935
+  server: 94.228.163.122
+  sni: at4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
   password: austria_hysteria2_fastlane_rmmu8l31k:sY7bI7Vaev1mknnHsBPG7QeIGgy50P5Z
   port: 1935
   server: 94.228.163.122
   sni: at4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 05'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: bel-02.node.lumixnet.com
+  sni: bel-02.node.lumixnet.com
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
@@ -35,15 +52,69 @@ proxies:
   port: 443
   server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇦 加拿大 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: '[B] 🇨🇳 中国 01'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 9080
+  server: 139.28.168.54
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 中国 02'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 9080
+  server: 139.28.168.55
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] CH 01'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
   port: 443
-  server: vpn-ca-001.fastervpn.world
+  server: cze-01.node.lumixnet.com
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 02'
+  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  port: 443
+  server: cze-01.node.lumixnet.com
+  skip-cert-verify: false
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🇩🇪 德国 01'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: lsj1.mangshe.xyz
   skip-cert-verify: true
-  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: lsj1.mangshe.xyz
+  skip-cert-verify: true
+  sni: lsj1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 01'
+  password: Apt1923_N9x234gn_Nal5Nx3j_s
+  port: 8443
+  server: 222.167.212.80
+  sni: grape-power-pl.ddnsguru.com
+  tls: false
+  type: hysteria2
+- fingerprint: edge
+  name: '[B] 🌍 其它地区 02'
+  password: hysteria2_fastlane_7hcemeub4:JHUDk9kNXVxQjHSzYHJrW2eR77PzrHEF
+  port: 1935
+  server: 64.188.74.69
+  sni: fn1.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 01'
@@ -54,14 +125,69 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: hysteria2_fastlane_h43dvv57b:BFhT1zI613GtDOzp0kdvMdgJRMroi7mZ
+- fingerprint: safari
+  name: '[B] 🇫🇷 法国 02'
+  password: hysteria2_fastlane_bimanlaw9:7e61fJIsxj8EdGj1sz0EwPFHM2tXz62d
   port: 1935
   server: 2.27.28.106
   sni: de8.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
+  password: hysteria2_fastlane_h43dvv57b:BFhT1zI613GtDOzp0kdvMdgJRMroi7mZ
+  port: 1935
+  server: 2.27.28.106
+  sni: de8.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: 95.164.123.231
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 06'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 07'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 08'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: de2.vpn.legendaah.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 09'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 10'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -69,11 +195,35 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
+- name: '[B] 🇫🇷 法国 11'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🇫🇷 法国 12'
+  password: 2_hysteria2_fastlane_bwmyt23lc:T2PKaK98fFXLNStH3RzibwvHqde4XcPl
+  port: 1935
+  server: 2.27.25.75
+  sni: de11.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 13'
+  password: 2_hysteria2_fastlane_rbpddej1k:b31z6w8vqA9q6u7UHIbunwD77COTmpE3
+  port: 1935
+  server: 2.27.25.75
+  sni: de11.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: firefox
+  name: '[B] 🇫🇷 法国 14'
+  password: hysteria2_fastlane_3uunf3vp1:kgcX3jJNrfC9JHTFBUwCqhyXvZGJVJAD
+  port: 1935
+  server: 2.27.29.158
+  sni: de10.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
@@ -84,7 +234,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2Fclashv8%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 01'
+- name: '[B] 🌍 其它地区 03'
   password: 4e756809
   port: 12694
   server: 92.4.68.18
@@ -92,21 +242,76 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 01'
+- name: '[B] 🇩🇪 德国 03'
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 8080
   server: 5.180.27.221
   sni: borat-hopp.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 02'
+- name: '[B] 🇯🇵 日本 01'
+  password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
+  port: 8443
+  server: 185.39.31.40
+  sni: grape-beer.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 04'
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 8443
   server: 5.180.27.221
   sni: borat-hopp.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[B] CH 01'
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 05'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: lva-02.node.lumixnet.com
+  sni: lva-02.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 06'
+  password: latvia_hysteria2_fastlane_5uliseooz:NEqSKWQRNeuXj3C99tHjwjNWc2v4BovZ
+  port: 1935
+  server: 62.60.234.60
+  sni: lv1.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 06'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: ltu-02.node.lumixnet.com
+  sni: ltu-02.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 07'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 82.38.60.122
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🌍 其它地区 08'
+  password: 2_hysteria2_fastlane_bv9uqvp20:u9eg0mFPDbwwOFCgr0F96gRwiwT15H0E
+  port: 1935
+  server: 138.124.64.30
+  sni: pl2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: firefox
+  name: '[B] 🌍 其它地区 09'
+  password: hysteria2_fastlane_tn4sddisj:WI84bEPYHdQnMHXxbZhVHBJ4NS7Uxnx7
+  port: 1935
+  server: 2.27.28.103
+  sni: de4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] CH 03'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -114,26 +319,52 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] CH 02'
-  password: gf1
+- name: '[B] CH 04'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 05'
+  password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 10'
+  password: 35415e5e-3666-4454-8c45-903af0fcddf4
+  port: 47257
+  server: 85.120.228.208
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 01'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - name: '[B] 🇰🇷 韩国 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 3.36.93.159
+  server: 3.34.139.135
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇰🇷 韩国 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 3.36.93.74
+  server: 3.36.93.159
   skip-cert-verify: true
   sni: css.rbxcdn.com
   tls: false
@@ -141,7 +372,7 @@ proxies:
 - name: '[B] 🇰🇷 韩国 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 3.36.96.245
+  server: 3.36.93.159
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
@@ -149,7 +380,7 @@ proxies:
 - name: '[B] 🇰🇷 韩国 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 43.201.1.129
+  server: 3.36.93.159
   skip-cert-verify: true
   sni: t.me
   tls: false
@@ -157,27 +388,177 @@ proxies:
 - name: '[B] 🇰🇷 韩国 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 43.201.58.201
+  server: 3.36.93.74
   skip-cert-verify: true
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇰🇷 韩国 06'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.93.74
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 07'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.93.74
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 08'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.96.245
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.96.245
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.96.245
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 11'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.201.1.129
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 12'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.201.1.129
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 13'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.201.58.201
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 14'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.201.58.201
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 15'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8080
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇰🇷 韩国 16'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8080
+  server: 139.28.168.55
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 17'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.124.150.77
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 18'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.124.150.77
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 19'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.124.150.77
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 20'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.214.225
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 21'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.214.225
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 11'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: xby.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 05'
+  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  port: 43327
+  server: 2.27.23.44
+  skip-cert-verify: true
+  sni: 2.27.23.44
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 06'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] CH 03'
-  password: hysteria2_fastlane_ob84uf77l:lUuP38xFjIx6t4eU4JjfNoKHohSiaH2n
+- fingerprint: chrome
+  name: '[B] CH 06'
+  password: 2_hysteria2_fastlane_2ryj5iceo:4hB1GRZV7SWk5Vz61kPY8Caug4WqiVHQ
+  port: 1935
+  server: 45.140.205.5
+  sni: ch2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: firefox
+  name: '[B] CH 07'
+  password: hysteria2_fastlane_sncuo05u1:jrJENxGDByWG0Oi3r8JpGUteDH9FRCIf
   port: 1935
   server: 2.26.26.164
   sni: de9.h.fastlanehosting.ru
@@ -204,6 +585,7 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
+  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 04'
@@ -219,6 +601,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 06'
@@ -234,45 +617,54 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- fingerprint: firefox
-  name: '[B] 🇨🇳 台湾 08'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- fingerprint: random
-  name: '[B] 🇨🇳 台湾 09'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: 085178e12d2211ec
-  port: 8445
-  server: nl.prisma-access.club
-  sni: nl.prisma-access.club
+- name: '[B] 🇨🇳 台湾 08'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[B] 🌍 其它地区 04'
-  password: 085178e12d2211ec
-  port: 8445
-  server: nl.prisma-access.club
-  sni: nl.prisma-access.club
+- name: '[B] 🌍 其它地区 12'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 05'
+- name: '[B] 🌍 其它地区 13'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 14'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 15'
+  password: netherlands_3_hysteria2_fastlane_xr3nai71s:lOl51uJxl0RytJXnkz0lXF88XFVmNoJk
+  port: 1935
+  server: 91.84.119.49
+  sni: nl4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 16'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 86.107.178.72
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 17'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -280,7 +672,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 06'
+- name: '[B] 🌍 其它地区 18'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -288,7 +680,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 07'
+- name: '[B] 🌍 其它地区 19'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -296,7 +688,15 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 08'
+- name: '[B] 🌍 其它地区 20'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 21'
   password: gf1
   port: 443
   server: 5.129.235.85
@@ -304,28 +704,52 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 09'
+- name: '[B] 🌍 其它地区 22'
   password: gf1
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 10'
-  password: hysteria2_fastlane_qgbzskayf:eFPuEukyFUf2WH7mBdFn9Xaz9nLnf5td
+- fingerprint: chrome
+  name: '[B] 🇷🇺 俄罗斯 01'
+  password: hysteria2_fastlane_9r63hua9f:KR0ayzwokB6pZySqiZ15Erm6cQHR7C4E
   port: 1935
-  server: 2.27.28.105
-  sni: de7.h.fastlanehosting.ru
+  server: 144.31.135.204
+  sni: nl2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇷🇺 俄罗斯 02'
+  password: hysteria2_fastlane_qsf4v6mt0:8rPEjLjgG1Rt9gV7EcmqqtLbZcS77Zvv
+  port: 1935
+  server: 144.31.134.98
+  sni: nl1.h.smartaisupport.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.103
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 02'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.218
+  skip-cert-verify: false
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- fingerprint: edge
+  name: '[B] 🇬🇧 英国 03'
+  password: hysteria2_fastlane_duo1sn24a:wXAkPKPMBBXwyMcN2gk9dQ6f15BFOa6I
+  port: 1935
+  server: 91.132.160.243
+  sni: de6.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -333,14 +757,29 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 08'
+  password: hysteria2_fastlane_5oymhm4ic:PABYUiwljEujXNoVF6C1zALP4bppk7y7
+  port: 1935
+  server: 193.233.203.162
+  sni: us2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: random
+  name: '[B] 🇺🇸 美国 09'
+  password: hysteria2_fastlane_tl4jpuq34:DBiHpP7f9RtPAwwMVTEfPJ49mtWodRUm
+  port: 1935
+  server: 193.233.203.162
+  sni: us2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: usa_2_hysteria2_fastlane_r0k35qdi9:2HRZ6vb3h2x4THpVyVONEgiwSNBnUWnr
   port: 1935
   server: 92.118.112.227
   sni: us3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 11'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 44.251.47.95
@@ -348,14 +787,30 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 12'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 13'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 44.251.47.95
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 14'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 15'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
@@ -363,270 +818,91 @@ proxies:
   sni: 150.241.102.127
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 150.241.102.127
-  skip-cert-verify: true
-  sni: usp.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 16'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
-  server: 139.28.168.54
+  server: 139.28.168.55
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- fingerprint: safari
-  name: '[B] 🇺🇸 美国 11'
+- name: '[B] 🇺🇸 美国 17'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 82.38.60.122
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 18'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
   skip-cert-verify: true
+  sni: els1.mangshe.xyz
   tls: false
   type: hysteria2
 - fingerprint: edge
-  name: '[B] 🇺🇸 美国 12'
+  name: '[B] 🇺🇸 美国 19'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 13'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
+- name: '[B] 🇯🇵 日本 02'
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 11'
-  network: tcp
-  port: '29020'
-  server: 366-1095.rabbitpro-in-3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 02'
   network: ws
   port: '443'
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mh7R5ArdL0z5jTGY.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: mtckundigepwu3up.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 07'
-  network: ws
-  port: '443'
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  network: ws
-  port: '443'
-  server: 47.83.207.148
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 09'
-  network: ws
-  port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  network: ws
-  port: '443'
-  server: 7timuei1uufoixbf.v.3dns.vip
-  servername: 7tImuei1uuFOiXbf.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 7tImuei1uuFOiXbf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 11'
-  network: ws
-  port: '443'
-  server: 8.218.184.4
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 12'
-  network: ws
-  port: '443'
-  server: zudssgtmrqg9lpvi.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 13'
-  network: ws
-  port: '443'
   server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: ''
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 14'
+  name: '[B] 🇭🇰 香港 03'
   network: ws
   port: '443'
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  servername: EX1oGt73NzPQKAc2.v.3dns.vip
+  server: 2b9hwy8ocx7q74nm.v.3dns.vip
+  servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+      Host: 2b9hwY8oCx7Q74NM.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 15'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
   port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  server: n1761296892.4u9ma.icu
+  servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
   ws-opts:
     headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
+      Host: n1761296892.4u9ma.icu
+    path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 16'
-  network: ws
-  port: '443'
-  server: mtckundigepwu3up.v.3dns.vip
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 17'
+  name: '[B] 🌍 其它地区 23'
   network: tcp
-  port: '27102'
+  port: '29032'
   server: 366-1095.rabbitpro-in-3.com
   servername: ''
   tls: false
@@ -634,17 +910,7 @@ proxies:
   uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
-  network: ''
-  port: '27122'
-  server: 366-1095.rabbitpro-in-3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 12'
+  name: '[B] 🌍 其它地区 24'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -658,7 +924,31 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 13'
+  name: '[B] 🌍 其它地区 25'
+  network: ws
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 26'
+  network: tcp
+  port: '29035'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 27'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -670,15 +960,73 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 09'
+  network: ws
+  port: '10000'
+  server: 117.27.228.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  ws-opts:
+    headers:
+      Host: 117.27.228.29
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 10'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 20'
+  network: tcp
+  port: '27113'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 21'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 28'
+  network: ''
+  port: '29031'
+  server: 366-1095.rabbitpro-in-3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 14'
+  name: '[C] 🌍 其它地区 29'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 18'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -686,7 +1034,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 19'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 7674
@@ -694,7 +1042,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 20'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -702,7 +1050,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 21'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -710,7 +1058,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -718,7 +1066,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
@@ -726,14 +1074,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 3415
   server: 16.162.100.124
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 32434
@@ -741,14 +1089,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
   server: 16.162.192.182
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -756,7 +1104,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 22'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -764,7 +1112,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 15'
+- name: '[C] 🇺🇸 美国 23'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -772,7 +1120,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 24'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -780,23 +1128,84 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 05'
-  network: tcp
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: 'dc8109baf0f607ea'
-  server: 78.159.247.253
-  servername: storage.yandex.net
+- name: '[D] 🇯🇵 日本 06'
+  network: ws
+  port: 443
+  server: 18.238.109.26
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '[D] 🇷🇺 俄罗斯 03'
+  network: ws
+  port: 4100
+  server: 168.222.140.236
   tls: false
   type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    path: '%2Fv1'
+- name: '[D] 🇺🇸 美国 25'
+  network: ws
+  port: 443
+  server: 18.154.132.94
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 26'
+  network: ws
+  port: 443
+  server: 18.154.132.111
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 07'
+  network: ws
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: '[D] 🌍 其它地区 30'
+  network: ws
+  port: 443
+  server: pl4.lckdwn.ru
+  tls: false
+  type: vless
+  uuid: 5e7ecc47-e424-4653-876e-c7515a2c82b4
+- name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2F%2Fassignment'
 - name: '[D] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 104.18.152.187
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -806,26 +1215,40 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
-  skip-cert-verify: false
+  server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 31'
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk
+    short-id: 'e852dc'
+  server: 81.90.29.151
+  servername: booking.com
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - name: '[D] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
+  server: 104.18.152.159
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '[D] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.16.174.12
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -834,7 +1257,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.71
+  server: www.ignitelimit.com
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -844,7 +1267,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.18.152.103
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -854,42 +1277,47 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.4
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 11'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
+  server: 104.16.174.36
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '[D] 🇨🇦 加拿大 11'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 27'
+  network: ws
+  port: 443
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    path: '%2F'
 - name: '[D] 🇨🇦 加拿大 12'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.18.152.50
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 17'
+- name: '[D] 🇺🇸 美国 28'
   network: ws
   password: humanity
   port: 443
@@ -899,11 +1327,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 18'
+- name: '[D] 🇨🇦 加拿大 13'
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 104.18.22.63
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -912,283 +1341,222 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: ip.myip2.qzz.io
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 15'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 中国 03'
   network: ws
-  password: humanity
+  port: '10000'
+  server: 117.27.228.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 32'
+  network: ws
+  port: '53548'
+  server: 202.47.89.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761
+  ws-opts:
+    headers:
+      Host: ''
+    path: /dkfjh222
+- name: '[D] 🇰🇷 韩国 22'
+  password: FH72359861
   port: 443
-  server: 104.16.174.121
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: apt-whippet.rooster465.autos
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇨🇦 加拿大 15'
+  password: ytw2awn
+  port: 443
+  server: 142.4.216.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 33'
+  password: ytw2awn
+  port: 443
+  server: 54.36.174.140
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 29'
+  network: ws
+  port: '80'
+  server: www.true.th
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[D] 🇨🇦 加拿大 16'
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 30'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  port: '46373'
+  server: 66.42.72.146
+  tls: false
+  type: vmess
+  uuid: f98fdefd-1b61-4052-c5b5-2a196f6e0541
+  ws-opts:
+    headers:
+      Host: ''
+    path: /my-vmess-path
+- name: '[D] 🇭🇰 香港 09'
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  sni: www.nintendogames.net
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 17'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- flow: ''
-  name: '[D] 🌍 其它地区 15'
-  network: ws
-  port: 80
-  server: 18.239.134.69
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 34'
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 'dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
-- name: '[D] 🇩🇪 德国 03'
-  port: 22222
-  server: 63.186.212.143
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇨🇦 加拿大 18'
-  network: ws
-  port: 2086
-  server: 172.67.151.243
-  tls: false
-  type: vless
-  uuid: b4a16091-a25d-4d33-aee3-f5ae04f34b14
-  ws-opts:
-    headers:
-      Host: blue-brook-cc73.karren391.workers.dev
-    path: /eyJqdW5rIjoiRjJEdlF3U251aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTEzLjE1OCIsIjEwMy45Ny44OC4xMzMiLCIxOTQuMTgwLjE4OC4yNDEiLCIxMTYuMjAyLjEzMi4yMDUiXX0=?ed=2560
-- name: '[D] 🇺🇸 美国 19'
-  network: ws
-  port: 8880
-  server: 66.81.247.209
-  tls: false
-  type: vless
-  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
-  ws-opts:
-    headers:
-      Host: cnd.finland2.2.newwaycdn.com
-    path: /cdn/assets/stream
-- alpn:
-  - http/1.1
-  name: '[D] 🇺🇸 美国 20'
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-- alpn:
-  - http/1.1
-  name: '[D] 🇺🇸 美国 21'
-  network: ws
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '[D] 🇺🇸 美国 22'
-  network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 81df88b4-ab24-4510-dc5f-7ebdbf24ff0a
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 16'
-  network: tcp
-  port: 1824
-  reality-opts:
-    public-key: tge1_umgZzzbe243U0RmtmHKF9LNp-Hg6xg0KV7Zv1c
-    short-id: '3176'
-  server: turkey.blueheartz.ir
-  servername: play-fe.googleapis.com
-  tls: false
-  type: vless
-  uuid: 2bebed15-4476-4a46-84d3-6f09dc7672e3
-- alpn:
-  - h2
-  name: '[D] 🇨🇦 加拿大 19'
-  network: ws
-  port: 2053
-  server: uwu.dianawpaw36.dpdns.org
-  servername: uwu.dianawpaw36.dpdns.org
-  tls: true
-  type: vless
-  uuid: 79dafc6f-e61b-46cf-8a3c-74f6304d230c
-  ws-opts:
-    headers:
-      Host: uwu.dianawpaw36.dpdns.org
-    path: /@blueKnight_net
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 17'
+  name: '[D] 🇺🇸 美国 31'
   port: 443
   reality-opts:
-    public-key: dzknsuwujuOacNHTXzdPxBLNUEJfEImiwLinPPNFmwU
-    short-id: '1ea21a140beaecc5'
-  server: 193.238.153.15
+    public-key: VRrsZmyM-QD8YgLGgy2h3pMLbauIBCMoGN2pc8Xt5hE
+    short-id: 'b605d4e8b7f453ab'
+  server: 195.211.99.49
   servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 40cfbd0a-f133-4174-8e03-ab0e587e1099
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 04'
-  port: 443
-  reality-opts:
-    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
-    short-id: '2e6f9a5b'
-  server: 91.233.8.136
-  servername: tnt-cloud.ru
-  tls: false
-  type: vless
-  uuid: 94a5294d-1125-03e7-8934-380c5de5552f
-- name: '[D] 🇨🇦 加拿大 20'
-  network: ws
-  port: 80
-  server: 162.159.81.177
-  tls: false
-  type: vless
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  ws-opts:
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-    path: '%2FeyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19'
-- name: '[D] 🌍 其它地区 18'
-  network: ws
-  port: 2087
-  server: 188.164.248.32
-  servername: jcxjcnasvip.jcdenas.top
-  tls: true
-  type: vless
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: '%2F'
-- name: '[D] 🌍 其它地区 19'
-  network: ws
-  port: 2083
-  server: 188.164.248.72
-  servername: jcxjcnasvip.jcdenas.top
-  tls: true
-  type: vless
-  uuid: 5b06a1b1-8839-4969-874a-3b501528275b
-  ws-opts:
-    headers:
-      Host: jcxjcnasvip.jcdenas.top
-    path: '%2F'
-- name: '[D] 🇨🇦 加拿大 21'
-  network: ws
-  port: 80
-  server: 162.159.81.104
-  tls: false
-  type: vless
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  ws-opts:
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-    path: '%2FeyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ%3D%3D'
-- name: '[D] 🌍 其它地区 20'
-  network: ws
-  port: 80
-  server: 91.206.71.8
-  tls: false
-  type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🇺🇸 美国 23'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 24'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 25'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 21'
+  uuid: 7eed6d87-ecf6-467b-a8ca-52071fa84fca
+- name: '[D] CH 08'
   network: ws
   port: 443
-  server: 4.240.110.47
-  servername: bab-6.site
+  server: 194.147.173.116
+  servername: vod.ensf.top
   tls: true
   type: vless
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
   ws-opts:
     headers:
-      Host: bab-6.site
-    path: '%2Fvws%2F'
-- name: '[D] 🌍 其它地区 22'
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] SE 01'
+  network: ws
+  port: 443
+  server: 77.221.136.148
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 35'
+  network: ws
+  port: 443
+  server: 94.159.110.41
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 36'
+  network: ws
+  port: 4100
+  server: 200.165.228.47
+  servername: live.ok.ru
+  tls: false
+  type: vless
+  uuid: 6620ef58-9c62-43fe-9596-ff862b200958
+  ws-opts:
+    path: '%2Fv1'
+- name: '[D] 🌍 其它地区 37'
+  network: ws
+  port: 443
+  server: 38.244.154.149
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 38'
+  network: ws
+  port: 443
+  server: 194.146.24.240
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 39'
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🌍 其它地区 40'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.179
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🌍 其它地区 41'
+  network: ws
+  port: 2200
+  server: 188.225.27.238
+  servername: rzd.ru
+  tls: false
+  type: vless
+  uuid: 77fd4d9e-c314-4203-b3e0-b836a1d969b4
+  ws-opts:
+    path: '%2Fv1'
+- name: '[D] 🌍 其它地区 42'
+  network: ws
+  port: 443
+  server: 91.232.114.148
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 43'
   network: ws
   port: 443
   server: 18.239.83.52
@@ -1197,22 +1565,116 @@ proxies:
   type: vless
   uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 23'
-  password: PcOE52lyGO6MFRm6/m5hfuC3NpNockDvcnNYgq18Ni4=
-  port: 39880
-  server: 79.175.134.49
-  type: ss
-- name: '[D] 🇨🇦 加拿大 22'
+- name: '[D] 🌍 其它地区 44'
   network: ws
   password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
+  port: 40443
+  server: 2.144.21.112
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: /assignment
+    path: '%2Fassignment'
+- name: '[D] 🌍 其它地区 45'
+  network: ws
+  port: 4100
+  server: 193.188.23.170
+  servername: live.ok.ru
+  tls: false
+  type: vless
+  uuid: 1f9ac5fe-ce9c-40ff-b52f-6f96b1285ba6
+  ws-opts:
+    path: '%2Fv1'
+- name: '[D] 🌍 其它地区 46'
+  network: ws
+  port: 443
+  server: 85.234.100.221
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- name: '[D] 🌍 其它地区 47'
+  network: ws
+  port: 2200
+  server: 201.24.127.110
+  tls: false
+  type: vless
+  uuid: 6620ef58-9c62-43fe-9596-ff862b200958
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: '%2Fv1'
+- name: '[D] 🌍 其它地区 48'
+  network: ws
+  port: 443
+  server: 158.180.231.216
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 49'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: sg.11160321.de5.net
+  tls: true
+  type: vmess
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
+  ws-opts:
+    headers:
+      Host: sg.11160321.de5.net
+    path: /
+- name: '[D] 🌍 其它地区 50'
+  network: ws
+  port: 8080
+  server: 40.160.68.186
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '[D] 🌍 其它地区 51'
+  network: ws
+  port: 443
+  server: 151.101.56.6
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  uuid: 79c9514e-aa3c-4cd0-bf0d-dd6df42039f6
+  ws-opts:
+    headers:
+      Host: c12.com
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 52'
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: xbCFPD2Gk3HP6EwfFT_0W3D_-biFaz10wlPc2h3y6QQ
+    short-id: 'e852dc'
+  server: 45.155.68.164
+  servername: yoox.com
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  ws-opts:
+    headers:
+      Host: ''
