@@ -1,47 +1,26 @@
 proxies:
-- fingerprint: safari
-  name: '[B] 🇩🇪 德国 01'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: lsj1.mangshe.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 01'
   password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
   port: 8444
   server: 89.106.85.19
   sni: premium-de-hy2.geodema.network
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
+- name: '[B] 🇩🇪 德国 02'
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 8080
   server: 5.180.27.221
   sni: borat-hopp.bumbleshrimp.com
   tls: false
   type: hysteria2
+- name: '[B] 🇩🇪 德国 03'
+  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  port: 43327
+  server: 2.27.23.44
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[B] 🇩🇪 德国 04'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 05'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 06'
-  password: b268a3a1-3826-44a3-9ffb-3ac2095300ca
-  port: 443
-  server: se2.hambot.ru
-  sni: se2.hambot.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 07'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
@@ -49,7 +28,7 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 443
   server: 108.138.26.70
