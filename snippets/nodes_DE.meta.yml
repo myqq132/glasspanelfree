@@ -115,64 +115,28 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 17'
-  network: ws
-  port: 80
-  server: 146.75.119.82
+  network: tcp
+  port: 22224
+  server: 18.157.224.206
   tls: false
   type: vless
-  uuid: 334cf81a-0979-4b57-a88c-41f25041689d
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-- alterId: 0
-  cipher: auto
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 18'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '!!str 00bca5982f82d083'
+  server: 2.26.48.130
+  servername: eu-central.cendora.ru
   tls: false
-  type: vmess
-  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
-  ws-opts:
-    headers:
-      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
-    path: /
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: chrome
   name: '[D] 🇩🇪 德国 19'
-  network: ws
-  port: 2053
-  server: 163.5.187.118
-  servername: forfreeuse.rtqa.ru
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 20'
-  network: ws
-  port: 2053
-  server: 150.230.146.170
-  servername: forfreeuse.rtqa.ru
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: '%2F'
-- name: '[D] 🇩🇪 德国 21'
-  network: ws
   port: 443
-  server: 108.138.26.70
-  servername: d1yxsk0zprgivr.cloudfront.net
+  server: de2.mehab.me
   tls: true
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+  uuid: 58a38ebd-30e6-48bd-a1ab-d0babb1da37f
