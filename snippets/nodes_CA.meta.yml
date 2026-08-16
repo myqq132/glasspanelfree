@@ -4,28 +4,12 @@ proxies:
   port: 443
   server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇨🇦 加拿大 04'
+  name: '[B] 🇨🇦 加拿大 02'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -33,7 +17,15 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[B] 🇨🇦 加拿大 03'
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: de.1.22.washing.help
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
