@@ -9,12 +9,52 @@ proxies:
 - name: '[B] 🇫🇷 法国 02'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
+  server: 151.247.197.253
+  skip-cert-verify: true
+  sni: 151.247.197.253
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
   server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 05'
+  password: 3bdd9516-bacc-4f2c-88f3-17bf14c36d38
+  port: 31568
+  server: fr4.sodahub.online
+  sni: fr4.sodahub.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 06'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr131.mechvpn.online
+  sni: fr131.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 07'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: fr140.mechvpn.online
+  sni: fr140.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 08'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -22,15 +62,84 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- fingerprint: safari
-  name: '[B] 🇫🇷 法国 04'
-  password: hysteria2_fastlane_bimanlaw9:7e61fJIsxj8EdGj1sz0EwPFHM2tXz62d
-  port: 1935
-  server: 2.27.28.106
-  sni: de8.h.fastlanehosting.ru
+- name: '[B] 🇫🇷 法国 09'
+  password: 425e9e31-b017-4e32-bbd3-656473466d5e
+  port: 2443
+  server: mdt1.pubconverter.com
+  sni: md.pubconverter.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 10'
+  password: 4984930f-4a7a-4dfa-8edc-5d21bbf5ca13
+  port: 2443
+  server: mdt1.pubconverter.com
+  sni: md.pubconverter.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 11'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de120.mechvpn.online
+  sni: de120.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 12'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de200.mechvpn.online
+  sni: de200.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 13'
+  password: 62b72631-985d-4768-8b5a-7cc06753e0f0
+  port: 2443
+  server: mdt1.pubconverter.com
+  sni: md.pubconverter.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 14'
+  password: 896002a8-3afc-49e6-8fac-5129fb717b49
+  port: 2443
+  server: mdt1.pubconverter.com
+  sni: md.pubconverter.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 15'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: 95.164.123.231
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 16'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 17'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: de2.vpn.legendaah.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 18'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 19'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -38,16 +147,24 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
+- name: '[B] 🇫🇷 法国 20'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇫🇷 法国 21'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 07'
+  name: '[B] 🇫🇷 法国 22'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: de.1.23.h2corp.org
@@ -55,24 +172,10 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
-  password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-  port: 9443
-  server: 194.48.250.7
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
-  password: b8f1b61e-d5c4-4765-866d-ece1fc8e590b
-  port: 9443
-  server: 45.145.40.10
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
 - fingerprint: safari
-  name: '[B] 🇫🇷 法国 10'
-  password: 2_hysteria2_fastlane_bwmyt23lc:T2PKaK98fFXLNStH3RzibwvHqde4XcPl
-  port: 1935
+  name: '[B] 🇫🇷 法国 23'
+  password: 2_hysteria2_fastlane_bwmyt23lc
+  port: 443
   server: 2.27.25.75
   sni: de11.h.fastlanehosting.ru
   tls: false
