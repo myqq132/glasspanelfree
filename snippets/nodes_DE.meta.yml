@@ -1,129 +1,106 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
-  password: e8c93f75-4ed5-41b1-a32e-a846e54582e8
-  port: 8444
-  server: 89.106.85.19
-  sni: premium-de-hy2.geodema.network
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
-  port: 8080
-  server: 5.180.27.221
-  sni: borat-hopp.bumbleshrimp.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8080
-  server: 46.229.243.131
-  sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 04'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: 202.155.11.54
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 03'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  skip-cert-verify: true
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
 - name: '[B] 🇩🇪 德国 05'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 06'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 07'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us54.mechvpn.online
-  sni: us54.mechvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 08'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us65.mechvpn.online
-  sni: us65.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 09'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us65.mechvpn.online
-  sni: us65.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 10'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 11'
+- name: '[B] 🇩🇪 德国 06'
   password: DK91R_TJPVxR4nnKMhi_aLxfP_2Oevci
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 12'
+- name: '[B] 🇩🇪 德国 07'
   password: j86zyZye-jGMBeXwpvVabGBAAx4Idwyb
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 13'
+- name: '[B] 🇩🇪 德国 08'
   password: k-qZIMk71_90gFFSfFiP688PqB6yLxie
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 14'
+- name: '[B] 🇩🇪 德国 09'
   password: Pe1OXeWJcLlGDk2m312qm2UDNcpOgZL4
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 15'
-  password: qSQN48hYCKlZvTFCWMxzoCMykKrifx3r
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 16'
+- name: '[B] 🇩🇪 德国 10'
   password: rlXHMFGgRYyfa3Br7dX6nhwymFAwIn5c
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 17'
+- client-fingerprint: qq
+  name: '[D] 🇩🇪 德国 11'
   network: tcp
-  port: 22224
-  server: 18.157.224.206
+  port: 7190
+  reality-opts:
+    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
+    short-id: '!!str 7398e0c72f7d5c0e'
+  server: 5.75.205.74
+  servername: play.googleapis.com
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: f0ddf1eb-832a-4eb1-80bf-994a6abc5577
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 18'
+  name: '[D] 🇩🇪 德国 12'
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '!!str 00bca5982f82d083'
+  server: 217.60.68.196
+  servername: eu-central.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: eu-central.cendora.ru
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 13'
   port: 443
   reality-opts:
     public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
@@ -134,9 +111,60 @@ proxies:
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 19'
+  name: '[D] 🇩🇪 德国 14'
   port: 443
   server: de2.mehab.me
   tls: true
   type: vless
   uuid: 58a38ebd-30e6-48bd-a1ab-d0babb1da37f
+- name: '[D] 🇩🇪 德国 15'
+  network: ws
+  port: 2053
+  server: 188.241.241.28
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 16'
+  network: ws
+  port: 2053
+  server: 87.106.141.152
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 17'
+  network: ws
+  port: 2053
+  server: 188.241.241.20
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 18'
+  network: ws
+  port: 2053
+  server: 57.129.47.4
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'

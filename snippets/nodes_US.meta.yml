@@ -5,41 +5,42 @@ proxies:
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at133.mechvpn.online
-  sni: at133.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: at133.mechvpn.online
+  skip-cert-verify: true
   sni: at133.mechvpn.online
   tls: false
   type: hysteria2
 - alpn:
   - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at164.mechvpn.online
+  skip-cert-verify: true
+  sni: at164.mechvpn.online
+  tls: false
+  type: hysteria2
+- fingerprint: safari
   name: '[B] 🇺🇸 美国 03'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at164.mechvpn.online
+  skip-cert-verify: true
+  sni: at164.mechvpn.online%23%F0%9F%8C%90%2B%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%BE%2B%5B%23%D0%A0%D0%9A%D0%9F%5D
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at164.mechvpn.online
+  skip-cert-verify: false
   sni: at164.mechvpn.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: safari
-  name: '[B] 🇺🇸 美国 04'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: at164.mechvpn.online
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- fingerprint: safari
-  name: '[B] 🇺🇸 美国 05'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: at164.mechvpn.online
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alpn:
@@ -48,31 +49,18 @@ proxies:
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at188.mechvpn.online
+  skip-cert-verify: true
   sni: at188.mechvpn.online
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 07'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: at188.mechvpn.online
-  sni: at188.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8080
-  server: 222.167.212.80
-  sni: grape-power-pl.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 08'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -80,56 +68,57 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 11'
+- name: '[B] 🇺🇸 美国 09'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 12'
+- name: '[B] 🇺🇸 美国 10'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 13'
+- name: '[B] 🇺🇸 美国 11'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.55
-  skip-cert-verify: true
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 14'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 82.38.60.122
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 15'
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: cabinet.wwwinternetvideo.click
-  sni: cabinet.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 16'
-  password: 2a0099ded5baa93c55823af39229c5b1
-  port: 50160
-  server: 185-22-155-81.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 17'
+- name: '[B] 🇺🇸 美国 12'
   password: 2a0099ded5baa93c55823af39229c5b1
   port: 50160
   server: 185-22-155-81.liao.kdns.fr
   sni: 185-22-155-81.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 18'
+- name: '[B] 🇺🇸 美国 13'
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185.22.155.81
+  sni: 185-22-155-81.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 14'
+  password: 0147bb62-7972-40ee-a86a-409e0a0fb838
+  port: 443
+  server: sochi.fontanvpn.com
+  sni: sochi.fontanvpn.com
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🇺🇸 美国 15'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 16'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
@@ -137,15 +126,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 19'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 20'
+- name: '[C] 🇺🇸 美国 17'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -153,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 21'
+- name: '[C] 🇺🇸 美国 18'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -161,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 22'
+- name: '[C] 🇺🇸 美国 19'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -169,18 +150,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 23'
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: '[D] 🇺🇸 美国 20'
   network: ws
-  password: humanity
   port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 69.46.46.200
+  servername: rvg-production-c230.up.railway.app
+  tls: true
+  type: vless
+  uuid: 275ee16f-9df8-2933-d942-dc71f0ccfd11
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: rvg-production-c230.up.railway.app
+    path: /ws/275ee16f-9df8-2933-d942-dc71f0ccfd11
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: '[D] 🇺🇸 美国 21'
+  network: ws
+  port: 443
+  server: 69.46.46.13
+  servername: rvg-production-ed62.up.railway.app
+  tls: true
+  type: vless
+  uuid: 7eed7440-df4b-150b-a43b-763539ee8b7f
+  ws-opts:
+    headers:
+      Host: rvg-production-ed62.up.railway.app
+    path: /ws/7eed7440-df4b-150b-a43b-763539ee8b7f
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 24'
+  name: '[D] 🇺🇸 美国 22'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -195,7 +197,22 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 25'
+  name: '[D] 🇺🇸 美国 23'
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.229
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 24'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -210,30 +227,19 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 26'
+  name: '[D] 🇺🇸 美国 25'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: '!!str c39cc7310a'
-  server: 169.40.42.229
+  server: 169.40.42.89
   servername: yahoo.com
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-- client-fingerprint: edge
-  name: '[D] 🇺🇸 美国 27'
-  port: 8443
-  server: neth6.lckdwn.ru
-  servername: neth6.lckdwn.ru
-  tls: true
-  type: vless
-  uuid: 14da77da-4fb3-4e49-ac4f-7881ea19b267
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 28'
+  name: '[D] 🇺🇸 美国 26'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -243,30 +249,3 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[D] 🇺🇸 美国 29'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 30'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 31'
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
