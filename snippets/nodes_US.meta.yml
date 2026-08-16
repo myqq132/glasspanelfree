@@ -8,9 +8,16 @@ proxies:
   sni: at133.mechvpn.online
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at133.mechvpn.online
+  sni: at133.mechvpn.online
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 02'
+  name: '[B] 🇺🇸 美国 03'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
@@ -20,7 +27,15 @@ proxies:
 - alpn:
   - h3
   fingerprint: safari
-  name: '[B] 🇺🇸 美国 03'
+  name: '[B] 🇺🇸 美国 04'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at164.mechvpn.online
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🇺🇸 美国 05'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
@@ -29,21 +44,35 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 06'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at188.mechvpn.online
   sni: at188.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 07'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at188.mechvpn.online
+  sni: at188.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 08'
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8080
   server: 222.167.212.80
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 09'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -51,41 +80,11 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: gf1
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: 66.94.121.46
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
-  password: b41ad7f941ffce755cb8601bfd0f02ca
-  port: 50160
-  server: 35-209-199-239.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
-  password: b41ad7f941ffce755cb8601bfd0f02ca
-  port: 50160
-  server: 35-209-199-239.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 35-209-199-239.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 11'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 11'
-  password: gVYmzcZ1loF1rdnXpZzscUv12gi0yMr9
-  port: 8443
-  server: 45.207.207.25
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 12'
@@ -99,6 +98,7 @@ proxies:
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.55
+  skip-cert-verify: true
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
@@ -130,28 +130,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 18'
-  password: 921db318-1694-4408-9cc7-c93df39f7f8e
-  port: 443
-  server: ru-i-2.monkeyisland.xyz
-  sni: ru-i-2.monkeyisland.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 19'
-  password: b268a3a1-3826-44a3-9ffb-3ac2095300ca
-  port: 443
-  server: 89.169.47.112
-  sni: game.hambot.ru
-  tls: false
-  type: hysteria2
-- fingerprint: safari
-  name: '[B] 🇺🇸 美国 20'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 21'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
@@ -159,7 +137,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 22'
+- name: '[B] 🇺🇸 美国 19'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
@@ -167,21 +145,7 @@ proxies:
   sni: els1.mangshe.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '[B] 🇺🇸 美国 23'
-  network: ws
-  port: '80'
-  server: 74.48.28.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
-- name: '[C] 🇺🇸 美国 24'
+- name: '[C] 🇺🇸 美国 20'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -189,7 +153,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 25'
+- name: '[C] 🇺🇸 美国 21'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -197,7 +161,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 26'
+- name: '[C] 🇺🇸 美国 22'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -206,7 +170,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 27'
+  name: '[D] 🇺🇸 美国 23'
   network: ws
   port: 443
   server: 18.238.109.26
@@ -219,7 +183,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 28'
+  name: '[D] 🇺🇸 美国 24'
   network: ws
   port: 443
   server: 52.84.199.28
@@ -232,7 +196,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 29'
+  name: '[D] 🇺🇸 美国 25'
   network: ws
   port: 443
   server: 18.154.132.94

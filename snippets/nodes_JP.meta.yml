@@ -10,19 +10,10 @@ proxies:
   password: c3e6fd601b53d080ed5099cbf325dede
   port: 50160
   server: 154.31.114.168
-  skip-cert-verify: true
   sni: 154-31-114-168.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
-  password: STYyftThFn
-  port: 12765
-  server: freedom.chenlan.top
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -30,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 05'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 44229
@@ -38,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 54876
@@ -46,7 +37,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇯🇵 日本 07'
+  name: '[D] 🇯🇵 日本 06'
   password: eQvKkykBEbCky5p4BVghO0
   port: 45640
   server: 144.31.168.176
