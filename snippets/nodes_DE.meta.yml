@@ -1,14 +1,56 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 01'
+- name: '[B] 🇩🇪 德国 01'
+  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
+  port: 8080
+  server: 5.180.27.221
+  sni: borat-hopp.bumbleshrimp.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8080
+  server: 46.229.243.131
+  skip-cert-verify: true
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 03'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8080
+  server: 46.229.243.132
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: 202.155.11.54
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 05'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 06'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us54.mechvpn.online
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 07'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us63.mechvpn.online
+  sni: us63.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 08'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online
@@ -16,71 +58,64 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇩🇪 德国 03'
+  name: '[B] 🇩🇪 德国 09'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 04'
+- name: '[B] 🇩🇪 德国 10'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us65.mechvpn.online
   sni: us65.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 05'
+- name: '[B] 🇩🇪 德国 11'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 06'
-  password: DK91R_TJPVxR4nnKMhi_aLxfP_2Oevci
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 07'
+- name: '[B] 🇩🇪 德国 12'
   password: j86zyZye-jGMBeXwpvVabGBAAx4Idwyb
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 08'
+- name: '[B] 🇩🇪 德国 13'
   password: k-qZIMk71_90gFFSfFiP688PqB6yLxie
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 09'
+- name: '[B] 🇩🇪 德国 14'
   password: Pe1OXeWJcLlGDk2m312qm2UDNcpOgZL4
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 10'
+- name: '[B] 🇩🇪 德国 15'
   password: qSQN48hYCKlZvTFCWMxzoCMykKrifx3r
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 11'
-  password: rlXHMFGgRYyfa3Br7dX6nhwymFAwIn5c
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
+- name: '[B] 🇩🇪 德国 16'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 12'
+  name: '[D] 🇩🇪 德国 17'
   network: ws
   port: 443
   server: 108.138.26.70
