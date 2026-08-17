@@ -1,6 +1,101 @@
 proxies:
+- name: '[B] 🇺🇸 美国 01'
+  password: 90af65ff00ef2ff089d28d6a11fc10de
+  port: 50160
+  server: 23-19-231-152.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: www.broadcom.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: gf1
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: usa_2_hysteria2_fastlane_hfsptlvbr:xBpktFA7MA7ZFGBANxluG7WducKqn8Di
+  port: 1935
+  server: 92.118.112.227
+  sni: us3.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8443
+  server: 139.28.168.54
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8443
+  server: 139.28.168.55
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: us.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 08'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: us.frkn.org
+  sni: us.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 09'
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185.22.155.81
+  sni: 185-22-155-81.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- fingerprint: safari
+  name: '[B] 🇺🇸 美国 10'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 18.163.126.92
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 12'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 16.162.192.182
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 13'
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 16.163.144.245
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 01'
+  name: '[D] 🇺🇸 美国 14'
   network: ws
   port: 443
   server: 52.84.199.28
@@ -13,7 +108,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 02'
+  name: '[D] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 18.238.109.17
@@ -26,7 +121,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: 18.238.109.26
@@ -40,7 +135,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 04'
+  name: '[D] 🇺🇸 美国 17'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -55,7 +150,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 18'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -70,7 +165,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 19'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -85,7 +180,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 20'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -97,7 +192,7 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 21'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -107,7 +202,7 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 22'
   network: ws
   password: humanity
   port: 443
@@ -116,7 +211,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 23'
   network: ws
   password: humanity
   port: 443
@@ -125,7 +220,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 24'
   network: ws
   password: humanity
   port: 443
@@ -134,7 +229,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 25'
   network: ws
   password: humanity
   port: 443

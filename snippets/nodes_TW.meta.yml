@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- name: '[B] 🇨🇳 台湾 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 03'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 04'
+  password: a56619e2bed91121eabb97d20be207c3
+  port: 50160
+  server: 85.237.207.49
+  skip-cert-verify: false
+  sni: 85-237-207-49.liao.kdns.fr
+  tls: false
+  type: hysteria2
