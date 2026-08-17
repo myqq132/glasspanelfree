@@ -79,41 +79,16 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[D] 🇩🇪 德国 12'
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 144.31.76.198
-  servername: auto.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 13'
   network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-- name: '[D] 🇩🇪 德国 14'
-  network: ws
-  port: 2053
-  server: 163.5.187.118
-  servername: forfreeuse.rtqa.ru
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: forfreeuse.rtqa.ru
+      Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'

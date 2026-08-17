@@ -197,7 +197,7 @@ proxies:
   name: '[D] 🇺🇸 美国 26'
   network: ws
   port: 443
-  server: 18.154.132.116
+  server: 52.84.199.28
   servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
   type: vless
@@ -210,7 +210,7 @@ proxies:
   name: '[D] 🇺🇸 美国 27'
   network: ws
   port: 443
-  server: 52.84.199.28
+  server: 18.238.109.17
   servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
   type: vless
@@ -223,19 +223,6 @@ proxies:
   name: '[D] 🇺🇸 美国 28'
   network: ws
   port: 443
-  server: 18.238.109.17
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 29'
-  network: ws
-  port: 443
   server: 18.238.109.26
   servername: d1yxsk0zprgivr.cloudfront.net
   tls: true
@@ -245,31 +232,24 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[D] 🇺🇸 美国 30'
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 31'
-  network: ws
-  port: '80'
-  server: www.true.th
-  tls: false
-  type: vmess
-  uuid: a150d554-e962-4632-829f-ee583ada3f95
-  ws-opts:
-    headers:
-      Host: d7pu5mzr9c4b0.cloudfront.net
-    path: /htun
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 32'
+  name: '[D] 🇺🇸 美国 29'
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 30'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -284,7 +264,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 33'
+  name: '[D] 🇺🇸 美国 31'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -299,7 +279,19 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 34'
+  name: '[D] 🇺🇸 美国 32'
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 33'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -309,3 +301,41 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: '[D] 🇺🇸 美国 34'
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 35'
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 36'
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 37'
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
