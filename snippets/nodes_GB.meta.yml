@@ -1,9 +1,11 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  password: 0147bb62-7972-40ee-a86a-409e0a0fb838
-  port: 443
-  server: ake.fontanvpn.com
-  sni: ake.fontanvpn.com
+- alpn:
+  - h3
+  name: '[B] 🇬🇧 英国 01'
+  password: 55b71f97202647049ce999646de57c50
+  port: 8444
+  server: f1b.wareznet.ru
+  sni: f1b.wareznet.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 02'
@@ -20,10 +22,16 @@ proxies:
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 04'
-  password: hysteria2_fastlane_nn7kirs82:FdIXIswcUxjDb6Prz608HRGzIqDOxlrc
-  port: 1935
-  server: 91.132.160.243
-  sni: de6.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  name: '[D] 🇬🇧 英国 04'
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
