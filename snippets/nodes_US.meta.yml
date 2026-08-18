@@ -3,6 +3,8 @@ proxies:
   password: 90af65ff00ef2ff089d28d6a11fc10de
   port: 50160
   server: 23-19-231-152.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
@@ -21,41 +23,63 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: gf1
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: 66.94.121.46
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: usa_2_hysteria2_fastlane_hfsptlvbr:xBpktFA7MA7ZFGBANxluG7WducKqn8Di
   port: 1935
   server: 92.118.112.227
   sni: us3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
+  password: PD_0jD41hkQxq5ghBRhe7adO
+  port: 8882
+  server: 192.220.56.72
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: 6f65680b8d4de72e9f7c030e92e27a32
+  port: 50160
+  server: 166-0-16-52.liao.kdns.fr
+  sni: 166-0-16-52.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 08'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 09'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.55
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 443
-  server: us.frkn.org
-  skip-cert-verify: true
+- name: '[B] 🇺🇸 美国 10'
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185-22-155-81.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 443
-  server: us.frkn.org
-  sni: us.frkn.org
+- name: '[B] 🇺🇸 美国 11'
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185-22-155-81.liao.kdns.fr
+  sni: 185-22-155-81.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 12'
   password: 2a0099ded5baa93c55823af39229c5b1
   port: 50160
   server: 185.22.155.81
@@ -63,94 +87,100 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: safari
-  name: '[B] 🇺🇸 美国 10'
+  name: '[B] 🇺🇸 美国 13'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 18.163.126.92
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 12'
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
+  port: 39024
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 15'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 39024
+  server: 16.162.100.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 16.163.144.245
+  port: 53001
+  server: 16.162.103.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 17'
   network: ws
+  password: humanity
   port: 443
-  server: 52.84.199.28
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  server: 8.6.112.0
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 15'
-  network: ws
-  port: 443
-  server: 18.238.109.17
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 16'
-  network: ws
-  port: 443
-  server: 18.238.109.26
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 17'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.35
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
+    path: '%2Fassignment'
+- cipher: aes-256-gcm
   name: '[D] 🇺🇸 美国 18'
+  password: eT0hbu0qSofBP6mRWN56oSAN
+  port: 443
+  server: 97.64.20.203
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 19'
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: '[D] 🇺🇸 美国 20'
+  network: ws
+  port: 443
+  server: 69.46.46.25
+  servername: rvg-production-398a.up.railway.app
+  tls: true
+  type: vless
+  uuid: c82678cc-57d3-0c94-3fb6-5299f1a59843
+  ws-opts:
+    headers:
+      Host: rvg-production-398a.up.railway.app
+    path: /ws/c82678cc-57d3-0c94-3fb6-5299f1a59843
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 21'
+  network: ws
+  port: 443
+  server: 18.154.132.116
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 22'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -160,27 +190,21 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 19'
+  name: '[D] 🇺🇸 美国 23'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: '!!str c39cc7310a'
-  server: 169.40.42.229
+  server: 169.40.42.104
   servername: yahoo.com
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 20'
+  name: '[D] 🇺🇸 美国 24'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -190,53 +214,19 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 21'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.74
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[D] 🇺🇸 美国 22'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 23'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 24'
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 25'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: yahoo.com
+- client-fingerprint: firefox
+  name: '[D] 🇺🇸 美国 25'
+  network: ws
+  port: 443
+  server: 18.244.214.108
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
