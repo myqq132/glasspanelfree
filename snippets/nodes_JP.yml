@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇯🇵 日本 09'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 10'
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
@@ -15,21 +15,10 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 11'
+- name: '[C] 🇯🇵 日本 07'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 26704
   server: 18.163.114.228
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
