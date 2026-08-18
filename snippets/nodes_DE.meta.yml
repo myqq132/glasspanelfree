@@ -1,42 +1,19 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 177.3.212.103
-  skip-cert-verify: true
-  sni: nl1.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 04'
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 8080
   server: 5.180.27.221
   sni: borat-hopp.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 05'
+- name: '[B] 🇩🇪 德国 02'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.133
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 06'
+- name: '[B] 🇩🇪 德国 03'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
@@ -44,16 +21,9 @@ proxies:
   sni: 2.27.23.44
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 07'
-  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 08'
+  name: '[D] 🇩🇪 德国 04'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -66,7 +36,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 09'
+  name: '[D] 🇩🇪 德国 05'
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM

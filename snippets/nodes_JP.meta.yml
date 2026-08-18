@@ -1,31 +1,32 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  password: ad6bc66062dbd395a02061c842c0978c
-  port: 50160
-  server: 162-141-131-59.liao.kdns.fr
-  sni: 162-141-131-59.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
   password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
   port: 8443
   server: 185.39.31.40
   sni: grape-beer.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
+- name: '[B] 🇯🇵 日本 02'
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 04'
+- name: '[B] 🇯🇵 日本 03'
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
   skip-cert-verify: true
   sni: 154.31.115.179
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[C] 🇯🇵 日本 05'

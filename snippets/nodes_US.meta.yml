@@ -1,16 +1,16 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 90af65ff00ef2ff089d28d6a11fc10de
-  port: 50160
-  server: 23-19-231-152.liao.kdns.fr
+  password: belgium_hysteria2_fastlane_a118d9y0r:mbZQuQoMqSphFg1FAhfonbRpduFn69k8
+  port: 1935
+  server: 113.30.152.25
+  sni: be1.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 90af65ff00ef2ff089d28d6a11fc10de
-  port: 50160
-  server: 23-19-231-152.liao.kdns.fr
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
   skip-cert-verify: true
-  sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -22,26 +22,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
-  password: gf1
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: fast.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
   password: usa_2_hysteria2_fastlane_hfsptlvbr:xBpktFA7MA7ZFGBANxluG7WducKqn8Di
   port: 1935
   server: 92.118.112.227
   sni: us3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 05'
   password: PD_0jD41hkQxq5ghBRhe7adO
   port: 8882
   server: 192.220.56.72
@@ -49,21 +36,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 06'
   password: 6f65680b8d4de72e9f7c030e92e27a32
   port: 50160
   server: 166-0-16-52.liao.kdns.fr
   sni: 166-0-16-52.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 07'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 08'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.55
@@ -71,14 +58,14 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: safari
-  name: '[B] 🇺🇸 美国 11'
+  name: '[B] 🇺🇸 美国 09'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 12'
+- name: '[B] 🇺🇸 美国 10'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
@@ -86,29 +73,35 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 13'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 14'
+  name: '[B] 🇺🇸 美国 11'
   network: ws
-  port: '80'
-  server: 74.48.28.190
+  port: '8080'
+  server: 185.227.252.204
   servername: ''
   tls: false
   type: vmess
-  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
+  uuid: 3b8687aa-e824-4a29-a6f7-d21297545c3f
   ws-opts:
     headers:
       Host: ''
-    path: /cctv13.m3u8
-- name: '[C] 🇺🇸 美国 15'
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 12'
+  network: ws
+  port: '443'
+  server: 198.23.184.122
+  servername: xc163.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /837279ad9b4a
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -116,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 16'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -124,7 +117,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 17'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -134,7 +127,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 18'
+  name: '[D] 🇺🇸 美国 16'
   network: ws
   port: '80'
   server: www.true.th
@@ -148,7 +141,7 @@ proxies:
     path: /htun
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 19'
+  name: '[D] 🇺🇸 美国 17'
   network: tcp
   port: 443
   reality-opts:
@@ -159,7 +152,7 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[D] 🇺🇸 美国 20'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -171,7 +164,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 21'
+  name: '[D] 🇺🇸 美国 19'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -186,7 +179,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 22'
+  name: '[D] 🇺🇸 美国 20'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -198,7 +191,7 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 23'
+  name: '[D] 🇺🇸 美国 21'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -210,7 +203,7 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 24'
+  name: '[D] 🇺🇸 美国 22'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -223,7 +216,7 @@ proxies:
   ws-opts:
     headers:
       Host: yahoo.com
-- name: '[D] 🇺🇸 美国 25'
+- name: '[D] 🇺🇸 美国 23'
   network: ws
   password: humanity
   port: 443
@@ -232,7 +225,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 26'
+- name: '[D] 🇺🇸 美国 24'
   network: ws
   password: humanity
   port: 443
@@ -241,7 +234,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 27'
+- name: '[D] 🇺🇸 美国 25'
   network: ws
   password: humanity
   port: 443
@@ -250,7 +243,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 28'
+- name: '[D] 🇺🇸 美国 26'
   network: ws
   password: humanity
   port: 443
@@ -259,7 +252,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 29'
+- name: '[D] 🇺🇸 美国 27'
   network: ws
   port: 8880
   server: 63.141.128.30
