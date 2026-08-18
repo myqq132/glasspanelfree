@@ -4,6 +4,7 @@ proxies:
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
+  sni: 202.146.222.89
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
@@ -11,7 +12,7 @@ proxies:
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: 202.146.222.89
+  sni: https%3A%2F%2Ft.me%2Fclashv8%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - alterId: 2
