@@ -1,9 +1,10 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
-  port: 443
-  server: 43.167.198.167
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
   skip-cert-verify: true
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 02'
@@ -11,7 +12,7 @@ proxies:
   port: 12765
   server: freedom.chenlan.top
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[C] 🇯🇵 日本 03'

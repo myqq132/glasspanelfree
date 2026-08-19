@@ -22,9 +22,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇩🇪 德国 04'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -36,7 +44,7 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 06'
   network: ws
   password: humanity
   port: 443
