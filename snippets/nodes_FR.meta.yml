@@ -7,25 +7,53 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  password: 579f0893-e6f9-4036-86a1-7c10aa2d24ea
   port: 443
-  server: de200.mechvpn.online
-  skip-cert-verify: true
+  server: frn.skysafe.online
+  sni: frn.skysafe.online
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
-  password: dbab9df7-5c0a-4726-8574-11e34972b67d
-  port: 33015
-  server: 86.53.105.117
-  skip-cert-verify: true
-  sni: 86.53.105.117
+  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
+  port: 443
+  server: pixelcast.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: pixelcast.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
-  password: 2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f
+  password: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
   port: 443
-  server: replay.wwwinternetvideo.click
+  server: althys.superbuba.top
+  sni: althys.superbuba.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
+  password: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
+  port: 443
+  server: althys2.superbuba.top
+  sni: althys2.superbuba.top
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 06'
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.97
+  sni: keyhop-offshore.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 07'
+  password: d9a3a0a2-3bbf-4c04-9ca6-95c7c8390ae7
+  port: 443
+  server: dereserv.just-cloud.org
+  sni: dereserv.just-cloud.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 08'
+  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
+  port: 443
+  server: player.wwwinternetvideo.click
   skip-cert-verify: false
-  sni: replay.wwwinternetvideo.click
+  sni: player.wwwinternetvideo.click
   tls: false
   type: hysteria2
