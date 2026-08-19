@@ -22,3 +22,14 @@ proxies:
   server: 18.163.114.228
   sni: www.nintendogames.net
   type: trojan
+- name: '[D] 🇯🇵 日本 06'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'

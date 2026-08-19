@@ -22,19 +22,13 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
-  port: 22222
-  server: 63.183.54.159
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   network: ws
-  port: 16632
+  port: '16632'
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
@@ -42,7 +36,7 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   password: humanity
   port: 443

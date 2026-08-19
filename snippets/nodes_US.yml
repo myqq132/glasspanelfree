@@ -41,8 +41,9 @@ proxies:
   cipher: auto
   name: '[D] 🇺🇸 美国 19'
   network: ws
-  port: 80
+  port: '80'
   server: www.true.th
+  servername: ''
   tls: false
   type: vmess
   uuid: a150d554-e962-4632-829f-ee583ada3f95
@@ -54,7 +55,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: render.com
+  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -63,7 +64,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 130.250.137.171
+  server: render.com
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -73,6 +74,15 @@ proxies:
   password: humanity
   port: 443
   server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 24'
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
