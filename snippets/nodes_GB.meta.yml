@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- name: '[D] 🇬🇧 英国 01'
+  port: 64584
+  server: uk.zelnora.ir
+  tls: false
+  type: vless
+  uuid: a8307b5d-2d9e-4d34-912d-5b5dd8340082
+- client-fingerprint: chrome
+  name: '[D] 🇬🇧 英国 02'
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'

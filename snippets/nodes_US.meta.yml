@@ -2,15 +2,15 @@ proxies:
 - name: '[B] 🇺🇸 美国 01'
   password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
   port: 35000
-  server: pq.us4.globals-download.com
+  server: pq.us3.globals-download.com
   skip-cert-verify: true
-  sni: www.apple.com
+  sni: tv.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
   password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
   port: 35000
-  server: pq.us5.globals-download.com
+  server: pq.us4.globals-download.com
   skip-cert-verify: true
   sni: www.apple.com
   tls: false
@@ -18,27 +18,59 @@ proxies:
 - name: '[B] 🇺🇸 美国 03'
   password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
   port: 35000
-  server: pq.us6.globals-download.com
+  server: pq.us5.globals-download.com
   skip-cert-verify: true
   sni: www.apple.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
+  port: 35000
+  server: pq.us6.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
+  port: 35000
+  server: pq.us7.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: gf1:gfhysteria2024
+- name: '[B] 🇺🇸 美国 07'
+  password: gf1
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
   sni: 66.94.121.46
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇺🇸 美国 08'
+  password: 896b0648-861c-41b9-bdbf-f0494748d44c
+  port: 35193
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: uswx3.wxgqlfx.vip
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 09'
+  password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
+  port: 35000
+  server: pq.us8.globals-download.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 10'
   password: kOKLGCC1dhMpmQE9
   port: 26001
   server: 23.158.136.54
@@ -46,7 +78,7 @@ proxies:
   sni: us-akile-a9.nebulacloud.win
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 11'
   password: WCKIE6DkItMdW6mJ
   port: 26001
   server: 166.0.188.67
@@ -54,7 +86,7 @@ proxies:
   sni: us-akile-ax.nebulacloud.win
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 12'
   password: y1v9BqP1j0Axg8Im
   port: 46001
   server: 23.158.136.73
@@ -62,7 +94,36 @@ proxies:
   sni: us-akile-b1.nebulacloud.win
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 13'
+  password: 3aabd489-04af-42fb-87e2-363d1b83d335
+  port: 8443
+  server: iq5ny.pleiades.codes
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 14'
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: iq5ny.pleiades.codes
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 15'
+  network: ws
+  port: '443'
+  server: 198.23.184.122
+  servername: xc163.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
+  ws-opts:
+    headers:
+      Host: xc163.meiziba5566.com
+    path: /837279ad9b4a
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -70,7 +131,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 17'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -78,7 +139,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 18'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -88,11 +149,10 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 19'
   network: ws
-  port: '80'
+  port: 80
   server: www.true.th
-  servername: ''
   tls: false
   type: vmess
   uuid: a150d554-e962-4632-829f-ee583ada3f95
@@ -100,111 +160,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
     path: /htun
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 13'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.74
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[D] 🇺🇸 美国 14'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 15'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.35
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 16'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.231
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 17'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.104
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 18'
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.89
-  servername: yahoo.com
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-- name: '[D] 🇺🇸 美国 19'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: '[D] 🇺🇸 美国 20'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 21'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 22'
   network: ws
   password: humanity
   port: 443
@@ -213,14 +169,21 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 23'
+- name: '[D] 🇺🇸 美国 21'
   network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
+    path: '%2Fassignment'
+- name: '[D] 🇺🇸 美国 22'
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

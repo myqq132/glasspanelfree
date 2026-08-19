@@ -1,21 +1,12 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  password: AMnTye4y6Jjxc0J0
-  port: 26001
-  server: 151.242.164.204
+  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
+  port: 443
+  server: 43.167.198.167
   skip-cert-verify: true
-  sni: jp-akile-6.nebulacloud.win
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 02'
-  password: BwAmBUHr2Sk9ZpR8
-  port: 16001
-  server: 151.242.164.80
-  skip-cert-verify: true
-  sni: jp-akile-1.nebulacloud.win
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
   password: STYyftThFn
   port: 12765
   server: freedom.chenlan.top
@@ -23,7 +14,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -31,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 05'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
@@ -39,22 +30,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 26704
   server: 18.163.114.228
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 07'
+- name: '[D] 🇯🇵 日本 06'
   network: ws
-  port: 8443
-  server: 185.112.249.201
-  servername: web-socket.tgdaosheng.ggff.net
+  port: 443
+  server: paid.sshehi.ggff.net
   tls: true
   type: vless
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  ws-opts:
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-    path: /proxyip=bpb.yousef.isegaro.comfp=chromefp=chrome
+  uuid: 49c86212-ae0b-430e-9abb-244e715b533f
