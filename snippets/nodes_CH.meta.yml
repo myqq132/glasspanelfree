@@ -1,10 +1,12 @@
 proxies:
-- name: '[B] CH 01'
-  password: gf1:gfhysteria2024
+- alpn:
+  - h3
+  name: '[B] CH 01'
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
-  server: 185.156.44.99
+  server: rou0001ntrhy01.tcp-reset-club.net
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: rou0001ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
 - name: '[B] CH 02'
@@ -12,10 +14,18 @@ proxies:
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] CH 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 04'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99

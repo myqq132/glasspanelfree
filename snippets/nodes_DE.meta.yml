@@ -1,19 +1,17 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[B] 🇩🇪 德国 01'
+- name: '[B] 🇩🇪 德国 01'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
+  skip-cert-verify: false
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 02'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8080
-  server: 46.229.243.137
-  sni: grape-turbo-fr.roxa.org
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: deu0003ntrhy01.tcp-reset-club.net
+  sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 03'
