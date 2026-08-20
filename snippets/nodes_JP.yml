@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
@@ -15,21 +15,24 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 26704
   server: 18.163.114.228
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 05'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 06'
   network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: blackshadow.dpdns.org
-  type: trojan
+  port: '80'
+  server: www.true.th
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
   ws-opts:
     headers:
-      Host: blackshadow.dpdns.org
-    path: '%2F195.123.218.174-443'
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
