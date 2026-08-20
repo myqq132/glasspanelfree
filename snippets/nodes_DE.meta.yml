@@ -1,74 +1,51 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 177.3.212.103
-  skip-cert-verify: true
-  sni: nl1.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[B] 🇩🇪 德国 04'
+  name: '[B] 🇩🇪 德国 01'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 05'
+- name: '[B] 🇩🇪 德国 02'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.137
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 06'
+- name: '[B] 🇩🇪 德国 03'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.138
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 07'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: '!!str 9e4eced6e98ed4d4'
-  server: 31.76.119.117
-  servername: de.orpheous.ru
-  tls: false
-  type: vless
-  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 04'
   network: ws
   port: 443
   server: 194.154.30.154
   servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
       Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 05'
+  network: ws
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'

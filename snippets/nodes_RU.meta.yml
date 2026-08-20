@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: '[D] 🇷🇺 俄罗斯 01'
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
+  type: ss
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: '!!str 9e4eced6e98ed4d4'
+  server: 185.147.26.175
+  servername: yt.orpheous.ru
+  tls: false
+  type: vless
+  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42
