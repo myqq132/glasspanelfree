@@ -1,5 +1,12 @@
 proxies:
-- name: '[C] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
+  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
+  port: 32135
+  server: vip-jp-4.hkd4fwmg.vip
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 3878
@@ -7,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 14625
@@ -15,14 +22,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 55647
   server: 16.162.109.29
   sni: www.nintendogames.net
   type: trojan
-- name: '[D] 🇯🇵 日本 04'
+- name: '[D] 🇯🇵 日本 05'
   network: ws
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
