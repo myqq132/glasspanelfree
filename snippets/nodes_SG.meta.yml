@@ -4,32 +4,18 @@ proxies:
   port: 34567
   server: 43.156.90.144
   skip-cert-verify: true
+  sni: 43.156.90.144
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 02'
-  password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
-  port: 12645
-  server: 64.235.45.208
-  sni: vip-sg-1.hkd4fwmg.vip
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 03'
-  password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
-  port: 12645
-  server: vip-sg-1.hkd4fwmg.vip
+  password: ZYTopBPE6fGijECIcT3KxqFEpjQJ44ND
+  port: 55793
+  server: vip-sg-2.hkd4fwmg.vip
   skip-cert-verify: true
-  sni: vip-sg-1.hkd4fwmg.vip
+  sni: vip-sg-2.hkd4fwmg.vip
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 04'
-  password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
-  port: 12645
-  server: vip-sg-1.hkd4fwmg.vip
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
@@ -37,14 +23,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
   server: 16.162.109.29
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 07'
+- name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   password: BxceQaOe
   port: 45744

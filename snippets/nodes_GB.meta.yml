@@ -1,15 +1,33 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: uk196.mechvpn.online
-  sni: uk196.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.108
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 03'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.111
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 04'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.226
+  sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇬🇧 英国 02'
+  name: '[D] 🇬🇧 英国 05'
   network: ws
   port: 8443
   server: 91.110.174.210
