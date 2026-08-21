@@ -15,9 +15,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 03'
-  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
-  port: 443
-  server: 43.167.198.167
+  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
+  port: 32135
+  server: vip-jp-4.hkd4fwmg.vip
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -26,17 +26,9 @@ proxies:
   port: 443
   server: 43.167.198.167
   skip-cert-verify: true
-  sni: 43.167.198.167
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 05'
-  password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
-  port: 8443
-  server: 185.39.31.111
-  sni: grape-beer.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -44,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 07'
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 54876
@@ -52,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 08'
+- name: '[C] 🇯🇵 日本 07'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 38936
@@ -61,7 +53,7 @@ proxies:
   type: trojan
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 09'
+  name: '[D] 🇯🇵 日本 08'
   network: tcp
   port: 443
   reality-opts:
