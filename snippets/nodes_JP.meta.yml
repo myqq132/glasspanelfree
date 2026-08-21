@@ -11,13 +11,12 @@ proxies:
   port: 32135
   server: vip-jp-4.hkd4fwmg.vip
   skip-cert-verify: true
-  sni: vip-jp-4.hkd4fwmg.vip
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 03'
-  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
-  port: 32135
-  server: vip-jp-4.hkd4fwmg.vip
+  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
+  port: 443
+  server: 43.167.198.167
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -26,6 +25,7 @@ proxies:
   port: 443
   server: 43.167.198.167
   skip-cert-verify: true
+  sni: 43.167.198.167
   tls: false
   type: hysteria2
 - name: '[C] 🇯🇵 日本 05'
