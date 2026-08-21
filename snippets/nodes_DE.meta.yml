@@ -7,28 +7,33 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 02'
+  port: 22223
+  server: 63.183.163.238
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[D] 🇩🇪 德国 03'
+  port: 22222
+  server: 63.188.40.90
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[D] 🇩🇪 德国 04'
+  port: 22222
+  server: 63.183.163.238
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 443
   server: 194.154.30.154
   servername: forfreeuse.rtqa.ru
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
       Host: forfreeuse.rtqa.ru
-    path: /
-- client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
-  network: ws
-  port: 443
-  server: 108.138.26.70
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
