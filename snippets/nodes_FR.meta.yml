@@ -29,38 +29,52 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- fingerprint: qq
-  name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 05'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de87.mechvpn.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 06'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de87.mechvpn.online
   sni: de87.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
+- fingerprint: qq
+  name: '[B] 🇫🇷 法国 07'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de87.mechvpn.online
+  sni: de87.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 08'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge1.whit3.net
   sni: ndge1.whit3.net
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
+- name: '[B] 🇫🇷 法国 09'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge4.whit3.net
   sni: ndge4.whit3.net
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
-  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-  port: 8443
-  server: 194.180.188.126
-  sni: keyhop-offshore.roxa.org
+- name: '[B] 🇫🇷 法国 10'
+  password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
+  port: 9443
+  server: newos.klzvezdi.ru
   tls: false
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 09'
+  name: '[D] 🇫🇷 法国 11'
   network: tcp
   port: 80
   reality-opts:
@@ -72,7 +86,7 @@ proxies:
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
-  name: '[D] 🇫🇷 法国 10'
+  name: '[D] 🇫🇷 法国 12'
   port: 17780
   reality-opts:
     public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
@@ -82,7 +96,7 @@ proxies:
   tls: false
   type: vless
   uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-- name: '[D] 🇫🇷 法国 11'
+- name: '[D] 🇫🇷 法国 13'
   network: ws
   port: 2053
   server: 217.60.63.206
