@@ -1,5 +1,12 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.227
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 02'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -11,7 +18,7 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 03'
   network: ws
   port: 80
   server: 91.193.58.159

@@ -1,14 +1,38 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: 57a9cf7d-bb6c-414e-97be-1985f7123c61
-  port: 443
-  server: errorgr.zapret-tg.ru
-  sni: errorgr.zapret-tg.ru
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.172
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: dbab9df7-5c0a-4726-8574-11e34972b67d
+  port: 33015
+  server: 86.53.105.117
+  skip-cert-verify: true
+  sni: 86.53.105.117
   tls: false
   type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 02'
+  name: '[D] 🇫🇷 法国 05'
   network: tcp
   port: 80
   reality-opts:
@@ -20,7 +44,7 @@ proxies:
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 06'
   port: 17780
   reality-opts:
     public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
@@ -30,7 +54,7 @@ proxies:
   tls: false
   type: vless
   uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 07'
   network: ws
   port: 2053
   server: 217.60.63.206
