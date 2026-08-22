@@ -1,14 +1,15 @@
 proxies:
 - name: '[B] 🇬🇧 英国 01'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: uk196.mechvpn.online
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.108
+  sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 02'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
-  server: 162.249.124.108
+  server: 162.249.124.109
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
@@ -19,14 +20,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 04'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.226
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇬🇧 英国 05'
+- name: '[D] 🇬🇧 英国 04'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -38,3 +32,14 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
+- name: '[D] 🇬🇧 英国 05'
+  network: ws
+  port: 80
+  server: 91.193.58.159
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

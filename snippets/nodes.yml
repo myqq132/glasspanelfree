@@ -1,35 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: n1761296892.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d6db128f-42b9-40b1-b979-5e0095fa593c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: '[B] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
   network: ws
   port: '443'
   server: qtkdr8jxe3wefxjm.v.3dns.vip
@@ -43,109 +15,11 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 07'
-  network: ws
-  port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  network: ws
-  port: '443'
-  server: 47.76.197.72
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 09'
-  network: ws
-  port: '443'
-  server: 47.76.197.72
-  servername: m01c7b2z26dtqgee.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: m01c7b2z26dtqgee.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  network: ws
-  port: '443'
-  server: 47.83.19.148
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 11'
-  network: ws
-  port: '443'
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wwafj5LHl6bI8aU9.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 12'
-  network: ws
-  port: '443'
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 13'
-  network: ws
-  port: '443'
-  server: mtckundigepwu3up.v.3dns.vip
-  servername: mTCKUNDiGePwU3uP.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: '[B] 🌍 其它地区 13'
   network: ws
   port: '80'
   server: 61.245.11.60
-  servername: ''
+  servername: 61.245.11.60
   tls: false
   type: vmess
   uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
@@ -167,40 +41,6 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 08'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 15'
   password: amazonskr05
@@ -209,7 +49,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 14'
+  name: '[C] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -217,211 +57,125 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 15'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 14684
-  server: 18.162.120.218
+  port: 25982
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇭🇰 香港 16'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.162.121.244
+  port: 1103
+  server: 16.163.147.33
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 17'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.198.21.141
+  port: 1103
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 43.198.21.141
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇯🇵 日本 04'
+- name: '[C] 🇯🇵 日本 07'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 54876
+  port: 40136
+  server: 16.162.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇯🇵 日本 08'
+  network: tcp
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 18617
+  server: 18.163.126.92
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[C] 🇸🇬 新加坡 06'
+  network: tcp
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 51396
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇯🇵 日本 05'
-  network: tcp
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 38936
-  server: 16.162.192.182
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
-  network: tcp
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 45744
-  server: 18.163.126.92
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 07'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.109.29
+  server: 16.162.192.182
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 08'
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.162.121.244
+  port: 32434
+  server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
-  server: 18.162.120.218
+  server: 43.199.143.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 28051
+  port: 39024
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 43.199.47.78
+  port: 39024
+  server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇭🇰 香港 18'
+  name: '[D] 🇭🇰 香港 10'
   password: ljqdalu13..
   port: 8319
   server: 95.40.120.162
   type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🇨🇦 加拿大 03'
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🌍 其它地区 16'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.221.242
-  skip-cert-verify: false
+  server: 45.130.125.160
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   password: humanity
   port: 443
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '[D] 🇺🇸 美国 11'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 06'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
+  server: 104.16.174.124
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🇨🇦 加拿大 07'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 08'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 09'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.148
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 05'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-- name: '[D] 🇨🇦 加拿大 10'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
@@ -432,18 +186,18 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 11'
+- name: '[D] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.124
+  server: 104.16.174.148
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 12'
+- name: '[D] 🇨🇦 加拿大 11'
   network: ws
   password: humanity
   port: 443
@@ -454,7 +208,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 13'
+  name: '[D] 🌍 其它地区 26'
   network: ws
   port: 8443
   server: 104.17.77.77
