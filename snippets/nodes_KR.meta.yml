@@ -13,3 +13,16 @@ proxies:
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  name: '[D] 🇰🇷 韩国 03'
+  network: ws
+  port: 8443
+  server: 85.155.176.154
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
