@@ -1,5 +1,20 @@
 proxies:
 - name: '[B] 🇸🇬 新加坡 01'
+  password: 0742bdc33427533deea4903d4ae27533
+  port: 50160
+  server: 20.24.150.10
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 02'
+  password: 3aabd489-04af-42fb-87e2-363d1b83d335
+  port: 8443
+  server: iq5ny.pleiades.codes
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 03'
   password: 8f7eeebd-3378-4bf1-b80a-cb2a393a031d
   port: 8443
   server: iq5ny.pleiades.codes
@@ -7,13 +22,30 @@ proxies:
   sni: iq5ny.pleiades.codes
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 04'
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: 81.168.62.17
+  skip-cert-verify: true
+  sni: iq5ny.pleiades.codes
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 05'
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
   server: iq5ny.pleiades.codes
+  skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 06'
+  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+  port: 8443
+  server: iq5ny.pleiades.codes
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 07'
   password: 95e8532b-cc69-42d4-9553-e3c23292b15b
   port: 8443
   server: iq5ny.pleiades.codes
@@ -21,15 +53,22 @@ proxies:
   sni: iq5ny.pleiades.codes
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 08'
   password: P6qkAwznuC076mbIR2cGPg==
   port: 34567
   server: 43.156.90.144
   skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 05'
+- name: '[B] 🇸🇬 新加坡 09'
+  password: P6qkAwznuC076mbIR2cGPg==
+  port: 34567
+  server: 43.156.90.144
+  skip-cert-verify: true
+  sni: bing.com%5Cu0026amp%3Binsecure%3D1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 10'
   password: P6qkAwznuC076mbIR2cGPg==
   port: 34567
   server: 43.156.90.144
@@ -37,15 +76,14 @@ proxies:
   sni: 43.156.90.144
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 06'
+- name: '[B] 🇸🇬 新加坡 11'
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 1935
   server: sg2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 07'
+- name: '[B] 🇸🇬 新加坡 12'
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 1935
   server: sg2.xiaoliyu.cyou
@@ -55,7 +93,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[C] 🇸🇬 新加坡 08'
+  name: '[C] 🇸🇬 新加坡 13'
   network: ws
   port: '443'
   server: Aim7HqTuvNOofcsx.v.3dns.vip
@@ -67,7 +105,7 @@ proxies:
     headers:
       Host: Aim7HqTuvNOofcsx.v.3dns.vip
     path: /ws-vmess
-- name: '[C] 🇸🇬 新加坡 09'
+- name: '[C] 🇸🇬 新加坡 14'
   network: tcp
   password: BxceQaOe
   port: 41421
