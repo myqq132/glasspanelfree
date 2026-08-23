@@ -30,39 +30,3 @@ proxies:
   sni: 86.53.105.117
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 05'
-  network: tcp
-  port: 80
-  reality-opts:
-    public-key: CMlXrhikqsy7lZl3kfLuiwrgdHn4hm3Jgr8gf_ZnYRM
-    short-id: '!!str d3fb'
-  server: 95.182.96.120
-  servername: console.hetzner.com
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  name: '[D] 🇫🇷 法国 06'
-  port: 17780
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: 172.239.26.184
-  servername: amp-api-edge.apps.apple.com
-  tls: false
-  type: vless
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-- name: '[D] 🇫🇷 法国 07'
-  network: ws
-  port: 2053
-  server: 217.60.63.206
-  servername: forfreeuse.rtqa.ru
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: '%2F'

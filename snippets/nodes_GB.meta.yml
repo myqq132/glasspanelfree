@@ -6,7 +6,8 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- client-fingerprint: chrome
+  name: '[D] 🇬🇧 英国 03'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -18,14 +19,3 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
-- name: '[D] 🇬🇧 英国 03'
-  network: ws
-  port: 80
-  server: 91.193.58.159
-  tls: false
-  type: vless
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
