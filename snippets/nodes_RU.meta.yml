@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 01'
+  port: 14406
+  reality-opts:
+    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
+    short-id: '!!str 1a2b3c4d5e6f7a8b'
+  server: 85.198.70.200
+  servername: vk.ru
+  tls: false
+  type: vless
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 02'
+  port: 443
+  server: 45.87.104.185
+  servername: medicine.repaironline.biz
+  tls: true
+  type: vless
+  uuid: f463819c-5e64-458a-808b-6693afb47aa4

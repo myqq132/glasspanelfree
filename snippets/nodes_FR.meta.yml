@@ -2,33 +2,11 @@ proxies:
 - name: '[B] 🇫🇷 法国 01'
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
-  server: dora1.api3-max.ru
-  sni: dora1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
-  server: dora4.api3-max.ru
-  sni: dora4.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
   server: dora2.api3-max.ru
   sni: dora2.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: nl1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 02'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -36,7 +14,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
+- name: '[B] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -44,10 +22,24 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
-  password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 443
-  server: de-two.letsgodance.site
-  sni: de-two.letsgodance.site
+- name: '[B] 🇫🇷 法国 04'
+  password: da98e502-5e93-4fc5-bd61-388c557df29c
+  port: 8443
+  server: 178.236.254.21
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 05'
+  password: dbab9df7-5c0a-4726-8574-11e34972b67d
+  port: 33015
+  server: 86.53.105.117
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 06'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
   tls: false
   type: hysteria2

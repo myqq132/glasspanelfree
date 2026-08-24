@@ -1,43 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[B] 🇺🇸 美国 06'
   network: ws
-  port: '443'
-  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
-  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇺🇸 美国 12'
-  network: ws
-  port: '443'
-  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
-    path: /ws-vmess
-- name: '[C] 🇺🇸 美国 13'
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- cipher: aes-256-gcm
+  name: '[C] 🇺🇸 美国 07'
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: '[C] 🇺🇸 美国 08'
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 54.46.3.138
+  port: 34039
+  server: 54.179.227.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: '[D] 🇺🇸 美国 14'
-  password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
-  port: 8388
-  server: 38.64.58.242
-  type: ss
+- name: '[D] 🇺🇸 美国 13'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 140.248.185.253
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-w%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
