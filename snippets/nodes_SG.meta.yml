@@ -4,10 +4,17 @@ proxies:
   port: 34567
   server: 43.156.90.144
   skip-cert-verify: true
-  sni: 43.156.90.144
+  sni: bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 02'
+  password: P6qkAwznuC076mbIR2cGPg==
+  port: 34567
+  server: 43.156.90.144
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 41421
