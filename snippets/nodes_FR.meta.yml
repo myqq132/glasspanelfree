@@ -1,33 +1,5 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
-  server: dora1.api3-max.ru
-  sni: dora1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
-  server: dora4.api3-max.ru
-  sni: dora4.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  port: 443
-  server: dora2.api3-max.ru
-  sni: dora2.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 04'
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -35,7 +7,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 06'
+- name: '[B] 🇫🇷 法国 02'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -43,41 +15,10 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 07'
-  password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  port: 443
-  server: 31.76.111.33
-  sni: hy2.bluekitty.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
-  password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  port: 443
-  server: 31.76.111.33
-  sni: hy2.bluekitty.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
-  password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  port: 443
-  server: 31.76.119.101
-  sni: de4.convert-cloud.guru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 10'
+- name: '[B] 🇫🇷 法国 03'
   password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 443
-  server: de-two.letsgodance.site
-  sni: de-two.letsgodance.site
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 11'
-  password: e660daf2da753ca8317387342b8af384
-  port: 50160
-  server: 3.71.196.174
-  skip-cert-verify: true
-  sni: www.bing.com
+  port: 8443
+  server: de-three.letsgodance.site
+  sni: de-three.letsgodance.site
   tls: false
   type: hysteria2

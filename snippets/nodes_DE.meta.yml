@@ -2,33 +2,11 @@ proxies:
 - name: '[B] 🇩🇪 德国 01'
   password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
   port: 443
-  server: fi-one.letsgodance.site
-  sni: fi-one.letsgodance.site
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 443
   server: swe-one.letsgodance.site
-  skip-cert-verify: true
   sni: swe-one.letsgodance.site
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
-  password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 8443
-  server: swe-two.letsgodance.site
-  sni: swe-two.letsgodance.site
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 04'
-  password: da98e502-5e93-4fc5-bd61-388c557df29c
-  port: 2083
-  server: 178.236.254.21
-  sni: swe-one.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   password: humanity
   port: 443
