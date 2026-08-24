@@ -1,17 +1,17 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 603e192aa740396fcae361bdd146b8c1
-  port: 50160
-  server: 179.255.158.151
-  skip-cert-verify: true
-  sni: www.bing.com
+  password: 32d3c043-8c78-4348-94e4-37b7937ccae2
+  port: 443
+  server: node.embrofree.org
+  sni: node.embrofree.org
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: gf1
+  password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
+  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -19,50 +19,50 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+  port: 443
+  server: gora2.api3-max.ru
+  sni: gora2.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
   server: gora4.api3-max.ru
   sni: gora4.api3-max.ru
   tls: false
   type: hysteria2
-- fingerprint: chrome
-  name: '[B] 🇺🇸 美国 05'
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
+- name: '[B] 🇺🇸 美国 06'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+- name: '[B] 🇺🇸 美国 07'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 34039
@@ -72,7 +72,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 10'
+  name: '[D] 🇺🇸 美国 11'
   network: tcp
   port: 443
   reality-opts:
@@ -85,7 +85,7 @@ proxies:
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 12'
   network: tcp
   port: 443
   reality-opts:
@@ -96,13 +96,13 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 13'
   port: 10000
   server: 180.178.60.254
   tls: false
   type: vless
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   password: MiTiVPN
   port: 443
@@ -114,7 +114,7 @@ proxies:
       Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-w%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 199.232.78.159
