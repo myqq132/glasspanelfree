@@ -8,10 +8,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 02'
-  password: P6qkAwznuC076mbIR2cGPg==
-  port: 34567
-  server: 43.156.90.144
+  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+  port: 443
+  server: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 03'
@@ -25,12 +26,20 @@ proxies:
 - name: '[B] 🇸🇬 新加坡 04'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 13.212.52.5
+  server: 13.212.191.206
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[B] 🇸🇬 新加坡 05'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.52.5
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 06'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.228.168.117
@@ -38,7 +47,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 06'
+- name: '[B] 🇸🇬 新加坡 07'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.228.168.117
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 08'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 13.250.120.9
@@ -46,15 +63,31 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 07'
+- name: '[B] 🇸🇬 新加坡 09'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.250.120.9
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 10'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 18.141.233.65
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 11'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 18.143.170.35
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 08'
+- name: '[B] 🇸🇬 新加坡 12'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.128.224.158
@@ -62,7 +95,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 09'
+- name: '[B] 🇸🇬 新加坡 13'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.128.224.158
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 14'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.129.144.53
@@ -70,7 +111,39 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 10'
+- name: '[B] 🇸🇬 新加坡 15'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.144.53
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 16'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 52.221.227.91
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 17'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.157.26
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 18'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.157.26
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 19'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.190.23
@@ -78,7 +151,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 11'
+- name: '[B] 🇸🇬 新加坡 20'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.190.23
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 21'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.198.250
@@ -86,7 +167,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 12'
+- name: '[B] 🇸🇬 新加坡 22'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.198.250
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 23'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.254.241.184
@@ -94,7 +183,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 13'
+- name: '[B] 🇸🇬 新加坡 24'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.254.241.184
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 25'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 54.255.1.222
@@ -102,7 +199,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 14'
+- name: '[B] 🇸🇬 新加坡 26'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.255.1.222
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 27'
   network: tcp
   password: BxceQaOe
   port: 32434
