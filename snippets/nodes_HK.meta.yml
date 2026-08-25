@@ -1,18 +1,17 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇭🇰 香港 01'
-  password: 771d283f-868e-4ac4-8a88-074af8b0a9c9
-  port: 1453
-  server: zisvpn.ru
-  sni: zisvpn.ru
+- name: '[B] 🇭🇰 香港 01'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: dg2.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
-  password: 771d283f-868e-4ac4-8a88-074af8b0a9c9
-  port: 1453
-  server: zisvpn.ru
-  sni: zisvpn.ru
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 03'
@@ -20,23 +19,17 @@ proxies:
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: t.me
+  sni: https%3A%2F%2Ft.me%2Fclashv8
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
+- name: '[B] 🇭🇰 香港 04'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.89
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2Fclashv8%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: '[C] 🇭🇰 香港 05'
