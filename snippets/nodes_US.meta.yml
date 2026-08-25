@@ -4,14 +4,14 @@ proxies:
   port: 4433
   server: us2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: gf1
-  port: 443
-  server: 66.94.121.46
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: us2.xiaoliyu.cyou
   skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -19,10 +19,16 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: start.wwwinternetvideo.click
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 18.118.193.169
@@ -30,7 +36,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.149.228.246
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 44.255.13.86
@@ -38,15 +52,15 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+- name: '[B] 🇺🇸 美国 08'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: msk.frkn.org
+  server: 44.255.13.86
   skip-cert-verify: true
-  sni: msk.frkn.org
+  sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 09'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -54,27 +68,31 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -84,7 +102,7 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -93,7 +111,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
@@ -104,7 +122,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 16'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -114,7 +132,7 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '[D] 🇺🇸 美国 15'
+- name: '[D] 🇺🇸 美国 17'
   network: ws
   password: MiTiVPN
   port: 443
@@ -125,7 +143,7 @@ proxies:
     headers:
       Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[D] 🇺🇸 美国 16'
+- name: '[D] 🇺🇸 美国 18'
   port: 10000
   server: 180.178.60.254
   tls: false
