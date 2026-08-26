@@ -19,7 +19,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: bing.com
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
@@ -27,7 +27,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
@@ -35,7 +35,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: vk.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 06'
@@ -43,7 +43,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: vk.com
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 07'
@@ -58,15 +58,15 @@ proxies:
   port: 36723
   server: 95.164.123.231
   skip-cert-verify: true
-  sni: 95.164.123.231
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 09'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
-  server: de2.vpn.legendaah.xyz
+  server: 95.164.123.231
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: 95.164.123.231
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 10'
@@ -74,5 +74,21 @@ proxies:
   port: 36723
   server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 11'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 12'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: de2.vpn.legendaah.xyz
   tls: false
   type: hysteria2
