@@ -4,6 +4,21 @@ proxies:
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 02'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] CH 03'
+  password: b01e1274-64b2-4804-bbb6-69c557bdcfc5
+  port: 8444
+  server: zh.th3web.com
+  sni: zh.th3web.com
   tls: false
   type: hysteria2

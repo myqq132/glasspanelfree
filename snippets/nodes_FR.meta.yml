@@ -7,25 +7,28 @@ proxies:
   sni: mg3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: 92971ae7-d606-4c22-b566-625ffabee5b2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 02'
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
-  server: de253.mechvpn.online
-  skip-cert-verify: false
+  server: fin14qr.wwwinternetvideo.click
+  sni: fin14qr.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
-  password: 92971ae7-d606-4c22-b566-625ffabee5b2
+  password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
-  server: de5.mechvpn.online
-  skip-cert-verify: false
+  server: fin14qr.wwwinternetvideo.click
+  sni: fin14qr.wwwinternetvideo.click
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
-  password: 92971ae7-d606-4c22-b566-625ffabee5b2
-  port: 443
-  server: de5.mechvpn.online
-  sni: de5.mechvpn.online
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
@@ -33,15 +36,14 @@ proxies:
   port: 36723
   server: 95.164.123.231
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: de2.vpn.legendaah.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 06'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
-  server: 95.164.123.231
+  server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: 95.164.123.231
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 07'
@@ -49,7 +51,7 @@ proxies:
   port: 36723
   server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: de2.vpn.legendaah.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 08'
@@ -57,21 +59,6 @@ proxies:
   port: 36723
   server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 10'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: de2.vpn.legendaah.xyz
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
