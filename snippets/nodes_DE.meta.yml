@@ -1,21 +1,14 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
-  password: 901113fb-2ddd-4472-84bf-307de471f32f
-  port: 443
-  server: de.katanalink.net
-  sni: de.katanalink.net
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 03'
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
+- name: '[B] 🇩🇪 德国 02'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
+  sni: swe.frkn.org
   tls: false
-  type: vmess
-  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
-  ws-opts:
-    headers:
-      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
-    path: /
+  type: hysteria2
