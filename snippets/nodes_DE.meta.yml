@@ -1,22 +1,21 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
-  password: c37c8e64-b613-49b8-b65d-f416e5b4c1b6
+  password: 901113fb-2ddd-4472-84bf-307de471f32f
   port: 443
-  server: 177.3.214.166
-  sni: fin1.apexvpn.space
+  server: de.katanalink.net
+  sni: de.katanalink.net
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
-  sni: swe.frkn.org
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
   tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
