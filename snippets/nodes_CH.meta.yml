@@ -1,5 +1,12 @@
 proxies:
 - name: '[B] CH 01'
+  password: 60e2a548-96aa-4850-a279-1edab743c39b
+  port: 443
+  server: md1.cnyvpn.com
+  sni: md1.cnyvpn.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 02'
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
   server: lmny.mangshe.xyz
@@ -7,7 +14,23 @@ proxies:
   sni: lmny.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] CH 02'
+- name: '[B] CH 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 04'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 05'
   password: 84a506ca5aca505696a454d828420b3f
   port: 50160
   server: 140.238.213.114

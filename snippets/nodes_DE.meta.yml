@@ -1,14 +1,15 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
+- fingerprint: chrome
+  name: '[B] 🇩🇪 德国 01'
+  password: 58f133a9-0b8c-4237-ba40-c69d32a35e27
+  port: 443
+  server: sw1.crsmaps.com
+  sni: sw1.crsmaps.com
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 02'
   password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 8443
   server: swe.frkn.org
-  sni: swe.frkn.org
   tls: false
   type: hysteria2
