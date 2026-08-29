@@ -7,11 +7,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -19,22 +18,30 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 04'
+  name: '[C] 🇺🇸 美国 05'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -42,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   password: humanity
   port: 443
@@ -55,7 +62,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 09'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -67,7 +74,7 @@ proxies:
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 10'
   network: tcp
   port: 10092
   reality-opts:

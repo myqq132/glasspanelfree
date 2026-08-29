@@ -1,9 +1,23 @@
 proxies:
 - name: '[B] 🌍 其它地区 01'
-  password: 901113fb-2ddd-4472-84bf-307de471f32f
-  port: 443
-  server: fi.katanalink.net
-  sni: fi.katanalink.net
+  password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  port: 5002
+  server: 31.76.4.128
+  sni: fi.aeternavpn.space
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 01'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.181
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 01'
+  password: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  port: 5001
+  server: 80.96.109.223
+  sni: special.aeternavpn.space
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 02'
@@ -14,7 +28,22 @@ proxies:
   sni: mlxy.mangshe.xyz
   tls: false
   type: hysteria2
+- name: '[B] 🌍 其它地区 03'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 103.246.248.235
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
 - name: '[B] CH 01'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] CH 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -22,28 +51,23 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 01'
-  password: f87376e17da040ed04c9665ce8972930
+- name: '[B] CH 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 01'
+  password: 1671a252e2a97dc2bda4e515475931da
   port: 50160
-  server: 138.2.73.238
+  server: 132.226.226.189
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 01'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 8443
-  server: swe.frkn.org
-  sni: swe.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[B] CH 02'
+- name: '[B] CH 04'
   password: 84a506ca5aca505696a454d828420b3f
   port: 50160
   server: 140.238.213.114
@@ -51,19 +75,61 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: nl.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: nl.vpn.legendaah.xyz
+- name: '[B] 🌍 其它地区 04'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 46.229.243.149
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 04'
+- name: '[B] 🌍 其它地区 05'
   password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
   port: 4433
   server: nl1.xiaoliyu.cyou
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 06'
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: nl1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: nl1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 07'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8080
+  server: 162.249.124.123
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 08'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.181
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.123
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 02'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.235
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 03'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 205.237.109.171
+  sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
@@ -74,11 +140,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -86,54 +151,26 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇦 加拿大 01'
-  password: 901113fb-2ddd-4472-84bf-307de471f32f
-  port: 443
-  server: jp.katanalink.net
-  skip-cert-verify: true
-  sni: jp.katanalink.net
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: i2psm3knof5qjjix.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 05'
+  name: '[C] 🌍 其它地区 09'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -142,18 +179,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 02'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 03'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -161,7 +198,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -189,7 +226,7 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -198,18 +235,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 04'
+  name: '[C] 🇺🇸 美国 05'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -232,7 +269,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 01'
   network: ws
   password: humanity
   port: 443
@@ -241,7 +278,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   password: humanity
   port: 443
@@ -250,7 +287,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   password: humanity
   port: 443
@@ -259,7 +296,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
@@ -268,7 +305,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 06'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -277,7 +314,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
@@ -286,7 +323,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 08'
+- name: '[D] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
@@ -295,7 +332,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 09'
+- name: '[D] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
@@ -304,7 +341,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 10'
+- name: '[D] 🇨🇦 加拿大 09'
   network: ws
   password: humanity
   port: 443
@@ -313,7 +350,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 11'
+- name: '[D] 🇨🇦 加拿大 10'
   network: ws
   password: humanity
   port: 443
@@ -324,7 +361,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 12'
+  name: '[D] 🇨🇦 加拿大 11'
   network: ws
   password: humanity
   port: 443
@@ -333,7 +370,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 13'
+- name: '[D] 🇨🇦 加拿大 12'
   network: ws
   password: humanity
   port: 443
@@ -344,7 +381,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 14'
+- name: '[D] 🇨🇦 加拿大 13'
   network: ws
   password: humanity
   port: 443
@@ -353,7 +390,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 15'
+- name: '[D] 🇨🇦 加拿大 14'
   network: ws
   password: humanity
   port: 443
@@ -369,7 +406,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 06'
   network: tcp
   port: 18153
   server: s299.kukuss.top
@@ -381,7 +418,7 @@ proxies:
     headers:
       Host: 3f35bd4ds298.wagahaha.xyz
     path: ''
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   password: humanity
   port: 443
@@ -392,7 +429,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 16'
+- name: '[D] 🇨🇦 加拿大 15'
   network: ws
   password: humanity
   port: 443
@@ -401,7 +438,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 17'
+- name: '[D] 🇨🇦 加拿大 16'
   network: ws
   password: humanity
   port: 443
@@ -412,7 +449,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 06'
+  name: '[D] 🌍 其它地区 10'
   network: ws
   port: '443'
   server: 130.185.122.177
@@ -425,7 +462,7 @@ proxies:
       Host: 130.185.122.177
     path: /
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 09'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -436,7 +473,7 @@ proxies:
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 07'
+  name: '[D] 🌍 其它地区 11'
   port: 443
   reality-opts:
     public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
@@ -449,7 +486,7 @@ proxies:
   ws-opts:
     headers:
       Host: policies.google.com
-- name: '[D] 🌍 其它地区 08'
+- name: '[D] 🌍 其它地区 12'
   network: ws
   port: 4100
   server: 201.24.49.233
@@ -459,7 +496,7 @@ proxies:
   uuid: aa7d939b-feaa-4ad3-9615-74216f490807
   ws-opts:
     path: '%2Fv1'
-- name: '[D] 🇨🇦 加拿大 18'
+- name: '[D] 🇨🇦 加拿大 17'
   network: ws
   password: humanity
   port: 443
@@ -470,7 +507,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 19'
+- name: '[D] 🇨🇦 加拿大 18'
   network: ws
   password: humanity
   port: 443
@@ -479,7 +516,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 20'
+- name: '[D] 🇨🇦 加拿大 19'
   network: ws
   password: humanity
   port: 443
@@ -488,7 +525,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 21'
+- name: '[D] 🇨🇦 加拿大 20'
   network: ws
   password: humanity
   port: 443
@@ -497,7 +534,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 22'
+- name: '[D] 🇨🇦 加拿大 21'
   network: ws
   password: humanity
   port: 443
@@ -508,7 +545,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 23'
+- name: '[D] 🇨🇦 加拿大 22'
   network: ws
   password: humanity
   port: 443
@@ -517,7 +554,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 24'
+- name: '[D] 🇨🇦 加拿大 23'
   network: ws
   password: humanity
   port: 443
@@ -528,7 +565,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 09'
+- name: '[D] 🌍 其它地区 13'
   network: ws
   password: humanity
   port: 443
@@ -539,7 +576,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 25'
+- name: '[D] 🇨🇦 加拿大 24'
   network: ws
   password: humanity
   port: 443
@@ -548,7 +585,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 26'
+- name: '[D] 🇨🇦 加拿大 25'
   network: ws
   password: humanity
   port: 443
@@ -571,14 +608,14 @@ proxies:
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: '[D] 🇬🇧 英国 01'
+- name: '[D] 🇬🇧 英国 04'
   network: tcp
   port: 22223
   server: 18.168.125.235
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🌍 其它地区 10'
+- name: '[D] 🌍 其它地区 14'
   network: ws
   port: 80
   server: 18.239.134.69
@@ -589,28 +626,28 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
     path: /
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 05'
   network: tcp
   port: 22223
   server: 18.169.233.193
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 06'
   network: tcp
   port: 22222
   server: 18.168.125.235
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇬🇧 英国 04'
+- name: '[D] 🇬🇧 英国 07'
   network: tcp
   port: 22222
   server: 18.169.233.193
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇬🇧 英国 05'
+- name: '[D] 🇬🇧 英国 08'
   network: tcp
   port: 22224
   server: 18.169.233.193
@@ -619,7 +656,7 @@ proxies:
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 10'
   network: tcp
   port: 10092
   reality-opts:
@@ -631,7 +668,7 @@ proxies:
   type: vless
   uuid: a0b4d03b-b561-46aa-96f6-d03fa222a65e
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 16'
   password: ljqdalu13..
   port: 8313
   server: 13.231.190.140
