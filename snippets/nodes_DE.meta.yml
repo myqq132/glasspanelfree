@@ -7,3 +7,15 @@ proxies:
   sni: nlb4.mangshe.xyz
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 02'
+  port: 443
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  tls: false
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
