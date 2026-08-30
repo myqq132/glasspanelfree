@@ -1,12 +1,27 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  port: 8443
-  server: 159.223.157.129
-  skip-cert-verify: true
+  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+  port: 443
+  server: ush2.shazamri.xyz
+  sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
+  password: c3e44804-5149-4bfe-9a33-d5051af3c65e
+  port: 28133
+  server: 192.227.229.51
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: 600bbee3-1f42-4877-8a4f-770582752ade
+  port: 8443
+  server: ush2.snowdnvpno4.com
+  sni: ush2.snowdnvpno4.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
   password: 099830134df5ac3a04a4b21d39b8c395
   port: 50160
   server: 163.192.14.135
@@ -14,77 +29,19 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: f9e76796-72ba-4af1-9435-a556bd81c140
-  port: 55000
-  server: 156.229.163.112
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 05'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -92,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   password: humanity
   port: 443
@@ -103,7 +60,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   password: humanity
   port: 443
@@ -114,7 +71,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   password: humanity
   port: 443
@@ -123,7 +80,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443
