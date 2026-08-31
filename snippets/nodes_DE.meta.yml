@@ -1,29 +1,21 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: nlb4.mangshe.xyz
-  skip-cert-verify: true
-  sni: nlb4.mangshe.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇩🇪 德国 02'
+  name: '[B] 🇩🇪 德国 01'
   password: 39152f8b-0bcf-494e-b314-261ca875280c
   port: 5020
   server: 31.77.220.152
   sni: special.aeternavpn.space
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 03'
+- name: '[B] 🇩🇪 德国 02'
   password: 39152f8b-0bcf-494e-b314-261ca875280c
   port: 5020
   server: 31.77.220.152
   sni: special.aeternavpn.space
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   password: humanity
   port: 443
