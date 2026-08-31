@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 04'
+  network: ws
+  port: '65531'
+  server: 78.31.249.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 05'
+  network: ws
+  port: '65531'
+  server: 78.31.249.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
