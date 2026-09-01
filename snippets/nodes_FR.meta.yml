@@ -1,17 +1,18 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.185
-  sni: hopp-romania-new.roxa.org
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.66.84.16
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 02'
-  password: hysteria2_fastlane_qn9oi6zlt
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 2.27.28.106
-  skip-cert-verify: false
-  sni: de8.h.fastlanehosting.ru
+  server: 3.66.84.16
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
@@ -19,23 +20,23 @@ proxies:
   port: 443
   server: 3.66.84.16
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 3.66.84.16
+  server: vpn-de-001.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 3.66.84.16
+  server: vpn-de-001.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 06'
@@ -43,29 +44,6 @@ proxies:
   port: 443
   server: vpn-de-001.fastervpn.world
   skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
   sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
-  password: 990c8eb6-4c4e-4277-8602-79af8402cdd0
-  port: 8443
-  server: 45.145.43.56
-  sni: speedtestmark.com
   tls: false
   type: hysteria2
