@@ -1,5 +1,13 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: nlb4.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb4.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
   password: 0db4a6c709ca4a46153af8a401b7138a
   port: 8443
   server: se.allgoodvpn.su
@@ -7,12 +15,53 @@ proxies:
   sni: se.allgoodvpn.su
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 03'
   network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 16632
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 04'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: ca68cf56-7c3c-4127-816e-7442de9176b7
+  ws-opts:
+    headers:
+      Host: 7ddc7ef7c7f198c5e7dbed9634157ca7.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 05'
+  port: 443
+  server: 5.83.129.124
+  servername: 50gport3.potatosubge20.org
+  tls: true
+  type: vless
+  uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 06'
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: 8ed52c4d-1fe1-4c08-b46f-ca8eb2729cb9
+  ws-opts:
+    headers:
+      Host: f406e32143bc023a8819a6335733f851.mobgslb.tbcache.com
+    path: /
