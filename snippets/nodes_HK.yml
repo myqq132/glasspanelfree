@@ -4,42 +4,42 @@ proxies:
   name: '[B] 🇭🇰 香港 04'
   network: ws
   port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 05'
   network: ws
-  port: '443'
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
-  network: ws
-  port: '62283'
-  server: jp.6807251.xyz
+  port: '46945'
+  server: 189.24.106.165
   servername: ''
   tls: false
   type: vmess
   uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
   ws-opts:
     headers:
-      Host: a.189.cn
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: n1747624274.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
     path: /
 - alterId: 2
   cipher: auto

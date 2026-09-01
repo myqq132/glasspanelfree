@@ -4,85 +4,57 @@ proxies:
   name: '[B] 🇭🇰 香港 04'
   network: ws
   port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 05'
   network: ws
-  port: '443'
-  server: u2frxj0g13vdi0wo.v.3dns.vip
+  port: '46945'
+  server: 189.24.106.165
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
   ws-opts:
     headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 06'
   network: ws
-  port: '62283'
-  server: jp.6807251.xyz
+  port: '443'
+  server: n1747624274.4u9ma.icu
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
-      Host: a.189.cn
+      Host: n1747624274.4u9ma.icu
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
+  name: '[B] 🌍 其它地区 04'
   network: ws
-  port: '34228'
-  server: jp.6807251.xyz
+  port: '14812'
+  server: 130.94.93.63
   servername: ''
   tls: false
   type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  uuid: 777d0ead-970a-4144-b8aa-e3aaf3a621f6
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 34228
-  server: jp.6807251.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+    path: /777d0ead
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 05'
   password: amazonskr05
@@ -147,7 +119,7 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇸🇬 新加坡 20'
+- name: '[C] 🇸🇬 新加坡 24'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -156,18 +128,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 03'
+  name: '[C] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 04'
+  name: '[C] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -176,14 +148,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇨🇳 台湾 03'
+  name: '[C] 🇨🇳 台湾 01'
   password: Butterfly123@qwe9527
   port: 30001
   server: 36.33.35.105
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -196,7 +168,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇯🇵 日本 05'
+  network: ws
+  port: 34228
+  server: jp.6807251.xyz
+  tls: false
+  type: vmess
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  ws-opts:
+    headers:
+      Host: a.189.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 16617
   server: planb.mojcn.com.linuxlh.xin
@@ -209,7 +194,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -224,7 +209,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 01'
+  name: '[D] 🇨🇦 加拿大 02'
   network: ws
   password: humanity
   port: 443
@@ -233,7 +218,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   password: humanity
   port: 443
@@ -253,7 +238,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
@@ -261,7 +246,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -270,7 +255,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
@@ -281,7 +266,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 12'
+- name: '[D] 🇨🇦 加拿大 13'
   network: ws
   password: humanity
   port: 443
@@ -292,7 +277,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 13'
+- name: '[D] 🇨🇦 加拿大 14'
   network: ws
   password: humanity
   port: 443
@@ -303,7 +288,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 14'
+- name: '[D] 🇨🇦 加拿大 15'
   network: ws
   password: humanity
   port: 443
@@ -314,7 +299,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 15'
+- name: '[D] 🇨🇦 加拿大 16'
   network: ws
   password: humanity
   port: 443
@@ -325,7 +310,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 16'
+- name: '[D] 🇨🇦 加拿大 17'
   network: ws
   password: humanity
   port: 443
@@ -345,7 +330,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 18'
+- name: '[D] 🇨🇦 加拿大 19'
   network: ws
   password: humanity
   port: 443

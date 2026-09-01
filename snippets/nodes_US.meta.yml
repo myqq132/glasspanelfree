@@ -1,5 +1,37 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+  port: 443
+  server: ush2.shazamri.xyz
+  skip-cert-verify: true
+  sni: ush2.shazamri.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
   password: c3e44804-5149-4bfe-9a33-d5051af3c65e
   port: 28133
   server: 192.227.229.51
@@ -7,33 +39,19 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 03'
+  name: '[C] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 04'
+  name: '[C] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -44,7 +62,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 69.46.46.124
@@ -58,7 +76,7 @@ proxies:
       Host: norl-production.up.railway.app
     path: /ws/6abbc9ed-209e-94d7-98e2-e315b5ff3aa9
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 10'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -70,7 +88,7 @@ proxies:
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 11'
   port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30

@@ -1,23 +1,14 @@
 proxies:
 - name: '[B] 🇩🇪 德国 01'
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: nlb4.mangshe.xyz
-  skip-cert-verify: true
-  sni: nlb4.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 0db4a6c709ca4a46153af8a401b7138a
-  port: 8443
-  server: se.allgoodvpn.su
-  skip-cert-verify: false
-  sni: se.allgoodvpn.su
+  password: c0d1d7e1-7ce6-425d-a0ff-27b7eec8c533
+  port: 40443
+  server: mmz2-bs1.se.deepl-cdn.com
+  sni: se.deepl-cdn.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -30,7 +21,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 16617
   server: planb.mojcn.com.linuxlh.xin
@@ -45,7 +36,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   port: 443
   server: 5.83.129.124
   servername: 50gport3.potatosubge20.org
@@ -54,7 +45,7 @@ proxies:
   uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin

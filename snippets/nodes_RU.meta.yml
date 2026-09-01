@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] 🇷🇺 俄罗斯 01'
+  password: 52b140a1-1e12-4410-9532-ebaee7cec3a1
+  port: 5443
+  server: brbr.hisan.space
+  sni: brbr.hisan.space
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 01'
+  name: '[D] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +21,7 @@ proxies:
   uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 02'
+  name: '[D] 🇷🇺 俄罗斯 03'
   port: 16445
   reality-opts:
     public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
