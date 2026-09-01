@@ -1,12 +1,19 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 205.237.109.175
+  sni: hopp-netherland-new.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 02'
   network: tcp
   port: 22223
   server: 16.61.172.239
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 03'
   network: ws
   port: 2087
   server: 188.220.67.140
@@ -15,7 +22,7 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 04'
   network: tcp
   port: 22224
   server: 16.61.172.239

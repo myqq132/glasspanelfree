@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 01'
+  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
+  port: 24444
+  server: give.internet-card.sbs
+  sni: bel7bel.internet-card.sbs
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 02'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: gta.internet-card.sbs
+  sni: gta.internet-card.sbs
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 03'
+  password: uowQGj5hGoMerPtQE2sZV-ETleLUgimbKf3q8TWfijQ
+  port: 34444
+  server: give.internet-card.sbs
+  sni: wata.internet-card.sbs
+  tls: false
+  type: hysteria2
