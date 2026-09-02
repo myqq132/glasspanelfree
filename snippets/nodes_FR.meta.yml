@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: 79d6a159-67c8-4164-9534-89f103c81aaf
+  port: 443
+  server: 95.85.252.110
+  sni: crt.ultimagamest.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
