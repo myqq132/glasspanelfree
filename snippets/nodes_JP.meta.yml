@@ -1,5 +1,45 @@
 proxies:
-- name: '[C] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb8.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb8.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
+  password: 4d6d97a82ddf959252e2ada36c3c3053
+  port: 50160
+  server: 138.2.8.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 03'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: rb.xueshan168.cc
+  skip-cert-verify: true
+  sni: rb.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb1.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 05'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb7.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb7.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -8,27 +48,22 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 02'
+  name: '[C] 🇯🇵 日本 07'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 03'
+  name: '[C] 🇯🇵 日本 08'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  name: '[D] 🇯🇵 日本 04'
+- name: '[D] 🇯🇵 日本 09'
   network: ws
   port: 443
-  server: 202.155.11.249
-  servername: cf2.rumedia-cdn.com
+  server: www.speedtest.net
+  servername: top-e4s.pages.dev
   tls: true
   type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  ws-opts:
-    headers:
-      Host: cf2.rumedia-cdn.com
-    path: '%2Fcdn%2Fv3%2Flive'
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
