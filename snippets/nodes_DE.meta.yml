@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: a307dbfd-1069-4880-950a-b5f5e82c3478
+  port: 443
+  server: vault.ressel-radar.shop
+  sni: vault.ressel-radar.shop
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
