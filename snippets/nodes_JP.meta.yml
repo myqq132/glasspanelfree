@@ -1,5 +1,13 @@
 proxies:
-- name: '[C] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
+  password: 4d6d97a82ddf959252e2ada36c3c3053
+  port: 50160
+  server: 138.2.8.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -8,22 +16,28 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 02'
+  name: '[C] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 03'
+  name: '[C] 🇯🇵 日本 04'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[D] 🇯🇵 日本 04'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 05'
   network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: top-e4s.pages.dev
-  tls: true
-  type: vless
-  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
