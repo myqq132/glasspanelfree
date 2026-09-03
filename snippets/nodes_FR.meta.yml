@@ -14,11 +14,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  password: d9a3a0a2-3bbf-4c04-9ca6-95c7c8390ae7
   port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  server: dereserv.just-cloud.org
+  sni: dereserv.just-cloud.org
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 04'
@@ -26,10 +25,26 @@ proxies:
   port: 443
   server: vpn-de-001.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 05'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 06'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 07'
   password: 2_hysteria2_fastlane_udfa4x14j
   port: 443
   server: 2.27.25.75
@@ -39,7 +54,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 06'
+  name: '[B] 🇫🇷 法国 08'
   network: tcp
   port: '1819'
   server: 185.204.171.95
