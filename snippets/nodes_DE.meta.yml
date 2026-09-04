@@ -7,7 +7,23 @@ proxies:
   sni: se1.hat.onl
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 02'
+  password: 7027919f-ffc6-4cbf-92a7-af1c0f860b86
+  port: 443
+  server: 2.26.93.130
+  skip-cert-verify: true
+  sni: se1.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 03'
+  password: e11728c3-a786-44b9-ad8b-0b7e738d33bd
+  port: 443
+  server: 2.26.93.130
+  skip-cert-verify: true
+  sni: se1.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 04'
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -20,7 +36,7 @@ proxies:
     path: /29c8fed7ca22
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 16626
   server: planb.mojcn.com.linuxlh.xin
@@ -33,7 +49,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 06'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
