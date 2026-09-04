@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- name: '[B] CH 01'
+  password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
+  port: 443
+  server: 144.31.218.147
+  skip-cert-verify: true
+  sni: cz1.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[B] CH 02'
+  password: 7027919f-ffc6-4cbf-92a7-af1c0f860b86
+  port: 443
+  server: 144.31.218.147
+  sni: cz1.hat.onl
+  tls: false
+  type: hysteria2

@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg1.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: 7027919f-ffc6-4cbf-92a7-af1c0f860b86
+  port: 443
+  server: 193.23.216.87
+  sni: de2.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: e11728c3-a786-44b9-ad8b-0b7e738d33bd
+  port: 443
+  server: 193.23.216.87
+  sni: de2.hat.onl
+  tls: false
+  type: hysteria2
