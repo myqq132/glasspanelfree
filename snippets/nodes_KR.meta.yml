@@ -58,6 +58,22 @@ proxies:
 - name: '[B] 🇰🇷 韩国 08'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
+  server: 13.124.233.211
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.11.91
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇰🇷 韩国 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
   server: 13.125.11.91
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
