@@ -24,26 +24,47 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
-  password: 29c2de1cf5408523ed4d3252199079d2
+  password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
   port: 443
-  server: 108.59.244.158
-  skip-cert-verify: true
-  sni: vk.ru
+  server: nice-route-us.whit3.net
+  sni: nice-route-us.whit3.net
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -51,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   password: humanity
   port: 443
@@ -60,7 +81,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443

@@ -1,5 +1,13 @@
 proxies:
-- name: '[D] 🇨🇳 中国 01'
+- name: '[B] 🇨🇳 中国 01'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: xg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: hdlb1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[D] 🇨🇳 中国 02'
   port: 52683
   server: jp.sofast.live
   tls: false
