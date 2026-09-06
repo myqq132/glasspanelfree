@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: '[D] SE 01'
+  network: ws
+  port: 8443
+  server: 167.104.104.138
+  servername: n.tmkkarss.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a5194487-9b9a-462f-a047-ac7580d80201
