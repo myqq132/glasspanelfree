@@ -27,15 +27,14 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[D] 🇯🇵 日本 05'
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: '[D] 🇯🇵 日本 05'
+  network: tcp
   port: 443
-  server: www.speedtest.net
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  tls: false
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3

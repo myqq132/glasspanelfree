@@ -1,13 +1,11 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
+- client-fingerprint: chrome
+  name: '[D] 🇬🇧 英国 01'
   network: ws
   port: 2087
   server: 188.220.67.245
-  servername: 188.220.67.245
   tls: false
   type: vless
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    headers:
-      Host: ''
-    path: /8f2690e2d016
+    path: '%2F8f2690e2d016'
