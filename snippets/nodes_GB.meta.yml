@@ -1,13 +1,5 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 443
-  server: labs.frkn.org
-  skip-cert-verify: true
-  sni: labs.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 01'
   network: ws
   port: 2087
   server: 188.220.67.245
