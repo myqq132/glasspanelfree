@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bEyseuYLi3GTDy48DYi0yiPjrc8sFiRK6F6LsyxHV3s
+  server: 45.145.40.99
+  servername: dvcvx.cloudvk.cc
+  tls: false
+  type: vless
+  uuid: 14f4be39-cb89-4f2b-8200-704666b6fa4e
