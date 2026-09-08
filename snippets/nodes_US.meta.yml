@@ -40,14 +40,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 06'
-  password: b081bce0-aa8f-11f1-8bc0-6204817a15bb
-  port: 8444
-  server: apkav-1.bosx.net
-  skip-cert-verify: true
-  sni: apkaz-1.bosx.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
   password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
   port: 4434
   server: 204.152.221.119
@@ -55,7 +47,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 07'
   password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
   port: 4434
   server: 204.152.221.119
@@ -63,7 +55,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 08'
   password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
   port: 4434
   server: 204.152.221.119
@@ -71,7 +63,7 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 09'
   password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
   port: 4434
   server: 204.152.221.119
@@ -81,10 +73,10 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 11'
+  name: '[B] 🇺🇸 美国 10'
   network: ws
   port: '8443'
-  server: 172.64.80.1
+  server: chatgpt.com
   servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
@@ -94,18 +86,18 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 13'
+  name: '[C] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 14'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -113,7 +105,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 15'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -122,7 +114,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 16'
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
