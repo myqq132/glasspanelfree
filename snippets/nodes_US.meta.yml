@@ -34,24 +34,20 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
+  network: tcp
+  port: '110'
+  server: newrelax.relaxedboy.online
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 06'
   network: ws
   port: '8443'
-  server: chatgpt.com
-  servername: ''
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -71,21 +67,35 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
       Host: ''
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 10'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -95,7 +105,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 11'
+  name: '[D] 🇺🇸 美国 12'
   network: tcp
   port: 443
   reality-opts:
@@ -106,7 +116,7 @@ proxies:
   tls: false
   type: vless
   uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 13'
   network: ws
   password: humanity
   port: 443
