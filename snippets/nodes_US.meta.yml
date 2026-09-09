@@ -39,19 +39,34 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -61,7 +76,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 11'
   network: tcp
   port: 443
   reality-opts:
@@ -72,7 +87,7 @@ proxies:
   tls: false
   type: vless
   uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   password: humanity
   port: 443
