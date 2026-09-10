@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 01'
+  port: 443
+  server: en-new.moriarty-web.com
+  servername: en-new.moriarty-web.com
+  tls: true
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
