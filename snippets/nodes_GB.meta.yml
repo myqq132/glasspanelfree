@@ -1,17 +1,9 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇬🇧 英国 02'
+  name: '[D] 🇬🇧 英国 01'
   port: 443
   server: en-new.moriarty-web.com
   servername: en-new.moriarty-web.com
