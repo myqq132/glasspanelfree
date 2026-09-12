@@ -1,89 +1,9 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 01'
-  password: df8d55f9-fb51-442d-902a-bf8160dc051b
-  port: 11100
-  server: brb.nnpy.org
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇳 中国 01'
+- name: '[B] 🇫🇷 法国 01'
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
-  server: xg1.mangshe.xyz
+  server: dg2.mangshe.xyz
   skip-cert-verify: true
-  sni: hdlb1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] CH 01'
-  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
-  port: 443
-  server: cze-01.node.lumixnet.com
-  skip-cert-verify: false
-  sni: cze-01.node.lumixnet.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 02'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: fr.vpn.legendaah.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  port: 50160
-  server: 129.159.156.109
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 01'
@@ -94,23 +14,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 05'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: mlxy2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mlxy2.mangshe.xyz
-  tls: false
-  type: hysteria2
 - name: '[B] 🇸🇬 新加坡 01'
-  password: 436114b5f36b2e704bdfa0927d57b6cd
-  port: 50160
-  server: 47.241.108.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 02'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -150,7 +54,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[B] CH 02'
+- name: '[B] CH 01'
   password: 84a506ca5aca505696a454d828420b3f
   port: 50160
   server: 140.238.213.114
@@ -158,13 +62,28 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇬🇧 英国 01'
+  password: b3a11068-1a7e-4643-85de-7c82cce46943
+  port: 10451
+  server: 82.38.171.81
+  sni: uk.shamanapp.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-uk-001.fastervpn.world
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 01'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇺🇸 美国 02'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -173,10 +92,66 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 01'
+  name: '[B] 🌍 其它地区 01'
   network: ws
   port: '443'
-  server: 212.95.34.195
+  server: 64.188.82.159
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 02'
+  network: ws
+  port: '443'
+  server: 95.182.94.210
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 03'
+  network: ws
+  port: '443'
+  server: 145.63.134.175
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 04'
+  network: ws
+  port: '443'
+  server: 185.230.190.29
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 05'
+  network: ws
+  port: '443'
+  server: 195.85.23.225
   servername: ''
   tls: true
   type: vmess
@@ -190,7 +165,7 @@ proxies:
   name: '[B] 🇫🇷 法国 02'
   network: ws
   port: '443'
-  server: 212.43.156.143
+  server: 2.27.16.177
   servername: ''
   tls: true
   type: vmess
@@ -204,21 +179,7 @@ proxies:
   name: '[B] 🇫🇷 法国 03'
   network: ws
   port: '443'
-  server: 108.165.236.142
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 04'
-  network: ws
-  port: '443'
-  server: 185.137.223.71
+  server: 111.88.74.167
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -229,7 +190,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 05'
+  name: '[B] 🇫🇷 法国 04'
   network: ws
   port: '443'
   server: 188.253.25.172
@@ -243,11 +204,11 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 06'
+  name: '[B] 🇫🇷 法国 05'
   network: ws
   port: '443'
-  server: 193.181.212.81
-  servername: ''
+  server: 194.164.192.16
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -257,7 +218,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 07'
+  name: '[B] 🇫🇷 法国 06'
   network: ws
   port: '443'
   server: 132.243.22.80
@@ -271,10 +232,10 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 08'
+  name: '[B] 🇫🇷 法国 07'
   network: ws
   port: '443'
-  server: 147.45.125.231
+  server: 144.225.130.23
   servername: ''
   tls: true
   type: vmess
@@ -285,21 +246,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 09'
-  network: ws
-  port: '443'
-  server: 31.15.19.180
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 10'
+  name: '[B] 🇫🇷 法国 08'
   network: ws
   port: '443'
   server: 31.77.223.21
@@ -313,63 +260,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 11'
-  network: ws
-  port: '443'
-  server: 35.241.172.224
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 12'
-  network: ws
-  port: '443'
-  server: 45.138.72.141
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 13'
-  network: ws
-  port: '443'
-  server: 45.144.154.149
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 14'
-  network: ws
-  port: '443'
-  server: 64.188.106.254
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 15'
+  name: '[B] 🇫🇷 法国 09'
   network: ws
   port: '443'
   server: 64.188.97.153
@@ -383,11 +274,95 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 16'
+  name: '[B] 🇫🇷 法国 10'
+  network: ws
+  port: '443'
+  server: 5.101.122.59
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 11'
+  network: ws
+  port: '443'
+  server: 5.255.109.47
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 12'
+  network: ws
+  port: '443'
+  server: 5.39.249.167
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 13'
+  network: ws
+  port: '443'
+  server: 82.139.242.5
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 14'
+  network: ws
+  port: '443'
+  server: 89.42.142.63
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 15'
   network: ws
   port: '443'
   server: 85.159.228.232
-  servername: ''
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 16'
+  network: ws
+  port: '443'
+  server: 90.127.143.135
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -400,7 +375,7 @@ proxies:
   name: '[B] 🇫🇷 法国 17'
   network: ws
   port: '443'
-  server: 90.127.143.135
+  server: 94.159.105.148
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -415,7 +390,7 @@ proxies:
   network: ws
   port: '443'
   server: 95.81.126.119
-  servername: renderer-stream-2-62.mirra.now
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -428,8 +403,8 @@ proxies:
   name: '[B] 🇫🇷 法国 19'
   network: ws
   port: '443'
-  server: 178.248.75.57
-  servername: renderer-stream-2-62.mirra.now
+  server: 95.85.233.138
+  servername: ''
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -442,7 +417,7 @@ proxies:
   name: '[B] 🇫🇷 法国 20'
   network: ws
   port: '443'
-  server: 2.27.16.177
+  server: 80.74.25.110
   servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
@@ -453,77 +428,21 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
+  name: '[B] 🇫🇷 法国 21'
+  network: ws
+  port: '443'
+  server: 212.43.156.143
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
   name: '[B] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: www.pubgmobile.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: 47.86.107.119
-  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
   network: ws
   port: '443'
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -537,35 +456,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 07'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: 156.245.232.239
-    path: /
-- alterId: 0
-  cipher: auto
   name: '[B] 🌍 其它地区 06'
-  network: ws
-  port: '49667'
-  server: 118.193.57.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /d46bf492
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 07'
   network: ws
   port: '33736'
   server: 78.17.71.236
@@ -579,11 +470,11 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 08'
+  name: '[B] 🌍 其它地区 07'
   network: ws
   port: '33736'
   server: 78.17.71.236
-  servername: ''
+  servername: Telegram-Leviko_v2ray
   tls: false
   type: vmess
   uuid: b3a11068-1a7e-4643-85de-7c82cce46943
@@ -593,65 +484,23 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 09'
+  name: '[B] 🌍 其它地区 08'
   network: tcp
-  port: '30011'
-  server: 23.137.249.110
-  servername: 23.137.249.110
-  tls: true
-  type: vmess
-  uuid: a7aee69e-6e02-47d1-8172-701866bbb28c
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 10'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
+  port: '30830'
+  server: v30.hdacd.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 10'
+  name: '[C] 🌍 其它地区 09'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 08'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -660,18 +509,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 09'
+  name: '[C] 🇭🇰 香港 03'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 10'
+  name: '[C] 🇭🇰 香港 04'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[C] 🇭🇰 香港 11'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 2716
@@ -679,7 +528,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 12'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 51391
@@ -707,7 +556,7 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -716,18 +565,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 03'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 04'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 13'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -845,7 +694,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 10'
   network: tcp
   port: 443
   reality-opts:
@@ -876,7 +725,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 11'
   port: 9443
   reality-opts:
     public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
@@ -934,7 +783,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   password: humanity
   port: 443
@@ -943,7 +792,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 15'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   password: humanity
   port: 443
@@ -952,7 +801,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 16'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   password: humanity
   port: 443
@@ -972,7 +821,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 17'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   password: humanity
   port: 443
@@ -1034,7 +883,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 13'
+- name: '[D] 🌍 其它地区 12'
   network: ws
   password: humanity
   port: 443
@@ -1179,7 +1028,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 14'
+- name: '[D] 🌍 其它地区 13'
   network: ws
   password: humanity
   port: 443
@@ -1199,7 +1048,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 15'
+- name: '[D] 🌍 其它地区 14'
   network: ws
   password: humanity
   port: 443
@@ -1210,7 +1059,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 16'
+- name: '[D] 🌍 其它地区 15'
   network: ws
   password: humanity
   port: 443
@@ -1221,7 +1070,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 17'
+- name: '[D] 🌍 其它地区 16'
   network: ws
   password: humanity
   port: 443
@@ -1230,7 +1079,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 18'
+- name: '[D] 🌍 其它地区 17'
   network: ws
   password: humanity
   port: 443
@@ -1239,7 +1088,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 19'
+- name: '[D] 🌍 其它地区 18'
   network: ws
   password: humanity
   port: 443
@@ -1250,7 +1099,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 20'
+- name: '[D] 🌍 其它地区 19'
   network: ws
   password: humanity
   port: 443
@@ -1261,7 +1110,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 21'
+- name: '[D] 🌍 其它地区 20'
   network: ws
   password: humanity
   port: 443
@@ -1270,7 +1119,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 22'
+- name: '[D] 🌍 其它地区 21'
   network: ws
   password: humanity
   port: 443
@@ -1281,7 +1130,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 23'
+- name: '[D] 🌍 其它地区 22'
   network: ws
   password: humanity
   port: 443
@@ -1290,7 +1139,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 24'
+- name: '[D] 🌍 其它地区 23'
   network: ws
   password: humanity
   port: 443
@@ -1301,7 +1150,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 25'
+- name: '[D] 🌍 其它地区 24'
   network: ws
   password: humanity
   port: 443
@@ -1310,7 +1159,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 26'
+- name: '[D] 🌍 其它地区 25'
   network: ws
   password: humanity
   port: 443
@@ -1319,7 +1168,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 27'
+- name: '[D] 🌍 其它地区 26'
   network: ws
   password: humanity
   port: 443
@@ -1330,7 +1179,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 28'
+- name: '[D] 🌍 其它地区 27'
   network: ws
   password: humanity
   port: 443
@@ -1339,7 +1188,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 29'
+- name: '[D] 🌍 其它地区 28'
   network: ws
   password: humanity
   port: 443
@@ -1348,7 +1197,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 30'
+- name: '[D] 🌍 其它地区 29'
   network: ws
   password: humanity
   port: 443
@@ -1359,7 +1208,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 31'
+- name: '[D] 🌍 其它地区 30'
   network: ws
   password: humanity
   port: 443
@@ -1368,7 +1217,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 32'
+- name: '[D] 🌍 其它地区 31'
   network: ws
   password: humanity
   port: 443
@@ -1379,7 +1228,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 33'
+- name: '[D] 🌍 其它地区 32'
   network: ws
   password: humanity
   port: 443
@@ -1388,7 +1237,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 34'
+- name: '[D] 🌍 其它地区 33'
   network: ws
   password: humanity
   port: 443
@@ -1397,7 +1246,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 35'
+- name: '[D] 🌍 其它地区 34'
   network: ws
   password: humanity
   port: 443
@@ -1408,7 +1257,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 36'
+- name: '[D] 🌍 其它地区 35'
   network: ws
   password: humanity
   port: 443
@@ -1419,7 +1268,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 37'
+- name: '[D] 🌍 其它地区 36'
   network: ws
   password: humanity
   port: 443
@@ -1428,7 +1277,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 38'
+- name: '[D] 🌍 其它地区 37'
   network: ws
   password: humanity
   port: 443
@@ -1437,7 +1286,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 39'
+- name: '[D] 🌍 其它地区 38'
   network: ws
   password: humanity
   port: 443
@@ -1446,7 +1295,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 40'
+- name: '[D] 🌍 其它地区 39'
   network: ws
   password: humanity
   port: 443
@@ -1456,51 +1305,51 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 41'
+  name: '[D] 🌍 其它地区 40'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 82.110.60.9
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 42'
+  name: '[D] 🌍 其它地区 41'
   password: c58d16e593d44f42
   port: 11001
   server: 158.173.221.214
   type: ss
-- name: '[D] 🌍 其它地区 43'
+- name: '[D] 🌍 其它地区 42'
   network: tcp
   port: 58011
   server: us22.sofast.live
   tls: false
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '[D] 🌍 其它地区 44'
+- name: '[D] 🌍 其它地区 43'
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🌍 其它地区 45'
+  name: '[D] 🌍 其它地区 44'
   password: c032c3833d4b86b9
   port: 10210
   server: 87.83.220.214
   type: ss
-- name: '[D] 🌍 其它地区 46'
+- name: '[D] 🌍 其它地区 45'
   network: tcp
   port: 22223
   server: 15.237.145.224
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🌍 其它地区 47'
+- name: '[D] 🌍 其它地区 46'
   network: tcp
   port: 22222
   server: 15.237.145.224
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🌍 其它地区 48'
+- name: '[D] 🌍 其它地区 47'
   network: tcp
   port: 22224
   server: 15.237.145.224
@@ -1508,12 +1357,12 @@ proxies:
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 49'
+  name: '[D] 🌍 其它地区 48'
   password: BWyPPTusFKhGgzKh
   port: 8388
   server: 64.177.90.30
   type: ss
-- name: '[D] 🌍 其它地区 50'
+- name: '[D] 🌍 其它地区 49'
   network: ws
   password: humanity
   port: 443
@@ -1522,7 +1371,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🌍 其它地区 51'
+- name: '[D] 🌍 其它地区 50'
   network: ws
   password: humanity
   port: 443
@@ -1531,7 +1380,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🌍 其它地区 52'
+- name: '[D] 🌍 其它地区 51'
   network: ws
   password: humanity
   port: 443
@@ -1540,7 +1389,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🌍 其它地区 53'
+- name: '[D] 🌍 其它地区 52'
   network: ws
   password: humanity
   port: 443
@@ -1549,7 +1398,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🌍 其它地区 54'
+- name: '[D] 🌍 其它地区 53'
   network: ws
   password: humanity
   port: 443
@@ -1558,7 +1407,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[D] 🌍 其它地区 55'
+- name: '[D] 🌍 其它地区 54'
   network: ws
   password: humanity
   port: 443
@@ -1569,7 +1418,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 56'
+- name: '[D] 🌍 其它地区 55'
   network: ws
   password: humanity
   port: 443
@@ -1578,7 +1427,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 57'
+- name: '[D] 🌍 其它地区 56'
   network: ws
   password: humanity
   port: 443
@@ -1587,7 +1436,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 58'
+- name: '[D] 🌍 其它地区 57'
   network: ws
   password: humanity
   port: 443
@@ -1596,7 +1445,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 59'
+- name: '[D] 🌍 其它地区 58'
   network: ws
   port: 443
   server: 172.67.164.249
@@ -1608,7 +1457,7 @@ proxies:
     headers:
       Host: 6-m9.e29eacc3-4cf6-48c2-a90e-c53b3da8b1ef.kdns.fr
     path: '%2FBzuntJ8qZN0TRKbC8TveMxJ0'
-- name: '[D] 🌍 其它地区 60'
+- name: '[D] 🌍 其它地区 59'
   network: ws
   password: humanity
   port: 443
@@ -1617,7 +1466,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🌍 其它地区 61'
+- name: '[D] 🌍 其它地区 60'
   network: ws
   port: 443
   server: 172.67.222.216
