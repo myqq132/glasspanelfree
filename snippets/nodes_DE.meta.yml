@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  port: 8545
+  reality-opts:
+    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
+    short-id: '!!str e98c63b3c1a5d204'
+  server: 193.222.99.226
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
