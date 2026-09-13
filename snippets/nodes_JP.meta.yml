@@ -35,16 +35,12 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: unsafe
-  name: '[D] 🇯🇵 日本 06'
+- name: '[D] 🇯🇵 日本 06'
   network: ws
-  port: 2087
-  server: 188.114.97.6
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  password: humanity
+  port: 443
+  server: 172.67.74.2
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-    path: '%2F%3Fed%3D2560'
+    path: '%2Fassignment'
