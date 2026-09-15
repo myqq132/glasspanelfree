@@ -1,26 +1,65 @@
 proxies:
 - name: '[B] 🇨🇦 加拿大 01'
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 02'
-  password: f87376e17da040ed04c9665ce8972930
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 03'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: fr.vpn.legendaah.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 04'
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
   port: 50160
-  server: 138.2.73.238
+  server: 152.67.200.82
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 05'
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[B] 🇨🇦 加拿大 06'
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇨🇦 加拿大 07'
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇦 加拿大 03'
+  name: '[B] 🇨🇦 加拿大 08'
   network: ws
   port: '443'
-  server: 95.164.90.133
+  server: 2.27.16.177
   servername: ''
   tls: true
   type: vmess
@@ -31,10 +70,136 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇦 加拿大 04'
+  name: '[B] 🇨🇦 加拿大 09'
+  network: ws
+  port: '443'
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 10'
+  network: ws
+  port: '443'
+  server: 185.137.223.71
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 11'
+  network: ws
+  port: '443'
+  server: 13.140.28.46
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 12'
+  network: ws
+  port: '443'
+  server: 64.188.106.254
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 13'
+  network: ws
+  port: '443'
+  server: 5.39.249.167
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 14'
   network: ws
   port: '443'
   server: 5.101.122.59
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 15'
+  network: ws
+  port: '443'
+  server: 64.188.106.254
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: ''
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 16'
+  network: ws
+  port: '443'
+  server: 64.188.97.153
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 17'
+  network: ws
+  port: '443'
+  server: 111.88.74.167
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: ''
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 18'
+  network: ws
+  port: '443'
+  server: 178.248.75.57
   servername: ''
   tls: true
   type: vmess
@@ -45,11 +210,11 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇦 加拿大 05'
+  name: '[B] 🇨🇦 加拿大 19'
   network: ws
   port: '443'
-  server: 85.215.41.19
-  servername: ''
+  server: 212.95.34.195
+  servername: renderer-stream-2-62.mirra.now
   tls: true
   type: vmess
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
@@ -57,7 +222,35 @@ proxies:
     headers:
       Host: renderer-stream-2-62.mirra.now
     path: /api/v1/gpu-stream/socket
-- name: '[D] 🇨🇦 加拿大 06'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 20'
+  network: ws
+  port: '443'
+  server: 185.4.73.45
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 21'
+  network: ws
+  port: '443'
+  server: 45.158.127.48
+  servername: renderer-stream-2-62.mirra.now
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: '[D] 🇨🇦 加拿大 22'
   network: ws
   password: humanity
   port: 443
@@ -65,7 +258,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 23'
   network: ws
   password: humanity
   port: 443
@@ -76,7 +269,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 08'
+- name: '[D] 🇨🇦 加拿大 24'
   network: ws
   password: humanity
   port: 443
@@ -87,7 +280,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 09'
+- name: '[D] 🇨🇦 加拿大 25'
   network: ws
   password: humanity
   port: 443
@@ -96,7 +289,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 10'
+- name: '[D] 🇨🇦 加拿大 26'
   network: ws
   password: humanity
   port: 443
@@ -105,7 +298,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 11'
+- name: '[D] 🇨🇦 加拿大 27'
   network: ws
   password: humanity
   port: 443
@@ -114,7 +307,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 12'
+- name: '[D] 🇨🇦 加拿大 28'
   network: ws
   password: humanity
   port: 443
@@ -123,7 +316,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 13'
+- name: '[D] 🇨🇦 加拿大 29'
   network: ws
   password: humanity
   port: 443
@@ -132,7 +325,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 14'
+- name: '[D] 🇨🇦 加拿大 30'
   network: ws
   password: humanity
   port: 443
@@ -141,7 +334,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 15'
+- name: '[D] 🇨🇦 加拿大 31'
   network: ws
   password: humanity
   port: 443
@@ -150,7 +343,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 16'
+- name: '[D] 🇨🇦 加拿大 32'
   network: ws
   password: humanity
   port: 443
@@ -159,7 +352,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 17'
+- name: '[D] 🇨🇦 加拿大 33'
   network: ws
   password: humanity
   port: 443
@@ -168,7 +361,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 18'
+- name: '[D] 🇨🇦 加拿大 34'
   network: ws
   password: humanity
   port: 443
@@ -177,7 +370,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 19'
+- name: '[D] 🇨🇦 加拿大 35'
   network: ws
   password: humanity
   port: 443
@@ -186,7 +379,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 20'
+- name: '[D] 🇨🇦 加拿大 36'
   network: ws
   password: humanity
   port: 443
@@ -197,7 +390,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 21'
+- name: '[D] 🇨🇦 加拿大 37'
   network: ws
   password: humanity
   port: 443
@@ -206,7 +399,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 22'
+- name: '[D] 🇨🇦 加拿大 38'
   network: ws
   password: humanity
   port: 443
@@ -215,7 +408,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 23'
+- name: '[D] 🇨🇦 加拿大 39'
   network: ws
   password: humanity
   port: 443
@@ -226,7 +419,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 24'
+- name: '[D] 🇨🇦 加拿大 40'
   network: ws
   password: humanity
   port: 443
@@ -237,7 +430,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 25'
+- name: '[D] 🇨🇦 加拿大 41'
   network: ws
   password: humanity
   port: 443
@@ -246,7 +439,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 26'
+- name: '[D] 🇨🇦 加拿大 42'
   network: ws
   password: humanity
   port: 443
@@ -255,7 +448,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 27'
+- name: '[D] 🇨🇦 加拿大 43'
   network: ws
   password: humanity
   port: 443
@@ -264,7 +457,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 28'
+- name: '[D] 🇨🇦 加拿大 44'
   network: ws
   password: humanity
   port: 443
@@ -273,7 +466,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 29'
+- name: '[D] 🇨🇦 加拿大 45'
   network: ws
   password: humanity
   port: 443
@@ -284,7 +477,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 30'
+- name: '[D] 🇨🇦 加拿大 46'
   network: ws
   password: humanity
   port: 443
@@ -295,7 +488,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 31'
+- name: '[D] 🇨🇦 加拿大 47'
   network: ws
   password: humanity
   port: 443
@@ -304,7 +497,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 32'
+- name: '[D] 🇨🇦 加拿大 48'
   network: ws
   password: humanity
   port: 443
@@ -315,7 +508,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 33'
+- name: '[D] 🇨🇦 加拿大 49'
   network: ws
   password: humanity
   port: 443
@@ -324,7 +517,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 34'
+- name: '[D] 🇨🇦 加拿大 50'
   network: ws
   password: humanity
   port: 443
@@ -333,7 +526,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 35'
+- name: '[D] 🇨🇦 加拿大 51'
   network: ws
   password: humanity
   port: 443
@@ -342,7 +535,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 36'
+- name: '[D] 🇨🇦 加拿大 52'
   network: ws
   password: humanity
   port: 443
@@ -351,7 +544,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 37'
+- name: '[D] 🇨🇦 加拿大 53'
   network: ws
   password: humanity
   port: 443
@@ -360,7 +553,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 38'
+- name: '[D] 🇨🇦 加拿大 54'
   network: ws
   password: humanity
   port: 443
@@ -369,7 +562,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇨🇦 加拿大 39'
+- name: '[D] 🇨🇦 加拿大 55'
   network: ws
   password: humanity
   port: 443
