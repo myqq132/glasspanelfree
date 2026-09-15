@@ -1,21 +1,7 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 03'
+  name: '[B] 🇺🇸 美国 01'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -29,11 +15,11 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 02'
   network: ws
   port: '8443'
   server: chatgpt.com
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -42,8 +28,22 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
   cipher: none
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 04'
   network: tcp
   port: '443'
   server: 165.140.217.14
@@ -53,7 +53,7 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: none
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 05'
   network: tcp
   port: '443'
   server: 165.140.217.141
@@ -63,10 +63,20 @@ proxies:
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 06'
   network: tcp
   port: '443'
   server: 165.140.217.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: tcp
+  port: '443'
+  server: 165.140.217.30
   servername: ''
   tls: false
   type: vmess
@@ -81,19 +91,49 @@ proxies:
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: none
+  name: '[B] 🇺🇸 美国 09'
+  network: tcp
+  port: '443'
+  server: 165.140.217.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: tcp
+  port: '443'
+  server: 165.140.217.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 11'
+  network: ''
+  port: '443'
+  server: 165.140.217.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 13'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -101,22 +141,54 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 12'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 15'
+  network: ws
+  port: 443
+  server: 69.46.46.31
+  servername: service-c12794-5ba014-production.up.railway.app
+  tls: true
+  type: vless
+  uuid: 10c3b62f-59da-55cb-b24f-2072ecb4348c
+  ws-opts:
+    headers:
+      Host: service-c12794-5ba014-production.up.railway.app
+    path: /ws/Default
+- alpn:
+  - http/1.1
+  name: '[D] 🇺🇸 美国 16'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-22s.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: '[D] 🇺🇸 美国 17'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 199.232.78.101
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11s.global.ssl.fastly.net
+    path: '@mehrosaboran'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
   server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 13'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
