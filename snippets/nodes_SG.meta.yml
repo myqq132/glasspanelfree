@@ -7,7 +7,17 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 02'
+  network: tcp
+  port: '38320'
+  server: 124.151.45.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 41142
