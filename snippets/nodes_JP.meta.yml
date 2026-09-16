@@ -19,16 +19,14 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: chrome
-  name: '[D] 🇯🇵 日本 04'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sRTNjrosfFSiuQX7Yt7Ub5DJvFznfHSC3nlzFQ3H2WU
-  server: 89.47.55.5
-  servername: cdn.steamstatic.com
+- name: '[D] 🇯🇵 日本 04'
+  network: ws
+  port: 2095
+  server: www.csgo.net
   tls: false
   type: vless
-  uuid: 1e4668ca-6526-84ac-2a53-28bbc209da13
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
+    headers:
+      Host: pornbitches.asshole.us.ci
     path: /
