@@ -1,26 +1,61 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 01'
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
+  server: api.fastline-labs.com
+  sni: api.fastline-labs.com
   tls: false
   type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: se.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: se.xiaoliyu.cyou
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 02'
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
+  server: git.fastline-labs.com
+  sni: git.fastline-labs.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 03'
-  network: tcp
-  port: '2086'
-  server: 91.107.146.97
-  servername: ''
+  port: 6444
+  reality-opts:
+    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
+    short-id: '!!str a1b2c3d4'
+  server: 31.56.189.224
+  servername: capture.aeternavpn.space
   tls: false
-  type: vmess
-  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+  type: vless
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 04'
+  port: 443
+  reality-opts:
+    public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
+    short-id: '!!str 3d475d331e49eee8'
+  server: de1-web.mysoyka.online
+  servername: de1-web.mysoyka.online
+  tls: false
+  type: vless
+  uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
+- name: '[D] 🇩🇪 德国 05'
+  network: ws
+  password: humanity
+  port: 443
+  server: 88.198.82.150
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[D] 🇩🇪 德国 06'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

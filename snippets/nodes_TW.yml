@@ -5,7 +5,7 @@ proxies:
   network: ws
   port: '443'
   server: 7dba81fc3a0b.oylfmxz.cn
-  servername: 7dba81fc3a0b.oylfmxz.cn
+  servername: ''
   tls: true
   type: vmess
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
@@ -33,7 +33,7 @@ proxies:
   network: ws
   port: '443'
   server: 7dba81fc3a0b.oylfmxz.cn
-  servername: 7dba81fc3a0b.oylfmxz.cn
+  servername: ''
   tls: true
   type: vmess
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
@@ -47,16 +47,3 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇨🇳 台湾 05'
-  network: ws
-  port: '443'
-  server: 82259754d625.oylfmxz.cn
-  tls: true
-  type: vmess
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  ws-opts:
-    headers:
-      Host: 82259754d625.oylfmxz.cn
-    path: /
