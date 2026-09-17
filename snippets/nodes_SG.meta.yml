@@ -7,7 +7,15 @@ proxies:
   sni: sg3.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 02'
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 41142
@@ -17,7 +25,7 @@ proxies:
   type: trojan
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 03'
+  name: '[D] 🇸🇬 新加坡 04'
   port: 55555
   reality-opts:
     public-key: godKGcXdZIpRF-dvdGR5JMdjwdHoi_TULHWm3GlZyhs
