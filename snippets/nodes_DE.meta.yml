@@ -1,7 +1,22 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: se.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: '2086'
   server: 91.107.146.97
