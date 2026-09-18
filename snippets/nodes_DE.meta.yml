@@ -4,13 +4,22 @@ proxies:
   name: '[B] 🇩🇪 德国 01'
   password: f89c89df-905c-4df3-ab07-4f1a37a81005
   port: 443
+  server: api.fastline-labs.com
+  sni: api.fastline-labs.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 02'
+  password: f89c89df-905c-4df3-ab07-4f1a37a81005
+  port: 443
   server: git.fastline-labs.com
   sni: git.fastline-labs.com
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 03'
   port: 6444
   reality-opts:
     public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
@@ -22,7 +31,7 @@ proxies:
   uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 04'
   port: 443
   reality-opts:
     public-key: 5USjl6vRG3X4bxVWL9oZ7eUpyr-N3kezxnUi14WOrlY
@@ -32,7 +41,7 @@ proxies:
   tls: false
   type: vless
   uuid: 2ac46dc3-0593-4898-bd52-42a7d5a8f2e2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   password: humanity
   port: 443
@@ -41,7 +50,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 06'
   network: ws
   password: humanity
   port: 443
