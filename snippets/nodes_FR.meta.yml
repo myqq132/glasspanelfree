@@ -1,11 +1,32 @@
 proxies:
-- name: '[D] 🇫🇷 法国 01'
+- name: '[B] 🇫🇷 法国 01'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.47
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.66
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  port: 9443
+  server: 95.85.252.67
+  sni: onecloudstream.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 04'
   port: 22222
   server: 13.37.81.71
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇫🇷 法国 02'
+- name: '[D] 🇫🇷 法国 05'
   port: 22222
   server: 15.224.171.138
   tls: false
