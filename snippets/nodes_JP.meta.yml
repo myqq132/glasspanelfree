@@ -10,20 +10,26 @@ proxies:
 - name: '[B] 🇯🇵 日本 02'
   password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
   port: 27102
-  server: jp1.xiaoliyu.us
-  skip-cert-verify: true
-  sni: jp1.xiaoliyu.us
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
-  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
-  port: 27102
   server: jp3.xiaoliyu.us
   skip-cert-verify: true
   sni: jp3.xiaoliyu.us
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 04'
+- name: '[B] 🇯🇵 日本 03'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 27102
+  server: jp1.xiaoliyu.us
+  skip-cert-verify: true
+  sni: jp1.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 27102
+  server: jp1.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -32,20 +38,20 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 05'
+  name: '[C] 🇯🇵 日本 06'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 06'
+  name: '[C] 🇯🇵 日本 07'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 07'
+  name: '[D] 🇯🇵 日本 08'
   network: tcp
   port: 443
   reality-opts:

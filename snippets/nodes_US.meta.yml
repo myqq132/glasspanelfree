@@ -8,30 +8,44 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
   password: CompanyHy2_2026!
   port: 36712
   server: 38.60.204.239
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -45,31 +59,31 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 07'
   network: ws
   port: '8443'
-  server: 172.64.80.1
-  servername: ''
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ''
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 08'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -77,7 +91,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443
@@ -86,7 +100,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   password: humanity
   port: 443
