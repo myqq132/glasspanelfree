@@ -1,35 +1,22 @@
 proxies:
 - name: '[B] 🇫🇷 法国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.187
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   port: 9443
-  server: 95.85.252.47
+  server: 95.85.252.66
   sni: onecloudstream.com
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 02'
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   port: 9443
   server: 95.85.252.67
   sni: onecloudstream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
-  port: 22222
-  server: 13.39.230.204
+- name: '[B] 🇫🇷 法国 03'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: dg1.mangshe.xyz
+  skip-cert-verify: true
   tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[D] 🇫🇷 法国 05'
-  network: tcp
-  port: 22224
-  server: 13.39.230.204
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  type: hysteria2
