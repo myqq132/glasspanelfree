@@ -1,5 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  port: 50160
+  server: 129.159.156.109
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   port: 2056
   server: els.mangshe.xyz
@@ -7,32 +15,9 @@ proxies:
   sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 03'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 03'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -43,6 +28,34 @@ proxies:
   ws-opts:
     headers:
       Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
   name: '[C] 🇺🇸 美国 06'
