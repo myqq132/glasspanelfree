@@ -1,15 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '9022'
-  server: star.starnick2030.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
-- name: '[D] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 01'
   network: ws
   port: 2096
   server: 64.226.95.244
@@ -21,7 +11,7 @@ proxies:
     headers:
       Host: cf3.schzyc.cc.cd
     path: '%2F'
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   password: humanity
   port: 443
