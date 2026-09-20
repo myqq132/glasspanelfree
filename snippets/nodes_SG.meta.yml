@@ -1,13 +1,5 @@
 proxies:
 - name: '[B] 🇸🇬 新加坡 01'
-  password: 1027576c-c4df-4277-b3ef-38d3213b6574
-  port: 443
-  server: 161.118.253.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 02'
   password: f87376e17da040ed04c9665ce8972930
   port: 50160
   server: 138.2.73.238
@@ -15,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 03'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: BxceQaOe
   port: 41142
