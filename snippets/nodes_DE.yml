@@ -1,5 +1,15 @@
 proxies:
-- name: '[D] 🇩🇪 德国 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
+  network: tcp
+  port: '9022'
+  server: star.starnick2030.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   password: humanity
   port: 443
