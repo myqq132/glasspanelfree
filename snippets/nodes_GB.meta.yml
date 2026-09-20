@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] 🇬🇧 英国 01'
+  password: 1e6fed5b-5edc-4ddb-a268-79d7fae4365c
+  port: 30443
+  server: 95.133.242.213
+  sni: filesconvert.org
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇬🇧 英国 01'
+  name: '[B] 🇬🇧 英国 02'
   network: tcp
   port: '443'
   server: test-tun.armtech.ir
