@@ -9,7 +9,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
-- name: '[D] 🇩🇪 德国 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
+  port: '9022'
+  server: 5.160.131.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 03'
+  network: raw
+  port: '9022'
+  server: star.starnick2030.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c9da87-198b-40d5-a83e-546e8c73a50e
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   password: humanity
   port: 443
