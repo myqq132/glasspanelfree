@@ -1,45 +1,11 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2056
-  server: els.mangshe.xyz
-  skip-cert-verify: true
-  sni: els.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 05'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 06'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -47,55 +13,19 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 03'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 04'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -105,7 +35,7 @@ proxies:
   type: trojan
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 06'
   network: tcp
   port: 9443
   reality-opts:
@@ -118,7 +48,7 @@ proxies:
   uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 69.46.46.45
@@ -132,7 +62,7 @@ proxies:
     path: /ws/vless/Default?ed=2048fp=chrome
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 15'
+  name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 69.46.46.44
@@ -146,7 +76,7 @@ proxies:
     path: /ws/vless/Default?ed=2048fp=chrome
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 69.46.46.121
@@ -160,7 +90,7 @@ proxies:
     path: /ws/vless/Default?ed=2048fp=chrome
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 17'
+  name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 69.46.46.117
@@ -175,7 +105,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 18'
+  name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: 69.46.46.46
@@ -189,7 +119,7 @@ proxies:
     path: /ws/vless/Default?ed=2048
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 19'
+  name: '[D] 🇺🇸 美国 12'
   port: 443
   reality-opts:
     public-key: CRh0VOb2qvDm4H89m6qiHg_9M6nnJ0f_h0kpPitA6hw
@@ -199,7 +129,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4f8a1d19-4d21-47f5-816e-a8f475fbd3f7
-- name: '[D] 🇺🇸 美国 20'
+- name: '[D] 🇺🇸 美国 13'
   network: ws
   password: humanity
   port: 443
@@ -208,7 +138,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 21'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443
@@ -217,7 +147,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 22'
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
