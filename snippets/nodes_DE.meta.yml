@@ -1,11 +1,19 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  network: ws
-  password: humanity
+- name: '[B] 🇩🇪 德国 01'
+  password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   port: 443
-  server: 141.101.90.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: se1.chromevpn.cc
+  sni: se1.chromevpn.cc
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 5484573f-b02e-44e4-a166-aa381364171d
   ws-opts:
-    path: /assignment
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
