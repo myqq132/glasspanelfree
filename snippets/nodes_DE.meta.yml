@@ -6,14 +6,15 @@ proxies:
   sni: se1.chromevpn.cc
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  network: ws
-  port: 80
-  server: 146.75.119.82
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE
+  server: 46.247.108.200
+  servername: modx-au.bachidze.com
   tls: false
   type: vless
-  uuid: 5484573f-b02e-44e4-a166-aa381364171d
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
