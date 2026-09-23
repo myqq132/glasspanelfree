@@ -23,7 +23,17 @@ proxies:
   server: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -33,32 +43,18 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 03'
+  name: '[B] 🇭🇰 香港 01'
   network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 03'
   password: amazonskr05
@@ -67,7 +63,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -76,18 +72,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 04'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 2716
@@ -95,7 +91,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 51391
@@ -132,18 +128,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 04'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 05'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -188,7 +184,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   password: humanity
   port: 443
@@ -227,7 +223,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   password: humanity
   port: 443
@@ -437,7 +433,7 @@ proxies:
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 10'
+  name: '[D] 🇺🇸 美国 09'
   port: 40443
   reality-opts:
     public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
@@ -475,7 +471,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   password: humanity
   port: 443
