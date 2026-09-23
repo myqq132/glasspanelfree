@@ -1,14 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 02bd8b5a-170b-4a79-8e68-9cec710272c7
-  port: 443
-  server: se1.chromevpn.cc
-  sni: se1.chromevpn.cc
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:

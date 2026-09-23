@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 01'
-  network: ws
-  port: '17577'
-  server: 206.190.237.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ceb8486-fb82-462c-e989-89182fe660a5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /3ceb8486
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 3893
@@ -22,13 +8,13 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 03'
+  name: '[C] 🇯🇵 日本 02'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[C] 🇯🇵 日本 04'
+  name: '[C] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
@@ -37,7 +23,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '[D] 🇯🇵 日本 05'
+  name: '[D] 🇯🇵 日本 04'
   network: ws
   password: humanity
   port: 443
