@@ -1,7 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
+- name: '[B] 🇺🇸 美国 01'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -24,7 +22,9 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
