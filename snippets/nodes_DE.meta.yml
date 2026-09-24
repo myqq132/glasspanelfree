@@ -1,6 +1,14 @@
 proxies:
+- fingerprint: random
+  name: '[B] 🇩🇪 德国 01'
+  password: 3a92b39a-5f02-415e-a908-783ec320e83f
+  port: 8443
+  server: 140.225.208.100
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 2096
   server: 167.172.183.195
