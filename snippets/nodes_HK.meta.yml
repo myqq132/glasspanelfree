@@ -1,15 +1,53 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: b0917015b656b3dd2286b5633af0c5c1
-  port: 50160
-  server: 31.57.248.176
+  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  port: 443
+  server: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
   skip-cert-verify: true
-  sni: www.bing.com%23%E9%A6%83%E5%9A%9F%E9%A6%83%E5%9A%A2%7Chk%7C%40wxgqlfx%7C147
+  sni: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 03'
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: 311648fa-tm3mo0-0-1rfon.hk3.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 04'
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: 44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 44577f17-tm96o0-tne5x4-1rfon.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 05'
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: 465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 465965e0-tm3mo0-0-1rfon.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 06'
+  password: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  port: 443
+  server: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
+  skip-cert-verify: true
+  sni: b503b615-tm96o0-tne5x4-1rfon.hk3.hyhuawei.com
   tls: false
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com

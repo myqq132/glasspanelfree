@@ -1,14 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
-  port: 443
-  server: idontknow.whit3.net
-  sni: idontknow.whit3.net
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -19,7 +12,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4bdeee92-97e8-414d-bef6-ec1d5e2ab73b
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   password: humanity
   port: 443
