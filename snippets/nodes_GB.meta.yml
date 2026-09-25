@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: '[D] 🇬🇧 英国 01'
+  port: 22222
+  server: 18.169.126.60
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 02'
+  port: 443
+  server: hub-mori-new.failspace.top
+  tls: true
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
