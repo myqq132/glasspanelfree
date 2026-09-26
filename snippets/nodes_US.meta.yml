@@ -1,27 +1,25 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  port: 443
+  server: 8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com
+  sni: 8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: RN_3f80eeb4bbd0f13f
+  port: 443
+  server: 192.255.128.123
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
   password: pbgLTkd5276SN1sZ
   port: 8443
   server: 144.24.46.175
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: 1da76fea-2360-40d7-99ce-7374971808bb
-  port: 18782
-  server: 45.32.128.44
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 03'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
@@ -36,45 +34,42 @@ proxies:
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 07'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
   skip-cert-verify: false
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '2095'
-  server: 45.32.128.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /1da76fea-2360-40d7-99ce-7374971808bb-vm
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '2095'
-  server: 45.32.128.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
-- alterId: 0
-  cipher: auto
+- fingerprint: firefox
   name: '[B] 🇺🇸 美国 08'
+  password: d900526f-30d7-4f4b-9dbe-e98f17b6fbcc
+  port: 2086
+  server: vpn.ai-boost.tech
+  sni: vpn.ai-boost.tech
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -82,7 +77,21 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 09'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -92,7 +101,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 12'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -104,7 +113,32 @@ proxies:
     headers:
       Host: 24864168545164.oylfmxz.cn
     path: /
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 13'
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 14'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
+    short-id: '!!str ee33'
+  server: lyra.yokkastars.com
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+  ws-opts:
+    headers:
+      Host: deepl.com
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
@@ -112,19 +146,13 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 12'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: '!!str ee33'
-  server: 72.56.41.33
-  servername: deepl.com
-  tls: false
-  type: vless
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+- name: '[D] 🇺🇸 美国 16'
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.1
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
