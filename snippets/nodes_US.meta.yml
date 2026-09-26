@@ -1,17 +1,16 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
+  password: 1da76fea-2360-40d7-99ce-7374971808bb
+  port: 18782
+  server: 45.32.128.44
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 02'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -32,20 +31,15 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '2095'
-  server: 45.32.128.44
-  servername: ''
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /1da76fea-2360-40d7-99ce-7374971808bb-vm
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 06'
@@ -59,50 +53,22 @@ proxies:
   ws-opts:
     headers:
       Host: www.bing.com
-    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
+    path: /1da76fea-2360-40d7-99ce-7374971808bb-vm
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 07'
   network: ws
-  port: '8443'
-  server: 172.64.80.1
+  port: '2095'
+  server: 45.32.128.44
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 10'
+      Host: www.bing.com
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -112,7 +78,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 11'
+  name: '[C] 🇺🇸 美国 09'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -124,7 +90,7 @@ proxies:
     headers:
       Host: 24864168545164.oylfmxz.cn
     path: /
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   password: humanity
   port: 443
@@ -137,7 +103,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 13'
+  name: '[D] 🇺🇸 美国 11'
   network: tcp
   port: 40443
   reality-opts:
