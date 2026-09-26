@@ -4,10 +4,17 @@ proxies:
   port: 443
   server: 43.167.208.94
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+  port: 443
+  server: 43.167.208.94
+  skip-cert-verify: true
   sni: 43.167.208.94
   tls: false
   type: hysteria2
-- name: '[D] 🇯🇵 日本 02'
+- name: '[D] 🇯🇵 日本 03'
   network: ws
   password: humanity
   port: 443
