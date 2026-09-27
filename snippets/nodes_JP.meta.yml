@@ -1,12 +1,32 @@
 proxies:
-- name: '[D] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+  port: 443
+  server: 43.167.208.94
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+  port: 443
+  server: 43.167.208.94
+  skip-cert-verify: true
+  sni: 43.167.208.94%23%E9%A6%83%E5%9A%A1%E9%A6%83%E5%9A%A8%7CJP%7C%40wxgqlfx%7C97
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 03'
+  password: RQBXe4kpsRant_2u1PzdneBOPuCSwUSI
+  port: 443
+  server: 43.167.208.94
+  skip-cert-verify: true
+  sni: 43.167.208.94
+  tls: false
+  type: hysteria2
+- name: '[D] 🇯🇵 日本 04'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
-  sni: www.ignitelimit.com
+  server: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
