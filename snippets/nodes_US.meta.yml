@@ -15,15 +15,27 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 05'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -31,56 +43,14 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 06'
   password: d900526f-30d7-4f4b-9dbe-e98f17b6fbcc
   port: 2086
   server: vpn.ai-boost.tech
   sni: vpn.ai-boost.tech
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -90,7 +60,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 08'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -102,7 +72,7 @@ proxies:
     headers:
       Host: 24864168545164.oylfmxz.cn
     path: /
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   password: humanity
   port: 443
@@ -113,7 +83,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 10'
   network: tcp
   port: 40443
   reality-opts:
@@ -127,7 +97,7 @@ proxies:
   ws-opts:
     headers:
       Host: deepl.com
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443
@@ -136,7 +106,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   password: humanity
   port: 443
