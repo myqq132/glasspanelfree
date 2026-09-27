@@ -1,12 +1,5 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-  port: 443
-  server: 8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com
-  sni: 8b327214-tm3mo0-tlvsde-1rnrp.los.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
   password: RN_3f80eeb4bbd0f13f
   port: 443
   server: 192.255.128.123
@@ -14,7 +7,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 02'
   password: pbgLTkd5276SN1sZ
   port: 8443
   server: 144.24.46.175
@@ -22,7 +15,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -30,33 +23,15 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 06'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  sni: msk.frkn.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 05'
   password: d900526f-30d7-4f4b-9dbe-e98f17b6fbcc
   port: 2086
   server: vpn.ai-boost.tech
@@ -65,7 +40,21 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -79,7 +68,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 10'
+  name: '[B] 🇺🇸 美国 08'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -89,9 +78,9 @@ proxies:
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: ''
+      Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -101,7 +90,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 12'
+  name: '[C] 🇺🇸 美国 10'
   network: ws
   port: '443'
   server: 24864168545164.oylfmxz.cn
@@ -113,7 +102,7 @@ proxies:
     headers:
       Host: 24864168545164.oylfmxz.cn
     path: /
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443
@@ -124,7 +113,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🇺🇸 美国 12'
   network: tcp
   port: 40443
   reality-opts:
@@ -138,7 +127,7 @@ proxies:
   ws-opts:
     headers:
       Host: deepl.com
-- name: '[D] 🇺🇸 美国 15'
+- name: '[D] 🇺🇸 美国 13'
   network: ws
   password: humanity
   port: 443
@@ -147,7 +136,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 16'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   password: humanity
   port: 443

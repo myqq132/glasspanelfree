@@ -6,7 +6,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[B] 🇬🇧 英国 02'
+  password: b8949dae-cb53-4b5a-ad9c-50f58c4656fb
+  port: 2056
+  server: uk2.xiaoliyu.us
+  skip-cert-verify: true
+  sni: uk2.xiaoliyu.us
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 03'
   port: 22222
   server: 18.169.206.105
   tls: false
