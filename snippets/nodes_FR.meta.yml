@@ -1,25 +1,9 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.190
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 02'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.190
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  port: 3409
-  server: de3-ohl.vpvr4ib84nuv6hdkt.ru
-  sni: de3-ohl.vpvr4ib84nuv6hdkt.ru
+- fingerprint: firefox
+  name: '[B] 🇫🇷 法国 01'
+  password: d97255e6-31b0-423f-ba40-689d9ebadce2
+  port: 8444
+  server: france.stinpuls1.ru
+  sni: france.stinpuls1.ru
   tls: false
   type: hysteria2
