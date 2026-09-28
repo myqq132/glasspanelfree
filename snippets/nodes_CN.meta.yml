@@ -1,5 +1,11 @@
 proxies:
-- name: '[D] 🇨🇳 中国 01'
+- cipher: aes-128-gcm
+  name: '[D] 🇨🇳 中国 01'
+  password: 2wsxcde4
+  port: 8024
+  server: 124.151.25.50
+  type: ss
+- name: '[D] 🇨🇳 中国 02'
   network: tcp
   port: 52683
   server: jp.sofast.live

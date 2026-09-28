@@ -1,1 +1,49 @@
-proxies: []
+proxies:
+- name: '[B] 🇸🇬 新加坡 01'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇸🇬 新加坡 02'
+  network: ws
+  port: '443'
+  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[C] 🇸🇬 新加坡 03'
+  network: ws
+  port: '443'
+  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    path: /ws-vmess
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 04'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
+  server: 69.48.229.50
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: d2761575-3f08-41ae-9dd1-33ccf86dddd1
