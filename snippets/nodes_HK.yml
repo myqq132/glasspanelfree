@@ -1,21 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -25,7 +11,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 02'
   network: ws
   port: '443'
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -39,7 +25,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -53,7 +39,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 04'
   network: ws
   port: '443'
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -67,7 +53,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 05'
   network: ws
   port: '443'
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
