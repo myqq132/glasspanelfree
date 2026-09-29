@@ -35,15 +35,35 @@ proxies:
     headers:
       Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: safari
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[D] 🇸🇬 新加坡 04'
   network: tcp
-  port: 40443
+  port: 28243
   reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-  server: 69.48.229.50
-  servername: deepl.com
+    public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
+    short-id: '!!str 7996bf4dcf194d18'
+  server: 18.139.227.162
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: d2761575-3f08-41ae-9dd1-33ccf86dddd1
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇸🇬 新加坡 05'
+  password: 2db985f6-21bf-40c2-a4f1-4ce2cf90b1c2
+  port: 8443
+  server: 13.229.204.74
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇸🇬 新加坡 06'
+  network: tcp
+  port: 20975
+  reality-opts:
+    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
+    short-id: '!!str 2bb0dc48'
+  server: 18.136.119.69
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
