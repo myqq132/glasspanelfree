@@ -1,5 +1,31 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 443
+  server: fed5d047-tmeqo0-0-1imi4.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: fed5d047-tmeqo0-0-1imi4.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
+  port: 52279
+  server: 172.96.140.38
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
+  port: 55000
+  server: 156.229.160.253
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -8,90 +34,145 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 02'
+  name: '[B] 🇺🇸 美国 05'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
-  password: fe552e75-4ffd-4e1a-984c-44e71c746c15
-  port: 55000
-  server: 156.229.160.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 06'
   network: ws
-  port: '443'
-  server: 53vXOVarmgcreAsv.v.3dns.vip
-  servername: 53vXOVarmgcreAsv.v.3dns.vip
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: 53vXOVarmgcreAsv.v.3dns.vip
-    path: /ws-vmess
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[C] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 07'
   network: ws
-  port: '443'
-  server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-  servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
-    path: /ws-vmess
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 10'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: '[C] 🇺🇸 美国 11'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
 - alpn:
   - http/1.1
-  name: '[D] 🇺🇸 美国 08'
+  client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 12'
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 13'
+  network: ws
+  port: 443
+  server: 199.232.78.170
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 14'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iOXJkurGWCpwU-Z1B3RPJnjXGSQ_v1-H5XtHa6mEeFc
+    short-id: '!!str b1c1b5e2'
+  server: 107.148.158.100
+  servername: usa-2.letsconnectpoint.com
+  tls: false
+  type: vless
+  uuid: a368752a-32fc-42f3-980a-6b049218b23f
+- name: '[D] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.7
+  server: 159.112.235.52
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 09'
+    path: /assignment
+- name: '[D] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[D] 🇺🇸 美国 10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
+  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:

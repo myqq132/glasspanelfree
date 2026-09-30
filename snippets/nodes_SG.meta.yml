@@ -1,69 +1,9 @@
 proxies:
-- name: '[B] 🇸🇬 新加坡 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
+- name: '[C] 🇸🇬 新加坡 01'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10135
+  server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇸🇬 新加坡 02'
-  network: ws
-  port: '443'
-  server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[C] 🇸🇬 新加坡 03'
-  network: ws
-  port: '443'
-  server: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 04'
-  network: tcp
-  port: 28243
-  reality-opts:
-    public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
-    short-id: '!!str 7996bf4dcf194d18'
-  server: 18.139.227.162
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-- cipher: chacha20-ietf-poly1305
-  name: '[D] 🇸🇬 新加坡 05'
-  password: 2db985f6-21bf-40c2-a4f1-4ce2cf90b1c2
-  port: 8443
-  server: 13.229.204.74
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 06'
-  network: tcp
-  port: 20975
-  reality-opts:
-    public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4
-    short-id: '!!str 2bb0dc48'
-  server: 18.136.119.69
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  sni: m.ctrip.com
+  type: trojan
