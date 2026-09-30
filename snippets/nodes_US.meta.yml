@@ -1,21 +1,13 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  port: 443
-  server: fed5d047-tmeqo0-0-1imi4.los.hyhuawei.com
+  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
+  port: 55000
+  server: 156.229.160.253
   skip-cert-verify: true
-  sni: fed5d047-tmeqo0-0-1imi4.los.hyhuawei.com
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: 531d9e93-53be-4f05-a9c1-33490d4da2f3
-  port: 52279
-  server: 172.96.140.38
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
   password: fe552e75-4ffd-4e1a-984c-44e71c746c15
   port: 55000
   server: 156.229.160.253
@@ -23,9 +15,30 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 03'
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: mg.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -34,7 +47,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 07'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -42,12 +55,21 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 08'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 09'
   network: ws
   port: '8443'
-  server: 172.64.80.1
+  server: chatgpt.com
   servername: ''
   tls: true
   type: vmess
@@ -55,48 +77,6 @@ proxies:
   ws-opts:
     headers:
       Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
     path: /lMnsZUN4/
 - name: '[C] 🇺🇸 美国 10'
   network: tcp
