@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 07'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: '[C] 🇺🇸 美国 08'
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: '[D] 🇺🇸 美国 09'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.170
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---de--s---mitivpn-11.global.ssl.fastly.net
+    path: '%2F'

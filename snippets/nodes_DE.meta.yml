@@ -1,1 +1,55 @@
-proxies: []
+proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
+  port: 10808
+  server: nl6.meshbeat.online
+  sni: nl6.meshbeat.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 02'
+  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
+  port: 10808
+  server: nl6.meshbeat.online
+  sni: nl6.meshbeat.online
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uLuPk7Ee7W9BcvjgM2FJHYG2NJxEeEkP7QVL8jYudhI
+    short-id: '!!str aa9bfaebd76d8b95'
+  server: germ2.serverslocal.ru
+  servername: germ2.serverslocal.ru
+  tls: false
+  type: vless
+  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 04'
+  network: ws
+  port: 2083
+  server: 45.88.12.119
+  servername: crt.dodopanel.biz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
+  ws-opts:
+    path: /vless-ws
+- name: '[D] 🇩🇪 德国 05'
+  network: ws
+  port: 8080
+  server: 0cf703b86ea5a239.ravenlo.ir
+  tls: false
+  type: vless
+  uuid: 50d10e6c-37e1-4512-b35a-2d4e0adfd079
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
