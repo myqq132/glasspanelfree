@@ -1,36 +1,38 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: safari
   name: '[D] 🇨🇦 加拿大 01'
   network: ws
-  port: 8880
-  server: 172.67.207.26
-  servername: 172.67.207.26
-  tls: false
+  port: 8443
+  server: 188.114.96.3
+  servername: us.luxes.network
+  tls: true
   type: vless
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  uuid: 69848b7f-3ee7-4c30-b035-6cff5e08ac4a
   ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: '%2F'
-- name: '[D] 🇨🇦 加拿大 02'
+    path: '%2Fassets%3Fed'
+- client-fingerprint: edge
+  name: '[D] 🇨🇦 加拿大 02'
   network: ws
-  port: 8880
-  server: envato.com
-  tls: false
+  port: 443
+  server: hk.152568.xyz
+  servername: hk.152568.xyz
+  tls: true
   type: vless
-  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   ws-opts:
     headers:
-      Host: blue-water-924c.174-235.workers.dev
-    path: '%2F'
-- name: '[D] 🇨🇦 加拿大 03'
-  network: xhttp
-  port: 80
-  server: subnimnet1.ir
-  tls: false
+      Host: hk.152568.xyz
+    path: '%2Fcdn%2Fpackages%2Fruntime-core.tar.gz'
+- client-fingerprint: edge
+  name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  port: 8443
+  server: hk.152568.xyz
+  servername: hk.152568.xyz
+  tls: true
   type: vless
-  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   ws-opts:
     headers:
-      Host: fl.subnimnet2.ir
-    path: /ws
+      Host: hk.152568.xyz
+    path: '%2Fcdn%2Fpackages%2Fruntime-core.tar.gz'

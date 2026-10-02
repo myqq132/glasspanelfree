@@ -19,37 +19,24 @@ proxies:
   flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 03'
   network: tcp
-  port: 443
+  port: 8545
   reality-opts:
-    public-key: uLuPk7Ee7W9BcvjgM2FJHYG2NJxEeEkP7QVL8jYudhI
-    short-id: '!!str aa9bfaebd76d8b95'
-  server: germ2.serverslocal.ru
-  servername: germ2.serverslocal.ru
+    public-key: VpalqjubUqVrLmgjSjR6lKVXDierUncli66LeIyIO0M
+    short-id: '!!str e98c63b3c1a5d204'
+  server: 193.222.99.226
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 80f72027-2201-4541-9abb-7070c9b0869e
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
+  uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
+- name: '[D] 🇩🇪 德国 04'
   network: ws
-  port: 2083
-  server: 45.88.12.119
-  servername: crt.dodopanel.biz
-  skip-cert-verify: false
+  port: 8444
+  server: germany.tofreedom.ru
+  servername: germany.tofreedom.ru
   tls: true
   type: vless
-  uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
-  ws-opts:
-    path: /vless-ws
-- name: '[D] 🇩🇪 德国 05'
-  network: ws
-  port: 8080
-  server: 0cf703b86ea5a239.ravenlo.ir
-  tls: false
-  type: vless
-  uuid: 50d10e6c-37e1-4512-b35a-2d4e0adfd079
+  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /
+      Host: germany.tofreedom.ru
+    path: /c7f5317cd04691bc

@@ -1,5 +1,35 @@
 proxies:
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[B] 🇸🇬 新加坡 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 02'
+  password: 9b9ac7d3-93c8-4802-a757-6dd3e1c63123
+  port: 20000
+  server: sg02-hy.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 03'
+  network: ws
+  port: '80'
+  server: mdk.mdmekjll.best
+  servername: mdk.mdmekjll.best
+  tls: false
+  type: vmess
+  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  ws-opts:
+    headers:
+      Host: mdk.mdmekjll.best
+    path: /game/resources
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
