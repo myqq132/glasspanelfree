@@ -16,8 +16,9 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - name: '[D] 🇯🇵 日本 03'
-  port: 49433
-  server: 31.14.123.220
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
   tls: false
   type: vless
-  uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133

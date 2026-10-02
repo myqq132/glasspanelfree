@@ -1,23 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
-  port: 10808
-  server: nl6.meshbeat.online
-  sni: nl6.meshbeat.online
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 02'
-  password: c2f5e996-9fe3-4c98-8d42-69cdef945d72
-  port: 10808
-  server: nl6.meshbeat.online
-  sni: nl6.meshbeat.online
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 8545
   reality-opts:
@@ -28,15 +12,3 @@ proxies:
   tls: false
   type: vless
   uuid: 4dc73b6c-ed9e-4d40-8f3f-ebd15d8e702e
-- name: '[D] 🇩🇪 德国 04'
-  network: ws
-  port: 8444
-  server: germany.tofreedom.ru
-  servername: germany.tofreedom.ru
-  tls: true
-  type: vless
-  uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
-  ws-opts:
-    headers:
-      Host: germany.tofreedom.ru
-    path: /c7f5317cd04691bc
