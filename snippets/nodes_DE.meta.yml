@@ -1,16 +1,6 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[B] 🇩🇪 德国 01'
-  password: e0bee894-1ece-44e1-a3c7-e07a9da102bf
-  port: 443
-  server: scania.ehorizon.cc
-  sni: scania.ehorizon.cc
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -21,7 +11,7 @@ proxies:
   type: vless
   uuid: 454431fc-71e2-42b1-b375-5b55dd06666a
 - client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
