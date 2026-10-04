@@ -4,10 +4,17 @@ proxies:
   port: 18333
   server: ru.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: ru.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -15,13 +22,17 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 05'
   password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
   port: 55000
   server: 156.229.160.253
@@ -29,7 +40,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 06'
   password: fe552e75-4ffd-4e1a-984c-44e71c746c15
   port: 55000
   server: 156.229.160.253
@@ -39,7 +50,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 07'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -53,7 +64,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 07'
+  name: '[B] 🇺🇸 美国 08'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -67,7 +78,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 09'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -81,7 +92,7 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 09'
+  name: '[B] 🇺🇸 美国 10'
   network: ws
   port: '8443'
   server: chatgpt.com
@@ -93,7 +104,7 @@ proxies:
     headers:
       Host: ''
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -101,7 +112,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
