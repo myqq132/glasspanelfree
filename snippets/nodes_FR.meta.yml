@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8444
+  server: 78.17.209.108
+  sni: i.wareznet.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 02'
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8445
+  server: 78.17.209.108
+  sni: i.wareznet.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇫🇷 法国 03'
+  port: 443
+  server: polkadot03.failspace.top
+  servername: polkadot03.failspace.top
+  tls: true
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277

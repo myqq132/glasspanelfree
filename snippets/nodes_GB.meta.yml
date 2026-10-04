@@ -8,12 +8,13 @@ proxies:
   type: hysteria2
 - name: '[D] 🇬🇧 英国 02'
   network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
-  sni: jiangjc.pages.dev
-  type: trojan
+  port: 443
+  server: 159.65.51.189
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: jiangjc.pages.dev
-    path: '%2F'
+      Host: ccc.010304.xyz
+    path: /fp=chrome

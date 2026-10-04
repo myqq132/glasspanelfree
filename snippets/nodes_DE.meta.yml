@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws
+    short-id: '!!str f8'
+  server: 31.76.64.248
+  servername: blog.api.www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 0a322246-8c1a-47cd-9865-cccebbb2e5c1
