@@ -2,16 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 中国 01'
-  network: tcp
-  port: '50002'
-  server: 112.132.215.108
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -23,7 +13,7 @@ proxies:
     headers:
       Host: ''
     path: ''
-- name: '[D] 🇨🇳 中国 03'
+- name: '[D] 🇨🇳 中国 02'
   network: tcp
   port: 52683
   server: jp.sofast.live
@@ -31,7 +21,7 @@ proxies:
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: unsafe
-  name: '[D] 🇨🇳 中国 04'
+  name: '[D] 🇨🇳 中国 03'
   network: ws
   port: 8443
   server: 129.211.188.184
@@ -45,7 +35,7 @@ proxies:
     path: '%2Ftyxyws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 05'
+  name: '[D] 🇨🇳 中国 04'
   port: 14343
   server: 27.44.143.169
   servername: thuk.huaweiyouxuan.com
