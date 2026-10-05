@@ -1,13 +1,5 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  password: ee872217-9c78-402c-a002-6a2af50b0227
-  port: 8843
-  server: 160.16.71.52
-  skip-cert-verify: true
-  sni: updates.cdn-apple.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇯🇵 日本 02'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -16,7 +8,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 03'
+  name: '[D] 🇯🇵 日本 02'
   network: tcp
   port: 33102
   server: 27.44.143.169
@@ -24,7 +16,7 @@ proxies:
   tls: true
   type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- name: '[D] 🇯🇵 日本 04'
+- name: '[D] 🇯🇵 日本 03'
   network: tcp
   password: UX82473651
   port: 443

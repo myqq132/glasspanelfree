@@ -1,35 +1,17 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
+  network: tcp
+  port: '50002'
+  server: 112.132.215.108
+  servername: 112.132.215.108
   tls: false
   type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 02'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 03'
+  name: '[D] 🇨🇳 中国 02'
   port: 14343
   server: 27.44.143.169
   servername: thuk.huaweiyouxuan.com
@@ -37,7 +19,7 @@ proxies:
   type: vless
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: unsafe
-  name: '[D] 🇨🇳 中国 04'
+  name: '[D] 🇨🇳 中国 03'
   network: ws
   port: 8443
   server: 129.211.188.184
@@ -51,7 +33,7 @@ proxies:
     path: '%2Ftyxyws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 05'
+  name: '[D] 🇨🇳 中国 04'
   network: tcp
   port: 33102
   server: 112.49.63.11
@@ -60,7 +42,7 @@ proxies:
   type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 06'
+  name: '[D] 🇨🇳 中国 05'
   network: tcp
   port: 14343
   server: 27.155.117.209
@@ -70,7 +52,7 @@ proxies:
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 07'
+  name: '[D] 🇨🇳 中国 06'
   network: tcp
   port: 14343
   server: 14.17.78.146
@@ -78,7 +60,7 @@ proxies:
   tls: true
   type: vless
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: '[D] 🇨🇳 中国 08'
+- name: '[D] 🇨🇳 中国 07'
   network: tcp
   port: 52683
   server: jp.sofast.live
