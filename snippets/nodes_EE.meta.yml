@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] EE 01'
+  password: 4ffc5c57-3242-4422-88de-25fb0f7e97bc
+  port: 443
+  server: 132.243.66.59
+  sni: waves.pantera-radio.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[D] EE 01'
+  name: '[D] EE 02'
   network: tcp
   port: 443
   reality-opts:

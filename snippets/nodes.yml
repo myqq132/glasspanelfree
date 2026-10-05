@@ -1,27 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 01'
-  network: tcp
-  port: '110'
-  server: 31.77.8.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
-- alterId: 64
-  cipher: auto
-  name: '[B] 🇨🇳 中国 01'
-  network: tcp
-  port: '50002'
-  server: 112.132.215.108
-  servername: 112.132.215.108
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
   port: '443'
   server: yg1.ygkkk.dpdns.org
@@ -34,14 +14,14 @@ proxies:
       Host: jmp1.907737.xyz
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -49,7 +29,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -57,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -65,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -73,7 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -81,7 +61,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -89,7 +69,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -97,7 +77,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -105,7 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -129,21 +109,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇯🇵 日本 03'
+- name: '[D] 🇯🇵 日本 04'
   network: tcp
   password: UX82473651
   port: 443
   server: prime-corgi.rooster465.autos
   sni: prime-corgi.rooster465.autos
   type: trojan
-- name: '[D] 🇸🇬 新加坡 02'
+- name: '[D] 🇸🇬 新加坡 03'
   network: tcp
   password: UX82473651
   port: 443
   server: inviting-ferret.rooster465.autos
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- name: '[D] 🌍 其它地区 05'
+- name: '[D] 🌍 其它地区 06'
   network: tcp
   password: UX82473651
   port: 443
@@ -157,7 +137,7 @@ proxies:
   server: ikr100b.zxom.eu.org
   sni: ikr100b.zxom.eu.org
   type: trojan
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 10'
   network: ws
   password: mitivpn
   port: 443
@@ -168,7 +148,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FD-e1i%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[D] 🇺🇸 美国 12'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   password: mitivpn
   port: 443
@@ -179,7 +159,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[D] 🇺🇸 美国 13'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   password: mitivpn
   port: 443
@@ -190,7 +170,7 @@ proxies:
     headers:
       Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSs---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[D] 🇺🇸 美国 14'
+- name: '[D] 🇺🇸 美国 13'
   network: ws
   password: mitivpn
   port: 443
