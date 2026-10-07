@@ -6,65 +6,16 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+  server: jeffsubs.com
+  servername: jeffsubs.com
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 3d841cdf-f91e-4f3b-a315-c18edcbd2606
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- name: '[D] 🇨🇦 加拿大 03'
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- name: '[D] 🇨🇦 加拿大 04'
-  network: ws
-  port: 443
-  server: www.5199dy.com
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  port: 8080
-  server: 172.67.171.191
-  tls: false
-  type: vless
-  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
-  ws-opts:
-    headers:
-      Host: server18.peekconfig2.workers.dev
-    path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-- name: '[D] 🇨🇦 加拿大 06'
-  network: ws
-  port: 8080
-  server: 172.67.210.250
-  tls: false
-  type: vless
-  uuid: f85183cf-af02-4656-b1e9-3a61dced201f
-  ws-opts:
-    headers:
-      Host: freeworld.aliaicode47649.workers.dev
-    path: /vl/uyXT65o0H9U3hDBrVjJ9E?ed=2560
+      Host: jeffsubs.com
+    path: '%2Fnnuyws'

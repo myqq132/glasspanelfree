@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: '[D] CH 01'
+  network: ws
+  port: 443
+  server: 199.68.196.67
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/

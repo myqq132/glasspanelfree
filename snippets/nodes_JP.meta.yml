@@ -1,5 +1,27 @@
 proxies:
-- name: '[C] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
+  password: ee872217-9c78-402c-a002-6a2af50b0227
+  port: 8843
+  server: 160.16.71.52
+  skip-cert-verify: true
+  sni: updates.cdn-apple.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 02'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -7,26 +29,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 02'
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[D] 🇯🇵 日本 04'
   network: tcp
-  port: 33102
-  server: 112.49.63.11
-  servername: sgg.knhqf.com
-  skip-cert-verify: false
+  port: 443
+  server: s249.freessr.bid
+  servername: u695098u47d2e9bes71.gogocs.xyz
   tls: true
   type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- name: '[D] 🇯🇵 日本 03'
-  network: ws
-  port: 30718
-  server: 216.23.123.64
-  servername: qqyst.sfht.kdns.fr
-  tls: true
-  type: vless
-  uuid: 33e87cba-907f-4990-8dbd-a9d14e5d17e1
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: qqyst.sfht.kdns.fr
-    path: /?ed=2048fp=chrome
+      Host: 47d2e9bes71.gogocs.xyz
+    path: ''

@@ -13,14 +13,20 @@ proxies:
     headers:
       Host: ''
     path: ''
-- flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 02'
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - client-fingerprint: unsafe
   name: '[D] 🇨🇳 中国 03'
   network: ws
@@ -41,21 +47,10 @@ proxies:
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 05'
-  port: 14343
-  server: 36.248.14.90
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 06'
+- name: '[D] 🇨🇳 中国 05'
   network: tcp
-  port: 33102
-  server: 27.155.117.209
-  servername: sgg.knhqf.com
-  tls: true
+  port: 58011
+  server: us22.sofast.live
+  tls: false
   type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842

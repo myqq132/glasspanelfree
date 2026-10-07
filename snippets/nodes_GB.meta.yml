@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: '[B] 🇬🇧 英国 01'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 103.126.51.53
+  sni: ocober-romania-new.yyuyy.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: '443'
+  server: 186.190.211.67
+  servername: pahobac.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pahobac.org
+    path: /linkvws

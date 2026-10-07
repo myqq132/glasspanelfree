@@ -1,9 +1,78 @@
 proxies:
-- name: '[B] 🌍 其它地区 01'
+- fingerprint: random
+  name: '[B] 🌍 其它地区 01'
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8446
+  server: i.wareznet.ru
+  sni: i.wareznet.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 02'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: true
+  sni: msk.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- fingerprint: random
+  name: '[B] 🇫🇷 法国 02'
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8444
+  server: i.wareznet.ru
+  sni: i.wareznet.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 03'
+  password: UfRjQpXI5OzVXsOy
+  port: 25096
+  server: de12.h1cloud.net
+  skip-cert-verify: true
+  sni: www.chip.de
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 03'
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 18333
   server: us3.xiaoliyu.cyou
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 04'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: us3.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: us3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 01'
+  password: ee872217-9c78-402c-a002-6a2af50b0227
+  port: 8843
+  server: 160.16.71.52
+  skip-cert-verify: true
+  sni: updates.cdn-apple.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🌍 其它地区 05'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 9443
+  server: 162.249.126.39
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 01'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 103.126.51.53
+  sni: ocober-romania-new.yyuyy.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 01'
@@ -24,16 +93,14 @@ proxies:
 - alpn:
   - h3
   name: '[B] 🇺🇸 美国 03'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  skip-cert-verify: false
+  sni: msk.frkn.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇺🇸 美国 04'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -41,28 +108,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 05'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
+  password: e4fa7b90-b8ee-45bb-b3be-cb3bfdc551e3
+  port: 55000
+  server: 156.229.160.253
   skip-cert-verify: true
-  sni: msk.frkn.org
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 06'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
+  password: f9e76796-72ba-4af1-9435-a556bd81c140
+  port: 55000
+  server: 156.229.160.253
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 07'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
@@ -72,6 +130,62 @@ proxies:
   sni: grape-test-italy.dynuddns.net
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: ws
+  port: '443'
+  server: aksai.org
+  servername: aksai.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aksai.org
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: aksai.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: 89.39.161.157
+  servername: aksai.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aksai.org
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '443'
+  server: 89.39.161.157
+  servername: aksai.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 中国 01'
@@ -88,83 +202,149 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
+  name: '[B] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: '[B] 🇭🇰 香港 01'
   network: ws
   port: '443'
-  server: nycqg19zkwacpm1b.v.3dns.vip
+  server: yg1.ygkkk.dpdns.org
   servername: ''
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   ws-opts:
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
-    path: /ws-vmess
+      Host: jmp1.907737.xyz
+    path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 02'
   network: ws
   port: '443'
-  server: 20.235.220.189
+  server: cu.877774.xyz
+  servername: balanced-minds-carrier-demanding.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
+  ws-opts:
+    headers:
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: 194.99.79.26
+  servername: aksai.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aksai.org
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: cu.877774.xyz
   servername: ''
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: f3244e28-157b-49e9-9730-89832f89ebcc
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
+      Host: balanced-minds-carrier-demanding.trycloudflare.com
+    path: /vmess-argo
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
-  network: ws
-  port: '55002'
-  server: 45.127.32.220
+  name: '[B] 🌍 其它地区 06'
+  network: tcp
+  port: '37515'
+  server: 119.46.51.45
   servername: ''
   tls: false
   type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
+  name: '[B] 🌍 其它地区 07'
   network: ws
-  port: '55002'
-  server: 45.127.32.220
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
   servername: ''
   tls: false
   type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
   ws-opts:
     headers:
       Host: ''
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+    path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
+  name: '[B] 🇬🇧 英国 02'
   network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
+  port: '443'
+  server: 186.190.211.67
+  servername: pahobac.org
+  tls: true
   type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+      Host: pahobac.org
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 11'
+  network: ws
+  port: '443'
+  server: 167.17.68.89
+  servername: vspeedfast.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vspeedfast.org
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 02'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 02'
+  name: '[C] 🌍 其它地区 08'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -172,7 +352,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -180,7 +360,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -188,7 +368,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -196,7 +376,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -204,7 +384,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -212,7 +392,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -220,7 +400,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 08'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -228,7 +408,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -252,63 +432,76 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 02'
-  network: tcp
-  port: 33102
-  server: 112.49.63.11
-  servername: sgg.knhqf.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 02'
-  port: 33102
-  server: 27.44.143.169
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - alpn:
-  - h3
   - h2
-  name: '[D] 🇨🇦 加拿大 02'
-  network: ws
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[D] 🇯🇵 日本 04'
+  network: tcp
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+  server: s249.freessr.bid
+  servername: u695098u47d2e9bes71.gogocs.xyz
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 03'
+      Host: 47d2e9bes71.gogocs.xyz
+    path: ''
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] EE 01'
   network: tcp
   port: 443
   reality-opts:
-    public-key: QsXrvjhVX6Kwp5Gn9dMx8F9p3wUzXAp7ETkbPodmdC8
-    short-id: 'af0c601348f39d8a'
-  server: 212.237.216.55
-  servername: repo1.maven.org
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: 'ad6e08b22389abd2'
+  server: 163.245.52.91
+  servername: d3-ee1.cloud-cdn.xyz
   tls: false
   type: vless
-  uuid: 790910c3-9a97-4375-998a-fcc36b0a2902
-- name: '[D] 🇨🇦 加拿大 03'
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[D] 🇺🇸 美国 14'
+  network: tcp
+  port: 33414
+  server: s490.kukuss.top
+  servername: u695098u5cabc3b2s489.gogocs.xyz
   tls: true
   type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
+      Host: 5cabc3b2s489.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '[D] 🌍 其它地区 09'
+  network: tcp
+  port: 443
+  server: s170.gogocs.xyz
+  servername: u695098u7dae9c0cs220.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 7dae9c0cs220.gogocs.xyz
+    path: ''
 - client-fingerprint: unsafe
   name: '[D] 🇨🇳 中国 03'
   network: ws
@@ -322,43 +515,6 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: '%2Ftyxyws'
-- flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: '1c3e8241a8743df9'
-  server: 195.252.179.1
-  servername: diffoscope.com
-  tls: false
-  type: vless
-  uuid: 596086c9-3167-0004-97a1-c04311039e06
-- client-fingerprint: firefox
-  name: '[D] 🌍 其它地区 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-    short-id: '1ed136481e0ede74'
-  server: eu86.vaultberry.cloud
-  servername: eu86.vaultberry.cloud
-  tls: false
-  type: vless
-  uuid: cfcb4c51-5c89-4132-a86d-bbbb757b56fb
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  tls: false
-  type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - name: '[D] 🇨🇳 中国 04'
   network: tcp
   port: 52683
@@ -366,220 +522,72 @@ proxies:
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[D] 🇷🇺 俄罗斯 01'
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 10'
   network: tcp
   port: 443
   reality-opts:
-    public-key: M7yPV6xLi9h6EevpqZfXLZBuxoey8kz1c6Bh0pK5fho
-    short-id: '170ab9ced015571f'
-  server: 188.130.209.216
-  servername: emaar.ru
-  tls: false
-  type: vless
-  uuid: 444623e9-f27d-487c-b7cc-436931967e79
-- name: '[D] 🇩🇪 德国 03'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: e8fecdc4-ac32-444e-8058-5dadd749fac0
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 05'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: '3cef317b'
-  server: 157.228.160.166
+    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+    short-id: '06e00e7c'
+  server: 157.228.128.59
   servername: addons.mozilla.org
   tls: false
   type: vless
   uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  ws-opts:
-    headers:
-      Host: /?telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-- name: '[D] 🇨🇦 加拿大 04'
+- name: '[D] 🇫🇷 法国 04'
   network: ws
   port: 443
-  server: www.5199dy.com
-  servername: ccc.010304.xyz
+  server: 138.124.58.39
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
   tls: true
   type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 05'
-  port: 14343
-  server: 36.248.14.90
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: '[D] 🇺🇸 美国 10'
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/fp=chrome
+- name: '[D] 🌍 其它地区 11'
   network: ws
   port: 443
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  server: 80.211.27.249
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
   tls: true
   type: vless
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-    path: '%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0'
-- name: '[D] 🇨🇦 加拿大 05'
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/fp=chrome
+- name: '[D] 🌍 其它地区 12'
   network: ws
-  port: 8080
-  server: 172.67.171.191
-  tls: false
+  port: 443
+  server: 212.87.220.98
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
   type: vless
-  uuid: 0b2ea024-3ffd-46a7-87ce-86cbb79d7a48
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: server18.peekconfig2.workers.dev
-    path: /eyJqdW5rIjoiT3FNeW1sMVdGVHlvNTIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-- name: '[D] 🇨🇦 加拿大 06'
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/fp=chrome
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
-  port: 8080
-  server: 172.67.210.250
-  tls: false
-  type: vless
-  uuid: f85183cf-af02-4656-b1e9-3a61dced201f
-  ws-opts:
-    headers:
-      Host: freeworld.aliaicode47649.workers.dev
-    path: /vl/uyXT65o0H9U3hDBrVjJ9E?ed=2560
-- name: '[D] 🇯🇵 日本 03'
-  network: ws
-  port: 30718
-  server: 216.23.123.64
-  servername: qqyst.sfht.kdns.fr
-  tls: true
-  type: vless
-  uuid: 33e87cba-907f-4990-8dbd-a9d14e5d17e1
-  ws-opts:
-    headers:
-      Host: qqyst.sfht.kdns.fr
-    path: /?ed=2048fp=chrome
-- flow: xtls-rprx-vision
-  name: '[D] 🇨🇳 中国 06'
-  network: tcp
-  port: 33102
-  server: 27.155.117.209
-  servername: sgg.knhqf.com
-  tls: true
-  type: vless
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[D] SE 01'
-  network: tcp
   port: 443
-  reality-opts:
-    public-key: qmfrMwVYth3lsYuv7qfr22YlTIlNtVjMl0v4Z5pX7hM
-    short-id: '87cc0414902bee2d'
-  server: 150.241.80.113
-  servername: nl.skfv-mirror.ru
-  tls: false
+  server: jeffsubs.com
+  servername: jeffsubs.com
+  tls: true
   type: vless
-  uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+  uuid: 3d841cdf-f91e-4f3b-a315-c18edcbd2606
+  ws-opts:
+    headers:
+      Host: jeffsubs.com
+    path: '%2Fnnuyws'
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 11'
-  network: tcp
-  port: 443
-  server: s880.gogocs.xyz
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 07fcba7ds79.kukuss.top
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 12'
-  network: tcp
-  port: 443
-  server: s881.wagahaha.xyz
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 07fcba7ds79.kukuss.top
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 06'
-  network: tcp
-  port: 443
-  server: 62.105.220.106
-  servername: u695098u7dae9c0cs220.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 7dae9c0cs220.gogocs.xyz
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 13'
-  network: tcp
-  port: 443
-  server: 23.166.40.27
-  servername: u695098u07fcba7ds79.kukuss.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 07fcba7ds79.kukuss.top
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 04'
-  network: tcp
-  port: 443
-  server: 179.61.138.177
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   server: s251.wagahaha.xyz
@@ -595,10 +603,26 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇺🇸 美国 15'
+  network: tcp
+  port: 10829
+  server: 198.12.124.74
+  servername: u695098u5e20ed1cs709.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 5e20ed1cs709.gogocs.xyz
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 443
-  server: s249.freessr.bid
+  server: 179.61.138.177
   servername: u695098u47d2e9bes71.gogocs.xyz
   tls: true
   type: vless
@@ -611,719 +635,108 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 14'
+  name: '[D] 🌍 其它地区 13'
   network: tcp
-  port: 10829
-  server: 198.12.124.74
-  servername: u695098u5e20ed1cs709.gogocs.xyz
+  port: 443
+  server: 62.105.220.106
+  servername: u695098u7dae9c0cs220.gogocs.xyz
   tls: true
   type: vless
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: 5e20ed1cs709.gogocs.xyz
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 07'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: kQV48T3zJZQbisn4n1EEGVP8Ok3gSB5Uml2LLdplNU4
-    short-id: 'a53f8c1e6d9b2740'
-  server: 87.199.199.25
-  servername: fileharbor.cc
-  tls: false
-  type: vless
-  uuid: 67bb6612-261d-47b5-811e-aa2aeb2100c7
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 08'
-  network: tcp
-  port: 14343
-  server: 14.17.78.144
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- name: '[D] 🌍 其它地区 09'
+      Host: 7dae9c0cs220.gogocs.xyz
+- name: '[D] 🇨🇳 中国 05'
   network: tcp
   port: 58011
   server: us22.sofast.live
   tls: false
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '[D] 🌍 其它地区 10'
-  network: ws
-  port: 8880
-  server: envato.com
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qmfrMwVYth3lsYuv7qfr22YlTIlNtVjMl0v4Z5pX7hM
+    short-id: '87cc0414902bee2d'
+  server: 150.241.80.113
+  servername: nl.skfv-mirror.ru
   tls: false
   type: vless
-  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
-  ws-opts:
-    headers:
-      Host: blue-water-924c.174-235.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 11'
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 199.232.78.101
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-1.global.ssl.fastly.net
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[D] 🌍 其它地区 12'
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.7
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
-    path: '%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2Fdes---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP'
-- name: '[D] 🌍 其它地区 13'
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 14'
+  uuid: 86037609-3790-4901-bd2f-c698092fb1fc
+- name: '[D] 🇺🇸 美国 16'
   network: ws
   port: 443
-  server: 209.206.51.240
-  servername: and-75r.pages.dev
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
   tls: true
   type: vless
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  ws-opts:
+    path: '%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0'
+- name: '[D] 🇭🇰 香港 10'
+  network: ws
+  port: 443
+  server: 175.29.23.179
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: and-75r.pages.dev
-    path: '%2F'
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
+- alpn:
+  - h2
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 14'
+  network: tcp
+  port: 8443
+  server: 165.231.99.46
+  servername: file-6ac48f09.adhil.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 70ad3e9c-89e6-4ee3-91c3-7cb10a4e483a
+- name: '[D] CH 01'
+  network: ws
+  port: 443
+  server: 199.68.196.67
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: '[D] 🌍 其它地区 15'
   network: ws
   port: 443
-  server: 207.148.115.152
-  servername: vlso5.1d.mom
+  server: 185.36.143.187
+  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 16'
-  network: ws
-  port: 443
-  server: 203.202.232.110
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 17'
-  network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  tls: true
-  type: vless
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 18'
-  network: ws
-  port: 443
-  server: 172.64.145.82
-  servername: cf.zhahui.de5.net
-  tls: true
-  type: vless
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  ws-opts:
-    headers:
-      Host: cf.zhahui.de5.net
-    path: '%2F'
-- name: '[D] 🌍 其它地区 19'
-  network: ws
-  port: 2083
-  server: 188.164.248.48
-  servername: helloapps.cc.cd
-  tls: true
-  type: vless
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 20'
-  network: ws
-  port: 443
-  server: 172.64.156.111
-  servername: cf.zhahui.de5.net
-  tls: true
-  type: vless
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  ws-opts:
-    headers:
-      Host: cf.zhahui.de5.net
-    path: '%2F'
-- name: '[D] 🌍 其它地区 21'
-  network: ws
-  port: 2053
-  server: 49.238.238.154
-  servername: and-75r.pages.dev
-  tls: true
-  type: vless
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 22'
-  network: ws
+      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇺🇸 美国 17'
+  network: tcp
   port: 8443
-  server: 146.103.24.187
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 23'
-  network: ws
-  port: 443
-  server: 188.253.6.249
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 24'
-  network: ws
-  port: 2083
-  server: 27.50.48.142
-  servername: and-75r.pages.dev
-  tls: true
-  type: vless
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 25'
-  network: ws
-  port: 2096
-  server: 49.238.238.156
-  servername: and-75r.pages.dev
-  tls: true
-  type: vless
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
-  ws-opts:
-    headers:
-      Host: and-75r.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 26'
-  network: ws
-  port: 443
-  server: 141.11.138.167
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 27'
-  network: ws
-  port: 443
-  server: kclx.eu.org
-  servername: kclx.eu.org
-  tls: true
-  type: vless
-  uuid: 0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b
-  ws-opts:
-    headers:
-      Host: kclx.eu.org
-    path: '%2F154.16.10.34-8080'
-- name: '[D] 🌍 其它地区 28'
-  network: ws
-  port: 443
-  server: 151.242.189.40
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 29'
-  network: ws
-  port: 443
-  server: 172.64.144.148
-  servername: cf.zhahui.de5.net
-  tls: true
-  type: vless
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  ws-opts:
-    headers:
-      Host: cf.zhahui.de5.net
-    path: '%2F'
-- name: '[D] 🌍 其它地区 30'
-  network: ws
-  port: 443
-  server: 139.84.174.65
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 31'
-  network: ws
-  port: 8880
-  server: 92.53.189.2
-  servername: 92.53.189.2
+  reality-opts:
+    public-key: 7YLtXcQkTEdKyGFmgi42nK73i0ttAP9tcQV12o5Ylyo
+    short-id: '9db6b6d13d17987e'
+  server: 23.237.193.202
+  servername: usa-nf.reddotcorp.org
   tls: false
   type: vless
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🌍 其它地区 32'
-  network: ws
-  port: 443
-  server: 94.154.128.132
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 33'
-  network: ws
-  port: 443
-  server: 207.57.131.117
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 34'
-  network: ws
-  port: 443
-  server: 172.64.152.52
-  servername: cf.zhahui.de5.net
-  tls: true
-  type: vless
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  ws-opts:
-    headers:
-      Host: cf.zhahui.de5.net
-    path: '%2F'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 35'
-  network: ws
-  port: 443
-  server: 152.42.187.204
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 36'
-  network: ws
-  port: 443
-  server: 38.180.38.137
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 37'
-  network: ws
-  port: 443
-  server: 152.69.199.75
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 38'
-  network: ws
-  port: 80
-  server: 45.131.208.4
-  servername: 45.131.208.4
-  tls: false
-  type: vless
-  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
-  ws-opts:
-    headers:
-      Host: floral-thunder-10d3.82-67d.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 39'
-  network: ws
-  port: 443
-  server: 213.111.148.137
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 40'
-  network: ws
-  port: 443
-  server: 147.139.189.225
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 41'
-  network: ws
-  port: 443
-  server: 160.22.74.117
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 42'
-  network: ws
-  port: 443
-  server: 213.111.177.107
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 43'
-  network: ws
-  port: 443
-  server: 139.84.242.103
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 44'
-  network: ws
-  port: 443
-  server: 146.56.135.196
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 45'
-  network: ws
-  port: 443
-  server: 160.187.110.199
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 46'
-  network: ws
-  port: 443
-  server: 103.43.75.82
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- client-fingerprint: android
-  name: '[D] 🌍 其它地区 47'
-  network: ws
-  port: 2087
-  server: 103.116.7.100
-  servername: proxy-1cu.pages.dev
-  tls: true
-  type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 48'
-  network: ws
-  port: 8443
-  server: 103.253.42.37
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 49'
-  network: ws
-  port: 8880
-  server: 104.234.239.2
-  servername: old-violet-a5ce.29-440.workers.dev
-  tls: false
-  type: vless
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🌍 其它地区 50'
-  network: ws
-  port: 8880
-  server: 172.64.80.1
-  servername: misty-mouse-141d.177-f18.workers.dev
-  tls: false
-  type: vless
-  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
-  ws-opts:
-    headers:
-      Host: misty-mouse-141d.177-f18.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
-- name: '[D] 🌍 其它地区 51'
-  network: ws
-  port: 8443
-  server: 156.38.157.171
-  servername: vlso5.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso5.1d.mom
-    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
-- name: '[D] 🌍 其它地区 52'
-  network: ws
-  port: 8880
-  server: 104.16.101.215
-  servername: super-sunset-010c.24-43d.workers.dev
-  tls: false
-  type: vless
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  ws-opts:
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
-- name: '[D] 🌍 其它地区 53'
-  network: ws
-  port: 8880
-  server: 104.16.99.215
-  tls: false
-  type: vless
-  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
-  ws-opts:
-    headers:
-      Host: super-sunset-010c.24-43d.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
-- name: '[D] 🌍 其它地区 54'
-  network: ws
-  port: 8880
-  server: 172.67.152.71
-  tls: false
-  type: vless
-  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
-  ws-opts:
-    headers:
-      Host: misty-mouse-141d.177-f18.workers.dev
-    path: '%2Fpyip'
-- name: '[D] 🌍 其它地区 55'
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: '%2F'
-- name: '[D] 🌍 其它地区 56'
-  network: ws
-  port: 80
-  server: 172.67.183.52
-  servername: 172.67.183.52
-  tls: false
-  type: vless
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  ws-opts:
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- name: '[D] 🌍 其它地区 57'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 58'
-  network: ws
-  port: 8443
-  server: 188.164.248.123
-  servername: vp21.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 59'
-  network: ws
-  port: 80
-  server: 104.21.56.90
-  servername: 104.21.56.90
-  tls: false
-  type: vless
-  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
-  ws-opts:
-    headers:
-      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
-    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
-- name: '[D] 🌍 其它地区 60'
-  network: ws
-  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-  port: 8443
-  server: www.wto.org
-  sni: jiangjc.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '[D] 🌍 其它地区 61'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 62'
-  network: ws
-  port: 80
-  server: 91.206.71.8
-  tls: false
-  type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[D] 🌍 其它地区 63'
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: '%2F'
-- name: '[D] 🌍 其它地区 64'
-  network: ws
-  port: 8880
-  server: 104.17.21.32
-  tls: false
-  type: vless
-  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
-  ws-opts:
-    headers:
-      Host: autumn-dawn-fa6b.337-272.workers.dev
-    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
-- name: '[D] 🌍 其它地区 65'
-  network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: 34cedc35-a520-4a8f-8cb6-d9afba04751b
-  ws-opts:
-    headers:
-      Host: ancient-tooth-af89.500-ba0.workers.dev
-    path: '%2Fpyip%3DProxyIP.US.CMLiussss.net'
-- name: '[D] 🌍 其它地区 66'
-  network: ws
-  port: 8880
-  server: 104.27.82.154
-  tls: false
-  type: vless
-  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
-  ws-opts:
-    headers:
-      Host: old-violet-a5ce.29-440.workers.dev
-    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
+  uuid: 9c104116-b231-4626-94cb-6d8fc4d2b000
