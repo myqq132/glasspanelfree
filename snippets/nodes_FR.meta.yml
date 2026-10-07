@@ -6,15 +6,7 @@ proxies:
   sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
-- fingerprint: random
-  name: '[B] 🇫🇷 法国 02'
-  password: d402d4c0b8354a90b70bb2566dce9a08
-  port: 8444
-  server: i.wareznet.ru
-  sni: i.wareznet.ru
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 03'
+- name: '[B] 🇫🇷 法国 02'
   password: UfRjQpXI5OzVXsOy
   port: 25096
   server: de12.h1cloud.net
@@ -22,15 +14,3 @@ proxies:
   sni: www.chip.de
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
-  network: ws
-  port: 443
-  server: 138.124.58.39
-  servername: fzo5i.ir46.90k.hh.ov0.kdns.fr
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: fzo5i.ir46.90k.hh.ov0.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/fp=chrome
