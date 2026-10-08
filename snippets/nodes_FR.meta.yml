@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 01'
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  port: 443
+  server: dehy.bbobr.win
+  skip-cert-verify: false
+  sni: dehy.bbobr.win
+  tls: false
+  type: hysteria2
+- fingerprint: chrome
+  name: '[B] 🇫🇷 法国 02'
+  password: 83rwy5zazcx1f4i6
+  port: 443
+  server: top.bostnet.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
