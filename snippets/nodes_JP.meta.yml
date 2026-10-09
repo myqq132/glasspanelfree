@@ -7,17 +7,17 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 02'
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  port: 8443
-  server: 8.211.175.236
+- name: '[B] 🇯🇵 日本 02'
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  port: 8080
+  server: 139.28.168.126
   skip-cert-verify: true
-  sni: bing.com
+  sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
+- alpn:
+  - h3
+  name: '[B] 🇯🇵 日本 03'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -29,30 +29,30 @@ proxies:
   cipher: auto
   name: '[B] 🇯🇵 日本 04'
   network: ws
-  port: '443'
-  server: JP032005.ssgreen.org
-  servername: ''
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: or3.sfacg.uk
   tls: true
   type: vmess
-  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: ''
-    path: /wes
+      Host: or3.sfacg.uk
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 05'
   network: ws
-  port: '443'
-  server: JP032007.ssgreen.org
+  port: '2083'
+  server: 162.159.130.234
   servername: ''
   tls: true
   type: vmess
-  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: ''
-    path: /wes
+      Host: or3.sfacg.uk
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 06'
@@ -75,13 +75,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
   name: '[D] 🇯🇵 日本 08'
   network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
+  port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: '!!str 3cef317b'
+  server: 157.228.160.166
+  servername: addons.mozilla.org
+  tls: false
   type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  ws-opts:
+    headers:
+      Host: '%2F%3FTelegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP'
