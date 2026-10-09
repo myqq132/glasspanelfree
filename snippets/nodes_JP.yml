@@ -4,7 +4,7 @@ proxies:
   name: '[B] 🇯🇵 日本 01'
   network: ws
   port: '2083'
-  server: cdn.sfacg.uk
+  server: 162.159.130.234
   servername: ''
   tls: true
   type: vmess
@@ -13,7 +13,21 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- name: '[C] 🇯🇵 日本 02'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 02'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125

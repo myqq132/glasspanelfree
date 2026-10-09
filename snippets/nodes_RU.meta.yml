@@ -1,14 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[D] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QJzo15K3EUtRdJwrkaGRjHdKLyl-WUiEzQTTMsHm8y4
-    short-id: '!!str b716462f7ff12219'
-  server: 109.120.152.26
-  servername: www.samsung.com
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
   tls: false
   type: vless
-  uuid: 95621b8e-5cf7-4123-9df4-38d903054a1b
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'
