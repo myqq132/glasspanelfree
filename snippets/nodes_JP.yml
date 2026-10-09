@@ -1,21 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
+  name: '[B] 🇯🇵 日本 04'
   network: ws
-  port: '2083'
-  server: 162.159.130.234
+  port: '443'
+  server: JP032005.ssgreen.org
   servername: ''
   tls: true
   type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  uuid: 1e2bb223-450c-4b89-95d5-11269115affa
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
+      Host: ''
+    path: /wes
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 05'
+  network: ws
+  port: '443'
+  server: JP032007.ssgreen.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 33387c30-5f6e-4e72-941b-0c1b599a80dc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wes
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 06'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -27,7 +41,7 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
