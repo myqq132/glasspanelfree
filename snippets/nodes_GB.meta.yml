@@ -1,14 +1,22 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[D] 🇬🇧 英国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8ENbaQRCWZk-wewSrdHq1_rVjJY4CrxqXUo_5vZNdi4
-    short-id: '!!str b2b44805'
-  server: 50.7.221.238
-  servername: xn--80abgtcaqw1f.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
+- alpn:
+  - h3
+  name: '[B] 🇬🇧 英国 01'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: false
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: cf7.466688.xyz
   tls: false
   type: vless
-  uuid: a5172fb0-b4e8-42dc-a3ee-28239e2ff759
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  ws-opts:
+    headers:
+      Host: nameless-tree-08b8.352.workers.dev
+    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net%40https%3A%2F%2Ft.me%2FQiangLieTuiJian'

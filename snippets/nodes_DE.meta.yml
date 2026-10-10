@@ -1,20 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 7D1UFGuKwT_JBGX0c_ZJwme77xI5ssB3lAC7j0Kg_UY
-    short-id: '!!str 007a'
-  server: gr3.epsiquadvpn.com
-  servername: de.krakenlabs.ru
-  tls: false
-  type: vless
-  uuid: 55d5413e-932d-4b94-b760-089662d2e16a
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:

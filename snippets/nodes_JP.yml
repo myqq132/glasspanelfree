@@ -1,7 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 04'
+  name: '[B] 🇯🇵 日本 05'
+  network: tcp
+  port: '3141'
+  server: sh.australiacaregroup.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 06'
   network: ws
   port: '2083'
   server: cdn.sfacg.uk
@@ -15,7 +25,7 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 05'
+  name: '[B] 🇯🇵 日本 07'
   network: ws
   port: '2083'
   server: 162.159.130.234
@@ -29,7 +39,7 @@ proxies:
     path: /or3
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 06'
+  name: '[B] 🇯🇵 日本 08'
   network: ws
   port: '2083'
   server: or3.sfacg.uk
@@ -41,7 +51,7 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- name: '[C] 🇯🇵 日本 07'
+- name: '[C] 🇯🇵 日本 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
