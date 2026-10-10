@@ -20,13 +20,13 @@ proxies:
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: admin.wwwinternetvideo.click
-  sni: ''
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 04'
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: admin.wwwinternetvideo.click
+  skip-cert-verify: false
   sni: admin.wwwinternetvideo.click
   tls: false
   type: hysteria2
