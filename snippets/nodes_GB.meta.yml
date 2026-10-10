@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] 🇬🇧 英国 01'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: 13.143.174.151
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 01'
+  name: '[B] 🇬🇧 英国 02'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -9,7 +16,14 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[B] 🇬🇧 英国 03'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 04'
   network: ws
   port: 8880
   server: cf7.466688.xyz
