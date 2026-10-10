@@ -1,15 +1,30 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
-  port: 8080
-  server: 139.28.168.126
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
   skip-cert-verify: true
-  sni: hopp-honkong-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 03'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  port: 8443
+  server: 8.211.175.236
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -17,7 +32,7 @@ proxies:
   sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -32,7 +47,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇯🇵 日本 06'
   network: tcp
   port: 10829
   server: 185.106.96.231
