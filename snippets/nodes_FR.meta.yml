@@ -57,14 +57,24 @@ proxies:
   sni: dehy.bbobr.win
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 08'
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 08'
+  password: 267b3a79-81f2-42ac-a409-c23b05b6329d
+  port: 443
+  server: dehy.bbobr.win
+  skip-cert-verify: false
+  sni: dehy.bbobr.win
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 09'
   password: 267b3a79-81f2-42ac-a409-c23b05b6329d
   port: 443
   server: dehy.bbobr.win
   sni: dehy.bbobr.win
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 09'
+- name: '[B] 🇫🇷 法国 10'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: 177.3.216.217
@@ -72,7 +82,7 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[B] 🇫🇷 法国 10'
+  name: '[B] 🇫🇷 法国 11'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -83,21 +93,21 @@ proxies:
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[B] 🇫🇷 法国 11'
+  name: '[B] 🇫🇷 法国 12'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 12'
+- name: '[B] 🇫🇷 法国 13'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: 177.3.216.217
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 13'
+- name: '[B] 🇫🇷 法国 14'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20326
   server: 177.3.218.191
@@ -106,7 +116,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 14'
+  name: '[B] 🇫🇷 法国 15'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -116,14 +126,14 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 15'
+  name: '[B] 🇫🇷 法国 16'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 16'
+- name: '[B] 🇫🇷 法国 17'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -132,7 +142,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 17'
+  name: '[B] 🇫🇷 法国 18'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -140,18 +150,11 @@ proxies:
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 18'
+- name: '[B] 🇫🇷 法国 19'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 19'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 20'
@@ -159,10 +162,17 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: 91.196.32.163
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 21'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 22'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -172,7 +182,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 22'
+  name: '[B] 🇫🇷 法国 23'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -180,3 +190,16 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] 🇫🇷 法国 24'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: INbgA5nXpjZ2P1f6lY7sMBlDM3ZMV8RX3cw-RRGM0mM
+    short-id: '!!str f22e97cfd4d9'
+  server: 31.76.68.245
+  servername: fra01.deflink.net
+  tls: false
+  type: vless
+  uuid: f9cb2991-ad4a-4a54-aeb3-55d56ac02a8e
