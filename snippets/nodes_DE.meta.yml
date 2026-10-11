@@ -1,7 +1,14 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  network: tcp
+  port: 2053
+  server: test.keoplentuio.xyz
+  tls: false
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +21,7 @@ proxies:
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:

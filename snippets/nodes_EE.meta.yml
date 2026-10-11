@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] EE 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XW-uVSKkZJB14OFKOePhEE4UnrAOI4VfuAQQZ_gI3E0
+    short-id: '!!str 848eb46fd7a0e43d'
+  server: g1.coconutsvpn.com
+  servername: g1.coconutsvpn.com
+  tls: false
+  type: vless
+  uuid: 8d790ba0-5407-441b-b545-8ab369c591ce
+  ws-opts:
+    headers:
+      Host: /?Telegram---vpnv2r4y---vpnv2r4y---vpnv2r4y---vpnv2r4y

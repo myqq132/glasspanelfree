@@ -1,7 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[B] 🇸🇬 新加坡 06'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
   name: '[B] 🇸🇬 新加坡 07'
+  network: ws
+  port: '55002'
+  server: 45.127.32.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b25731af-0428-4274-be5d-31a273a8d632
+  ws-opts:
+    headers:
+      Host: ''
+    path: b25731af-0428-4274-be5d-31a273a8d632-vm
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 08'
   network: ws
   port: '55002'
   server: 45.127.32.220
@@ -15,20 +43,6 @@ proxies:
     path: /b25731af-0428-4274-be5d-31a273a8d632-vm
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 08'
-  network: ws
-  port: '55002'
-  server: 45.127.32.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b25731af-0428-4274-be5d-31a273a8d632
-  ws-opts:
-    headers:
-      Host: ''
-    path: /b25731af-0428-4274-be5d-31a273a8d632-vm
-- alterId: 0
-  cipher: auto
   name: '[B] 🇸🇬 新加坡 09'
   network: ws
   port: '55002'
@@ -39,7 +53,7 @@ proxies:
   uuid: b25731af-0428-4274-be5d-31a273a8d632
   ws-opts:
     headers:
-      Host: ''
+      Host: www.bing.com
     path: b25731af-0428-4274-be5d-31a273a8d632-vm
 - name: '[C] 🇸🇬 新加坡 10'
   network: tcp
