@@ -84,16 +84,9 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 11'
-  network: tcp
-  port: 2053
-  server: test.keoplentuio.xyz
-  tls: false
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 12'
+  name: '[D] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
@@ -104,16 +97,3 @@ proxies:
   tls: false
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 13'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs
-    short-id: '!!str 9ea74b83f4993ca9'
-  server: de-5.ardesnode.ru
-  servername: de-5.ardesnode.ru
-  tls: false
-  type: vless
-  uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7

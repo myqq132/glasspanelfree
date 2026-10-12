@@ -1,25 +1,30 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
   password: usqmqUKJFIlCmvkCNSY64L3k
   port: 443
   server: 8.209.247.109
   skip-cert-verify: true
-  sni: 8.209.247.109
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇯🇵 日本 02'
-  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
-  port: 8080
-  server: 139.28.168.126
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  port: 443
+  server: 8.209.247.109
   skip-cert-verify: true
-  sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[B] 🇯🇵 日本 03'
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  port: 443
+  server: 8.209.247.109
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 04'
   password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
   port: 8080
   server: 139.28.168.126
@@ -27,7 +32,17 @@ proxies:
   sni: hopp-honkong-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 04'
+- alpn:
+  - h3
+  name: '[B] 🇯🇵 日本 05'
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  port: 8080
+  server: 139.28.168.126
+  skip-cert-verify: true
+  sni: hopp-honkong-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -37,14 +52,14 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 05'
+  name: '[D] 🇯🇵 日本 07'
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: 13.143.137.206
-  servername: ya.ru
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '!!str 4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   tls: false
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
