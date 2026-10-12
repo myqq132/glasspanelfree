@@ -1,13 +1,289 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 20'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: nl-2a972c8052.shamanapp.online
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 21'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 01'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 01'
+  network: raw
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: '443'
+  server: 103.169.142.87
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 31c3e8e7-f600-436a-87d4-9716143b0b0c
+  ws-opts:
+    headers:
+      Host: uk.lovehk.xyz
+    path: /London3
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60496a76-9dab-452d-bdd3-7c4e5495e897
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 71e6d255-8054-42be-8b35-d28d82e97653
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8bfcefb6-7578-4b71-8777-4b1438660d71
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 14db6f58-d1a9-430e-8801-a8c68912fc0f
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2abe0fba-ecd7-483a-83a2-33600b6a4df7
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bf0edee1-2c43-4b30-ba59-b2c1589fe5fe
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c20f5c31-488e-44c7-b26a-8be8e0737066
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cadb558d-90cf-40da-8628-e53b68fb2dcb
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 11'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d24d944c-e42e-4e6d-af0c-5b89b0e598ae
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 12'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eeb623e4-b27c-4031-bab6-51e068c7dc6a
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 13'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0de320a-bfb8-4add-9288-f742c42556f7
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 14'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f949f286-b709-4617-8f26-2e0dfdd7ca6a
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 22'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -15,7 +291,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -23,7 +299,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -31,7 +307,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -39,7 +315,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -55,7 +331,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 05'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -63,7 +339,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -71,7 +347,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 16'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -79,7 +355,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇨🇳 台湾 01'
+- name: '[C] 🇨🇳 台湾 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -95,15 +371,45 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-gcm
-  name: '[D] 🇭🇰 香港 06'
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22069
-  server: ruot.ayucloudservices.nl
+- cipher: chacha20-ietf-poly1305
+  name: '[D] CH 01'
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  port: 8388
+  server: 132.243.175.144
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🇭🇰 香港 07'
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-  port: 22073
-  server: ruot.ayucloudservices.nl
+  name: '[D] 🇬🇧 英国 02'
+  password: g5h5jleTRSyO3Rk4
+  port: 443
+  server: 149.102.132.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 28'
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.168
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🌍 其它地区 29'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+- name: '[D] 🇯🇵 日本 03'
+  password: Trojan@82164024
+  port: 443
+  server: jp.tronsg.com
+  sni: jp.tronsg.com
+  type: trojan
+- name: '[D] 🇺🇸 美国 17'
+  password: UX82473651
+  port: 443
+  server: alert-titmouse.rooster465.autos
+  sni: alert-titmouse.rooster465.autos
+  type: trojan
+- cipher: aes-256-gcm
+  name: '[D] 🇺🇸 美国 18'
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 15.204.246.107
   type: ss
