@@ -1,48 +1,5 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 03'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 04'
-  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
-  port: 8080
-  server: 139.28.168.126
-  skip-cert-verify: true
-  sni: hopp-honkong-new.roxa.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 05'
-  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
-  port: 8080
-  server: 139.28.168.126
-  skip-cert-verify: true
-  sni: hopp-honkong-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -52,7 +9,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 07'
+  name: '[D] 🇯🇵 日本 02'
   network: tcp
   port: 443
   reality-opts:
