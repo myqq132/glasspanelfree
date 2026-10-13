@@ -6,9 +6,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[B] 🇨🇦 加拿大 02'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: match-stream.lovkisport.blog
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇨🇦 加拿大 02'
+  name: '[B] 🇨🇦 加拿大 03'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
@@ -16,21 +24,7 @@ proxies:
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇦 加拿大 03'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  sni: match-stream.lovkisport.blog
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 04'
-  password: f7f971ce-6171-4498-9737-23b037cc11f2
-  port: 443
-  server: usa0001hy-noru.packet-drop-society.net
-  sni: packet-drop-society.net
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 05'
+- name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: epam.com
@@ -42,7 +36,7 @@ proxies:
     headers:
       Host: wallweb-4r0.pages.dev
     path: /
-- name: '[D] 🇨🇦 加拿大 06'
+- name: '[D] 🇨🇦 加拿大 05'
   network: ws
   port: 8880
   server: 172.64.88.168
@@ -53,7 +47,7 @@ proxies:
     headers:
       Host: weathered-sunset-be54.407-d9d.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
-- name: '[D] 🇨🇦 加拿大 07'
+- name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 8880
   server: 92.53.189.40
