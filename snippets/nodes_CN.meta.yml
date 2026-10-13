@@ -12,16 +12,30 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- client-fingerprint: chrome
-  name: '[D] 🇨🇳 中国 02'
+    path: /?TELEGRAM--BYA--@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM@V2ray_AM---@V2ray_AM
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fde10e39-48bb-4dcf-b3ba-71d711323a54
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: '[D] 🇨🇳 中国 03'
+  network: tcp
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - client-fingerprint: chrome
-  name: '[D] 🇨🇳 中国 03'
+  name: '[D] 🇨🇳 中国 04'
   port: 58011
   server: us22.sofast.live
   tls: false

@@ -7,19 +7,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- client-fingerprint: firefox
   name: '[D] 🇯🇵 日本 02'
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '!!str 4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
+    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
+    short-id: '!!str 187eea0acfb7f778'
+  server: 185.22.153.40
+  servername: x5club.ru
   tls: false
   type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  uuid: c96f941e-dd8a-006e-89d5-740b79202ed0
 - name: '[D] 🇯🇵 日本 03'
   password: Trojan@82164024
   port: 443
