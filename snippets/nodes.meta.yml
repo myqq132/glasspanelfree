@@ -1,141 +1,45 @@
 proxies:
-- name: '[B] 🌍 其它地区 01'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 28152
-  server: 130.49.189.250
-  sni: alb1337.zaebalsanoproxyklinus.lol
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 01'
+  password: 785bf39f-9a57-4a9f-9eff-9c4ad699e7b3
+  port: 58244
+  server: 13.143.187.69
+  sni: hist2.sunix-video.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 01'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 02'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  skip-cert-verify: false
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 28152
-  server: 130.49.189.250
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 05'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 06'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 07'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 28152
-  server: 130.49.189.250
-  skip-cert-verify: true
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 08'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 28152
-  server: 130.49.189.250
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 09'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 10'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 11'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  skip-cert-verify: false
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 12'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 28152
-  server: 130.49.189.250
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 13'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  skip-cert-verify: false
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 14'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 28152
-  server: alb1337.zaebalsanoproxyklinus.lol
-  sni: alb1337.zaebalsanoproxyklinus.lol
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 01'
+  name: '[B] 🇫🇷 法国 02'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20326
   server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 02'
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
   sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 03'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 04'
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20270
   server: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 04'
+  name: '[B] 🇫🇷 法国 05'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -143,16 +47,22 @@ proxies:
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 05'
+- name: '[B] 🇫🇷 法国 06'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
+- name: '[B] 🇫🇷 法国 07'
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 06'
+  name: '[B] 🇫🇷 法国 08'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -160,7 +70,7 @@ proxies:
   sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 07'
+- name: '[B] 🇫🇷 法国 09'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20326
   server: finkawwwbroy5.qcloud.surf
@@ -168,7 +78,7 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: firefox
-  name: '[B] 🇫🇷 法国 08'
+  name: '[B] 🇫🇷 法国 10'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -178,143 +88,145 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  fingerprint: firefox
-  name: '[B] 🇫🇷 法国 09'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 10'
+  name: '[B] 🇫🇷 法国 11'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 20326
   server: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 11'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
   sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 12'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 13'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 20270
   server: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 13'
+  name: '[B] 🇫🇷 法国 14'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 20270
   server: qcloudge1.exitvpn.shop
   skip-cert-verify: false
-  sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 14'
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20270
-  server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 15'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 16'
+- name: '[B] 🇫🇷 法国 16'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20326
   server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[B] 🇫🇷 法国 17'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[B] 🇫🇷 法国 18'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 19'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 19'
+  name: '[B] 🇫🇷 法国 20'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 21'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 20'
+- name: '[B] 🇫🇷 法国 22'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 20270
   server: qcloudge1.exitvpn.shop
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 21'
+- name: '[B] 🇫🇷 法国 23'
   password: c635b5f6-b5ea-4e57-927f-75860b0cb984
   port: 1443
   server: hy9.shamanfun.ru
   sni: hy9.shamanfun.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇫🇷 法国 22'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  skip-cert-verify: false
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[B] 🇫🇷 法国 23'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
-  tls: false
-  type: hysteria2
 - name: '[B] 🇫🇷 法国 24'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 20270
-  server: qcloudge1.exitvpn.shop
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[B] 🇫🇷 法国 25'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 26'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  sni: finkawwwbroy5.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇫🇷 法国 27'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 20270
+  server: qcloudge1.exitvpn.shop
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇫🇷 法国 28'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
   skip-cert-verify: false
   sni: qcloudge1.exitvpn.shop
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 26'
+- name: '[B] 🇫🇷 法国 29'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 20270
   server: qcloudge1.exitvpn.shop
@@ -323,21 +235,21 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 27'
+  name: '[B] 🇫🇷 法国 30'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 28'
+- name: '[B] 🇫🇷 法国 31'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 29'
+- name: '[B] 🇫🇷 法国 32'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -345,7 +257,7 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[B] 🇫🇷 法国 30'
+- name: '[B] 🇫🇷 法国 33'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -355,7 +267,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 31'
+  name: '[B] 🇫🇷 法国 34'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -365,7 +277,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇫🇷 法国 32'
+  name: '[B] 🇫🇷 法国 35'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -397,25 +309,9 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 02'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 03'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇸🇬 新加坡 04'
+  name: '[B] 🇸🇬 新加坡 02'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -425,7 +321,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇸🇬 新加坡 05'
+  name: '[B] 🇸🇬 新加坡 03'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
@@ -433,14 +329,14 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 15'
+- name: '[B] 🌍 其它地区 02'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 27313
   server: 145.249.109.15
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 16'
+- name: '[B] 🌍 其它地区 03'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -448,7 +344,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 17'
+  name: '[B] 🌍 其它地区 04'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -456,14 +352,14 @@ proxies:
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 18'
+- name: '[B] 🌍 其它地区 05'
   password: 408c51e8-9246-483d-ba73-34ab4e202eb9
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 19'
+- name: '[B] 🌍 其它地区 06'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 27313
   server: 145.249.109.15
@@ -473,7 +369,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[B] 🌍 其它地区 20'
+  name: '[B] 🌍 其它地区 07'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -481,21 +377,21 @@ proxies:
   tls: false
   type: hysteria2
 - fingerprint: chrome
-  name: '[B] 🌍 其它地区 21'
+  name: '[B] 🌍 其它地区 08'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 22'
+- name: '[B] 🌍 其它地区 09'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 27313
   server: 145.249.109.15
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 23'
+- name: '[B] 🌍 其它地区 10'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -503,7 +399,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 24'
+  name: '[B] 🌍 其它地区 11'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -511,21 +407,24 @@ proxies:
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 25'
+- name: '[B] 🌍 其它地区 12'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 26'
+- name: '[B] 🌍 其它地区 13'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 27313
   server: 145.249.109.15
+  skip-cert-verify: true
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 27'
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 14'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -533,36 +432,28 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 28'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 27313
-  server: spainspeedboostjbl88.qcloud.surf
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 29'
+  name: '[B] 🌍 其它地区 15'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 30'
+- name: '[B] 🌍 其它地区 16'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 31'
+- name: '[B] 🌍 其它地区 17'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 27313
   server: 145.249.109.15
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 32'
+- name: '[B] 🌍 其它地区 18'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -570,7 +461,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🌍 其它地区 33'
+  name: '[B] 🌍 其它地区 19'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -578,7 +469,7 @@ proxies:
   sni: spainspeedboostjbl88.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 34'
+- name: '[B] 🌍 其它地区 20'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 27313
   server: spainspeedboostjbl88.qcloud.surf
@@ -592,11 +483,21 @@ proxies:
   sni: hy8.shamanfun.ru
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 35'
+- name: '[B] 🌍 其它地区 21'
   password: c635b5f6-b5ea-4e57-927f-75860b0cb984
   port: 1443
   server: hy10.shamanfun.ru
   sni: hy10.shamanfun.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: random
+  name: '[B] 🌍 其它地区 22'
+  password: f3023b24-ac67-4cf3-8da7-980ab2bfe709
+  port: 54183
+  server: outh.yandex-cloud.org
+  sni: outh.yandex-cloud.org
   tls: false
   type: hysteria2
 - name: '[B] 🇬🇧 英国 01'
@@ -645,9 +546,15 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
+- name: '[B] 🇬🇧 英国 07'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 07'
+  name: '[B] 🇬🇧 英国 08'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -655,21 +562,21 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 08'
+- name: '[B] 🇬🇧 英国 09'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 09'
+- name: '[B] 🇬🇧 英国 10'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 10'
+- name: '[B] 🇬🇧 英国 11'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -679,7 +586,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 11'
+  name: '[B] 🇬🇧 英国 12'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -687,14 +594,14 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 12'
+- name: '[B] 🇬🇧 英国 13'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 13'
+- name: '[B] 🇬🇧 英国 14'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -702,7 +609,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 14'
+  name: '[B] 🇬🇧 英国 15'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -710,11 +617,27 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 15'
+- name: '[B] 🇬🇧 英国 16'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 01'
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  port: 1443
+  server: hy11.shamanfun.ru
+  sni: hy11.shamanfun.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 027989e3-fb20-460f-83fa-758443d2174d
+  port: 55096
+  server: 69.40.207.126
+  sni: hist3.sunix-video.ru
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 01'
@@ -729,7 +652,7 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: 194.87.118.184
+  sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 03'
@@ -737,7 +660,7 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: match-stream.lovkisport.blog
+  sni: 'off'
   tls: false
   type: hysteria2
 - alpn:
@@ -750,23 +673,45 @@ proxies:
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
+- name: '[B] 🇨🇦 加拿大 05'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: 194.87.118.184
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 01'
+  name: '[B] 🌍 其它地区 23'
   network: ws
-  port: '10086'
-  server: 39.108.113.127
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 24'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 33'
+  name: '[B] 🇫🇷 法国 36'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -780,7 +725,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 34'
+  name: '[B] 🇫🇷 法国 37'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -791,20 +736,6 @@ proxies:
   ws-opts:
     headers:
       Host: de-d21e56c13c.shamanapp.online:33744
-    path: /ShamanVMESS2026
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 35'
-  network: ws
-  port: '33744'
-  server: de-d21e56c13c.shamanapp.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: ''
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
@@ -828,21 +759,21 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
+  name: '[B] 🌍 其它地区 25'
   network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
+  port: '443'
+  server: uk3-2.998998.best
+  servername: server22.9966338.xyz
   tls: true
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+      Host: ''
+    path: /serhrdftshg
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 02'
+  name: '[B] 🇺🇸 美国 03'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -854,8 +785,22 @@ proxies:
     headers:
       Host: ''
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 36'
+  name: '[C] 🌍 其它地区 26'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -910,7 +855,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -918,7 +863,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -926,7 +871,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -951,47 +896,12 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - alpn:
-  - http/1.1
-  client-fingerprint: random
+  - h3
+  - h2
   name: '[D] 🇯🇵 日本 02'
   network: ws
-  port: 2083
-  server: 140.225.208.50
-  servername: speedtestmark.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  ws-opts:
-    path: '%2Fvless-ws'
-- flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 36'
-  network: tcp
-  port: 28150
-  reality-opts:
-    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
-    short-id: 'dcb858da'
-  server: fr.song69.fun
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
-- name: '[D] 🌍 其它地区 37'
-  network: ws
   port: 443
-  server: 103.137.250.68
-  servername: rnxq-1lpi3m.linmeisoft.com
-  tls: true
-  type: vless
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  ws-opts:
-    headers:
-      Host: rnxq-1lpi3m.linmeisoft.com
-    path: '%2Fb0a100ee-c397-43f2-bdae-2adfb7a0d4e5'
-- name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  port: 443
-  server: 162.159.130.234
+  server: 162.159.135.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -999,30 +909,44 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇷🇺 俄罗斯 01'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🇨🇳 中国 01'
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  tls: false
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  network: tcp
+  port: 21221
+  reality-opts:
+    public-key: RtxGqCtQJeOyUwSe7k6oZOrQWV1hPbC-TMqqgxl9fn4
+    short-id: 'c430045c'
+  server: sweedenqfds777.qcloud.surf
+  servername: metrika.yandex.ru
+  tls: false
+  type: vless
+  uuid: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+- alpn:
+  - h3
+  - h2
+  name: '[D] 🇨🇦 加拿大 06'
   network: ws
-  port: '443'
-  server: renderer-stream-2-114.mirra.now
-  servername: ''
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
-- cipher: aes-128-gcm
-  name: '[D] 🇭🇰 香港 08'
-  password: 9c51ca33-a332-4de5-8677-5624e940097c
-  port: 35016
-  server: ruot.ayucloudservices.nl
-  type: ss
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chrome
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 38'
+  name: '[D] 🌍 其它地区 27'
   network: tcp
   port: 443
   reality-opts:
@@ -1048,7 +972,7 @@ proxies:
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 39'
+  name: '[D] 🌍 其它地区 28'
   network: tcp
   port: 443
   reality-opts:
@@ -1061,7 +985,7 @@ proxies:
   uuid: 6c713691-3ca2-0009-ad25-113d1bed6b03
 - client-fingerprint: ''
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 40'
+  name: '[D] 🌍 其它地区 29'
   network: tcp
   port: 443
   reality-opts:
@@ -1091,9 +1015,185 @@ proxies:
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '[D] 🇨🇳 中国 03'
-  port: 58011
-  server: us22.sofast.live
+- name: '[D] 🌍 其它地区 30'
+  network: ws
+  port: 443
+  server: 103.137.250.68
+  servername: rnxq-1lpi3m.linmeisoft.com
+  tls: true
+  type: vless
+  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
+  ws-opts:
+    headers:
+      Host: rnxq-1lpi3m.linmeisoft.com
+    path: '%2Fb0a100ee-c397-43f2-bdae-2adfb7a0d4e5'
+- name: '[D] 🇨🇦 加拿大 07'
+  network: ws
+  port: 443
+  server: 104.16.111.102
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    path: '%2Ftyxyws'
+- name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
   tls: false
   type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 08'
+  network: ws
+  port: 443
+  server: 209.206.51.240
+  servername: and-75r.pages.dev
+  tls: true
+  type: vless
+  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  ws-opts:
+    headers:
+      Host: and-75r.pages.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 09'
+  network: ws
+  port: 443
+  server: 216.24.57.1
+  servername: somersby.pt.ex33r.eu.cc
+  tls: true
+  type: vless
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  ws-opts:
+    path: '%2Fid-amz'
+- name: '[D] 🇺🇸 美国 10'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 11'
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: '%2F'
+- name: '[D] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 185.148.104.30
+  servername: 185.148.104.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: '%2F'
+- name: '[D] 🇨🇦 加拿大 08'
+  network: ws
+  port: 8880
+  server: 172.67.209.127
+  servername: 172.67.209.127
+  tls: false
+  type: vless
+  uuid: 3e553ebf-db9d-4858-b608-03d6ff615a41
+  ws-opts:
+    headers:
+      Host: rapid-waterfall-7270.255-22b.workers.dev
+    path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
+- name: '[D] 🌍 其它地区 31'
+  network: ws
+  port: 443
+  server: 213.111.177.107
+  servername: vlso5.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
+- name: '[D] 🌍 其它地区 32'
+  network: ws
+  port: 8880
+  server: 185.148.107.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+    path: '%2F'
+- name: '[D] 🇨🇦 加拿大 09'
+  network: ws
+  port: 8880
+  server: 92.53.189.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime19.workers.dev
+    path: '%2F'
+- name: '[D] 🌍 其它地区 33'
+  network: ws
+  port: 443
+  server: 139.84.242.103
+  servername: vlso5.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
+- name: '[D] 🌍 其它地区 34'
+  network: ws
+  port: 8443
+  server: 156.38.157.171
+  servername: vlso5.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
+- name: '[D] 🇬🇧 英国 17'
+  network: ws
+  port: 8880
+  server: 45.85.118.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+    path: '%2F'
+- flow: xtls-rprx-vision
+  name: '[D] 🇫🇷 法国 38'
+  network: tcp
+  port: 28150
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+    short-id: 'dcb858da'
+  server: fr.song69.fun
+  servername: metrika.yandex.ru
+  tls: false
+  type: vless
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9

@@ -1,21 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 01'
+  name: '[B] 🌍 其它地区 23'
   network: ws
-  port: '10086'
-  server: 39.108.113.127
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
   servername: ''
   tls: false
   type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 24'
+  network: ws
+  port: '33736'
+  server: nl-2a972c8052.shamanapp.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 33'
+  name: '[B] 🇫🇷 法国 36'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -29,7 +43,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 34'
+  name: '[B] 🇫🇷 法国 37'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -40,20 +54,6 @@ proxies:
   ws-opts:
     headers:
       Host: de-d21e56c13c.shamanapp.online:33744
-    path: /ShamanVMESS2026
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 35'
-  network: ws
-  port: '33744'
-  server: de-d21e56c13c.shamanapp.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: ''
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
@@ -77,21 +77,21 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
+  name: '[B] 🌍 其它地区 25'
   network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
+  port: '443'
+  server: uk3-2.998998.best
+  servername: server22.9966338.xyz
   tls: true
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+      Host: ''
+    path: /serhrdftshg
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 02'
+  name: '[B] 🇺🇸 美国 03'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -103,8 +103,22 @@ proxies:
     headers:
       Host: ''
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 36'
+  name: '[C] 🌍 其它地区 26'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -159,7 +173,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -167,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -175,7 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -199,23 +213,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: '443'
-  server: renderer-stream-2-114.mirra.now
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
-- cipher: aes-128-gcm
-  name: '[D] 🇭🇰 香港 08'
-  password: 9c51ca33-a332-4de5-8677-5624e940097c
-  port: 35016
-  server: ruot.ayucloudservices.nl
-  type: ss

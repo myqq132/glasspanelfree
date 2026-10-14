@@ -1,21 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 01'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
+- name: '[B] 🇺🇸 美国 01'
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  port: 1443
+  server: hy11.shamanfun.ru
+  sni: hy11.shamanfun.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
   name: '[B] 🇺🇸 美国 02'
+  password: 027989e3-fb20-460f-83fa-758443d2174d
+  port: 55096
+  server: 69.40.207.126
+  sni: hist3.sunix-video.ru
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -27,7 +29,21 @@ proxies:
     headers:
       Host: ''
     path: /lMnsZUN4/
-- name: '[C] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -35,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -43,3 +59,59 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 08'
+  network: ws
+  port: 443
+  server: 209.206.51.240
+  servername: and-75r.pages.dev
+  tls: true
+  type: vless
+  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  ws-opts:
+    headers:
+      Host: and-75r.pages.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 09'
+  network: ws
+  port: 443
+  server: 216.24.57.1
+  servername: somersby.pt.ex33r.eu.cc
+  tls: true
+  type: vless
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  ws-opts:
+    path: '%2Fid-amz'
+- name: '[D] 🇺🇸 美国 10'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 11'
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: '%2F'

@@ -45,9 +45,15 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
+- name: '[B] 🇬🇧 英国 07'
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 07'
+  name: '[B] 🇬🇧 英国 08'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -55,21 +61,21 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 08'
+- name: '[B] 🇬🇧 英国 09'
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 09'
+- name: '[B] 🇬🇧 英国 10'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 10'
+- name: '[B] 🇬🇧 英国 11'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -79,7 +85,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 11'
+  name: '[B] 🇬🇧 英国 12'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -87,14 +93,14 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 12'
+- name: '[B] 🇬🇧 英国 13'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 13'
+- name: '[B] 🇬🇧 英国 14'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -102,7 +108,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇬🇧 英国 14'
+  name: '[B] 🇬🇧 英国 15'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
@@ -110,10 +116,21 @@ proxies:
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- name: '[B] 🇬🇧 英国 15'
+- name: '[B] 🇬🇧 英国 16'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
+- name: '[D] 🇬🇧 英国 17'
+  network: ws
+  port: 8880
+  server: 45.85.118.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime55.workers.dev
+    path: '%2F'
