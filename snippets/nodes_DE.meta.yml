@@ -1,14 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
-  port: 1443
-  server: hy8.shamanfun.ru
-  sni: hy8.shamanfun.ru
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:
