@@ -4,7 +4,7 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: 'off'
+  sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
 - name: '[B] 🇨🇦 加拿大 02'
@@ -19,17 +19,15 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: match-stream.lovkisport.blog
+  sni: 194.87.118.184
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 04'
+- name: '[B] 🇨🇦 加拿大 04'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
-  skip-cert-verify: false
-  sni: match-stream.lovkisport.blog
+  skip-cert-verify: true
+  sni: 'off'
   tls: false
   type: hysteria2
 - alpn:
