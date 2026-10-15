@@ -1,65 +1,139 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 24'
-  network: tcp
-  port: '10000'
-  server: 47.250.135.244
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 25'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
-  port: '10086'
-  server: 39.108.113.127
+  port: '443'
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 01'
+  name: '[B] 🇭🇰 香港 05'
   network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
+  port: '443'
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: VAH4URdZL3jDX5r2.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: '443'
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 04'
   network: ws
   port: '80'
-  server: 104.21.7.133
+  server: 3h-kazakhstan1.09vpn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 05'
+  network: ws
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 06'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 26'
+  name: '[C] 🌍 其它地区 07'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -67,7 +141,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -75,7 +149,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 09'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -83,7 +157,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 10'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -91,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -99,7 +173,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -107,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 04'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -115,7 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 09'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -123,7 +197,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122

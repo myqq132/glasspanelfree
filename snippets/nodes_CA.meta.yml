@@ -1,15 +1,8 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
-  password: 2680ceb0-50ee-4b5f-b82c-b4cdcb570200
-  port: 8443
-  server: ca-002.xiaoxiaobujidao.xyz
-  sni: ca-002.xiaoxiaobujidao.xyz
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   - h2
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -25,7 +18,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 03'
+  name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: 162.159.135.234

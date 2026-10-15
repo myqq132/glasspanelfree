@@ -4,11 +4,19 @@ proxies:
   port: 443
   server: 8.209.247.109
   skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 02'
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  port: 443
+  server: 8.209.247.109
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 03'
   password: usqmqUKJFIlCmvkCNSY64L3k
   port: 443
   server: 8.209.247.109
@@ -16,7 +24,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125

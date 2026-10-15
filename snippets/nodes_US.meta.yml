@@ -1,36 +1,20 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 21733
-  server: 147.45.217.206
-  sni: boostlitva77www.qcloud.surf
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 02'
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  port: 21733
-  server: boostlitva77www.qcloud.surf
-  skip-cert-verify: false
-  sni: boostlitva77www.qcloud.surf
+- name: '[B] 🇺🇸 美国 02'
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  port: 2053
+  server: 194.87.118.184
+  skip-cert-verify: true
+  sni: 194.87.118.184
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
-  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
-  port: 21733
-  server: 147.45.217.206
-  sni: boostlitva77www.qcloud.surf
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 04'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 05'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
@@ -40,37 +24,43 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 04'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: false
   sni: match-stream.lovkisport.blog
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 07'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: 'off'
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 05'
   network: ws
-  port: '80'
-  server: 104.21.7.133
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws?ed=2048
-- name: '[C] 🇺🇸 美国 09'
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -78,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 10'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
