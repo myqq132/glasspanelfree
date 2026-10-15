@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cp947CBxZl6dHGM5epfaXvKyj7Gh3CVBnprViDFL6Rk
+    short-id: '!!str 2174c487a4c9664b'
+  server: 150.241.87.196
+  servername: nh-pl-01.farmerly.cc
+  tls: false
+  type: vless
+  uuid: a00e48ce-e56e-4ac1-8272-38983f0d8f99
+  ws-opts:
+    headers:
+      Host: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
