@@ -1,63 +1,15 @@
 proxies:
 - name: '[B] 🇨🇦 加拿大 01'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
+  password: 2680ceb0-50ee-4b5f-b82c-b4cdcb570200
+  port: 8443
+  server: ca-002.xiaoxiaobujidao.xyz
+  sni: ca-002.xiaoxiaobujidao.xyz
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇦 加拿大 02'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: 194.87.118.184
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 03'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: match-stream.lovkisport.blog
-  tls: false
-  type: hysteria2
-- name: '[B] 🇨🇦 加拿大 04'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: true
-  sni: 'off'
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 05'
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  skip-cert-verify: false
-  sni: match-stream.lovkisport.blog
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇦 加拿大 06'
-  network: ws
-  port: '443'
-  server: eu3.998998.best
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  ws-opts:
-    headers:
-      Host: server40.9966338.xyz
-    path: /aiaiai
 - alpn:
   - h3
   - h2
-  name: '[D] 🇨🇦 加拿大 07'
+  name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -73,7 +25,7 @@ proxies:
   - h3
   - h2
   client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 08'
+  name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: 162.159.135.234
