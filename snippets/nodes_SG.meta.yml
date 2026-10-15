@@ -1,14 +1,46 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇸🇬 新加坡 01'
+- name: '[B] 🇸🇬 新加坡 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[B] 🇸🇬 新加坡 02'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 03'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 04'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇸🇬 新加坡 05'
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  port: 18642
+  server: s3.huhiuh.space
+  skip-cert-verify: true
+  sni: s3.huhiuh.space
+  tls: false
+  type: hysteria2
+- name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135

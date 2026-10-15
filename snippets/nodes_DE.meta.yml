@@ -5,14 +5,10 @@ proxies:
   server: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇩🇪 德国 02'
+- name: '[B] 🇩🇪 德国 02'
   password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
   port: 21223
   server: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-  sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 03'
@@ -26,13 +22,12 @@ proxies:
   password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
-  sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
 - alpn:
   - h3
   name: '[B] 🇩🇪 德国 05'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
   skip-cert-verify: false
@@ -40,15 +35,64 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 06'
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
   port: 21223
   server: sweedenqfds777.qcloud.surf
   sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
 - name: '[B] 🇩🇪 德国 07'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 08'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 09'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: false
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 10'
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 11'
   password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
   port: 21223
   server: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇩🇪 德国 12'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: false
+  sni: sweedenqfds777.qcloud.surf
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 13'
+  password: f83ce3c4-07d9-4895-bd14-cb74abbcab37
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  sni: sweedenqfds777.qcloud.surf
   tls: false
   type: hysteria2
