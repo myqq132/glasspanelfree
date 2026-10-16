@@ -1,14 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
+  fingerprint: chrome
   name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+  port: 443
+  server: hy-se.bypassme.online
+  sni: hy-se.bypassme.online
+  tls: false
+  type: hysteria2
 - name: '[D] 🇩🇪 德国 02'
   port: 10443
   server: 77.221.157.213

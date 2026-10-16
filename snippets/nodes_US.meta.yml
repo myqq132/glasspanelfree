@@ -7,14 +7,20 @@ proxies:
   sni: dl1.yuanshicheng.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: PD_0jD41hkQxq5ghBRhe7adO
-  port: 8882
-  server: 192.220.56.72
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 03'
