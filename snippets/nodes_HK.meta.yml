@@ -97,3 +97,16 @@ proxies:
   tls: false
   type: vless
   uuid: d83592a3-a94f-4f7e-b105-b3deedde2a7a
+- client-fingerprint: chrome
+  name: '[D] 🇭🇰 香港 12'
+  network: ws
+  port: 8443
+  server: 38.207.184.103
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
