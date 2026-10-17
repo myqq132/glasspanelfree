@@ -2,16 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 03'
-  network: tcp
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 04'
   network: ws
   port: '33736'
   server: nl-2a972c8052.shamanapp.online
@@ -25,49 +15,7 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 05'
-  network: ws
-  port: '33736'
-  server: nl-2a972c8052.shamanapp.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess-ws
-- alterId: 0
-  cipher: auto
   name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 02'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 03'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -81,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 04'
+  name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -109,17 +57,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
+  name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
   servername: ''
   tls: false
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[B] 🇨🇳 台湾 01'
   network: tcp
   port: '35034'
   server: 165.154.195.38
@@ -129,11 +81,21 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 06'
+  name: '[B] 🇨🇳 台湾 02'
+  network: raw
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 04'
   network: ws
   port: '443'
   server: uk3-2.998998.best
-  servername: server22.9966338.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
@@ -141,6 +103,20 @@ proxies:
     headers:
       Host: server22.9966338.xyz
     path: /serhrdftshg
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 04'
@@ -155,22 +131,8 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 07'
+  name: '[C] 🌍 其它地区 05'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -233,7 +195,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -241,7 +203,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -257,7 +219,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇰🇷 韩国 02'
+- name: '[C] 🇰🇷 韩国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -266,7 +228,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇺🇸 美国 16'
+  name: '[D] 🇺🇸 美国 15'
   password: SYg5JVvg3DqHc3LV5EpqMPva5rmkU8Z8
   port: 8388
   server: 155.138.220.185
