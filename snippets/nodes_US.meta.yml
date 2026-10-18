@@ -1,5 +1,20 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
+- name: '[B] 🇺🇸 美国 01'
+  password: 1E6GIU0WAFo9wAnsG52ruA==
+  port: 4433
+  server: 67.209.183.182
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: dd1b14f6-d290-428b-8d22-12105541c4c9
+  port: 443
+  server: ne13847.cdn-video.pro
+  sni: ne13847.cdn-video.pro
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -7,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -15,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇺🇸 美国 03'
+- name: '[D] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 179.255.140.146
@@ -27,7 +42,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 179.255.99.75
@@ -39,7 +54,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[D] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 8443
   server: 179.255.125.93
@@ -52,7 +67,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 8443
   server: 198.2.237.25
@@ -65,7 +80,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 23.246.154.243
