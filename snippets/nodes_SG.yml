@@ -1,5 +1,33 @@
 proxies:
-- name: '[C] 🇸🇬 新加坡 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 05'
+  network: ws
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 06'
+  network: ws
+  port: '443'
+  server: wjofhsqteueywxeq.v.3dns.vip
+  servername: wjofhsqteueywxeq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- name: '[C] 🇸🇬 新加坡 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135

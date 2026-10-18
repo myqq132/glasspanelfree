@@ -12,7 +12,6 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: 194.87.118.184
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 03'
@@ -20,27 +19,39 @@ proxies:
   port: 2053
   server: 194.87.118.184
   skip-cert-verify: true
-  sni: 'off'
+  sni: 194.87.118.184
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 04'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
-  sni: match-stream.lovkisport.blog
+  skip-cert-verify: true
+  sni: 'off'
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 05'
+- name: '[B] 🇺🇸 美国 05'
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   port: 2053
   server: 194.87.118.184
-  skip-cert-verify: false
   sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
-- name: '[C] 🇺🇸 美国 06'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '443'
+  server: rib9jxayoqjgn2kw.v.3dns.vip
+  servername: Rib9JXAYoqjGN2KW.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  ws-opts:
+    headers:
+      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
+    path: /ws-vmess
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -48,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -56,22 +67,10 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇺🇸 美国 08'
-  network: ws
-  port: 443
-  server: 179.255.140.146
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
 - name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
-  server: 179.255.99.75
+  server: 179.255.123.130
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -80,36 +79,11 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[D] 🇺🇸 美国 10'
-  network: ws
-  port: 8443
-  server: 179.255.125.93
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 11'
-  network: ws
-  port: 8443
-  server: 198.2.237.25
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 12'
+  name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 443
-  server: 23.246.154.243
+  server: 179.253.251.112
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -117,4 +91,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+    path: '%2F'
