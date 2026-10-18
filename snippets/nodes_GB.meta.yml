@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- name: '[B] 🇬🇧 英国 01'
+  password: b3a11068-1a7e-4643-85de-7c82cce46943
+  port: 443
+  server: uk-d9ca48498a.shamanapp.online
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇬🇧 英国 02'
+  password: b3a11068-1a7e-4643-85de-7c82cce46943
+  port: 443
+  server: uk-d9ca48498a.shamanapp.online
+  sni: uk-d9ca48498a.shamanapp.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 03'
+  password: b3a11068-1a7e-4643-85de-7c82cce46943
+  port: 443
+  server: uk-d9ca48498a.shamanapp.online
+  skip-cert-verify: true
+  sni: uk.shamanapp.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 04'
+  password: b3a11068-1a7e-4643-85de-7c82cce46943
+  port: 443
+  server: uk-d9ca48498a.shamanapp.online
+  sni: uk-d9ca48498a.shamanapp.online
+  tls: false
+  type: hysteria2
