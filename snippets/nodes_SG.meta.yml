@@ -1,50 +1,20 @@
 proxies:
 - name: '[B] 🇸🇬 新加坡 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇸🇬 新加坡 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 03'
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
   port: 18642
   server: s3.huhiuh.space
   skip-cert-verify: true
-  sni: s3.huhiuh.space
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇸🇬 新加坡 04'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇸🇬 新加坡 05'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
+- name: '[B] 🇸🇬 新加坡 02'
+  password: user317_windows
+  port: 443
   server: s3.huhiuh.space
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[C] 🇸🇬 新加坡 06'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -52,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇸🇬 新加坡 07'
+- name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 43.174.195.1
@@ -65,7 +35,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 08'
+  name: '[D] 🇸🇬 新加坡 05'
   network: ws
   port: 443
   server: 161.118.219.229
@@ -78,7 +48,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 09'
+  name: '[D] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   server: 157.245.50.181
@@ -91,7 +61,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 10'
+  name: '[D] 🇸🇬 新加坡 07'
   network: ws
   port: 443
   server: 129.212.232.171
@@ -104,7 +74,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 11'
+  name: '[D] 🇸🇬 新加坡 08'
   network: ws
   port: 443
   server: 178.93.160.236
