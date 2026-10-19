@@ -1,10 +1,10 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 1E6GIU0WAFo9wAnsG52ruA==
-  port: 4433
-  server: 67.209.183.182
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
   skip-cert-verify: true
-  sni: bing.com
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 0
@@ -20,6 +20,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 03'
+  network: raw
+  port: '26997'
+  server: 176.122.134.66
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dff7cb2c-82b7-400b-b9a1-29b87fa96f26
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
   network: ws
   port: '443'
   server: rib9jxayoqjgn2kw.v.3dns.vip
@@ -33,7 +43,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 05'
   network: ws
   port: '443'
   server: rib9jxayoqjgn2kw.v.3dns.vip
@@ -45,7 +55,7 @@ proxies:
     headers:
       Host: ''
     path: /ws-vmess
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -53,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -61,7 +71,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 179.255.123.130
@@ -74,7 +84,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 179.253.251.112
