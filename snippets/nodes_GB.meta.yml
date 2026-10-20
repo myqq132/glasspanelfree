@@ -1,33 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇬🇧 英国 01'
-  network: ws
-  port: '8443'
-  server: 206.238.238.222
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  ws-opts:
-    headers:
-      Host: uk.frnhk.xyz
-    path: /London31
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: '8443'
-  server: 206.238.239.109
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  ws-opts:
-    headers:
-      Host: uk.frnhk.xyz
-    path: /London31
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 01'
   network: tcp
   port: 22224
   server: 16.61.117.36
