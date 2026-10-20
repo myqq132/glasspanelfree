@@ -2,6 +2,30 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 01'
+  network: tcp
+  port: '10000'
+  server: 47.250.135.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 02'
+  network: ws
+  port: '33736'
+  server: 168.113.215.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
+  ws-opts:
+    headers:
+      Host: nl-2a972c8052.shamanapp.online
+    path: /vmess-ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 03'
   network: ws
   port: '33736'
   server: 168.113.215.6
@@ -15,7 +39,21 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 02'
+  name: '[B] 🌍 其它地区 04'
+  network: ws
+  port: '33744'
+  server: 217.60.183.95
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ShamanVMESS2026
+- alterId: 0
+  cipher: none
+  name: '[B] 🌍 其它地区 05'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -29,11 +67,11 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🌍 其它地区 06'
   network: ws
   port: '33744'
   server: 217.60.183.95
-  servername: ''
+  servername: de-d21e56c13c.shamanapp.online:33744
   tls: false
   type: vmess
   uuid: b3a11068-1a7e-4643-85de-7c82cce46943
@@ -41,6 +79,34 @@ proxies:
     headers:
       Host: de-d21e56c13c.shamanapp.online:33744
     path: /ShamanVMESS2026
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 01'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7547daaa-1577-49b0-9519-bd1823add1a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7547daaa-1577-49b0-9519-bd1823add1a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[B] 🇰🇷 韩国 01'
@@ -55,15 +121,53 @@ proxies:
     headers:
       Host: ''
     path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 03'
+  network: ws
+  port: '20086'
+  server: 183.109.131.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 01'
+  network: tcp
+  port: '48111'
+  server: 129.146.143.80
+  servername: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 04'
+  name: '[C] 🌍 其它地区 07'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -71,7 +175,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -79,7 +183,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -87,7 +191,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -95,7 +199,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -111,7 +215,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -119,7 +223,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -127,7 +231,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -143,7 +247,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇰🇷 韩国 02'
+- name: '[C] 🇰🇷 韩国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -151,3 +255,87 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 155'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 156'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 157'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 161'
+  network: ws
+  port: 8034
+  server: 120.232.202.14
+  tls: false
+  type: vmess
+  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 162'
+  network: ws
+  port: 8033
+  server: 120.232.202.14
+  tls: false
+  type: vmess
+  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 163'
+  network: ws
+  port: 8032
+  server: 120.232.202.14
+  tls: false
+  type: vmess
+  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 164'
+  network: ws
+  port: 8039
+  server: 120.232.202.14
+  tls: false
+  type: vmess
+  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 172'
+  network: ws
+  port: 2083
+  server: 162.159.135.234
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3

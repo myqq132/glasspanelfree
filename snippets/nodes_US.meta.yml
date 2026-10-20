@@ -1,5 +1,15 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 01'
+  network: tcp
+  port: '48111'
+  server: 129.146.143.80
+  servername: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -7,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -15,3 +25,66 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: 443
+  server: 208.68.180.204
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🇺🇸 美国 05'
+  network: ws
+  port: 443
+  server: 207.246.105.197
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 06'
+  network: ws
+  port: 443
+  server: 141.148.186.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
+- name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: 443
+  server: 141.98.41.20
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: fp%3Dunsafe
+- client-fingerprint: chrome
+  name: '[D] 🇺🇸 美国 08'
+  network: ws
+  port: 443
+  server: 166.88.33.135
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'

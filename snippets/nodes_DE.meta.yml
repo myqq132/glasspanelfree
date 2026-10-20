@@ -28,10 +28,11 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇩🇪 德国 03'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 03'
   network: ws
-  port: 443
-  server: 103.160.59.198
+  port: 2087
+  server: 45.157.233.109
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -39,4 +40,66 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 04'
+  network: ws
+  port: 8443
+  server: 31.70.89.136
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchromefp%3Dchrome'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 05'
+  network: ws
+  port: 8443
+  server: 77.91.66.41
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 06'
+  network: ws
+  port: 443
+  server: 165.245.214.107
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 07'
+  network: ws
+  port: 443
+  server: 45.95.0.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇩🇪 德国 08'
+  network: ws
+  port: 2053
+  server: 89.127.210.245
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
