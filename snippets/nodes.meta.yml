@@ -1,29 +1,21 @@
 proxies:
-- name: '[B] 🌍 其它地区 01'
-  password: e9dc02d400b67c727aca1620
-  port: 8446
-  server: 185.174.137.172
-  skip-cert-verify: true
-  sni: 185.174.137.172
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 02'
+  name: '[B] 🌍 其它地区 01'
   network: ws
   port: '33736'
   server: 168.113.215.6
-  servername: nl-2a972c8052.shamanapp.online
+  servername: ''
   tls: false
   type: vmess
   uuid: 1281acca-f21d-475c-bf04-eccbee7f8df2
   ws-opts:
     headers:
-      Host: nl-2a972c8052.shamanapp.online
+      Host: ''
     path: /vmess-ws
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 03'
+  name: '[B] 🌍 其它地区 02'
   network: ws
   port: '33744'
   server: de-d21e56c13c.shamanapp.online
@@ -37,7 +29,7 @@ proxies:
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 04'
+  name: '[B] 🌍 其它地区 03'
   network: ws
   port: '33744'
   server: 217.60.183.95
@@ -48,20 +40,6 @@ proxies:
   ws-opts:
     headers:
       Host: de-d21e56c13c.shamanapp.online:33744
-    path: /ShamanVMESS2026
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇫🇷 法国 01'
-  network: ws
-  port: '33744'
-  server: 217.60.183.95
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: ''
     path: /ShamanVMESS2026
 - alterId: 0
   cipher: auto
@@ -76,9 +54,9 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 05'
+  name: '[C] 🌍 其它地区 04'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -197,7 +175,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 06'
+- name: '[D] 🌍 其它地区 05'
   network: ws
   port: 443
   server: 103.161.178.205
@@ -209,7 +187,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 07'
+- name: '[D] 🌍 其它地区 06'
   network: ws
   port: 443
   server: 103.161.178.72
@@ -256,7 +234,7 @@ proxies:
   - http/1.1
   - h2
   flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 08'
+  name: '[D] 🌍 其它地区 07'
   port: 8443
   server: star-nl7.open-fields.org
   servername: star-nl7.open-fields.org
@@ -311,7 +289,7 @@ proxies:
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: '[D] 🌍 其它地区 09'
+- name: '[D] 🌍 其它地区 08'
   network: ws
   port: 443
   server: 130.78.190.134
@@ -347,7 +325,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 10'
+- name: '[D] 🌍 其它地区 09'
   network: ws
   port: 443
   server: 103.161.179.171
