@@ -1,6 +1,22 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
+    short-id: '!!str e0215064d8d1fd7c'
+  server: 78.17.178.125
+  servername: cdn.tbank.ru
+  tls: false
+  type: vless
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  ws-opts:
+    headers:
+      Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
+- client-fingerprint: chrome
+  name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -12,19 +28,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '!!str 4be4110078ebed4a'
-  server: 177.1.186.43
-  servername: de5.srv.vbuste-bot.com
-  tls: false
-  type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 443
