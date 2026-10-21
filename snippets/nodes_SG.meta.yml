@@ -8,62 +8,10 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: '[D] 🇸🇬 新加坡 02'
-  network: tcp
-  port: 55069
-  reality-opts:
-    public-key: YQ3pqAAbm2RcACEkU8K0nol3-B-driJbXISk-rb-A0E
-    short-id: '!!str 98a763b0b27e284b'
-  server: jklo.personalitytoday.com
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 03'
-  network: tcp
-  port: 36000
-  reality-opts:
-    public-key: X_RnxIw_MpC_qCMcsgM3CDcPx2y6LGVl7UMms0IxOkI
-    short-id: '!!str 8cd87cd0dcc86b9f'
-  server: 162.128.44.254
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
-- client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 04'
   network: ws
   port: 443
-  server: 149.104.5.126
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 05'
-  network: ws
-  port: 443
-  server: 139.162.62.195
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 06'
-  network: ws
-  port: 8443
-  server: 168.107.90.137
+  server: 43.174.195.1
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless

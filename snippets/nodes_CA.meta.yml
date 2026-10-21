@@ -2,7 +2,7 @@ proxies:
 - name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: 443
-  server: 162.159.135.234
+  server: 172.64.150.43
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -10,11 +10,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🇨🇦 加拿大 02'
+    path: '%2Ffp%3Dunsafe'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -25,14 +22,14 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
+  - h3
+  - h2
   name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 443
-  server: 188.114.97.6
+  server: 162.159.135.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -40,7 +37,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip'
+    path: '%2Ffp%3Dchrome'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -55,26 +52,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+    path: '%2Ffp%3Dchrome'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -85,52 +67,14 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip'
-- client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 07'
-  network: ws
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
-- client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 08'
-  network: ws
-  port: 443
-  server: 104.17.147.22
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[D] 🇨🇦 加拿大 09'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+    path: '%2Ffdip%23TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed'
 - alpn:
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 10'
+  client-fingerprint: chrome
+  name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 443
-  server: 104.19.45.195
+  server: 188.114.97.6
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -138,4 +82,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F%3FTELEGRAM-TOOTFFARANGIfp%3Dchrome'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'

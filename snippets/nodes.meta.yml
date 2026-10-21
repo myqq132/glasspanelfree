@@ -21,44 +21,37 @@ proxies:
   sni: 6d889de6-tly2o0-tn28ki-mv7m.nw4.hyhuawei.com
   tls: false
   type: hysteria2
+- name: '[B] 🇭🇰 香港 02'
+  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 525b1a38-tly2o0-tn5bnx-19xg1.nw4.hyhuawei.com
+  tls: false
+  type: hysteria2
 - name: '[B] 🇯🇵 日本 01'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: rb.mangshe.xyz
   skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 03'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: 8.209.247.109
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 04'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
+  sni: rb.mangshe.xyz
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 03'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a01e5d56-464f-45b9-b600-164db4700162
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 04'
   network: ws
   port: '33736'
   server: 168.113.215.6
@@ -70,20 +63,6 @@ proxies:
     headers:
       Host: nl-2a972c8052.shamanapp.online
     path: /vmess-ws
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 04'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 05'
@@ -100,6 +79,20 @@ proxies:
     path: /vmess-ws
 - alterId: 0
   cipher: auto
+  name: '[B] 🌍 其它地区 06'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7547daaa-1577-49b0-9519-bd1823add1a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: '[B] 🇨🇳 中国 01'
   network: ws
   port: '10086'
@@ -114,34 +107,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 03'
   network: ws
   port: '443'
-  server: 20.235.220.189
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: tcp
-  port: '50001'
-  server: 101.32.8.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5706beb5-479b-475d-b557-00309327e9cc
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 04'
   network: ws
   port: '443'
-  server: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
@@ -155,42 +138,94 @@ proxies:
   name: '[B] 🇭🇰 香港 05'
   network: ws
   port: '443'
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  servername: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: 8.210.24.181
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 07'
+  name: '[B] 🇭🇰 香港 06'
   network: ws
   port: '443'
-  server: 8.210.24.181
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   servername: ''
   tls: true
   type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 07'
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 08'
+  network: tcp
+  port: '50001'
+  server: 101.32.8.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 09'
+  network: ws
+  port: '443'
+  server: 47.243.65.243
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 10'
+  network: ws
+  port: '443'
+  server: 47.243.65.243
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 11'
+  network: ws
+  port: '443'
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -205,30 +240,16 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: '20086'
-  server: 183.109.131.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 06'
+  name: '[C] 🌍 其它地区 07'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 08'
+  name: '[C] 🇭🇰 香港 12'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -236,7 +257,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 13'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -244,7 +265,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 10'
+- name: '[C] 🇭🇰 香港 14'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -252,7 +273,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 11'
+- name: '[C] 🇭🇰 香港 15'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -260,7 +281,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 12'
+- name: '[C] 🇭🇰 香港 16'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -268,7 +289,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 05'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -308,7 +329,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇰🇷 韩国 03'
+- name: '[C] 🇰🇷 韩国 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -316,15 +337,212 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[D] 🇨🇳 中国 02'
+- cipher: aes-256-gcm
+  name: '[D] 🇯🇵 日本 03'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- name: '[D] 🇭🇰 香港 17'
+  network: ws
+  port: 8443
+  server: 103.39.78.118
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🌍 其它地区 08'
+  network: ws
+  port: 443
+  server: 103.161.179.171
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🌍 其它地区 09'
+  network: ws
+  port: 8443
+  server: 104.245.245.16
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 10'
   network: tcp
-  port: 58011
-  server: us22.sofast.live
+  port: 443
+  reality-opts:
+    public-key: 92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE
+    short-id: 'b7a5c406'
+  server: snow.betust.net
+  servername: api37.betust.net
   tls: false
   type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
+- name: '[D] 🌍 其它地区 11'
+  network: ws
+  port: 443
+  server: 173.242.51.189
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- name: '[D] 🇺🇸 美国 03'
+  network: ws
+  port: 443
+  server: 141.98.41.80
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: 443
+  server: 162.35.127.65
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: '[D] 🇸🇬 新加坡 02'
+  network: ws
+  port: 443
+  server: 43.174.195.1
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 12'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- name: '[D] 🌍 其它地区 13'
+  network: ws
+  port: 443
+  server: 194.55.166.65
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🇩🇪 德国 01'
+  network: ws
+  port: 443
+  server: 185.230.44.200
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: '[D] 🇭🇰 香港 18'
+  network: ws
+  port: 443
+  server: 103.242.15.87
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: '[D] 🇩🇪 德国 02'
+  network: ws
+  port: 8443
+  server: 31.70.89.136
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
+- name: '[D] 🇨🇦 加拿大 01'
+  network: ws
+  port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dunsafe'
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 14'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
+  type: ss
+- name: '[D] 🌍 其它地区 15'
+  network: ws
+  port: 443
+  server: 195.133.92.228
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 16'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4
+    short-id: '70b4ca'
+  server: 31.59.216.141
+  servername: 193.23.216.239.cdn-one.org
+  tls: false
+  type: vless
+  uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
+- flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -338,45 +556,10 @@ proxies:
   ws-opts:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
-- flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 02'
-  network: tcp
-  port: 55069
-  reality-opts:
-    public-key: YQ3pqAAbm2RcACEkU8K0nol3-B-driJbXISk-rb-A0E
-    short-id: '98a763b0b27e284b'
-  server: jklo.personalitytoday.com
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
-- name: '[D] 🌍 其它地区 07'
-  network: tcp
-  port: 2218
-  reality-opts:
-    public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
-    short-id: 'cc80ef'
-  server: 45.74.158.57
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19
-- flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 03'
-  network: tcp
-  port: 36000
-  reality-opts:
-    public-key: X_RnxIw_MpC_qCMcsgM3CDcPx2y6LGVl7UMms0IxOkI
-    short-id: '8cd87cd0dcc86b9f'
-  server: 162.128.44.254
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: b2332eff-b231-4c10-8552-5dfad84f5521
-- name: '[D] 🇨🇦 加拿大 01'
+- name: '[D] 🇯🇵 日本 04'
   network: ws
-  port: 443
-  server: 162.159.135.234
+  port: 8443
+  server: 178.239.117.133
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -384,11 +567,20 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🇨🇦 加拿大 02'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🇯🇵 日本 05'
+  network: ws
+  port: 443
+  server: 60.130.209.253
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -399,82 +591,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- alpn:
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 03'
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip'
-- name: '[D] 🌍 其它地区 08'
-  network: ws
-  port: 443
-  server: 103.161.178.72
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 09'
-  network: ws
-  port: 443
-  server: 103.161.178.215
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 10'
-  network: ws
-  port: 443
-  server: 103.161.179.171
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 11'
-  network: ws
-  port: 443
-  server: 103.161.178.205
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 12'
-  network: ws
-  port: 443
-  server: 130.78.190.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -485,7 +603,70 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
+- name: '[D] 🇰🇷 韩国 03'
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- alpn:
+  - h3
+  - h2
+  name: '[D] 🇨🇦 加拿大 03'
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇭🇰 香港 19'
+  network: ws
+  port: 443
+  server: 62.72.163.108
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇺🇸 美国 05'
+  network: ws
+  port: 443
+  server: 104.194.140.26
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🌍 其它地区 17'
+  network: ws
+  port: 443
+  server: 104.152.48.248
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
 - alpn:
   - http/1.1
   name: '[D] 🇨🇦 加拿大 04'
@@ -499,37 +680,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 05'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
-- name: '[D] 🌍 其它地区 13'
-  network: ws
-  port: 8443
-  server: 104.245.245.16
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 14'
+- name: '[D] 🌍 其它地区 18'
   network: ws
   port: 443
-  server: 141.98.233.6
+  server: 162.159.130.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -537,33 +692,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 06'
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip'
-- name: '[D] 🇨🇦 加拿大 07'
-  network: ws
-  port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
 - name: '[D] 🇷🇺 俄罗斯 01'
   network: ws
   port: 8443
@@ -576,10 +705,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇨🇦 加拿大 08'
+- name: '[D] 🌍 其它地区 19'
   network: ws
   port: 443
-  server: 104.17.147.22
+  server: 103.161.178.215
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -587,11 +716,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇯🇵 日本 06'
+    path: fp%3Dunsafe
+- name: '[D] 🌍 其它地区 20'
   network: ws
   port: 443
-  server: 60.130.209.253
+  server: 103.161.179.36
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -599,23 +728,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇸🇬 新加坡 04'
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇭🇰 香港 20'
   network: ws
-  port: 443
-  server: 149.104.5.126
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 15'
-  network: ws
-  port: 443
-  server: 103.38.236.248
+  port: 2053
+  server: 193.134.210.14
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -624,7 +741,95 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 16'
+- name: '[D] 🌍 其它地区 21'
+  network: ws
+  port: 443
+  server: 103.161.178.205
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
+- alpn:
+  - http/1.1
+  name: '[D] 🇨🇦 加拿大 05'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%23TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed'
+- name: '[D] 🌍 其它地区 22'
+  network: ws
+  port: 443
+  server: 103.161.178.72
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇰🇷 韩国 04'
+  network: ws
+  port: 443
+  server: 146.56.151.92
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
+- name: '[D] 🇺🇸 美国 06'
+  network: ws
+  port: 443
+  server: 207.246.105.197
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- alpn:
+  - http/1.1
+  name: '[D] 🇨🇦 加拿大 06'
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+- name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: 443
+  server: 141.98.41.20
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: fp%3Dunsafe
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 8443
   server: 45.61.149.205
@@ -635,200 +840,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇨🇦 加拿大 09'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
-- name: '[D] 🌍 其它地区 17'
-  network: ws
-  port: 443
-  server: 178.93.160.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 18'
-  network: ws
-  port: 443
-  server: 54.116.249.102
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 19'
-  network: ws
-  port: 443
-  server: 212.135.212.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[D] 🌍 其它地区 20'
-  network: ws
-  port: 443
-  server: 179.255.99.57
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 21'
-  network: ws
-  port: 443
-  server: 139.84.236.69
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 22'
-  network: ws
-  port: 2053
-  server: 57.131.153.153
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
 - name: '[D] 🌍 其它地区 23'
-  network: ws
-  port: 2053
-  server: 154.17.6.42
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 24'
-  network: ws
-  port: 443
-  server: 203.88.117.190
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 25'
-  network: ws
-  port: 443
-  server: 172.104.77.231
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 26'
-  network: ws
-  port: 443
-  server: 179.255.106.248
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 27'
-  network: ws
-  port: 443
-  server: 87.120.126.131
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 28'
-  network: ws
-  port: 443
-  server: 43.164.132.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 29'
-  network: ws
-  port: 443
-  server: 66.42.97.131
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 30'
-  network: ws
-  port: 443
-  server: 152.42.198.190
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 31'
-  network: ws
-  port: 443
-  server: 195.133.92.228
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 32'
   network: ws
   port: 8443
   server: 103.199.19.132
@@ -840,34 +853,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 33'
+- name: '[D] 🌍 其它地区 24'
   network: ws
   port: 443
-  server: 185.115.207.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 34'
-  network: ws
-  port: 443
-  server: 206.237.107.205
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 35'
-  network: ws
-  port: 443
-  server: 172.93.219.9
+  server: 141.98.233.6
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -876,10 +865,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 36'
+- name: '[D] 🌍 其它地区 25'
   network: ws
-  port: 2053
-  server: 109.120.186.137
+  port: 443
+  server: 216.195.195.205
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -888,7 +877,95 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[D] 🌍 其它地区 37'
+- name: '[D] 🇯🇵 日本 06'
+  network: ws
+  port: 8443
+  server: 216.238.54.114
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 26'
+  network: ws
+  port: 443
+  server: 194.127.192.138
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🌍 其它地区 27'
+  network: ws
+  port: 8443
+  server: 185.239.48.154
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🌍 其它地区 28'
+  network: ws
+  port: 443
+  server: 47.131.104.124
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '[D] 🌍 其它地区 29'
+  network: ws
+  port: 443
+  server: 104.17.147.22
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 30'
+  network: ws
+  port: 443
+  server: 179.255.99.95
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '[D] 🌍 其它地区 31'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 32'
   network: ws
   port: 443
   server: 13.140.29.253
@@ -900,10 +977,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 38'
+- name: '[D] 🌍 其它地区 33'
   network: ws
   port: 443
-  server: 150.109.240.55
+  server: 130.78.190.134
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -912,10 +989,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 39'
+- name: '[D] 🌍 其它地区 34'
   network: ws
   port: 443
-  server: 216.23.93.27
+  server: 95.182.95.237
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -924,34 +1001,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 40'
-  network: ws
-  port: 443
-  server: 194.55.164.118
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 41'
+- name: '[D] 🌍 其它地区 35'
   network: ws
   port: 8443
-  server: 72.60.235.49
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[D] 🌍 其它地区 42'
-  network: ws
-  port: 443
-  server: 45.136.14.153
+  server: 144.31.181.177
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -960,7 +1013,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 43'
+- name: '[D] 🌍 其它地区 36'
   network: ws
   port: 443
   server: 13.140.29.45
@@ -972,10 +1025,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 44'
+- name: '[D] 🌍 其它地区 37'
   network: ws
-  port: 8443
-  server: 114.129.9.132
+  port: 443
+  server: 138.124.54.223
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -983,8 +1036,82 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 45'
+    path: '%2F'
+- name: '[D] 🌍 其它地区 38'
+  network: ws
+  port: 443
+  server: 178.93.160.236
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 39'
+  network: ws
+  port: 443
+  server: 103.102.228.113
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 40'
+  network: ws
+  port: 8443
+  server: 209.38.254.20
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '[D] 🌍 其它地区 41'
+  network: ws
+  port: 443
+  server: 185.230.44.140
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 42'
+  network: ws
+  port: 8443
+  server: 62.133.60.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 43'
+  network: ws
+  port: 2087
+  server: 166.88.194.74
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '[D] 🌍 其它地区 44'
   network: ws
   port: 443
   server: 94.20.154.66
@@ -996,10 +1123,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 46'
+- name: '[D] 🌍 其它地区 45'
   network: ws
   port: 443
-  server: 94.237.65.232
+  server: 194.55.164.118
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1007,11 +1134,26 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 47'
+    path: '%2F'
+- name: '[D] 🌍 其它地区 46'
   network: ws
   port: 443
-  server: 104.252.30.35
+  server: 95.182.94.128
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- alpn:
+  - h3
+  - h2
+  name: '[D] 🌍 其它地区 47'
+  network: ws
+  port: 443
+  server: 185.71.230.237
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1023,7 +1165,7 @@ proxies:
 - name: '[D] 🌍 其它地区 48'
   network: ws
   port: 443
-  server: 159.195.45.210
+  server: 193.36.95.34
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1035,7 +1177,7 @@ proxies:
 - name: '[D] 🌍 其它地区 49'
   network: ws
   port: 8443
-  server: 43.161.233.40
+  server: 188.240.213.98
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1047,7 +1189,7 @@ proxies:
 - name: '[D] 🌍 其它地区 50'
   network: ws
   port: 443
-  server: 138.124.36.67
+  server: 152.67.41.217
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1055,134 +1197,85 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
+    path: '%2F'
 - name: '[D] 🌍 其它地区 51'
   network: ws
+  password: humanity
   port: 443
-  server: 195.133.92.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  server: 188.114.97.2
+  sni: wWw.Volumeroot.cOm.
+  type: trojan
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 52'
+      Host: www.volumerOot.coM.
+    path: '%2Fassignment'
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 52'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 53'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.27
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 54'
   network: ws
-  port: 443
-  server: 155.117.234.52
-  servername: snip.edgeoneai.cc.cd
+  port: '443'
+  server: 9641684.sdf65h4.top
   tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  type: vmess
+  uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 53'
-  network: ws
-  port: 443
-  server: 179.255.107.28
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 54'
-  network: ws
-  port: 2083
-  server: 132.243.165.215
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+      Host: 9641684.sdf65h4.top
+    path: /
 - name: '[D] 🌍 其它地区 55'
-  network: ws
-  port: 443
-  server: 13.233.229.128
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: '[D] 🌍 其它地区 56'
-  network: ws
-  port: 443
-  server: 193.108.112.65
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 57'
-  network: ws
-  port: 443
-  server: 43.154.165.40
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 58'
-  network: ws
-  port: 443
-  server: 212.60.4.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[D] 🌍 其它地区 59'
-  network: ws
-  port: 8443
-  server: 88.218.92.157
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- alpn:
-  - h3
-  - h2
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 57'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 58'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 59'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.72
+  type: ss
+- cipher: aes-256-gcm
   name: '[D] 🌍 其它地区 60'
-  network: ws
-  port: 443
-  server: 103.13.211.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
 - name: '[D] 🌍 其它地区 61'
   network: ws
   port: 443
-  server: 193.180.208.167
+  server: 195.133.17.250
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1194,43 +1287,7 @@ proxies:
 - name: '[D] 🌍 其它地区 62'
   network: ws
   port: 443
-  server: 129.151.124.127
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 63'
-  network: ws
-  port: 443
-  server: 38.54.59.70
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 64'
-  network: ws
-  port: 443
-  server: 141.253.194.63
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[D] 🌍 其它地区 65'
-  network: ws
-  port: 443
-  server: 104.194.140.26
+  server: 193.200.130.20
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -1239,6 +1296,43 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
+- name: '[D] 🌍 其它地区 63'
+  network: tcp
+  port: 2218
+  reality-opts:
+    public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
+    short-id: 'cc80ef'
+  server: 45.74.158.57
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19
+- name: '[D] 🌍 其它地区 64'
+  network: ws
+  port: 2083
+  server: 132.243.165.215
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- alpn:
+  - http/1.1
+  name: '[D] 🌍 其它地区 65'
+  network: ws
+  port: 443
+  server: 104.19.45.195
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F%3FTELEGRAM-TOOTFFARANGIfp%3Dchrome'
 - name: '[D] 🌍 其它地区 66'
   network: ws
   port: 2053
@@ -1251,806 +1345,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 67'
-  network: ws
-  port: 443
-  server: 85.90.197.114
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 68'
-  network: ws
-  port: 443
-  server: 166.1.221.39
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 69'
-  network: ws
-  port: 443
-  server: 193.36.95.34
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 70'
-  network: ws
-  port: 443
-  server: 143.246.223.110
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 71'
-  network: ws
-  port: 443
-  server: 216.238.79.164
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🌍 其它地区 72'
-  network: ws
-  port: 8443
-  server: 185.14.97.242
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 73'
-  network: ws
-  port: 443
-  server: 136.0.254.132
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 74'
-  network: ws
-  port: 443
-  server: 216.238.78.167
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 75'
-  network: ws
-  port: 443
-  server: 185.71.230.237
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 76'
-  network: ws
-  port: 443
-  server: 109.122.194.61
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 77'
-  network: ws
-  port: 2053
-  server: 103.31.77.108
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 78'
-  network: ws
-  port: 443
-  server: 130.94.58.215
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🌍 其它地区 79'
-  network: ws
-  port: 8443
-  server: 130.94.58.215
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 80'
-  network: ws
-  port: 443
-  server: 103.149.46.74
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 81'
-  network: ws
-  port: 443
-  server: 152.53.197.166
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 82'
-  network: ws
-  port: 443
-  server: 155.254.35.156
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 83'
-  network: ws
-  port: 443
-  server: 101.32.169.108
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 84'
-  network: ws
-  port: 8443
-  server: 144.31.181.177
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 85'
-  network: ws
-  port: 2053
-  server: 178.105.215.151
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 86'
-  network: ws
-  port: 2053
-  server: 103.136.68.176
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 87'
-  network: ws
-  port: 443
-  server: 165.227.161.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp%3Dunsafe
-- name: '[D] 🌍 其它地区 88'
-  network: ws
-  port: 443
-  server: 206.189.56.164
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 89'
-  network: ws
-  port: 443
-  server: 185.230.44.140
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 90'
-  network: ws
-  port: 443
-  server: 63.186.127.80
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 91'
-  network: ws
-  port: 443
-  server: 144.24.90.178
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 92'
-  network: ws
-  port: 443
-  server: 94.159.100.154
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 93'
-  network: ws
-  port: 443
-  server: 168.107.36.135
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 94'
-  network: ws
-  port: 443
-  server: 43.108.46.150
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 95'
-  network: ws
-  port: 8443
-  server: 93.127.223.238
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 96'
-  network: ws
-  port: 443
-  server: 141.164.35.4
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 97'
-  network: ws
-  port: 443
-  server: 52.79.188.223
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 98'
-  network: ws
-  port: 443
-  server: 141.164.44.60
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 99'
-  network: ws
-  port: 443
-  server: 216.173.67.144
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 100'
-  network: ws
-  port: 443
-  server: 166.88.35.242
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 101'
-  network: ws
-  port: 8443
-  server: 134.209.166.201
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
-- name: '[D] 🌍 其它地区 102'
-  network: ws
-  port: 443
-  server: 131.143.180.190
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 103'
-  network: ws
-  port: 443
-  server: 154.12.52.153
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 104'
-  network: ws
-  port: 443
-  server: 141.98.41.80
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 105'
-  network: ws
-  port: 443
-  server: 203.88.117.227
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 106'
-  network: ws
-  port: 443
-  server: 154.21.197.32
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 107'
-  network: ws
-  port: 443
-  server: 179.253.247.47
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 108'
-  network: ws
-  port: 8443
-  server: 179.255.107.60
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 109'
-  network: ws
-  port: 443
-  server: 179.255.99.95
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 110'
-  network: ws
-  port: 443
-  server: 192.6.161.16
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 111'
-  network: ws
-  port: 443
-  server: 45.39.230.139
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 112'
-  network: ws
-  port: 8443
-  server: 52.26.119.209
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 113'
-  network: ws
-  port: 443
-  server: 104.248.68.179
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[D] 🌍 其它地区 114'
-  network: ws
-  port: 8443
-  server: 144.225.246.243
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 115'
-  network: ws
-  port: 8443
-  server: 173.249.207.192
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
-- name: '[D] 🌍 其它地区 116'
-  network: ws
-  port: 8443
-  server: 178.239.117.133
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 117'
-  network: ws
-  port: 443
-  server: 38.47.52.252
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 118'
-  network: ws
-  port: 443
-  server: 193.32.151.144
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 119'
-  network: ws
-  port: 8443
-  server: 94.183.184.239
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 120'
-  network: ws
-  port: 443
-  server: 161.33.45.250
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 121'
-  network: ws
-  port: 443
-  server: 138.2.41.8
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 122'
-  network: ws
-  port: 443
-  server: 35.74.79.196
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 123'
-  network: ws
-  port: 443
-  server: 54.64.190.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 124'
-  network: ws
-  port: 443
-  server: 139.84.244.9
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 125'
-  network: ws
-  port: 443
-  server: 149.104.5.141
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp%3Dunsafe
-- name: '[D] 🌍 其它地区 126'
-  network: ws
-  port: 8443
-  server: 69.8.128.249
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 127'
-  network: ws
-  port: 2053
-  server: 193.134.210.14
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 128'
-  network: ws
-  port: 443
-  server: 45.152.65.100
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 129'
-  network: ws
-  port: 443
-  server: 38.55.198.210
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 130'
-  network: ws
-  port: 443
-  server: 68.64.178.52
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 131'
+- name: '[D] 🌍 其它地区 67'
   network: ws
   port: 443
   server: 83.229.120.10
@@ -2062,22 +1357,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 132'
-  network: ws
-  port: 443
-  server: 207.57.133.165
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
 - alpn:
   - h3
   - h2
-  name: '[D] 🌍 其它地区 133'
+  name: '[D] 🌍 其它地区 68'
   network: ws
   port: 443
   server: 5.188.33.40
@@ -2089,178 +1372,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 134'
-  network: ws
-  port: 443
-  server: 116.251.217.65
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp%3Dunsafe
-- name: '[D] 🌍 其它地区 135'
-  network: ws
-  port: 443
-  server: 138.2.66.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 136'
-  network: ws
-  port: 443
-  server: 152.42.175.157
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 137'
-  network: ws
-  port: 443
-  server: 194.127.192.138
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 138'
-  network: ws
-  port: 443
-  server: 165.22.106.244
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 139'
-  network: ws
-  port: 443
-  server: 167.172.75.10
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 140'
-  network: ws
-  port: 443
-  server: 165.232.173.161
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 141'
-  network: ws
-  port: 8443
-  server: 206.206.77.6
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 142'
-  network: ws
-  port: 443
-  server: 172.104.180.121
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 143'
-  network: ws
-  port: 443
-  server: 168.144.128.4
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[D] 🌍 其它地区 144'
-  network: ws
-  port: 443
-  server: 207.148.123.149
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 145'
-  network: ws
-  port: 443
-  server: 69.8.133.6
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 146'
-  network: ws
-  port: 8443
-  server: 5.223.70.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 147'
-  network: ws
-  port: 443
-  server: 103.161.179.36
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🇰🇷 韩国 04'
+- name: '[D] 🌍 其它地区 69'
   network: ws
   port: 443
   server: 152.67.198.36
@@ -2272,7 +1384,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🌍 其它地区 70'
   network: ws
   port: 2087
   server: 45.157.233.109
@@ -2284,497 +1396,9 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇩🇪 德国 04'
-  network: ws
-  port: 8443
-  server: 31.70.89.136
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchromefp%3Dchrome'
-- name: '[D] 🇰🇷 韩国 05'
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🇸🇬 新加坡 05'
-  network: ws
-  port: 443
-  server: 139.162.62.195
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 03'
-  network: ws
-  port: 443
-  server: 208.68.180.204
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇩🇪 德国 05'
-  network: ws
-  port: 8443
-  server: 77.91.66.41
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇰🇷 韩国 06'
-  network: ws
-  port: 443
-  server: 141.164.34.193
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇭🇰 香港 13'
-  network: ws
-  port: 443
-  server: 193.200.130.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 148'
-  network: ws
-  port: 443
-  server: 154.46.31.118
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 04'
-  network: ws
-  port: 443
-  server: 207.246.105.197
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 05'
-  network: ws
-  port: 443
-  server: 141.148.186.22
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🇩🇪 德国 06'
-  network: ws
-  port: 443
-  server: 165.245.214.107
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🌍 其它地区 149'
-  network: ws
-  port: 443
-  server: 193.233.161.253
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 150'
-  network: ws
-  port: 8443
-  server: 185.239.48.154
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇰🇷 韩国 07'
-  network: ws
-  port: 443
-  server: 43.202.32.50
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 151'
-  network: ws
-  port: 443
-  server: 149.154.157.213
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp%3Dunsafe
-- name: '[D] 🌍 其它地区 152'
-  network: ws
-  port: 443
-  server: 88.218.92.205
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 153'
-  network: ws
-  port: 8443
-  server: 188.240.213.98
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '[D] 🇨🇦 加拿大 10'
-  network: ws
-  port: 443
-  server: 104.19.45.195
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F%3FTELEGRAM-TOOTFFARANGIfp%3Dchrome'
-- name: '[D] 🇭🇰 香港 14'
-  network: ws
-  port: 8443
-  server: 103.39.78.118
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇸🇬 新加坡 06'
-  network: ws
-  port: 8443
-  server: 168.107.90.137
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: 443
-  server: 141.98.41.20
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: fp%3Dunsafe
-- name: '[D] 🇩🇪 德国 07'
-  network: ws
-  port: 443
-  server: 45.95.0.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 07'
-  network: ws
-  port: 443
-  server: 166.88.33.135
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇩🇪 德国 08'
-  network: ws
-  port: 2053
-  server: 89.127.210.245
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 154'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 155'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.27
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 156'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.151.160.18
-  type: ss
-- name: '[D] 🌍 其它地区 157'
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 158'
-  network: tcp
-  port: 30892
-  reality-opts:
-    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-    short-id: '3d31326f95'
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '[D] 🌍 其它地区 159'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 160'
-  network: ws
-  port: 8034
-  server: 120.232.202.14
-  tls: false
-  type: vmess
-  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 161'
-  network: ws
-  port: 8033
-  server: 120.232.202.14
-  tls: false
-  type: vmess
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 162'
-  network: ws
-  port: 8032
-  server: 120.232.202.14
-  tls: false
-  type: vmess
-  uuid: 2881d1b1-c6e7-4e2e-a9b6-3a7e3f32d4fb
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 163'
-  network: ws
-  port: 8039
-  server: 120.232.202.14
-  tls: false
-  type: vmess
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
-- alpn:
-  - h3
-  - h2
-  name: '[D] 🌍 其它地区 164'
-  network: ws
-  port: 443
-  server: 146.56.188.74
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🌍 其它地区 165'
-  network: ws
-  port: 443
-  server: 179.253.250.237
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '[D] 🌍 其它地区 166'
-  network: ws
-  port: 443
-  server: 103.97.200.42
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
-- alpn:
-  - h2
-  - http/1.1
-  name: '[D] 🌍 其它地区 167'
-  network: xhttp
-  port: 443
-  server: pl-a50baf0d7f.shamanapp.online
-  servername: pl-a50baf0d7f.shamanapp.online
-  tls: true
-  type: vless
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  ws-opts:
-    headers:
-      Host: pl-a50baf0d7f.shamanapp.online
-    path: '%2FShamanXHTTP2026'
-- client-fingerprint: firefox
-  name: '[D] 🌍 其它地区 168'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: XTX6Yvtj5B4HENQbNCS0MH3jDqq5vj5gWlg2nilTviE
-    short-id: '8ba02790a1480848'
-  server: nl.cachevault.net
-  servername: nl.cachevault.net
-  tls: false
-  type: vless
-  uuid: 2b9fc113-db27-4635-86d8-fa4556a5b7ba
-  ws-opts:
-    path: '%2Fstatic%2F'
-- flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 169'
-  network: tcp
-  port: 20268
-  reality-opts:
-    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
-    short-id: '0c774b50'
-  server: qcloudge1.exitvpn.shop
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: '[D] 🌍 其它地区 170'
-  network: ws
-  port: 443
-  server: 31.77.126.2
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 171'
+  name: '[D] 🌍 其它地区 71'
   network: ws
   port: 2083
   server: 162.159.135.234
@@ -2786,51 +1410,39 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 172'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
-    short-id: '296f27de82dad7ff'
-  server: 5.252.179.15
-  servername: www.bing.com
-  tls: false
-  type: vless
-  uuid: 0ab273e4-cea6-41d0-bbab-41071d2fc455
-- name: '[D] 🌍 其它地区 173'
-  network: tcp
-  port: 10443
-  server: 178.94.25.73
-  servername: 178.94.25.73
-  tls: false
-  type: vless
-  uuid: 2dacc738-5720-4824-b8bc-e3db57596ba7
-- alpn:
-  - h2
-  - http/1.1
-  name: '[D] 🌍 其它地区 174'
-  network: xhttp
-  port: 2053
-  server: summerculture.net
-  servername: summerculture.net
-  tls: true
-  type: vless
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  ws-opts:
-    headers:
-      Host: summerculture.net
-    path: '%2Fapi%2Fv1%2Fupload'
-- name: '[D] 🌍 其它地区 175'
+- name: '[D] 🌍 其它地区 72'
   network: ws
   port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
+  server: 109.120.133.46
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: jp3.yohototo.top
-    path: '%2Ftyxyws'
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- flow: xtls-rprx-vision
+  name: '[D] 🌍 其它地区 73'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: f25sygANXTpzdc9YPCwkggwSmm3piA3BluSeHdfG-hg
+  server: 212.87.222.10
+  servername: www.nokia.com
+  tls: false
+  type: vless
+  uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
+- client-fingerprint: unsafe
+  name: '[D] 🌍 其它地区 74'
+  network: ws
+  port: 443
+  server: 62.182.192.195
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
