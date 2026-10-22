@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: tcp
-  port: '50001'
-  server: 101.32.8.251
-  servername: ''
+- name: '[B] 🇭🇰 香港 01'
+  password: r5uI9R8L6vw5vhtXT4EU9O5XCbHWePj1
+  port: 8443
+  server: 191.223.209.245
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
-  type: vmess
-  uuid: 5706beb5-479b-475d-b557-00309327e9cc
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: '[C] 🇭🇰 香港 02'
@@ -51,3 +49,52 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: '[D] 🇭🇰 香港 07'
+  network: ws
+  port: 8443
+  server: 103.39.78.118
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: '[D] 🇭🇰 香港 08'
+  network: ws
+  port: 443
+  server: 103.242.15.87
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: '[D] 🇭🇰 香港 09'
+  network: ws
+  port: 443
+  server: 62.72.163.108
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
+- name: '[D] 🇭🇰 香港 10'
+  network: ws
+  port: 2053
+  server: 193.134.210.14
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
