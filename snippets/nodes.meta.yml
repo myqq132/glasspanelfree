@@ -1,5 +1,5 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
+- name: '[B] 🌍 其它地区 01'
   password: 2cc3c129-34b6-4af7-ba33-7b8fca4363ea
   port: 8080
   server: tw40.344211.cc
@@ -7,20 +7,14 @@ proxies:
   sni: localhost
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
+- name: '[B] 🇭🇰 香港 01'
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: 85715c75-tmm5c0-tncdxq-m0b9.nw4.hyhuawei.com
+  skip-cert-verify: true
+  sni: 85715c75-tmm5c0-tncdxq-m0b9.nw4.hyhuawei.com
   tls: false
-  type: vmess
-  uuid: a01e5d56-464f-45b9-b600-164db4700162
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[B] 🇰🇷 韩国 01'
@@ -48,7 +42,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[B] 🇰🇷 韩国 03'
@@ -62,17 +56,7 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 01'
-  network: tcp
-  port: '443'
-  server: free.ertebatgoostar.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c9eab439-53bf-46e4-ba58-fc368ae1ee8c
+    path: /
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 02'
   password: amazonskr05
@@ -81,7 +65,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 02'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -89,7 +73,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -97,7 +81,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -105,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -113,7 +97,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -153,7 +137,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇨🇳 台湾 02'
+- name: '[C] 🇨🇳 台湾 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -175,7 +159,7 @@ proxies:
   port: 19999
   server: 202.50.253.54
   type: ss
-- name: '[D] 🇭🇰 香港 06'
+- name: '[D] 🇭🇰 香港 07'
   network: ws
   port: 8443
   server: 103.39.78.118
@@ -301,7 +285,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇭🇰 香港 07'
+- name: '[D] 🇭🇰 香港 08'
   network: ws
   port: 443
   server: 103.242.15.87
@@ -463,7 +447,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 08'
+- name: '[D] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: 62.72.163.108
@@ -561,7 +545,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 09'
+- name: '[D] 🇭🇰 香港 10'
   network: ws
   port: 2053
   server: 193.134.210.14
