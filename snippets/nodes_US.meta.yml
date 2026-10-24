@@ -1,39 +1,27 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
-  password: 46785352-db89-4839-8079-d4c69ad87996
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
   port: 443
-  server: pl4.cryposikel.ru
-  sni: pl4.cryposikel.ru
+  server: 84.32.129.182
+  sni: promo3.betust.net
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '80'
-  server: us-23.hihu.net
-  servername: ''
+- name: '[B] 🇺🇸 美国 02'
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
+  port: 443
+  server: promo3.betust.net
+  sni: promo3.betust.net
   tls: false
-  type: vmess
-  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /870ao26f
-- alterId: 0
-  cipher: auto
+  type: hysteria2
+- alpn:
+  - h3
   name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '80'
-  server: us-23.hihu.net
-  servername: 172.66.0.251
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
+  port: 443
+  server: promo3.betust.net
+  sni: promo3.betust.net
   tls: false
-  type: vmess
-  uuid: 8a9aaa70-ced9-11f1-b934-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 172.66.0.251
-    path: /870ao26f
+  type: hysteria2
 - name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
