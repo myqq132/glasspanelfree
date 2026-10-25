@@ -1,4 +1,21 @@
 proxies:
+- alpn:
+  - h3
+  name: '[B] 🌍 其它地区 01'
+  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
+  port: 443
+  server: hyst33sh.duckdns.org
+  sni: hyst33sh.duckdns.org
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 01'
+  password: krdyzYNnXFQqyPtjiXw9lQ
+  port: 8443
+  server: 68.210.96.82
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '[B] 🇫🇷 法国 01'
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   port: 443
@@ -15,23 +32,542 @@ proxies:
   sni: fr.gorobsub.com
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 01'
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  port: 8443
-  server: 8.211.175.236
-  skip-cert-verify: true
-  sni: 8.211.175.236
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 02'
+  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
+  port: 443
+  server: forshynewh.duckdns.org
+  sni: forshynewh.duckdns.org
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 02'
+  network: ws
+  port: '443'
+  server: cf.877771.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 01'
+  network: ws
+  port: '443'
+  server: www.windowsmsidownloads.com
+  servername: www.windowsmsidownloads.com
+  tls: true
+  type: vmess
+  uuid: 80be2deb-3b27-4775-9bd1-7f2a2b9c261b
+  ws-opts:
+    headers:
+      Host: www.windowsmsidownloads.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 03'
+  network: ws
+  port: '443'
+  server: www.windowssearchtools.com
+  servername: www.windowssearchtools.com
+  tls: true
+  type: vmess
+  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+  ws-opts:
+    headers:
+      Host: www.windowssearchtools.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
+  network: ws
+  port: '443'
+  server: www.gptcloudai.com
+  servername: www.gptcloudai.com
+  tls: true
+  type: vmess
+  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
+  ws-opts:
+    headers:
+      Host: www.gptcloudai.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: '443'
+  server: www.ubuntuupdates.com
+  servername: www.ubuntuupdates.com
+  tls: true
+  type: vmess
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  ws-opts:
+    headers:
+      Host: www.ubuntuupdates.com
+    path: /truth
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '443'
+  server: cf.877771.xyz
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: cf.0sm.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 05'
+  network: ws
+  port: '443'
+  server: cf.090227.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  port: '443'
+  server: 104.17.136.198
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  network: ws
+  port: '443'
+  server: 104.17.136.198
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: 172.64.229.21
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: 172.66.0.1
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '443'
+  server: 172.66.203.67
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 11'
+  network: ws
+  port: '443'
+  server: 172.66.203.67
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 12'
+  network: ws
+  port: '443'
+  server: cf.877771.xyz
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: 172.64.229.21
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: 172.66.203.67
+  servername: vmess.lbw666.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 15'
+  network: ws
+  port: '443'
+  server: cf.877771.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 16'
+  network: ws
+  port: '443'
+  server: cf.0sm.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 17'
+  network: ws
+  port: '443'
+  server: cf.090227.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 18'
+  network: ws
+  port: '443'
+  server: node8.liudonghoe.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  ws-opts:
+    headers:
+      Host: ''
+    path: /hoe8
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 19'
+  network: ws
+  port: '443'
+  server: node8.liudonghoe.com
+  servername: node8.liudonghoe.com
+  tls: true
+  type: vmess
+  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  ws-opts:
+    headers:
+      Host: node8.liudonghoe.com
+    path: /hoe8
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 20'
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 21'
+  network: ws
+  port: '8443'
+  server: 104.21.57.84
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 22'
+  network: ws
+  port: '8443'
+  server: 104.21.91.53
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 23'
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 24'
+  network: ws
+  port: '8443'
+  server: 172.67.167.78
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 25'
+  network: ws
+  port: '8443'
+  server: 172.67.167.78
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 26'
+  network: ws
+  port: '8443'
+  server: 172.67.161.144
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 27'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 28'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 29'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 30'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 01'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 01'
+  name: '[C] 🌍 其它地区 03'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -39,7 +575,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -47,7 +583,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -55,7 +591,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -63,7 +599,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -87,7 +623,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 01'
+- name: '[C] 🇺🇸 美国 31'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -95,7 +631,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 32'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -125,7 +661,7 @@ proxies:
   port: 19999
   server: 202.50.253.54
   type: ss
-- name: '[D] 🇭🇰 香港 06'
+- name: '[D] 🇭🇰 香港 09'
   network: ws
   port: 8443
   server: 103.39.78.118
@@ -137,7 +673,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 02'
+- name: '[D] 🌍 其它地区 04'
   network: ws
   port: 443
   server: 103.161.179.171
@@ -149,7 +685,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 03'
+- name: '[D] 🌍 其它地区 05'
   network: ws
   port: 8443
   server: 104.245.245.16
@@ -162,7 +698,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 04'
+  name: '[D] 🌍 其它地区 06'
   network: tcp
   port: 443
   reality-opts:
@@ -173,7 +709,7 @@ proxies:
   tls: false
   type: vless
   uuid: 3b1fa839-2cb9-4511-9711-08800450aea3
-- name: '[D] 🌍 其它地区 05'
+- name: '[D] 🌍 其它地区 07'
   network: ws
   port: 443
   server: 173.242.51.189
@@ -185,7 +721,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[D] 🇺🇸 美国 03'
+- name: '[D] 🇺🇸 美国 33'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -197,7 +733,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 34'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -222,12 +758,12 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 06'
+  name: '[D] 🌍 其它地区 08'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
-- name: '[D] 🌍 其它地区 07'
+- name: '[D] 🌍 其它地区 09'
   network: ws
   port: 443
   server: 194.55.166.65
@@ -239,7 +775,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -251,7 +787,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇭🇰 香港 07'
+- name: '[D] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: 103.242.15.87
@@ -263,7 +799,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 03'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -275,7 +811,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560fp=chromefp=chrome
-- name: '[D] 🇨🇦 加拿大 01'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: 172.64.150.43
@@ -288,12 +824,12 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 08'
+  name: '[D] 🌍 其它地区 10'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
-- name: '[D] 🌍 其它地区 09'
+- name: '[D] 🌍 其它地区 11'
   network: ws
   port: 443
   server: 195.133.92.228
@@ -306,13 +842,13 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 10'
+  name: '[D] 🌍 其它地区 12'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -324,7 +860,7 @@ proxies:
   type: vless
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -362,7 +898,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇨🇦 加拿大 02'
+- name: '[D] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: saas.sin.fan
@@ -374,7 +910,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 06'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -401,7 +937,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[D] 🇨🇦 加拿大 03'
+  name: '[D] 🇨🇦 加拿大 04'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -413,7 +949,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 08'
+- name: '[D] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: 62.72.163.108
@@ -425,7 +961,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 35'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -437,7 +973,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 11'
+- name: '[D] 🌍 其它地区 13'
   network: ws
   port: 443
   server: 104.152.48.248
@@ -451,7 +987,7 @@ proxies:
     path: '%2Ffp%3Dchrome'
 - alpn:
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 04'
+  name: '[D] 🇨🇦 加拿大 05'
   network: ws
   port: 443
   server: 104.17.148.22
@@ -463,7 +999,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 12'
+- name: '[D] 🌍 其它地区 14'
   network: ws
   port: 443
   server: 162.159.130.234
@@ -487,7 +1023,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 13'
+- name: '[D] 🌍 其它地区 15'
   network: ws
   port: 443
   server: 103.161.178.215
@@ -499,7 +1035,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[D] 🌍 其它地区 14'
+- name: '[D] 🌍 其它地区 16'
   network: ws
   port: 443
   server: 103.161.179.36
@@ -511,7 +1047,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 09'
+- name: '[D] 🇭🇰 香港 12'
   network: ws
   port: 2053
   server: 193.134.210.14
@@ -523,7 +1059,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 15'
+- name: '[D] 🌍 其它地区 17'
   network: ws
   port: 443
   server: 103.161.178.205
@@ -537,7 +1073,7 @@ proxies:
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
 - alpn:
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 05'
+  name: '[D] 🇨🇦 加拿大 06'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -549,7 +1085,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%23TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed'
-- name: '[D] 🌍 其它地区 16'
+- name: '[D] 🌍 其它地区 18'
   network: ws
   port: 443
   server: 103.161.178.72
@@ -573,7 +1109,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[D] 🇺🇸 美国 06'
+- name: '[D] 🇺🇸 美国 36'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -587,7 +1123,7 @@ proxies:
     path: '%2Ffp%3Dchrome'
 - alpn:
   - http/1.1
-  name: '[D] 🇨🇦 加拿大 06'
+  name: '[D] 🇨🇦 加拿大 07'
   network: ws
   port: 443
   server: 188.114.97.6
@@ -599,7 +1135,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 37'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -611,7 +1147,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 38'
   network: ws
   port: 8443
   server: 45.61.149.205
@@ -623,7 +1159,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🌍 其它地区 17'
+- name: '[D] 🌍 其它地区 19'
   network: ws
   port: 8443
   server: 103.199.19.132
@@ -635,7 +1171,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🌍 其它地区 18'
+- name: '[D] 🌍 其它地区 20'
   network: ws
   port: 443
   server: 141.98.233.6
@@ -647,7 +1183,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 19'
+- name: '[D] 🌍 其它地区 21'
   network: ws
   port: 443
   server: 216.195.195.205
@@ -671,7 +1207,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 20'
+- name: '[D] 🌍 其它地区 22'
   network: ws
   port: 443
   server: 194.127.192.138
@@ -683,7 +1219,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 21'
+- name: '[D] 🌍 其它地区 23'
   network: ws
   port: 8443
   server: 185.239.48.154
@@ -695,7 +1231,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 22'
+- name: '[D] 🌍 其它地区 24'
   network: ws
   port: 443
   server: 47.131.104.124
@@ -709,7 +1245,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[D] 🌍 其它地区 23'
+  name: '[D] 🌍 其它地区 25'
   network: ws
   port: 443
   server: 104.17.147.22
@@ -721,7 +1257,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 24'
+- name: '[D] 🌍 其它地区 26'
   network: ws
   port: 443
   server: 179.255.99.95
@@ -735,7 +1271,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[D] 🌍 其它地区 25'
+  name: '[D] 🌍 其它地区 27'
   network: ws
   port: 443
   server: www.speedtest.net
@@ -747,7 +1283,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 26'
+- name: '[D] 🌍 其它地区 28'
   network: ws
   port: 443
   server: 13.140.29.253
@@ -759,7 +1295,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 27'
+- name: '[D] 🌍 其它地区 29'
   network: ws
   port: 443
   server: 130.78.190.134
@@ -771,7 +1307,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 28'
+- name: '[D] 🌍 其它地区 30'
   network: ws
   port: 443
   server: 95.182.95.237
@@ -783,7 +1319,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 29'
+- name: '[D] 🌍 其它地区 31'
   network: ws
   port: 8443
   server: 144.31.181.177
@@ -795,7 +1331,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 30'
+- name: '[D] 🌍 其它地区 32'
   network: ws
   port: 443
   server: 13.140.29.45
@@ -807,7 +1343,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 31'
+- name: '[D] 🌍 其它地区 33'
   network: ws
   port: 443
   server: 138.124.54.223
@@ -819,7 +1355,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 32'
+- name: '[D] 🌍 其它地区 34'
   network: ws
   port: 443
   server: 178.93.160.236
@@ -831,7 +1367,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 33'
+- name: '[D] 🌍 其它地区 35'
   network: ws
   port: 443
   server: 103.102.228.113
@@ -843,7 +1379,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 34'
+- name: '[D] 🌍 其它地区 36'
   network: ws
   port: 8443
   server: 209.38.254.20
@@ -857,7 +1393,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[D] 🌍 其它地区 35'
+  name: '[D] 🌍 其它地区 37'
   network: ws
   port: 443
   server: 185.230.44.140
@@ -869,7 +1405,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 36'
+- name: '[D] 🌍 其它地区 38'
   network: ws
   port: 8443
   server: 62.133.60.134
@@ -881,7 +1417,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 37'
+- name: '[D] 🌍 其它地区 39'
   network: ws
   port: 2087
   server: 166.88.194.74
@@ -893,7 +1429,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 38'
+- name: '[D] 🌍 其它地区 40'
   network: ws
   port: 443
   server: 94.20.154.66
@@ -905,7 +1441,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 39'
+- name: '[D] 🌍 其它地区 41'
   network: ws
   port: 443
   server: 194.55.164.118
@@ -917,7 +1453,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 40'
+- name: '[D] 🌍 其它地区 42'
   network: ws
   port: 443
   server: 95.182.94.128
@@ -932,7 +1468,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[D] 🌍 其它地区 41'
+  name: '[D] 🌍 其它地区 43'
   network: ws
   port: 443
   server: 185.71.230.237
@@ -944,7 +1480,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 42'
+- name: '[D] 🌍 其它地区 44'
   network: ws
   port: 443
   server: 193.36.95.34
@@ -956,7 +1492,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 43'
+- name: '[D] 🌍 其它地区 45'
   network: ws
   port: 8443
   server: 188.240.213.98
@@ -968,7 +1504,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 44'
+- name: '[D] 🌍 其它地区 46'
   network: ws
   port: 443
   server: 152.67.41.217
@@ -980,7 +1516,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 45'
+- name: '[D] 🌍 其它地区 47'
   network: ws
   password: humanity
   port: 443
@@ -992,20 +1528,20 @@ proxies:
       Host: www.volumerOot.coM.
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 46'
+  name: '[D] 🌍 其它地区 48'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 47'
+  name: '[D] 🌍 其它地区 49'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 48'
+  name: '[D] 🌍 其它地区 50'
   network: ws
   port: '443'
   server: 9641684.sdf65h4.top
@@ -1016,14 +1552,14 @@ proxies:
     headers:
       Host: 9641684.sdf65h4.top
     path: /
-- name: '[D] 🌍 其它地区 49'
+- name: '[D] 🌍 其它地区 51'
   network: tcp
   port: 52683
   server: jp.sofast.live
   tls: false
   type: vless
   uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: '[D] 🌍 其它地区 50'
+- name: '[D] 🌍 其它地区 52'
   network: tcp
   port: 58011
   server: us22.sofast.live
@@ -1031,30 +1567,30 @@ proxies:
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 51'
+  name: '[D] 🌍 其它地区 53'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 52'
+  name: '[D] 🌍 其它地区 54'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 53'
+  name: '[D] 🌍 其它地区 55'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 54'
+  name: '[D] 🌍 其它地区 56'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
-- name: '[D] 🌍 其它地区 55'
+- name: '[D] 🌍 其它地区 57'
   network: ws
   port: 443
   server: 195.133.17.250
@@ -1066,7 +1602,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 56'
+- name: '[D] 🌍 其它地区 58'
   network: ws
   port: 443
   server: 193.200.130.20
@@ -1078,7 +1614,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🌍 其它地区 57'
+- name: '[D] 🌍 其它地区 59'
   network: tcp
   port: 2218
   reality-opts:
@@ -1089,7 +1625,7 @@ proxies:
   tls: false
   type: vless
   uuid: 4476ca08-bdb4-41c1-bae4-a960bdb28c19
-- name: '[D] 🌍 其它地区 58'
+- name: '[D] 🌍 其它地区 60'
   network: ws
   port: 2083
   server: 132.243.165.215
@@ -1103,7 +1639,7 @@ proxies:
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - alpn:
   - http/1.1
-  name: '[D] 🌍 其它地区 59'
+  name: '[D] 🌍 其它地区 61'
   network: ws
   port: 443
   server: 104.19.45.195
@@ -1115,7 +1651,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F%3FTELEGRAM-TOOTFFARANGIfp%3Dchrome'
-- name: '[D] 🌍 其它地区 60'
+- name: '[D] 🌍 其它地区 62'
   network: ws
   port: 2053
   server: 194.135.119.82
@@ -1127,7 +1663,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 61'
+- name: '[D] 🌍 其它地区 63'
   network: ws
   port: 443
   server: 83.229.120.10
@@ -1142,7 +1678,7 @@ proxies:
 - alpn:
   - h3
   - h2
-  name: '[D] 🌍 其它地区 62'
+  name: '[D] 🌍 其它地区 64'
   network: ws
   port: 443
   server: 5.188.33.40
@@ -1154,7 +1690,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🌍 其它地区 63'
+- name: '[D] 🌍 其它地区 65'
   network: ws
   port: 443
   server: 152.67.198.36
@@ -1166,7 +1702,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443fp%3Dchrome'
-- name: '[D] 🌍 其它地区 64'
+- name: '[D] 🌍 其它地区 66'
   network: ws
   port: 2087
   server: 45.157.233.109
@@ -1180,7 +1716,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 65'
+  name: '[D] 🌍 其它地区 67'
   network: ws
   port: 2083
   server: 162.159.135.234
@@ -1192,7 +1728,7 @@ proxies:
     headers:
       Host: or3.sfacg.uk
     path: /or3
-- name: '[D] 🌍 其它地区 66'
+- name: '[D] 🌍 其它地区 68'
   network: ws
   port: 443
   server: 109.120.133.46
@@ -1205,7 +1741,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - flow: xtls-rprx-vision
-  name: '[D] 🌍 其它地区 67'
+  name: '[D] 🌍 其它地区 69'
   network: tcp
   port: 8443
   reality-opts:
@@ -1216,7 +1752,7 @@ proxies:
   type: vless
   uuid: 8afeb33c-b686-43e9-a629-0d98f991ec28
 - client-fingerprint: unsafe
-  name: '[D] 🌍 其它地区 68'
+  name: '[D] 🌍 其它地区 70'
   network: ws
   port: 443
   server: 62.182.192.195
