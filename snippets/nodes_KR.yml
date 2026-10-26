@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: '80'
-  server: 132.145.80.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
-- name: '[C] 🇰🇷 韩国 02'
+- name: '[C] 🇰🇷 韩国 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
