@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: '[B] 🇨🇳 中国 01'
+  password: MA3RrlRHTFNFZG_D0jeSLbGxRHH4HkUO
+  port: 443
+  server: ru1server.rabstvo.shop
+  sni: ru1server.rabstvo.shop
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 02'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
