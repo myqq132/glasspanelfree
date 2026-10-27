@@ -1,33 +1,35 @@
 proxies:
 - name: '[B] 🇺🇸 美国 01'
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  port: 4444
+  server: bl3.nexfile.net
+  sni: bl3.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   port: 4443
   server: 201.58.183.5
   sni: de4.shvpn.ru
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
+- name: '[B] 🇺🇸 美国 03'
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   port: 4443
   server: de4.shvpn.ru
   sni: de4.shvpn.ru
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '80'
-  server: 104.17.147.222
-  servername: ''
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 04'
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  port: 4443
+  server: de4.shvpn.ru
+  sni: de4.shvpn.ru
   tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- name: '[C] 🇺🇸 美国 04'
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -35,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -44,7 +46,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -56,7 +58,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -69,7 +71,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -82,7 +84,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 09'
+  name: '[D] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -94,7 +96,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 11'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -106,7 +108,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 12'
   network: ws
   port: 8443
   server: 45.61.149.205
