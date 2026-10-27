@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 03'
+  name: '[B] 🇭🇰 香港 02'
   network: ws
   port: '443'
   server: 20.235.220.189
@@ -11,11 +11,11 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 04'
+  name: '[B] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: 20.235.220.189
@@ -27,6 +27,20 @@ proxies:
     headers:
       Host: ''
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  network: ws
+  port: '35043'
+  server: 156.245.232.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 05'
@@ -36,10 +50,10 @@ proxies:
   servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   tls: true
   type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+      Host: ''
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -47,10 +61,10 @@ proxies:
   network: ws
   port: '443'
   server: 20.235.220.189
-  servername: ''
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
