@@ -1,7 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 07'
+  name: '[B] 🌍 其它地区 09'
+  network: tcp
+  port: '10000'
+  server: 47.250.135.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 01'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -15,107 +39,47 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: '[B] 🇩🇪 德国 01'
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
+  servername: ''
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
+  name: '[B] 🇩🇪 德国 02'
+  network: raw
   port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  server: de.zhou-yufan.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 03'
   network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
   port: '35043'
   server: 156.245.232.239
-  servername: ''
+  servername: 156.245.232.239
   tls: false
   type: vmess
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   ws-opts:
     headers:
-      Host: ''
+      Host: 156.245.232.239
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 08'
+  name: '[C] 🌍 其它地区 10'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 07'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -123,7 +87,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -131,7 +95,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 09'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -139,7 +103,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 10'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -147,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 11'
+- name: '[C] 🇭🇰 香港 08'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -155,7 +119,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 03'
+- name: '[C] 🇯🇵 日本 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -163,7 +127,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
+- name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -171,7 +135,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -179,7 +143,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -204,30 +168,30 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇯🇵 日本 07'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 15'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 15'
+  name: '[D] 🌍 其它地区 17'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 17'
+  name: '[D] 🌍 其它地区 19'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-- name: '[D] 🌍 其它地区 52'
+- name: '[D] 🌍 其它地区 54'
   network: ws
   password: humanity
   port: 443
@@ -239,20 +203,20 @@ proxies:
       Host: www.volumerOot.coM.
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 53'
+  name: '[D] 🌍 其它地区 55'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 54'
+  name: '[D] 🌍 其它地区 56'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 55'
+  name: '[D] 🌍 其它地区 57'
   network: ws
   port: '443'
   server: 9641684.sdf65h4.top
@@ -264,32 +228,32 @@ proxies:
       Host: 9641684.sdf65h4.top
     path: /
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 58'
+  name: '[D] 🌍 其它地区 60'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 59'
+  name: '[D] 🌍 其它地区 61'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 60'
+  name: '[D] 🌍 其它地区 62'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 61'
+  name: '[D] 🌍 其它地区 63'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 72'
+  name: '[D] 🌍 其它地区 74'
   network: ws
   port: 2083
   server: 162.159.135.234
