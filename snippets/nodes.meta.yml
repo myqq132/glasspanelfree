@@ -1,33 +1,10 @@
 proxies:
 - name: '[B] 🌍 其它地区 01'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 02'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 01'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: bl2.nexfile.net
-  sni: bl2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: bl3.nexfile.net
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 01'
@@ -45,41 +22,6 @@ proxies:
   port: 443
   server: vpn-hk-004.fastervpn.world
   sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 01'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: 31.77.29.77
-  sni: jap2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: 31.77.29.78
-  sni: jap2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: jap2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 04'
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  port: 4444
-  server: jap2.nexfile.net
-  sni: jap2.nexfile.net
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 05'
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: rb.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[B] CH 01'
@@ -100,12 +42,11 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[B] 🇸🇬 新加坡 01'
-  password: user317_windows
+- name: '[B] 🌍 其它地区 02'
+  password: gf1:gfhysteria2024
   port: 443
-  server: s3.huhiuh.space
+  server: 5.129.235.85
   skip-cert-verify: true
-  sni: s3.huhiuh.space
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 03'
@@ -113,6 +54,7 @@ proxies:
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
+  sni: 5.129.235.85
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 04'
@@ -120,7 +62,7 @@ proxies:
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
-  sni: 5.129.235.85
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 05'
@@ -128,7 +70,7 @@ proxies:
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[B] 🌍 其它地区 06'
@@ -155,7 +97,7 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
+- name: '[B] 🇺🇸 美国 01'
   password: 099830134df5ac3a04a4b21d39b8c395
   port: 50160
   server: 163.192.14.135
@@ -166,30 +108,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 09'
-  network: tcp
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -203,38 +121,18 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 02'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
+  name: '[B] 🇯🇵 日本 01'
   network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: 156.245.232.239
-  tls: false
+  port: '443'
+  server: 47.254.229.161
+  servername: gathered-fat-gsm-weekend.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  uuid: 284c8008-5a85-4451-a8d1-b79c62f74d32
   ws-opts:
     headers:
-      Host: 156.245.232.239
-    path: /
+      Host: gathered-fat-gsm-weekend.trycloudflare.com
+    path: /vmess-argo
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 10'
   password: amazonskr05
@@ -243,7 +141,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -251,7 +149,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -259,7 +157,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -267,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 07'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -275,7 +173,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 08'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -283,7 +181,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -291,7 +189,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -299,7 +197,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -307,7 +205,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -332,12 +230,12 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 07'
+  name: '[D] 🇯🇵 日本 03'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
-- name: '[D] 🇭🇰 香港 09'
+- name: '[D] 🇭🇰 香港 08'
   network: ws
   port: 8443
   server: 103.39.78.118
@@ -397,7 +295,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
-- name: '[D] 🇺🇸 美国 06'
+- name: '[D] 🇺🇸 美国 04'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -409,7 +307,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 05'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -421,7 +319,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇸🇬 新加坡 03'
+- name: '[D] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: 43.174.195.1
@@ -451,7 +349,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 01'
   network: ws
   port: 443
   server: 185.230.44.200
@@ -463,7 +361,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇭🇰 香港 10'
+- name: '[D] 🇭🇰 香港 09'
   network: ws
   port: 443
   server: 103.242.15.87
@@ -475,7 +373,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 02'
   network: ws
   port: 8443
   server: 31.70.89.136
@@ -524,7 +422,7 @@ proxies:
   server: 202.50.253.45
   type: ss
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -536,7 +434,7 @@ proxies:
   type: vless
   uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -550,7 +448,7 @@ proxies:
   ws-opts:
     headers:
       Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
-- name: '[D] 🇯🇵 日本 08'
+- name: '[D] 🇯🇵 日本 04'
   network: ws
   port: 8443
   server: 178.239.117.133
@@ -562,7 +460,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇯🇵 日本 09'
+- name: '[D] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: 60.130.209.253
@@ -586,7 +484,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '[D] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 05'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -625,7 +523,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 11'
+- name: '[D] 🇭🇰 香港 10'
   network: ws
   port: 443
   server: 62.72.163.108
@@ -637,7 +535,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 06'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -723,7 +621,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇭🇰 香港 12'
+- name: '[D] 🇭🇰 香港 11'
   network: ws
   port: 2053
   server: 193.134.210.14
@@ -785,7 +683,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560fp%3Dchrome'
-- name: '[D] 🇺🇸 美国 09'
+- name: '[D] 🇺🇸 美国 07'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -811,7 +709,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
-- name: '[D] 🇺🇸 美国 10'
+- name: '[D] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -823,7 +721,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[D] 🇺🇸 美国 11'
+- name: '[D] 🇺🇸 美国 09'
   network: ws
   port: 8443
   server: 45.61.149.205
@@ -871,7 +769,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dunsafe'
-- name: '[D] 🇯🇵 日本 10'
+- name: '[D] 🇯🇵 日本 06'
   network: ws
   port: 8443
   server: 216.238.54.114
