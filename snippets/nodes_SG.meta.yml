@@ -1,13 +1,5 @@
 proxies:
-- name: '[B] 🇸🇬 新加坡 01'
-  password: user317_windows
-  port: 443
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- name: '[C] 🇸🇬 新加坡 02'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -16,7 +8,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 03'
+  name: '[D] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: 43.174.195.1
