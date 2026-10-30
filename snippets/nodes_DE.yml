@@ -1,1 +1,21 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
+  network: tcp
+  port: '33625'
+  server: tun.xelnivo.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6547466-a44a-41e7-9b71-473c5bf05723
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
+  port: '2052'
+  server: 92.42.203.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5

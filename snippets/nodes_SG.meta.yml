@@ -1,79 +1,5 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇸🇬 新加坡 01'
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  port: 18642
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- name: '[B] 🇸🇬 新加坡 02'
-  password: user317_windows
-  port: 443
-  server: s3.huhiuh.space
-  skip-cert-verify: true
-  sni: s3.huhiuh.space
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
-  network: ws
-  port: '443'
-  server: wjofHsQtEuEywxEq.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofHsQtEuEywxEq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 04'
-  network: ws
-  port: '443'
-  server: 8.219.97.17
-  servername: wjofhsqteueywxeq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofhsqteueywxeq.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 05'
-  network: ws
-  port: '443'
-  server: wjofhsqteueywxeq.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 06'
-  network: ws
-  port: '443'
-  server: wjofhsqteueywxeq.v.3dns.vip
-  servername: wjofhsqteueywxeq.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
-  ws-opts:
-    headers:
-      Host: wjofhsqteueywxeq.v.3dns.vip
-    path: /ws-vmess
-- name: '[C] 🇸🇬 新加坡 07'
+- name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -82,7 +8,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇸🇬 新加坡 08'
+  name: '[D] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   server: 43.174.195.1
