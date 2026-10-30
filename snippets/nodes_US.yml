@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: '[B] 🇺🇸 美国 01'
   network: ws
-  port: '443'
-  server: Rib9JXAYoqjGN2KW.v.3dns.vip
-  servername: ''
-  tls: true
+  port: '80'
+  server: 104.17.147.222
+  servername: vmess.lbw666.dpdns.org
+  tls: false
   type: vmess
-  uuid: 9b31490d-190e-4ef1-af0a-7ccab3e7c3b5
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   ws-opts:
     headers:
-      Host: Rib9JXAYoqjGN2KW.v.3dns.vip
-    path: /ws-vmess
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
 - alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 02'
