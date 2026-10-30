@@ -6,3 +6,20 @@ proxies:
   sni: blogs.blog-forme.ru
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[B] 🇬🇧 英国 02'
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  port: 443
+  server: 163.245.41.48
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇬🇧 英国 03'
+  password: 6da2c981-8c77-4340-bda3-93399b7aea26
+  port: 443
+  server: blogs.blog-forme.ru
+  sni: blogs.blog-forme.ru
+  tls: false
+  type: hysteria2
