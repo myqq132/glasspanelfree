@@ -1,32 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 08'
+  name: '[B] 🇫🇷 法国 01'
   network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
+  port: '443'
+  server: xIvYT9T3GrgoRgc5.v.3dns.vip
+  servername: xIvYT9T3GrgoRgc5.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 01'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+      Host: xIvYT9T3GrgoRgc5.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: '[B] 🇩🇪 德国 01'
@@ -37,6 +23,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
+- alterId: 0
+  cipher: auto
+  name: '[B] 🌍 其它地区 08'
+  network: tcp
+  port: '52043'
+  server: 109.70.74.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48e522b4-d8de-4b7b-a760-b26ef6d6f019
 - cipher: aes-256-cfb
   name: '[C] 🌍 其它地区 09'
   password: amazonskr05
@@ -45,7 +41,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -53,7 +49,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -61,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -69,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -77,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
