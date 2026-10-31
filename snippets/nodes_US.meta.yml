@@ -1,5 +1,93 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
+- name: '[B] 🇺🇸 美国 01'
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  server: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: a436bbe7-tmm5c0-tug19l-1go3q.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  port: 443
+  server: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: c7cf6abc-tmm5c0-tpw4i4-1pckg.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  port: 443
+  server: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 4c37a418-tmm5c0-ttxkqc-e06r.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 04'
+  password: 8fa4bea0-8703-11ef-83cc-f23c913c8d2b
+  port: 443
+  server: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 0b28dbb8-tmm5c0-tn3jhp-1qthu.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 05'
+  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  port: 443
+  server: 35172c9b-tmm5c0-u10a65-1os43.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 35172c9b-tmm5c0-u10a65-1os43.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 06'
+  password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+  port: 443
+  server: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: ea01572c-tmm5c0-tnhx9s-1rnrp.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 07'
+  password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
+  port: 443
+  server: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: b2535a8d-tmm5c0-twjnjx-1q9g2.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 08'
+  password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  port: 443
+  server: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 85e1018a-tmm5c0-tzzpok-1sllg.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 09'
+  network: tcp
+  port: '1125'
+  server: 93.157.138.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 78c8ab17-814e-4c10-a642-f616c9be979d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 10'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: gw.alicdn.com
+  tls: false
+  type: vmess
+  uuid: 2abe0fba-ecd7-483a-83a2-33600b6a4df7
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- name: '[C] 🇺🇸 美国 11'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -7,7 +95,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 12'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -16,7 +104,7 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 13'
   network: ws
   port: 443
   server: 141.98.41.80
@@ -28,7 +116,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 14'
   network: ws
   port: 443
   server: 162.35.127.65
@@ -41,7 +129,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 15'
   network: ws
   port: 443
   server: 104.194.140.26
@@ -54,7 +142,7 @@ proxies:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
 - client-fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 16'
   network: ws
   port: 443
   server: 207.246.105.197
@@ -66,7 +154,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '[D] 🇺🇸 美国 07'
+- name: '[D] 🇺🇸 美国 17'
   network: ws
   port: 443
   server: 141.98.41.20
@@ -78,7 +166,7 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: fp%3Dunsafe
-- name: '[D] 🇺🇸 美国 08'
+- name: '[D] 🇺🇸 美国 18'
   network: ws
   port: 8443
   server: 45.61.149.205
