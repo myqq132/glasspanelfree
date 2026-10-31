@@ -2,51 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 08'
-  network: ws
-  port: '443'
-  server: 47.243.65.243
-  servername: ''
-  tls: true
+  network: tcp
+  port: '10000'
+  server: 47.250.135.244
+  servername: 47.250.135.244
+  tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
 - alterId: 0
   cipher: auto
   name: '[B] 🌍 其它地区 09'
-  network: tcp
-  port: '1114'
-  server: 78.135.77.145
+  network: raw
+  port: '10000'
+  server: 47.250.135.244
   servername: ''
   tls: false
   type: vmess
-  uuid: 78c8ab17-814e-4c10-a642-f616c9be979d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 10'
-  network: tcp
-  port: '1125'
-  server: 177.3.215.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78c8ab17-814e-4c10-a642-f616c9be979d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 11'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
-    path: /ws-vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 中国 01'
@@ -56,7 +28,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
   ws-opts:
     headers:
       Host: ''
@@ -88,10 +60,38 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: ''
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 中国 04'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 05'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 06'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -105,7 +105,21 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[B] 🇫🇷 法国 02'
+  name: '[B] 🇨🇳 中国 07'
+  network: ws
+  port: '10086'
+  server: 39.108.113.127
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 01'
   network: ws
   port: '443'
   server: kRUXDIdk3hdiDOcf.v.3dns.vip
@@ -116,6 +130,20 @@ proxies:
   ws-opts:
     headers:
       Host: kRUXDIdk3hdiDOcf.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 02'
+  network: ws
+  port: '443'
+  server: 47.245.177.106
+  servername: BxMzry7bu86yuvNb.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: BxMzry7bu86yuvNb.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -133,17 +161,49 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '2052'
-  server: 92.42.203.240
-  servername: ''
-  tls: false
+  name: '[B] 🇫🇷 法国 04'
+  network: ws
+  port: '443'
+  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 19'
+  name: '[B] 🇫🇷 法国 05'
+  network: ws
+  port: '443'
+  server: LO7ioZK1FPYWR1t1.v.3dns.vip
+  servername: LO7ioZK1FPYWR1t1.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: LO7ioZK1FPYWR1t1.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 06'
+  network: ws
+  port: '443'
+  server: O3ZBhK3HTyKNltsS.v.3dns.vip
+  servername: O3ZBhK3HTyKNltsS.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: O3ZBhK3HTyKNltsS.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 50'
   network: ws
   port: '53617'
   server: az-1.linkaa.xyz
@@ -157,7 +217,7 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 20'
+  name: '[B] 🇭🇰 香港 51'
   network: ws
   port: '53110'
   server: az-1.linkaa.xyz
@@ -171,91 +231,7 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 21'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 22'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 23'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 24'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 25'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 26'
-  network: ws
-  port: '443'
-  server: 47.243.65.243
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 12'
+  name: '[B] 🌍 其它地区 10'
   network: ws
   port: '55386'
   server: az-1.linkaa.xyz
@@ -267,16 +243,6 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
     path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[B] 🌍 其它地区 13'
-  network: tcp
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
 - alterId: 0
   cipher: auto
   name: '[B] 🇸🇬 新加坡 01'
@@ -319,39 +285,15 @@ proxies:
     headers:
       Host: mdk.mdmekjll.best
     path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 09'
-  network: tcp
-  port: '1125'
-  server: 93.157.138.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 78c8ab17-814e-4c10-a642-f616c9be979d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 10'
-  network: ws
-  port: '28167'
-  server: 142.171.48.179
-  servername: gw.alicdn.com
-  tls: false
-  type: vmess
-  uuid: 2abe0fba-ecd7-483a-83a2-33600b6a4df7
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 14'
+  name: '[C] 🌍 其它地区 11'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 27'
+  name: '[C] 🇭🇰 香港 52'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -359,7 +301,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 28'
+- name: '[C] 🇭🇰 香港 53'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -367,7 +309,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 29'
+- name: '[C] 🇭🇰 香港 54'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -375,7 +317,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 30'
+- name: '[C] 🇭🇰 香港 55'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -383,7 +325,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 31'
+- name: '[C] 🇭🇰 香港 56'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -407,7 +349,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 11'
+- name: '[C] 🇺🇸 美国 22'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -415,7 +357,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 12'
+- name: '[C] 🇺🇸 美国 23'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -443,97 +385,72 @@ proxies:
   name: '[D] 🇯🇵 日本 02'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.54
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 19'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 21'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 23'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.45
-  type: ss
-- name: '[D] 🌍 其它地区 58'
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.2
-  sni: wWw.Volumeroot.cOm.
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.volumerOot.coM.
-    path: '%2Fassignment'
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 59'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 60'
+  name: '[D] 🌍 其它地区 12'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 61'
+  name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: '443'
-  server: 9641684.sdf65h4.top
+  server: guanwang.awsno.com
   tls: true
   type: vmess
-  uuid: 250c015d-bab0-4ed3-b638-b4eda48f5840
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
   ws-opts:
     headers:
-      Host: 9641684.sdf65h4.top
-    path: /
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 64'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.63
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 65'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
-- cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 66'
+  name: '[D] 🌍 其它地区 13'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 67'
+  name: '[D] 🌍 其它地区 14'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.63
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 15'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 78'
-  network: ws
-  port: 2083
-  server: 162.159.135.234
-  servername: cdn.sfacg.uk
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  ws-opts:
-    headers:
-      Host: or3.sfacg.uk
-    path: /or3
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 16'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.45
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 17'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 18'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.54
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 19'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '[D] 🌍 其它地区 20'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.81
+  type: ss

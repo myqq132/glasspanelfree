@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 19'
+  name: '[B] 🇭🇰 香港 50'
   network: ws
   port: '53617'
   server: az-1.linkaa.xyz
@@ -15,7 +15,7 @@ proxies:
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 20'
+  name: '[B] 🇭🇰 香港 51'
   network: ws
   port: '53110'
   server: az-1.linkaa.xyz
@@ -27,93 +27,9 @@ proxies:
     headers:
       Host: az-1.linkaa.xyz
     path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 21'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 22'
-  network: ws
-  port: '443'
-  server: lcv8v9l7oyamxxfz.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 23'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 24'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 25'
-  network: ws
-  port: '443'
-  server: 20.235.220.189
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 26'
-  network: ws
-  port: '443'
-  server: 47.243.65.243
-  servername: lcv8v9l7oyamxxfz.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: lcv8v9l7oyamxxfz.v.3dns.vip
-    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[C] 🇭🇰 香港 27'
+  name: '[C] 🇭🇰 香港 52'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -121,7 +37,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[C] 🇭🇰 香港 28'
+- name: '[C] 🇭🇰 香港 53'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -129,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 29'
+- name: '[C] 🇭🇰 香港 54'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -137,7 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 30'
+- name: '[C] 🇭🇰 香港 55'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -145,7 +61,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇭🇰 香港 31'
+- name: '[C] 🇭🇰 香港 56'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
