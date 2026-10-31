@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 18'
+  name: '[B] 🌍 其它地区 08'
   network: ws
   port: '10086'
   server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
   ws-opts:
     headers:
       Host: ''
@@ -18,11 +18,11 @@ proxies:
   name: '[B] 🇨🇳 中国 01'
   network: ws
   port: '10086'
-  server: 39.108.113.127
+  server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
-  uuid: 19ee3050-be66-4850-9f13-fc9d47487a3c
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
   ws-opts:
     headers:
       Host: ''
@@ -37,36 +37,8 @@ proxies:
   tls: false
   type: vmess
   uuid: 6a9d4c0b-938a-4b58-911d-e3ca45d17ab5
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '80'
-  server: 104.21.7.133
-  servername: vmess.lbw666.dpdns.org
-  tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇦 加拿大 01'
-  network: ws
-  port: '8080'
-  server: octpus1.gsmonline.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f33d1026-ce3b-4175-9f81-feb522fcfef1
-  ws-opts:
-    headers:
-      Host: snapp.ir
-    path: /
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 19'
+  name: '[C] 🌍 其它地区 09'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -129,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 01'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -137,7 +109,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -168,24 +140,24 @@ proxies:
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 24'
+  name: '[D] 🌍 其它地区 14'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 26'
+  name: '[D] 🌍 其它地区 16'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 28'
+  name: '[D] 🌍 其它地区 18'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-- name: '[D] 🌍 其它地区 63'
+- name: '[D] 🌍 其它地区 53'
   network: ws
   password: humanity
   port: 443
@@ -197,20 +169,20 @@ proxies:
       Host: www.volumerOot.coM.
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 64'
+  name: '[D] 🌍 其它地区 54'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 65'
+  name: '[D] 🌍 其它地区 55'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 66'
+  name: '[D] 🌍 其它地区 56'
   network: ws
   port: '443'
   server: 9641684.sdf65h4.top
@@ -222,32 +194,32 @@ proxies:
       Host: 9641684.sdf65h4.top
     path: /
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 69'
+  name: '[D] 🌍 其它地区 59'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 70'
+  name: '[D] 🌍 其它地区 60'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 71'
+  name: '[D] 🌍 其它地区 61'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 72'
+  name: '[D] 🌍 其它地区 62'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 83'
+  name: '[D] 🌍 其它地区 73'
   network: ws
   port: 2083
   server: 162.159.135.234
