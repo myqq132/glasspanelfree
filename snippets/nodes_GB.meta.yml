@@ -1,1 +1,18 @@
-proxies: []
+proxies:
+- name: '[B] 🇬🇧 英国 01'
+  password: 5062e1a7-89aa-4bd0-be2a-4f4a88f6c325
+  port: 443
+  server: 45.88.12.36
+  sni: va.stream-room.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: firefox
+  name: '[B] 🇬🇧 英国 02'
+  password: 5062e1a7-89aa-4bd0-be2a-4f4a88f6c325
+  port: 443
+  server: 45.88.12.36
+  sni: va.stream-room.com
+  tls: false
+  type: hysteria2
