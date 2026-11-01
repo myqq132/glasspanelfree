@@ -3,19 +3,33 @@ proxies:
   cipher: auto
   name: '[B] 🇸🇬 新加坡 01'
   network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: az-1.linkaa.xyz
+  port: '443'
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  ws-opts:
+    headers:
+      Host: wjofHsQtEuEywxEq.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 02'
+  network: ws
+  port: '80'
+  server: mdk.mdmekjll.best
+  servername: ''
   tls: false
   type: vmess
   uuid: 6E571484-4166-4699-8F58-B34A1823691F
   ws-opts:
     headers:
-      Host: az-1.linkaa.xyz
+      Host: ''
     path: /game/resources
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
+  name: '[B] 🇸🇬 新加坡 03'
   network: ws
   port: '80'
   server: mdk.mdmekjll.best
@@ -26,20 +40,6 @@ proxies:
   ws-opts:
     headers:
       Host: mdk.mdmekjll.best
-    path: /game/resources
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
-  network: ws
-  port: '53437'
-  server: az-1.linkaa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
-  ws-opts:
-    headers:
-      Host: ''
     path: /game/resources
 - name: '[C] 🇸🇬 新加坡 04'
   network: tcp

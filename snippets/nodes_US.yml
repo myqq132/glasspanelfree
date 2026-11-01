@@ -1,5 +1,19 @@
 proxies:
-- name: '[C] 🇺🇸 美国 34'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 24'
+  network: ws
+  port: '28167'
+  server: 142.171.48.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8bfcefb6-7578-4b71-8777-4b1438660d71
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- name: '[C] 🇺🇸 美国 25'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 35'
+- name: '[C] 🇺🇸 美国 26'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
