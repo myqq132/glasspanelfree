@@ -1,19 +1,21 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[B] 🇺🇸 美国 01'
-  network: ws
-  port: '80'
-  server: 104.21.7.133
-  servername: vmess.lbw666.dpdns.org
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.188.142
+  sni: bl1.nexfile.net
   tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- name: '[C] 🇺🇸 美国 02'
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  port: 4444
+  server: 13.143.188.143
+  sni: bl1.nexfile.net
+  tls: false
+  type: hysteria2
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -21,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
