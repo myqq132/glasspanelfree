@@ -1,7 +1,21 @@
 proxies:
+- name: '[B] 🇺🇸 美国 01'
+  password: 2_hysteria2_fastlane_py5fqull8
+  port: 443
+  server: 130.49.219.99
+  sni: at3.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: austria_hysteria2_fastlane_2400aehw4:RWnDZi17ezmKLVZpnSr81AXwDDcA6YaK
+  port: 1935
+  server: 94.228.163.122
+  sni: at4.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
+  name: '[B] 🇺🇸 美国 03'
   network: tcp
   port: '52843'
   server: 23.147.56.181
@@ -9,7 +23,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 88be793c-c368-4eb1-8809-057e5df96606
-- name: '[C] 🇺🇸 美国 02'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
@@ -17,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇺🇸 美国 03'
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
@@ -25,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[C] 🇺🇸 美国 04'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
