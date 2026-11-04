@@ -1,1 +1,152 @@
-proxies: []
+proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: 185.153.55.28
+  sni: se.mimowhat.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: se.mimowhat.online
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 03'
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  port: 443
+  server: se.mimowhat.online
+  skip-cert-verify: false
+  sni: se.mimowhat.online
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 04'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 188.95.52.121
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 05'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 188.95.52.120
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 06'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 188.95.52.123
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 07'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 188.95.52.124
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 08'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.204
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 09'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.201
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 10'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.195
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 11'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.199
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 12'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.197
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 13'
+  network: tcp
+  port: 2094
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 213.152.165.200
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb

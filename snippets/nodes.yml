@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 08'
+  name: '[B] 🌍 其它地区 09'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -15,16 +15,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 09'
-  network: tcp
-  port: '11674'
-  server: 176.65.151.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
-- alterId: 0
-  cipher: auto
   name: '[B] 🇨🇳 中国 01'
   network: ws
   port: '10086'
@@ -32,7 +22,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
+  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
   ws-opts:
     headers:
       Host: ''
@@ -42,7 +32,7 @@ proxies:
   name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
-  server: 39.108.113.127
+  server: 120.48.133.162
   servername: ''
   tls: false
   type: vmess
@@ -53,7 +43,63 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
+  name: '[B] 🇨🇳 中国 03'
+  network: ws
+  port: '10086'
+  server: 120.48.133.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  port: '443'
+  server: 20.235.220.189
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 02'
   network: ws
   port: '443'
   server: 192.166.82.21
@@ -65,177 +111,41 @@ proxies:
     headers:
       Host: ''
     path: /sacaca
-- cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 10'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
-- name: '[C] 🇭🇰 香港 03'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 44837
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇭🇰 香港 04'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 14699
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: fe-static.deepseek.com
-  type: trojan
-- name: '[C] 🇭🇰 香港 05'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 41495
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 02'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 19466
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇭🇰 香港 06'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 34926
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: wximg.qq.com
-  type: trojan
-- name: '[C] 🇭🇰 香港 07'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 43638
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇨🇳 台湾 01'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 47786
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇨🇳 台湾 02'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 54815
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 01'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 24914
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 02'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 18295
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇯🇵 日本 03'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 43992
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: wximg.qq.com
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 01'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 47966
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 02'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 42338
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇸🇬 新加坡 03'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 37212
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇰🇷 韩国 01'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 29628
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇰🇷 韩国 02'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 18572
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
-- name: '[C] 🇺🇸 美国 03'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 49049
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: fe-static.deepseek.com
-  type: trojan
-- name: '[C] 🇺🇸 美国 04'
-  network: tcp
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  port: 17285
-  server: ench-snet-app.w-ctrip.cn
-  skip-cert-verify: true
-  sni: cm.g.doubleclick.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '443'
+  server: 192.166.82.21
+  servername: us-slc-global1.xeovo.eu
+  tls: true
+  type: vmess
+  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
+  ws-opts:
+    headers:
+      Host: us-slc-global1.xeovo.eu
+    path: /sacaca
 - cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 04'
+  name: '[D] 🇯🇵 日本 11'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 11'
+  name: '[D] 🌍 其它地区 29'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 30'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 01'
+  name: '[D] 🇨🇦 加拿大 11'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -247,49 +157,49 @@ proxies:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 31'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 14'
+  name: '[D] 🌍 其它地区 32'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 15'
+  name: '[D] 🌍 其它地区 33'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 16'
+  name: '[D] 🌍 其它地区 34'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 17'
+  name: '[D] 🌍 其它地区 35'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇭🇰 香港 08'
+  name: '[D] 🇭🇰 香港 13'
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
   port: 40006
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 18'
+  name: '[D] 🌍 其它地区 36'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 19'
+  name: '[D] 🌍 其它地区 37'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
