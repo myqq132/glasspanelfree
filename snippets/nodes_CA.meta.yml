@@ -1,16 +1,7 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 01'
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:cv_QNzenE8BtqjxU5H4mzZ7ki0M4jLW2DCs01wdD78Y
-  port: 8443
-  server: 102.208.216.88
-  sni: za2.lumacache.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -21,7 +12,7 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: cf.090227.xyz

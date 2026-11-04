@@ -1,90 +1,22 @@
 proxies:
-- name: '[B] 🌍 其它地区 01'
-  password: 37a4f1e6-c0d8-44c1-9a09-f25a8290da82
-  port: 55000
-  server: 156.229.165.91
+- name: '[B] 🇭🇰 香港 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇭🇰 香港 01'
+  name: '[B] 🇭🇰 香港 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-hk-004.fastervpn.world
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🌍 其它地区 02'
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:98Va5kVHKW06htuFKRbjrX7rWPTNQI4Jlee5xTFNAW0
-  port: 36116
-  server: 84.38.184.87
-  sni: hu.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 03'
-  password: '1793747701'
-  port: 443
-  server: 84.38.184.87
-  sni: hu.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 01'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: 8.209.247.109
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 04'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: 8.209.247.109
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 05'
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇨🇦 加拿大 01'
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:cv_QNzenE8BtqjxU5H4mzZ7ki0M4jLW2DCs01wdD78Y
-  port: 8443
-  server: 102.208.216.88
-  sni: za2.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🌍 其它地区 04'
+- name: '[B] 🌍 其它地区 01'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -92,14 +24,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 05'
+- name: '[B] 🌍 其它地区 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 06'
+- name: '[B] 🌍 其它地区 03'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -107,7 +39,7 @@ proxies:
   sni: 5.129.235.85
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 07'
+- name: '[B] 🌍 其它地区 04'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -115,7 +47,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 08'
+- name: '[B] 🌍 其它地区 05'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -123,7 +55,7 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 09'
+- name: '[B] 🌍 其它地区 06'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -131,7 +63,7 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[B] 🌍 其它地区 10'
+- name: '[B] 🌍 其它地区 07'
   password: gf1:gfhysteria2024
   port: 443
   server: 5.129.235.85
@@ -139,33 +71,9 @@ proxies:
   sni: www.linux.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:EKksNGKEBp8PXC1msSPh-Nfurs0VeCN0xPSnf1UsVH8
-  port: 36118
-  server: 84.38.184.87
-  sni: us2.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: '1793747701'
-  port: 443
-  server: 84.38.184.87
-  sni: us2.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 78585441-c8b3-40fb-9b94-15edd312fdcf
-  port: 44444
-  server: 107.172.16.232
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 01'
+  name: '[B] 🌍 其它地区 08'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -176,10 +84,20 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 02'
+  name: '[B] 🌍 其它地区 09'
+  network: tcp
+  port: '11674'
+  server: 176.65.151.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 中国 01'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -193,7 +111,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 03'
+  name: '[B] 🇨🇳 中国 02'
   network: ws
   port: '10086'
   server: 39.108.113.127
@@ -207,53 +125,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 04'
+  name: '[B] 🇺🇸 美国 01'
   network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
+  port: '443'
+  server: 192.166.82.21
+  servername: us-slc-global1.xeovo.eu
+  tls: true
   type: vmess
-  uuid: fccbad0f-eb6c-4bdd-80ed-145409e2f761
+  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
   ws-opts:
     headers:
       Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 05'
-  network: ws
-  port: '10086'
-  server: 39.108.113.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: ws
-  port: '80'
-  server: cf.0sm.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
+    path: /sacaca
 - cipher: aes-256-cfb
-  name: '[C] 🌍 其它地区 11'
+  name: '[C] 🌍 其它地区 10'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
-- name: '[C] 🇭🇰 香港 02'
+- name: '[C] 🇭🇰 香港 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 44837
@@ -261,7 +151,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇭🇰 香港 03'
+- name: '[C] 🇭🇰 香港 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 14699
@@ -269,7 +159,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[C] 🇭🇰 香港 04'
+- name: '[C] 🇭🇰 香港 05'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 41495
@@ -277,7 +167,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
@@ -285,7 +175,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇭🇰 香港 05'
+- name: '[C] 🇭🇰 香港 06'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 34926
@@ -293,7 +183,7 @@ proxies:
   skip-cert-verify: true
   sni: wximg.qq.com
   type: trojan
-- name: '[C] 🇭🇰 香港 06'
+- name: '[C] 🇭🇰 香港 07'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 43638
@@ -317,7 +207,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇯🇵 日本 06'
+- name: '[C] 🇯🇵 日本 01'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 24914
@@ -325,7 +215,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇯🇵 日本 07'
+- name: '[C] 🇯🇵 日本 02'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 18295
@@ -333,7 +223,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇯🇵 日本 08'
+- name: '[C] 🇯🇵 日本 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 43992
@@ -381,7 +271,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
@@ -389,7 +279,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
@@ -398,13 +288,13 @@ proxies:
   sni: cm.g.doubleclick.net
   type: trojan
 - cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 09'
+  name: '[D] 🇯🇵 日本 04'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 12'
+  name: '[D] 🌍 其它地区 11'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
@@ -419,14 +309,14 @@ proxies:
   type: vless
   uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 13'
+  name: '[D] 🌍 其它地区 12'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🇨🇦 加拿大 01'
   network: ws
   port: '443'
   server: guanwang.awsno.com
@@ -438,49 +328,49 @@ proxies:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 14'
+  name: '[D] 🌍 其它地区 13'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 15'
+  name: '[D] 🌍 其它地区 14'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 16'
+  name: '[D] 🌍 其它地区 15'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 17'
+  name: '[D] 🌍 其它地区 16'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 18'
+  name: '[D] 🌍 其它地区 17'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 08'
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
   port: 40006
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 19'
+  name: '[D] 🌍 其它地区 18'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 20'
+  name: '[D] 🌍 其它地区 19'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -491,7 +381,7 @@ proxies:
   port: 18443
   server: 46.17.46.27
   type: ss
-- name: '[D] 🇨🇦 加拿大 03'
+- name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: 443
   server: cf.090227.xyz
@@ -504,7 +394,7 @@ proxies:
       Host: ccc.010304.xyz
     path: /fp=chromefp=chrome
 - client-fingerprint: firefox
-  name: '[D] 🌍 其它地区 21'
+  name: '[D] 🌍 其它地区 20'
   network: tcp
   port: 443
   reality-opts:
@@ -516,7 +406,7 @@ proxies:
   type: vless
   uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
 - flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 05'
   network: tcp
   port: 443
   reality-opts:

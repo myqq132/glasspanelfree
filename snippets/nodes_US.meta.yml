@@ -1,43 +1,19 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:EKksNGKEBp8PXC1msSPh-Nfurs0VeCN0xPSnf1UsVH8
-  port: 36118
-  server: 84.38.184.87
-  sni: us2.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 02'
-  password: '!!str 1793747701'
-  port: 443
-  server: 84.38.184.87
-  sni: us2.lumacache.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
-  password: 78585441-c8b3-40fb-9b94-15edd312fdcf
-  port: 44444
-  server: 107.172.16.232
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 01'
   network: ws
-  port: '80'
-  server: cf.0sm.com
-  servername: ''
-  tls: false
+  port: '443'
+  server: 192.166.82.21
+  servername: us-slc-global1.xeovo.eu
+  tls: true
   type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
   ws-opts:
     headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- name: '[C] 🇺🇸 美国 05'
+      Host: ''
+    path: /sacaca
+- name: '[C] 🇺🇸 美国 02'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
@@ -45,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 03'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
@@ -53,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[C] 🇺🇸 美国 07'
+- name: '[C] 🇺🇸 美国 04'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
@@ -63,7 +39,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 05'
   network: tcp
   port: 443
   reality-opts:
