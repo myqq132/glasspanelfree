@@ -1,5 +1,19 @@
 proxies:
-- name: '[C] 🇺🇸 美国 04'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 04'
+  network: ws
+  port: '80'
+  server: cf.0sm.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- name: '[C] 🇺🇸 美国 05'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 19466
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '[C] 🇺🇸 美国 05'
+- name: '[C] 🇺🇸 美国 06'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 49049
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: fe-static.deepseek.com
   type: trojan
-- name: '[C] 🇺🇸 美国 06'
+- name: '[C] 🇺🇸 美国 07'
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 17285
