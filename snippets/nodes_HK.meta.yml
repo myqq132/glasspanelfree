@@ -1,12 +1,18 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: vipccc.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
+  ws-opts:
+    headers:
+      Host: vipccc.cc
+    path: /ray_proxy
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[C] 🇭🇰 香港 02'
