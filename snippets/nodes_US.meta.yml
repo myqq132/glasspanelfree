@@ -1,41 +1,36 @@
 proxies:
-- alpn:
-  - h3
-  name: '[B] 🇺🇸 美国 01'
-  password: 948b48e5-a202-4770-8552-f35a12dac378
-  port: 18687
-  server: 172.245.6.155
+- name: '[B] 🇺🇸 美国 01'
+  password: 8dOHZ13sx33R1/PQbhTK/w==
+  port: 443
+  server: 34.24.25.1
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[B] 🇺🇸 美国 02'
-  password: e5573253-44fc-4502-ba06-96e4742bb448
-  port: 443
-  server: 185.255.115.74
-  sni: www.paperandpaths.eu
-  tls: false
-  type: hysteria2
-- name: '[B] 🇺🇸 美国 03'
   password: df900182-2d2f-4765-9619-03a6ea3bba71
   port: 443
-  server: 201.58.177.192
-  sni: edge1.streamnodecdn.com
+  server: edge2.streamnodecdn.com
+  sni: edge2.streamnodecdn.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: tcp
-  port: '47116'
-  server: 43.173.67.42
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '80'
+  server: 104.21.7.133
   servername: ''
   tls: false
   type: vmess
-  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -48,7 +43,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -61,7 +56,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -74,7 +69,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 07'
   network: tcp
   port: 443
   reality-opts:
@@ -87,7 +82,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 08'
   network: tcp
   port: 443
   reality-opts:
@@ -100,7 +95,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 10'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: 443
   reality-opts:

@@ -1,11 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: tcp
-  port: '47116'
-  server: 43.173.67.42
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '80'
+  server: 104.21.7.133
   servername: ''
   tls: false
   type: vmess
-  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws

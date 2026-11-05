@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🌍 其它地区 14'
-  network: tcp
-  port: '11674'
-  server: 176.65.151.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 01'
+  name: '[B] 🌍 其它地区 08'
   network: ws
   port: '10086'
   server: 120.48.133.162
@@ -25,83 +15,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 中国 02'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 03'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a489513-46b5-488c-9899-9faaf2d83cd9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 04'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 中国 05'
-  network: ws
-  port: '10086'
-  server: 120.48.133.162
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f81d0fc9-c6b0-4dab-a270-6e697e0a367f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 02'
+  name: '[B] 🌍 其它地区 09'
   network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 03'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
+  port: '11674'
+  server: 176.65.151.175
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  uuid: a98a98cb-ae86-43ae-b695-cf0dbcad3fc2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 04'
+  name: '[B] 🇩🇪 德国 01'
   network: ws
   port: '8080'
   server: getnet.serversubasli.top
@@ -115,14 +39,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
-  network: tcp
-  port: '47116'
-  server: 43.173.67.42
+  name: '[B] 🇩🇪 德国 02'
+  network: ws
+  port: '8080'
+  server: getnet.serversubasli.top
+  servername: getnet.serversubasli.top
+  tls: true
+  type: vmess
+  uuid: d2b67e48-c341-47ba-8caa-5658df693ac4
+  ws-opts:
+    headers:
+      Host: getnet.serversubasli.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 03'
+  network: ws
+  port: '80'
+  server: 104.21.7.133
   servername: ''
   tls: false
   type: vmess
-  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
 - cipher: aes-256-gcm
   name: '[D] 🇯🇵 日本 11'
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
@@ -130,61 +72,61 @@ proxies:
   server: 46.17.46.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 34'
+  name: '[D] 🌍 其它地区 29'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 35'
+  name: '[D] 🌍 其它地区 30'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 36'
+  name: '[D] 🌍 其它地区 31'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 37'
+  name: '[D] 🌍 其它地区 32'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 38'
+  name: '[D] 🌍 其它地区 33'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 39'
+  name: '[D] 🌍 其它地区 34'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 40'
+  name: '[D] 🌍 其它地区 35'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 41'
+  name: '[D] 🌍 其它地区 36'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 42'
+  name: '[D] 🌍 其它地区 37'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '[D] 🌍 其它地区 43'
+  name: '[D] 🌍 其它地区 38'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
