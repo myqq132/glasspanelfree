@@ -1,41 +1,41 @@
 proxies:
-- name: '[B] 🇺🇸 美国 01'
-  password: 23c82941-70f4-4381-90db-bd28e9a902e9
+- alpn:
+  - h3
+  name: '[B] 🇺🇸 美国 01'
+  password: 948b48e5-a202-4770-8552-f35a12dac378
+  port: 18687
+  server: 172.245.6.155
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 02'
+  password: e5573253-44fc-4502-ba06-96e4742bb448
   port: 443
-  server: steel7.hadsvpn.com
+  server: 185.255.115.74
+  sni: www.paperandpaths.eu
+  tls: false
+  type: hysteria2
+- name: '[B] 🇺🇸 美国 03'
+  password: df900182-2d2f-4765-9619-03a6ea3bba71
+  port: 443
+  server: 201.58.177.192
+  sni: edge1.streamnodecdn.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
+  name: '[B] 🇺🇸 美国 04'
+  network: tcp
+  port: '47116'
+  server: 43.173.67.42
+  servername: ''
+  tls: false
   type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sacaca
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 03'
-  network: ws
-  port: '443'
-  server: 192.166.82.21
-  servername: us-slc-global1.xeovo.eu
-  tls: true
-  type: vmess
-  uuid: ffe8ae49-05d7-4f56-a82b-dd618108c270
-  ws-opts:
-    headers:
-      Host: us-slc-global1.xeovo.eu
-    path: /sacaca
+  uuid: fc3347e2-007d-4cad-fe28-3d80672c3ccc
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 04'
+  name: '[C] 🇺🇸 美国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -48,7 +48,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 05'
+  name: '[C] 🇺🇸 美国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -61,7 +61,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 06'
+  name: '[C] 🇺🇸 美国 07'
   network: tcp
   port: 443
   reality-opts:
@@ -74,7 +74,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 07'
+  name: '[C] 🇺🇸 美国 08'
   network: tcp
   port: 443
   reality-opts:
@@ -87,7 +87,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 08'
+  name: '[C] 🇺🇸 美国 09'
   network: tcp
   port: 443
   reality-opts:
@@ -100,7 +100,7 @@ proxies:
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇺🇸 美国 09'
+  name: '[C] 🇺🇸 美国 10'
   network: tcp
   port: 443
   reality-opts:
@@ -111,16 +111,3 @@ proxies:
   tls: false
   type: vless
   uuid: f8890f7b-1af4-42bb-b299-ad741c6b73d7
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇺🇸 美国 10'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DUpNPvLjiL1GzeF7DfKWba-LYLz1KPuQXewhgNGPiDM
-    short-id: '!!str ab0a5b56'
-  server: 38.244.5.231
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 1bd6c8a2-01db-4a3d-8b2c-0b2f2c3e8b5a
