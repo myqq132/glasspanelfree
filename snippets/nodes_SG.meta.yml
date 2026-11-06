@@ -1,15 +1,7 @@
 proxies:
-- name: '[B] 🇸🇬 新加坡 01'
-  password: 5bc65313-6a35-4685-ba97-fe7784370c7b
-  port: 60110
-  server: 138.2.74.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇸🇬 新加坡 02'
+  name: '[C] 🇸🇬 新加坡 01'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -24,7 +16,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇸🇬 新加坡 03'
+  name: '[C] 🇸🇬 新加坡 02'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -40,7 +32,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇸🇬 新加坡 04'
+  name: '[C] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   server: 206.54.46.225
@@ -56,7 +48,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇸🇬 新加坡 05'
+  name: '[C] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   server: 206.54.46.241
@@ -70,7 +62,7 @@ proxies:
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 06'
+  name: '[D] 🇸🇬 新加坡 05'
   network: tcp
   port: 443
   reality-opts:

@@ -5,20 +5,6 @@ proxies:
   network: ws
   port: '443'
   server: vipccc.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5bead32f-a987-4f57-b1a8-6698778facda
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray_proxy
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: vipccc.cc
   servername: vipccc.cc
   tls: true
   type: vmess
@@ -31,7 +17,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 02'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -47,7 +33,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 03'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -63,7 +49,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 04'
   network: ws
   port: 12611
   server: 45.221.114.46
@@ -76,7 +62,7 @@ proxies:
       Host: speedtest.danfengno1.kdns.fr
     path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
 - client-fingerprint: chrome
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 05'
   port: 31884
   server: 152.175.6.229
   servername: hk010.zestapp778.com
