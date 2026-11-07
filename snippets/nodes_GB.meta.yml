@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇬🇧 英国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oAX7soFKfN3xURgCD26trmjeF-e-eEjW3pBVXuuvW0k
+    short-id: '!!str 77a8c8c8'
+  server: prime.jarbook.net
+  servername: prime.jarbook.net
+  tls: false
+  type: vless
+  uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
