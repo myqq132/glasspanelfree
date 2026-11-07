@@ -1,6 +1,14 @@
 proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: p5xt6oLOA3qikIaj
+  port: 25482
+  server: fi-p1.h1cloud.net
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[D] 🇫🇷 法国 01'
+  name: '[D] 🇫🇷 法国 02'
   network: grpc
   port: 8443
   reality-opts:
