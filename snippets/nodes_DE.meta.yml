@@ -2,16 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 02'
   network: raw
   port: '443'
   server: de.zhou-yufan.com
@@ -21,7 +11,7 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 03'
+  name: '[C] 🇩🇪 德国 02'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -36,7 +26,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 04'
+  name: '[C] 🇩🇪 德国 03'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -51,7 +41,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -64,7 +54,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 9889
   reality-opts:

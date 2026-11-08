@@ -1,9 +1,26 @@
 proxies:
+- name: '[B] 🇭🇰 香港 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[B] 🇭🇰 香港 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 03'
   network: ws
   port: 11310
   server: 218.102.64.147
@@ -19,7 +36,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 04'
   network: ws
   port: 9383
   server: 218.102.64.147
@@ -35,7 +52,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 05'
   network: ws
   port: 12611
   server: 45.221.114.46
