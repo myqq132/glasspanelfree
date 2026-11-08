@@ -1,21 +1,7 @@
 proxies:
-- name: '[B] 🇩🇪 德国 01'
-  password: 854e81e5-e3a9-42d3-b4e2-2bfef8558e8d
-  port: 8443
-  server: 89.105.218.106
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: '[B] 🇩🇪 德国 02'
-  password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
-  port: 8443
-  server: 89.105.218.106
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 03'
+  name: '[B] 🇩🇪 德国 01'
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
@@ -25,17 +11,17 @@ proxies:
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 04'
+  name: '[B] 🇩🇪 德国 02'
   network: raw
   port: '443'
   server: de.zhou-yufan.com
-  servername: ''
+  servername: de.zhou-yufan.com
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 05'
+  name: '[C] 🇩🇪 德国 03'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -50,7 +36,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 06'
+  name: '[C] 🇩🇪 德国 04'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -65,7 +51,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -78,7 +64,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 08'
+  name: '[D] 🇩🇪 德国 06'
   network: tcp
   port: 9889
   reality-opts:
