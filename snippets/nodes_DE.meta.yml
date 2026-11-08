@@ -1,7 +1,41 @@
 proxies:
+- name: '[B] 🇩🇪 德国 01'
+  password: 854e81e5-e3a9-42d3-b4e2-2bfef8558e8d
+  port: 8443
+  server: 89.105.218.106
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- name: '[B] 🇩🇪 德国 02'
+  password: ba3aeb91-2ed0-45d3-8dcf-81e5ed45168b
+  port: 8443
+  server: 89.105.218.106
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 03'
+  network: tcp
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 04'
+  network: raw
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 01'
+  name: '[C] 🇩🇪 德国 05'
   network: ws
   port: 2053
   server: cf01.564895.xyz
@@ -16,7 +50,7 @@ proxies:
     path: '%2Fasdasd'
 - client-fingerprint: firefox
   flow: ''
-  name: '[C] 🇩🇪 德国 02'
+  name: '[C] 🇩🇪 德国 06'
   network: ws
   port: 2096
   server: cf02.564895.xyz
@@ -29,3 +63,28 @@ proxies:
     headers:
       Host: de01.564895.xyz
     path: '%2Fasdasd'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: '!!str 4ff31b18d1bd8227'
+  server: 2.26.251.236
+  servername: mental-deprivation.ru
+  tls: false
+  type: vless
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 08'
+  network: tcp
+  port: 9889
+  reality-opts:
+    public-key: GPwEGfRBoztNbcAvfX4ojY9FJ1vaMD3v21tnIrN2xyE
+  server: 200.96.106.2
+  servername: tiktok2.transitbp2systems.com
+  tls: false
+  type: vless
+  uuid: 0dcefe19-a42a-4d57-96be-83dcbffd425f
