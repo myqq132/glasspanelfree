@@ -3,62 +3,27 @@ proxies:
   cipher: auto
   name: '[B] 🇭🇰 香港 01'
   network: tcp
-  port: '22222'
-  server: 64.118.129.151
+  port: '10898'
+  server: 101.32.187.182
   servername: ''
   tls: false
   type: vmess
-  uuid: a5206a55-d5bd-41b9-92a5-bd27a90355ff
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
+  uuid: b6b14ef7-a769-406f-9df7-31790ff7a920
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[C] 🇭🇰 香港 02'
-  network: ws
-  port: 11310
-  server: 218.102.64.147
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KBPuCiAKJQQtlsodm5MIBFfYf-TGsrjCK5GGJzJJli4
+    short-id: '!!str d188c855'
+  server: jp2support.xyy123.bid
+  servername: developer.qa.nvidia.cn
+  tls: false
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: '[C] 🇭🇰 香港 03'
-  network: ws
-  port: 9383
-  server: 218.102.64.147
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: ''
-  name: '[C] 🇭🇰 香港 04'
-  network: ws
-  port: 12611
-  server: 45.221.114.46
-  servername: speedtest.danfengno1.kdns.fr
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+  uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
 - client-fingerprint: firefox
-  name: '[D] 🇭🇰 香港 05'
+  name: '[D] 🇭🇰 香港 03'
   port: 31884
   server: 152.175.6.229
   servername: hk010.zestapp778.com

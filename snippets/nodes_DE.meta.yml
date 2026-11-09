@@ -1,37 +1,20 @@
 proxies:
-- client-fingerprint: firefox
-  flow: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[C] 🇩🇪 德国 01'
-  network: ws
-  port: 2053
-  server: cf01.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
+    short-id: '!!str 83faf94a0e'
+  server: jp2static.xyy123.bid
+  servername: amazon.com
+  tls: false
   type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
-- client-fingerprint: firefox
-  flow: ''
-  name: '[C] 🇩🇪 德国 02'
-  network: ws
-  port: 2096
-  server: cf02.564895.xyz
-  servername: de01.564895.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  ws-opts:
-    headers:
-      Host: de01.564895.xyz
-    path: '%2Fasdasd'
+  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   network: tcp
   port: 443
   reality-opts:
@@ -44,7 +27,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:

@@ -1,11 +1,14 @@
 proxies:
-- name: '[B] 🇨🇦 加拿大 01'
-  password: cJytMmPWpB4JAC-VlzE8rCMhcLznQiLb
-  port: 27017
-  server: 31.56.189.198
-  sni: static.cdnnow.xyz
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇦 加拿大 01'
+  network: tcp
+  port: '8080'
+  server: 116.88.224.217
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '[D] 🇨🇦 加拿大 02'
