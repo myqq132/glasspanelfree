@@ -9,3 +9,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
+- name: '[D] 🇨🇦 加拿大 02'
+  network: ws
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
+  port: 443
+  server: 104.25.95.49
+  sni: ltf8.jueson.de5.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ltf8.jueson.de5.net

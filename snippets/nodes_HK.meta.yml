@@ -1,17 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: tcp
-  port: '10898'
-  server: 101.32.187.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b6b14ef7-a769-406f-9df7-31790ff7a920
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: tcp
   port: 443
   reality-opts:
@@ -22,11 +12,3 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
-- client-fingerprint: firefox
-  name: '[D] 🇭🇰 香港 03'
-  port: 31884
-  server: 152.175.6.229
-  servername: hk010.zestapp778.com
-  tls: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
