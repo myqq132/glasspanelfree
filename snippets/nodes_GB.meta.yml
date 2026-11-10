@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: '443'
+  server: eu2.998998.best
+  servername: server47.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae
+  ws-opts:
+    headers:
+      Host: server47.9966338.xyz
+    path: /socks
