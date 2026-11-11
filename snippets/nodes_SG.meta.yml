@@ -1,27 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
-  network: tcp
-  port: '8080'
-  server: 116.88.224.217
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6f4f0eb5-fe86-41ca-eccb-a6ca68f88d9b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 03'
+  name: '[C] 🇸🇬 新加坡 01'
   network: tcp
   port: 443
   reality-opts:
@@ -34,7 +14,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 04'
+  name: '[C] 🇸🇬 新加坡 02'
   network: tcp
   port: 2053
   reality-opts:
@@ -47,7 +27,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 05'
+  name: '[C] 🇸🇬 新加坡 03'
   network: tcp
   port: 2053
   reality-opts:
@@ -60,7 +40,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 06'
+  name: '[C] 🇸🇬 新加坡 04'
   network: ws
   port: 8443
   server: cdn-sg.skyvora.app
