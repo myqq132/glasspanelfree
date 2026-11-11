@@ -30,35 +30,84 @@ proxies:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 04'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 05'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇯🇵 日本 04'
+  name: '[C] 🇯🇵 日本 06'
   network: tcp
   port: 443
   reality-opts:
-    public-key: dtNeCNIcRgs8_EKIJg_oTJEsiA8KBU-QaE1yVpkoX0I
-    short-id: '!!str 2c92d6'
-  server: jpgajma.xyy123.date
-  servername: home.amazon.com
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: '!!str bb472a184677af64'
+  server: 50.7.44.27
+  servername: www.apple.com
   tls: false
   type: vless
-  uuid: a4fa57a2-d4df-482b-afec-aa38a824a23a
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇯🇵 日本 05'
+  name: '[C] 🇯🇵 日本 07'
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: '!!str aa0760ff'
-  server: jp2static.xyy123.bid
-  servername: p-yo-www-amazon-com-kalias.amazon.com
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: '!!str bb472a184677af64'
+  server: 50.7.44.27
+  servername: www.apple.com
   tls: false
   type: vless
-  uuid: 97d628e6-f4f2-4673-ac1f-703b8d4c871b
-- cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 06'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇯🇵 日本 08'
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk
+    short-id: '!!str bb472a184677af64'
+  server: 50.7.44.27
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+- client-fingerprint: chrome
+  flow: ''
+  name: '[C] 🇯🇵 日本 09'
+  network: ws
+  port: 8443
+  server: cdn-jp.skyvora.app
+  servername: cdn-jp.skyvora.app
+  tls: true
+  type: vless
+  uuid: 76825bbe-3ad2-4156-b9ed-a5bdfcc93bd3
+  ws-opts:
+    headers:
+      Host: cdn-jp.skyvora.app
+    path: '%2Fpmcxbjzdau6'

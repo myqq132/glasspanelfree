@@ -5,25 +5,48 @@ proxies:
   network: tcp
   port: '443'
   server: de.zhou-yufan.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 02'
+  network: raw
+  port: '443'
+  server: de.zhou-yufan.com
   servername: de.zhou-yufan.com
   tls: true
   type: vmess
   uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇩🇪 德国 02'
+  name: '[C] 🇩🇪 德国 03'
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: GeKuYNeAqQQkTN9OMJxXA9I-rXs7IiGh4Sl82crCITc
-    short-id: '!!str 83faf94a0e'
-  server: jp2static.xyy123.bid
-  servername: amazon.com
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.203
+  servername: www.apple.com
   tls: false
   type: vless
-  uuid: 28e553d9-52ab-48c6-afa6-e4f064c6e085
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[C] 🇩🇪 德国 04'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
+    short-id: '!!str 55986a94e2228791'
+  server: 50.7.86.214
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 443
   reality-opts:
