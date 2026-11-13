@@ -1,27 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 02'
+  name: '[B] 🇩🇪 德国 01'
   network: tcp
-  port: '443'
-  server: de.zhou-yufan.com
+  port: '44580'
+  server: 94.184.18.132
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  uuid: 45dc5086-f30d-4b34-aac4-612c074243c8
 - alterId: 0
   cipher: auto
-  name: '[B] 🇩🇪 德国 03'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 04'
+  name: '[B] 🇩🇪 德国 02'
   network: ws
   port: '443'
   server: 13.249.231.85
