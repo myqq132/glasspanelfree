@@ -1,7 +1,39 @@
 proxies:
+- name: '[B] 🇸🇬 新加坡 01'
+  password: 8b64b840-a48d-4ac0-b10f-8f7d7081a0f1
+  port: 2056
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 02'
+  network: tcp
+  port: '10086'
+  server: 195.133.135.238
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 03'
+  network: ws
+  port: '8443'
+  server: 141.193.213.21
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  ws-opts:
+    headers:
+      Host: matrix.phonicsindia.mobi
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 01'
+  name: '[C] 🇸🇬 新加坡 04'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +46,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 02'
+  name: '[C] 🇸🇬 新加坡 05'
   network: tcp
   port: 2053
   reality-opts:
@@ -27,7 +59,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇸🇬 新加坡 03'
+  name: '[C] 🇸🇬 新加坡 06'
   network: tcp
   port: 2053
   reality-opts:
@@ -40,7 +72,7 @@ proxies:
   uuid: 3eb38d44-2e61-4553-b6ae-026033eacba5
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 04'
+  name: '[C] 🇸🇬 新加坡 07'
   network: ws
   port: 8443
   server: cdn-sg.skyvora.app
