@@ -1,33 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[C] 🇩🇪 德国 01'
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: '!!str 55986a94e2228791'
-  server: 50.7.86.203
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[C] 🇩🇪 德国 02'
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
-    short-id: '!!str 55986a94e2228791'
-  server: 50.7.86.214
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 746c7209-49e1-494e-9ad1-a630d48ed26d
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 01'
   network: tcp
   port: 443
   reality-opts:

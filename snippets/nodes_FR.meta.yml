@@ -1,7 +1,14 @@
 proxies:
+- name: '[B] 🇫🇷 法国 01'
+  password: 833539ec-fbba-40e8-ba6c-ac31bf6b3b4c
+  port: 443
+  server: 144.31.168.201
+  sni: fastconv-mirror.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 01'
+  name: '[C] 🇫🇷 法国 02'
   network: tcp
   port: 443
   reality-opts:
