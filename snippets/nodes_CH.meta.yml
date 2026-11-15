@@ -1,16 +1,1 @@
-proxies:
-- name: '[B] CH 01'
-  password: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  port: 443
-  server: 185.126.237.178
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[B] CH 02'
-  password: ccb8ff48-3934-4250-b4ec-bb76b95d154f
-  port: 443
-  server: 185.126.237.178
-  skip-cert-verify: true
-  sni: 185.126.237.178
-  tls: false
-  type: hysteria2
+proxies: []
