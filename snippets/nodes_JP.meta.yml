@@ -1,59 +1,105 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  password: 3OAaD9HeUplLnOOA0StMZG
-  port: 443
-  server: 43.239.249.178
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 01'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 02'
-  network: tcp
-  port: '21017'
-  server: dog-jp.kunlun01dns.com
-  servername: dog-jp.kunlun01dns.com
-  tls: false
+  network: ws
+  port: '2083'
+  server: 162.159.135.234
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 03'
-  network: tcp
-  port: '21015'
-  server: dog-jp.kunlun01dns.com
+  network: ws
+  port: '2083'
+  server: 104.21.0.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 04'
-  network: raw
-  port: '21014'
-  server: dog-jp.kunlun01dns.com
-  servername: ''
-  tls: false
+  network: ws
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
+  tls: true
   type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: ''
+    path: /or3
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 05'
   network: ws
-  port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
+  port: '2083'
+  server: 104.21.50.177
+  servername: or3.sfacg.uk
   tls: true
   type: vmess
-  uuid: c8b455ad-fff1-43e9-9af9-d97585c4534a
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 06'
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 07'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: or3.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 06'
+  name: '[C] 🇯🇵 日本 08'
   network: ws
   port: 443
   reality-opts:
@@ -66,7 +112,7 @@ proxies:
   uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
   ws-opts:
     path: '%2Fws'
-- name: '[C] 🇯🇵 日本 07'
+- name: '[C] 🇯🇵 日本 09'
   network: tcp
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
@@ -75,7 +121,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 08'
+  name: '[C] 🇯🇵 日本 10'
   network: ws
   port: 443
   reality-opts:
@@ -89,7 +135,7 @@ proxies:
   ws-opts:
     path: '%2Fws'
 - client-fingerprint: chrome
-  name: '[D] 🇯🇵 日本 09'
+  name: '[D] 🇯🇵 日本 11'
   port: 443
   server: 194.60.228.97
   servername: base.hosamobenl.co.uk
@@ -98,7 +144,7 @@ proxies:
   uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[D] 🇯🇵 日本 10'
+  name: '[D] 🇯🇵 日本 12'
   network: tcp
   port: 54528
   reality-opts:
