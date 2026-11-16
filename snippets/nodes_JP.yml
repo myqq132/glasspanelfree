@@ -13,16 +13,24 @@ proxies:
     headers:
       Host: v2ray.ryin.vip
     path: /ryinsocksv2board
-- name: '[C] 🇯🇵 日本 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 02'
+  network: ws
+  port: '2083'
+  server: or3.sfacg.uk
+  servername: cdn.sfacg.uk
+  tls: true
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: '[C] 🇯🇵 日本 04'
   network: tcp
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
   skip-cert-verify: true
   type: trojan
-- cipher: aes-256-gcm
-  name: '[D] 🇯🇵 日本 05'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.72
-  type: ss
