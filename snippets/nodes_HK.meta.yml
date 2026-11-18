@@ -1,29 +1,10 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+- alpn:
+  - h3
+  name: '[B] 🇭🇰 香港 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
+  server: vpn-hk-004.fastervpn.world
+  sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[B] 🇭🇰 香港 02'
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
-  port: 443
-  server: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: ws
-  port: '443'
-  server: sticks-military-buildings-fence.trycloudflare.com
-  servername: sticks-military-buildings-fence.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: sticks-military-buildings-fence.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
