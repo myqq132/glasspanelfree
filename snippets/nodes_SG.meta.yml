@@ -2,26 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇸🇬 新加坡 01'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
-  network: raw
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 03'
   network: ws
   port: '8443'
   server: 141.193.213.20
@@ -35,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 04'
+  name: '[B] 🇸🇬 新加坡 02'
   network: ws
   port: '8443'
   server: 141.193.213.21
@@ -49,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 05'
+  name: '[B] 🇸🇬 新加坡 03'
   network: ws
   port: '8443'
   server: news.zoom.us
@@ -63,7 +43,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 06'
+  name: '[C] 🇸🇬 新加坡 04'
   network: ws
   port: 443
   reality-opts:
