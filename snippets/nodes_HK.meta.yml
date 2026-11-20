@@ -1,5 +1,14 @@
 proxies:
-- name: '[D] 🇭🇰 香港 01'
+- alpn:
+  - h3
+  name: '[B] 🇭🇰 香港 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[D] 🇭🇰 香港 02'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com
