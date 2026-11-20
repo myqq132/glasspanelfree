@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[D] SE 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '!!str 8d0d0679f42ffd98'
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  ws-opts:
+    headers:
+      Host: 8a2e72t.nl20.h1clayd.shop

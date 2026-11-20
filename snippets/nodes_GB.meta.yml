@@ -1,13 +1,15 @@
 proxies:
-- client-fingerprint: firefox
-  name: '[D] 🇬🇧 英国 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: '!!str 868419504747f6de'
-  server: 84.32.54.237
-  servername: rly-gw-cfg.galioncc.com
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: '8448'
+  server: 83.147.19.242
+  servername: ''
   tls: false
-  type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  type: vmess
+  uuid: ec23abba-e6ae-395a-8986-2bd39a377a78
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /xray/vmess
