@@ -1,14 +1,7 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  password: c1f4f185-5786-40c9-893f-2f100b7165f2
-  port: 8444
-  server: 94.183.197.237
-  sni: eu79.cdn77.icu
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇫🇷 法国 02'
+  name: '[C] 🇫🇷 法国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -21,7 +14,7 @@ proxies:
   uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 02'
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
