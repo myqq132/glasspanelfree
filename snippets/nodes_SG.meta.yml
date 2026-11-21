@@ -1,7 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 01'
+  network: tcp
+  port: '47630'
+  server: 43.228.126.187
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 01'
+  name: '[C] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   reality-opts:
