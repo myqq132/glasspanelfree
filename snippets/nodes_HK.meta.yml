@@ -1,15 +1,35 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: ePPsH1bMFD
-  port: 50541
-  server: 23.141.172.229
-  skip-cert-verify: true
-  sni: is1-ssl.mzstatic.com
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: 47.86.90.31
+  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  ws-opts:
+    headers:
+      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: '443'
+  server: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
+    path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: tcp
   port: 11103
   reality-opts:
@@ -22,7 +42,7 @@ proxies:
   uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 03'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: 11107
   reality-opts:
@@ -35,7 +55,7 @@ proxies:
   uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 04'
+  name: '[C] 🇭🇰 香港 05'
   network: tcp
   port: 443
   reality-opts:
@@ -48,7 +68,7 @@ proxies:
   uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 05'
+  name: '[D] 🇭🇰 香港 06'
   network: ws
   port: 16617
   server: afzuv.xiaoyan.io
@@ -61,7 +81,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 06'
+  name: '[D] 🇭🇰 香港 07'
   network: ws
   port: 16617
   server: d1eyz.xiaoyan.io
@@ -74,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 08'
   network: ws
   port: 16648
   server: afzuv.xiaoyan.io

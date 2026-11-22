@@ -1,6 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇫🇷 法国 01'
+  network: tcp
+  port: '8443'
+  server: 161.120.223.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 17136e7d-6678-403f-af08-29ca2438031f
 - client-fingerprint: qq
-  name: '[D] 🇫🇷 法国 01'
+  name: '[D] 🇫🇷 法国 02'
   port: 443
   server: 136.148.83.69
   servername: szqbx-ru-77dc.my-fade.cloud
@@ -9,7 +19,7 @@ proxies:
   uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇫🇷 法国 02'
+  name: '[D] 🇫🇷 法国 03'
   network: tcp
   port: 443
   reality-opts:
