@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: '[D] 🇩🇪 德国 03'
+  network: tcp
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- name: '[D] 🇩🇪 德国 05'
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan

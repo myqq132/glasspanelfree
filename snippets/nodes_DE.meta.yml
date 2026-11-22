@@ -1,7 +1,27 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 01'
+  name: '[C] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
+    short-id: '!!str b73c53b18b65dd90'
+  server: 189.24.82.30
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: b354463f-ac84-422e-9a26-556c81ba001c
+- name: '[D] 🇩🇪 德国 03'
+  network: tcp
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -12,15 +32,11 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- client-fingerprint: firefox
-  name: '[D] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 05'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: '!!str ba2a3dce62b99092'
-  server: 217.69.174.175
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
