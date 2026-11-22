@@ -12,7 +12,33 @@ proxies:
   tls: false
   type: vless
   uuid: b354463f-ac84-422e-9a26-556c81ba001c
-- name: '[D] 🇩🇪 德国 03'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 03'
+  network: ws
+  port: 16616
+  server: afzuv.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 04'
+  network: ws
+  port: 16648
+  server: d1eyz.xiaoyan.io
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- name: '[D] 🇩🇪 德国 05'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051
@@ -21,7 +47,7 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
 - flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -32,7 +58,7 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 07'
   network: tcp
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20051
