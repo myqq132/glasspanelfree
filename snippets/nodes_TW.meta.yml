@@ -12,3 +12,17 @@ proxies:
   tls: false
   type: vless
   uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
+- client-fingerprint: chrome
+  flow: ''
+  name: '[C] 🇨🇳 台湾 02'
+  network: ws
+  port: 8443
+  server: 154.40.61.186
+  servername: senflarelink-node-wj1gsa.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-wj1gsa.pages.dev
+    path: '%2F'

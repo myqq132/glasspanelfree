@@ -1,107 +1,35 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
+- client-fingerprint: chrome
+  flow: ''
+  name: '[C] 🇭🇰 香港 01'
   network: ws
-  port: '443'
-  server: 47.86.90.31
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  port: 8443
+  server: 151.158.0.83
+  servername: senflarelink-node-6b9.pages.dev
   tls: true
-  type: vmess
-  uuid: 234a8041-2b4d-44a3-a8d8-523cbfd58dc4
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
+      Host: senflarelink-node-6b9.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: '[C] 🇭🇰 香港 02'
   network: ws
-  port: '443'
-  server: bYWXdhIRqKJj8XAZ.v.3dns.vip
-  servername: bYWXdhIRqKJj8XAZ.v.3dns.vip
+  port: 8443
+  server: 206.237.18.145
+  servername: senflarelink-node-m3bfbn.pages.dev
   tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: bYWXdhIRqKJj8XAZ.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 03'
-  network: tcp
-  port: 11103
-  reality-opts:
-    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
-    short-id: '!!str 9564e1a7a1cf8b3a'
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
   type: vless
-  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 04'
-  network: tcp
-  port: 11107
-  reality-opts:
-    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
-    short-id: '!!str e2ccd8eedcbee2ce'
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 05'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
-    short-id: '!!str 58d234c8c6a009bc'
-  server: 47.243.230.253
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 06'
-  network: ws
-  port: 16617
-  server: afzuv.xiaoyan.io
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 07'
-  network: ws
-  port: 16617
-  server: d1eyz.xiaoyan.io
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 08'
-  network: ws
-  port: 16648
-  server: afzuv.xiaoyan.io
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
+- name: '[D] 🇭🇰 香港 03'
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
