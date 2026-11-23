@@ -1,5 +1,19 @@
 proxies:
-- name: '[D] 🇭🇰 香港 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: expiration-sight-understood-realtor.trycloudflare.com
+  servername: expiration-sight-understood-realtor.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
+  ws-opts:
+    headers:
+      Host: expiration-sight-understood-realtor.trycloudflare.com
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+- name: '[D] 🇭🇰 香港 04'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
   server: sclass-00.catcat321.com

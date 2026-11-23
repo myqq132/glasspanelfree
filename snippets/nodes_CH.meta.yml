@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alpn:
+  - h3
+  name: '[B] CH 01'
+  password: lvu_fb79ddb9bbda86f657cf34ee5dbe40bd_cf1aff9abf2b3945664fd63a07229839:np2.1.Q6bg95HDIqzwSQwdlbeS4-tGJpT8yFUcNQd7KGxqbXU
+  port: 10443
+  server: 212.102.227.131
+  sni: n32.neproxy.net
+  tls: false
+  type: hysteria2
