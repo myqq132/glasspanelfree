@@ -1,7 +1,15 @@
 proxies:
+- name: '[B] 🇭🇰 香港 01'
+  password: ec374b01-8dba-48dc-aa9d-b23cb6b2e694
+  port: 13212
+  server: hk2.5yunapi.buzz
+  skip-cert-verify: true
+  sni: hk2.5yunapi.buzz
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇭🇰 香港 01'
+  name: '[C] 🇭🇰 香港 02'
   network: ws
   port: 8443
   server: 151.158.0.83
@@ -15,7 +23,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 03'
   network: ws
   port: 8443
   server: 206.237.18.145
@@ -27,7 +35,7 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: '%2F'
-- name: '[D] 🇭🇰 香港 03'
+- name: '[D] 🇭🇰 香港 04'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051
