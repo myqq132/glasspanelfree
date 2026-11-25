@@ -1,21 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: replica-poetry-candidates-situated.trycloudflare.com
-  servername: replica-poetry-candidates-situated.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: replica-poetry-candidates-situated.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇭🇰 香港 02'
+  name: '[C] 🇭🇰 香港 01'
   network: ws
   port: 8443
   server: 185.206.171.66
