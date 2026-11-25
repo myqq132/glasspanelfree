@@ -1,45 +1,29 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  password: ec374b01-8dba-48dc-aa9d-b23cb6b2e694
-  port: 13212
-  server: hk2.5yunapi.buzz
-  skip-cert-verify: true
-  sni: hk2.5yunapi.buzz
-  tls: false
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: ws
+  port: '443'
+  server: replica-poetry-candidates-situated.trycloudflare.com
+  servername: replica-poetry-candidates-situated.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
+  ws-opts:
+    headers:
+      Host: replica-poetry-candidates-situated.trycloudflare.com
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - client-fingerprint: chrome
   flow: ''
   name: '[C] 🇭🇰 香港 02'
   network: ws
   port: 8443
-  server: 151.158.0.83
-  servername: senflarelink-node-6b9.pages.dev
+  server: 185.206.171.66
+  servername: senflarelink-node-7uv.pages.dev
   tls: true
   type: vless
   uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: senflarelink-node-6b9.pages.dev
+      Host: senflarelink-node-7uv.pages.dev
     path: '%2F'
-- client-fingerprint: chrome
-  flow: ''
-  name: '[C] 🇭🇰 香港 03'
-  network: ws
-  port: 8443
-  server: 206.237.18.145
-  servername: senflarelink-node-m3bfbn.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: '%2F'
-- name: '[D] 🇭🇰 香港 04'
-  network: tcp
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c1.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
