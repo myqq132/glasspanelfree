@@ -1,18 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
   name: '[B] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: speaks-our-uni-twist.trycloudflare.com
-  servername: speaks-our-uni-twist.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: speaks-our-uni-twist.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-hk-004.fastervpn.world
+  sni: vpn-hk-004.fastervpn.world
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
   name: '[C] 🇭🇰 香港 02'
