@@ -1,7 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 01'
+  network: tcp
+  port: '19283'
+  server: kr.075661.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3153def6-eecb-414d-88aa-7e59ea525e5d
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇰🇷 韩国 01'
+  name: '[C] 🇰🇷 韩国 02'
   network: ws
   port: 12101
   server: 14.44.19.57

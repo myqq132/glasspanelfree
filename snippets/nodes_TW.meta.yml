@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇨🇳 台湾 01'
+  network: tcp
+  port: 51283
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: '!!str fa514b83'
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[D] 🇨🇳 台湾 02'
+  network: tcp
+  port: 19482
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: '!!str fa514b83'
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7

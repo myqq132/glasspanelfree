@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[D] 🇷🇺 俄罗斯 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: _3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0
+    short-id: '!!str d05a120d3506d2cc'
+  server: 178.248.236.229
+  servername: 144.hexdey.com
+  tls: false
+  type: vless
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
