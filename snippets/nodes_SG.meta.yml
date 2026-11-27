@@ -1,31 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
-  network: tcp
-  port: '10086'
-  server: 195.133.135.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
-  network: ws
-  port: '54327'
-  server: 8.222.172.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /pages
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 03'
+  name: '[C] 🇸🇬 新加坡 01'
   network: ws
   port: 443
   reality-opts:
@@ -42,7 +18,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 04'
+  name: '[C] 🇸🇬 新加坡 02'
   network: ws
   port: 443
   reality-opts:
@@ -59,7 +35,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇸🇬 新加坡 05'
+  name: '[C] 🇸🇬 新加坡 03'
   network: ws
   port: 443
   reality-opts:
@@ -76,7 +52,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇸🇬 新加坡 06'
+  name: '[D] 🇸🇬 新加坡 04'
   network: tcp
   port: 443
   reality-opts:

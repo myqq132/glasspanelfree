@@ -1,27 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  server: 45.131.153.56
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 02'
-  network: raw
-  port: '443'
-  server: de.zhou-yufan.com
-  servername: de.zhou-yufan.com
-  tls: true
-  type: vmess
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -34,7 +14,7 @@ proxies:
   uuid: 3af3f8f0-569f-4dd3-be99-2ef4bfe7867c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
@@ -50,7 +30,7 @@ proxies:
       Host: 8a2e72t.nl20.h1clayd.shop
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 443
   reality-opts:
@@ -63,7 +43,7 @@ proxies:
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - alterId: 0
   cipher: auto
-  name: '[D] 🇩🇪 德国 08'
+  name: '[D] 🇩🇪 德国 06'
   network: tcp
   port: '28059'
   server: 194.110.210.41
