@@ -1,15 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  flow: ''
-  name: '[C] 🇰🇷 韩国 01'
-  network: ws
-  port: 12101
-  server: 14.44.19.57
-  servername: senflarelink-node-nwz76h.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: '%2F'
+- cipher: aes-256-gcm
+  name: '[D] 🇰🇷 韩国 01'
+  password: qpowi_vip_tunnel_2026_secure
+  port: 8388
+  server: 211.233.33.228
+  type: ss

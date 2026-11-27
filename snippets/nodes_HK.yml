@@ -1,15 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  network: ws
-  port: '443'
-  server: based-wiki-located-individual.trycloudflare.com
-  servername: based-wiki-located-individual.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: based-wiki-located-individual.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+- cipher: chacha20-ietf-poly1305
+  name: '[D] 🇭🇰 香港 03'
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: 28014
+  server: waic.pro.main.sys-metric-report.com
+  type: ss
