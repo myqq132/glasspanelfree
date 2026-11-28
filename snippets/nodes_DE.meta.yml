@@ -1,35 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[D] 🇩🇪 德国 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 01'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: '!!str db04ce8bdb8900f1'
-  server: 185.134.203.106
-  servername: api.vk.me
-  tls: false
-  type: vless
-  uuid: 3af3f8f0-569f-4dd3-be99-2ef4bfe7867c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  port: '443'
+  server: de.zhou-yufan.com
+  servername: de.zhou-yufan.com
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
+  port: '443'
+  server: 45.131.153.56
+  servername: de.zhou-yufan.com
+  tls: true
+  type: vmess
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '[D] 🇩🇪 德国 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '!!str 8d0d0679f42ffd98'
-  server: 8a2e72t.nl20.h1clayd.shop
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: false
+  network: ws
+  port: 993
+  server: hw8.iranichergh.com
+  servername: hw8.iranichergh.com.
+  tls: true
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  uuid: 978d2a58-bd01-4b61-b953-dc8e66728460
   ws-opts:
-    headers:
-      Host: 8a2e72t.nl20.h1clayd.shop
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+    path: '%2F'
+- flow: xtls-rprx-vision
   name: '[D] 🇩🇪 德国 05'
   network: tcp
   port: 443
@@ -41,12 +44,3 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇩🇪 德国 06'
-  network: tcp
-  port: '28059'
-  server: 194.110.210.41
-  tls: false
-  type: vmess
-  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
