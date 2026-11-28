@@ -1,10 +1,9 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  port: 443
-  server: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 193d0c41-tm96o0-tnggms-6gn6.nw4.hyhuawei.com
+  password: 5ec96249-b753-317a-b065-b67ad66b8185
+  port: 60001
+  server: 14.137.237.98
+  sni: hk01.kfc-520.com
   tls: false
   type: hysteria2
 - name: '[B] 🇭🇰 香港 02'
@@ -15,32 +14,9 @@ proxies:
   sni: vpn-hk-004.fastervpn.world
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇭🇰 香港 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  sni: vpn-hk-004.fastervpn.world
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: bill-defendant-purse-reflect.trycloudflare.com
-  servername: bill-defendant-purse-reflect.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
-  ws-opts:
-    headers:
-      Host: bill-defendant-purse-reflect.trycloudflare.com
-    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇭🇰 香港 05'
+  name: '[C] 🇭🇰 香港 03'
   network: ws
   port: 1891
   server: 216.236.51.44
@@ -54,7 +30,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[C] 🇭🇰 香港 06'
+  name: '[C] 🇭🇰 香港 04'
   network: tcp
   port: 28418
   reality-opts:
@@ -66,7 +42,7 @@ proxies:
   type: vless
   uuid: e6552569-97ce-430c-a324-53ad1c546e05
 - cipher: chacha20-ietf-poly1305
-  name: '[D] 🇭🇰 香港 07'
+  name: '[D] 🇭🇰 香港 05'
   password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
   port: 28014
   server: waic.pro.main.sys-metric-report.com

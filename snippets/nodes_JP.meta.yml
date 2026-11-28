@@ -1,25 +1,7 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 02'
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 03'
+  name: '[C] 🇯🇵 日本 01'
   network: ws
   port: 443
   reality-opts:
@@ -36,7 +18,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 04'
+  name: '[C] 🇯🇵 日本 02'
   network: ws
   port: 443
   reality-opts:
@@ -53,7 +35,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 05'
+  name: '[C] 🇯🇵 日本 03'
   network: ws
   port: 443
   reality-opts:
@@ -70,7 +52,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 06'
+  name: '[C] 🇯🇵 日本 04'
   network: ws
   port: 443
   reality-opts:
@@ -87,7 +69,7 @@ proxies:
     path: '%2Fws'
 - client-fingerprint: chrome
   flow: ''
-  name: '[C] 🇯🇵 日本 07'
+  name: '[C] 🇯🇵 日本 05'
   network: ws
   port: 443
   reality-opts:
